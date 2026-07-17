@@ -1,5 +1,26 @@
 # Decision log — foundryvtt-golarion-maps
 
+## 2026-07-17 — Gazetteer journals via Adventure packaging; one-button installer
+
+**Decision:** Phase B executed. Per-scene gazetteer journals (59) generated at
+pack-build time from the note pins (no re-bake); notes carry entryId/pageId
+with deterministic sha1 ids. Distribution adds an Adventure pack ("Install
+All") bundling scenes + journals + folders, and a settings-menu button that
+opens the Adventure importer. Pins on individually-imported scenes fall back
+to opening PathfinderWiki when the journal is absent.
+**Why:** Compendium import regenerates ids, severing note→journal refs;
+Adventure import preserves ids. Deterministic ids make re-imports act as
+updates.
+**Gotchas (verified v14.365):** a settings menu `type` must be a real
+ApplicationV2 subclass — a plain class with render() makes registerMenu throw
+and silently kills the whole init hook (all module settings vanish).
+AdventureImporter is still an AppV1 sheet (`.app`, not `.application`).
+Importing 60 PF2e scenes freezes the main thread ~60 s; the import completes.
+**Consequences:** Journal content is minimal (name + wiki link) by design —
+GM's own notes belong in their world copy. Scene compendium and Adventure
+duplicate the scene data (~11 KB docs, negligible); keep both in sync via the
+single build script.
+
 ## 2026-07-17 — Cities tier: 14 real city maps found in upstream district data
 
 **Decision:** Added a "Cities" folder with 14 full city-map scenes (Absalom,

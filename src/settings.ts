@@ -7,24 +7,23 @@ export const DEFAULT_HOST = "https://map.pathfinderwiki.com";
 
 /**
  * Settings-menu shim: the "button" in module settings that opens the
- * Adventure importer (scenes + gazetteer journals, ids preserved).
+ * Adventure importer (scenes + gazetteer journals, ids preserved). Must be a
+ * real ApplicationV2 subclass or v14 rejects the menu registration; its
+ * render() just redirects to the adventure sheet and never shows a window.
  */
-class GolarionImportMenu {
-  constructor(..._args: unknown[]) {}
-  async render(): Promise<this> {
-    const pack = game.packs.get(`${MODULE_ID}.golarion-adventure`);
-    if (!pack) {
-      ui.notifications.error("Golarion Maps: adventure pack not found.");
+function buildImportMenuClass(): any {
+  return class GolarionImportMenu extends foundry.applications.api.ApplicationV2 {
+    async render(): Promise<any> {
+      const pack = game.packs.get(`${MODULE_ID}.golarion-adventure`);
+      const docs = pack ? await pack.getDocuments() : [];
+      if (!docs.length) {
+        ui.notifications.error("Golarion Maps: adventure pack not found.");
+        return this;
+      }
+      docs[0].sheet.render(true);
       return this;
     }
-    const docs = await pack.getDocuments();
-    if (!docs.length) {
-      ui.notifications.error("Golarion Maps: adventure pack is empty.");
-      return this;
-    }
-    docs[0].sheet.render(true);
-    return this;
-  }
+  };
 }
 
 export function registerSettings(): void {
@@ -33,7 +32,7 @@ export function registerSettings(): void {
     label: "GOLARIONMAPS.Settings.ImportAll.Label",
     hint: "GOLARIONMAPS.Settings.ImportAll.Hint",
     icon: "fa-solid fa-earth-europe",
-    type: GolarionImportMenu,
+    type: buildImportMenuClass(),
     restricted: true
   });
   game.settings.register(MODULE_ID, "enablePicker", {
