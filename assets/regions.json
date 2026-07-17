@@ -1,55 +1,784 @@
 {
-  "$comment": "Curated region manifest for compendium generation. Tiers: world/continents (gridless), Inner Sea meta-regions, popular nations, city environs. 'fit' frames a gazetteer (search.json) feature bbox; point features use radiusMi. Explicit center/zoom entries were hand-tuned 2026-07-17. maxZoomWithData upstream is 8; fits cap at 8.4.",
-  "folders": ["World & Continents", "Inner Sea Regions", "Nations", "City Environs"],
-  "regions": [
-    { "key": "golarion-world", "name": "Golarion", "center": [20, 10], "zoom": 1.4, "width": 1280, "height": 800, "resFactor": 3, "gridType": "gridless", "folder": "World & Continents", "notes": false },
-    { "key": "avistan", "name": "Avistan", "center": [-12, 47], "zoom": 3.6, "resFactor": 4, "gridType": "gridless", "folder": "World & Continents" },
-    { "key": "garund", "name": "Garund", "center": [-11, 6], "zoom": 3.3, "resFactor": 4, "gridType": "gridless", "folder": "World & Continents" },
-    { "key": "tian-xia", "name": "Tian Xia", "center": [173, 20], "zoom": 3.0, "resFactor": 4, "gridType": "gridless", "folder": "World & Continents" },
-    { "key": "casmaron", "name": "Casmaron", "center": [45, 20], "zoom": 3.2, "resFactor": 4, "gridType": "gridless", "folder": "World & Continents" },
-    { "key": "arcadia", "name": "Arcadia", "center": [-94, -5], "zoom": 3.2, "resFactor": 4, "gridType": "gridless", "folder": "World & Continents" },
-    { "key": "crown-of-the-world", "name": "Crown of the World", "center": [-9, 76], "zoom": 3.0, "resFactor": 4, "gridType": "gridless", "folder": "World & Continents" },
-
-    { "key": "inner-sea-region", "name": "The Inner Sea Region", "center": [-8, 36], "zoom": 4.2, "resFactor": 4, "gridType": "square", "gridSize": 100, "folder": "Inner Sea Regions" },
-    { "key": "absalom-starstone-isle", "name": "Absalom and Starstone Isle", "center": [-0.5, 31.4], "zoom": 6.2, "resFactor": 4, "gridType": "square", "gridSize": 100, "folder": "Inner Sea Regions" },
-    { "key": "broken-lands", "name": "Broken Lands", "center": [0.2, 49.6], "zoom": 4.8, "resFactor": 4, "gridType": "square", "gridSize": 100, "folder": "Inner Sea Regions" },
-    { "key": "eye-of-dread", "name": "Eye of Dread", "center": [-12.7, 47.2], "zoom": 5.0, "resFactor": 4, "gridType": "square", "gridSize": 100, "folder": "Inner Sea Regions" },
-    { "key": "golden-road", "name": "Golden Road", "center": [-3.7, 26], "zoom": 4.6, "resFactor": 4, "gridType": "square", "gridSize": 100, "folder": "Inner Sea Regions" },
-    { "key": "high-seas", "name": "High Seas", "center": [-29.3, 22], "zoom": 4.4, "resFactor": 4, "gridType": "square", "gridSize": 100, "folder": "Inner Sea Regions" },
-    { "key": "impossible-lands", "name": "Impossible Lands", "center": [-5, 18.3], "zoom": 4.8, "resFactor": 4, "gridType": "square", "gridSize": 100, "folder": "Inner Sea Regions" },
-    { "key": "mwangi-expanse", "name": "Mwangi Expanse", "center": [-16.3, 17.8], "zoom": 4.4, "resFactor": 4, "gridType": "square", "gridSize": 100, "folder": "Inner Sea Regions" },
-    { "key": "old-cheliax", "name": "Old Cheliax", "center": [-19.8, 36.3], "zoom": 5.0, "resFactor": 4, "gridType": "square", "gridSize": 100, "folder": "Inner Sea Regions" },
-    { "key": "saga-lands", "name": "Saga Lands", "center": [-24.6, 51.3], "zoom": 4.7, "resFactor": 4, "gridType": "square", "gridSize": 100, "folder": "Inner Sea Regions" },
-    { "key": "shining-kingdoms", "name": "Shining Kingdoms", "center": [1.5, 40], "zoom": 4.7, "resFactor": 4, "gridType": "square", "gridSize": 100, "folder": "Inner Sea Regions" },
-
-    { "key": "varisia", "name": "Varisia", "fit": { "category": "subregions", "label": "Varisia" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "cheliax", "name": "Cheliax", "fit": { "category": "nations", "label": "Cheliax" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "andoran", "name": "Andoran", "fit": { "category": "nations", "label": "Andoran" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "taldor", "name": "Taldor", "fit": { "category": "nations", "label": "Taldor" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "osirion", "name": "Osirion", "fit": { "category": "nations", "label": "Osirion" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "qadira", "name": "Qadira", "fit": { "category": "nations", "label": "Qadira" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "ustalav", "name": "Ustalav", "fit": { "category": "nations", "label": "Ustalav" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "numeria", "name": "Numeria", "fit": { "category": "nations", "label": "Numeria" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "irrisen", "name": "Irrisen", "fit": { "category": "nations", "label": "Irrisen" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "nidal", "name": "Nidal", "fit": { "category": "nations", "label": "Nidal" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "katapesh", "name": "Katapesh", "fit": { "category": "nations", "label": "Katapesh" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "galt", "name": "Galt", "fit": { "category": "nations", "label": "Galt" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "kyonin", "name": "Kyonin", "fit": { "category": "nations", "label": "Kyonin" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "brevoy", "name": "Brevoy", "fit": { "category": "nations", "label": "Brevoy" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "belkzen", "name": "Belkzen", "fit": { "category": "nations", "label": "Belkzen" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "mendev", "name": "Mendev", "fit": { "category": "nations", "label": "Mendev" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "lands-of-the-linnorm-kings", "name": "Lands of the Linnorm Kings", "fit": { "category": "nations", "label": "Lands of the Linnorm Kings" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-    { "key": "realm-of-the-mammoth-lords", "name": "Realm of the Mammoth Lords", "fit": { "category": "nations", "label": "Realm of the Mammoth Lords" }, "gridType": "square", "gridSize": 100, "folder": "Nations" },
-
-    { "key": "absalom-environs", "name": "Absalom Environs", "fit": { "category": "locations", "label": "Absalom", "radiusMi": 45 }, "gridType": "square", "gridSize": 100, "folder": "City Environs" },
-    { "key": "magnimar-environs", "name": "Magnimar Environs", "fit": { "category": "locations", "label": "Magnimar", "radiusMi": 45 }, "gridType": "square", "gridSize": 100, "folder": "City Environs" },
-    { "key": "korvosa-environs", "name": "Korvosa Environs", "fit": { "category": "locations", "label": "Korvosa", "radiusMi": 45 }, "gridType": "square", "gridSize": 100, "folder": "City Environs" },
-    { "key": "sandpoint-environs", "name": "Sandpoint Environs", "fit": { "category": "locations", "label": "Sandpoint", "radiusMi": 30 }, "gridType": "square", "gridSize": 100, "folder": "City Environs" },
-    { "key": "riddleport-environs", "name": "Riddleport Environs", "fit": { "category": "locations", "label": "Riddleport", "radiusMi": 40 }, "gridType": "square", "gridSize": 100, "folder": "City Environs" },
-    { "key": "kaer-maga-environs", "name": "Kaer Maga Environs", "fit": { "category": "locations", "label": "Kaer Maga", "radiusMi": 40 }, "gridType": "square", "gridSize": 100, "folder": "City Environs" },
-    { "key": "westcrown-environs", "name": "Westcrown Environs", "fit": { "category": "locations", "label": "Westcrown", "radiusMi": 45 }, "gridType": "square", "gridSize": 100, "folder": "City Environs" },
-    { "key": "sothis-environs", "name": "Sothis Environs", "fit": { "category": "locations", "label": "Sothis", "radiusMi": 45 }, "gridType": "square", "gridSize": 100, "folder": "City Environs" },
-    { "key": "oppara-environs", "name": "Oppara Environs", "fit": { "category": "locations", "label": "Oppara", "radiusMi": 45 }, "gridType": "square", "gridSize": 100, "folder": "City Environs" },
-    { "key": "almas-environs", "name": "Almas Environs", "fit": { "category": "locations", "label": "Almas", "radiusMi": 45 }, "gridType": "square", "gridSize": 100, "folder": "City Environs" }
-  ]
+ "$comment": "Curated region manifest for compendium generation. Tiers: world/continents (gridless), Inner Sea meta-regions, popular nations, city environs. 'fit' frames a gazetteer (search.json) feature bbox; point features use radiusMi. Explicit center/zoom entries were hand-tuned 2026-07-17. maxZoomWithData upstream is 8; fits cap at 8.4.",
+ "folders": [
+  "World & Continents",
+  "Inner Sea Regions",
+  "Nations",
+  "City Regions",
+  "Cities"
+ ],
+ "regions": [
+  {
+   "key": "golarion-world",
+   "name": "Golarion",
+   "center": [
+    20,
+    10
+   ],
+   "zoom": 1.4,
+   "width": 1280,
+   "height": 800,
+   "resFactor": 3,
+   "gridType": "gridless",
+   "folder": "World & Continents",
+   "notes": false
+  },
+  {
+   "key": "avistan",
+   "name": "Avistan",
+   "center": [
+    -12,
+    47
+   ],
+   "zoom": 3.6,
+   "resFactor": 4,
+   "gridType": "gridless",
+   "folder": "World & Continents"
+  },
+  {
+   "key": "garund",
+   "name": "Garund",
+   "center": [
+    -11,
+    6
+   ],
+   "zoom": 3.3,
+   "resFactor": 4,
+   "gridType": "gridless",
+   "folder": "World & Continents"
+  },
+  {
+   "key": "tian-xia",
+   "name": "Tian Xia",
+   "center": [
+    173,
+    20
+   ],
+   "zoom": 3,
+   "resFactor": 4,
+   "gridType": "gridless",
+   "folder": "World & Continents"
+  },
+  {
+   "key": "casmaron",
+   "name": "Casmaron",
+   "center": [
+    45,
+    20
+   ],
+   "zoom": 3.2,
+   "resFactor": 4,
+   "gridType": "gridless",
+   "folder": "World & Continents"
+  },
+  {
+   "key": "arcadia",
+   "name": "Arcadia",
+   "center": [
+    -94,
+    -5
+   ],
+   "zoom": 3.2,
+   "resFactor": 4,
+   "gridType": "gridless",
+   "folder": "World & Continents"
+  },
+  {
+   "key": "crown-of-the-world",
+   "name": "Crown of the World",
+   "center": [
+    -9,
+    76
+   ],
+   "zoom": 3,
+   "resFactor": 4,
+   "gridType": "gridless",
+   "folder": "World & Continents"
+  },
+  {
+   "key": "inner-sea-region",
+   "name": "The Inner Sea Region",
+   "center": [
+    -8,
+    36
+   ],
+   "zoom": 4.2,
+   "resFactor": 4,
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Inner Sea Regions"
+  },
+  {
+   "key": "absalom-starstone-isle",
+   "name": "Absalom and Starstone Isle",
+   "center": [
+    -0.5,
+    31.4
+   ],
+   "zoom": 6.2,
+   "resFactor": 4,
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Inner Sea Regions"
+  },
+  {
+   "key": "broken-lands",
+   "name": "Broken Lands",
+   "center": [
+    0.2,
+    49.6
+   ],
+   "zoom": 4.8,
+   "resFactor": 4,
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Inner Sea Regions"
+  },
+  {
+   "key": "eye-of-dread",
+   "name": "Eye of Dread",
+   "center": [
+    -12.7,
+    47.2
+   ],
+   "zoom": 5,
+   "resFactor": 4,
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Inner Sea Regions"
+  },
+  {
+   "key": "golden-road",
+   "name": "Golden Road",
+   "center": [
+    -3.7,
+    26
+   ],
+   "zoom": 4.6,
+   "resFactor": 4,
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Inner Sea Regions"
+  },
+  {
+   "key": "high-seas",
+   "name": "High Seas",
+   "center": [
+    -29.3,
+    22
+   ],
+   "zoom": 4.4,
+   "resFactor": 4,
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Inner Sea Regions"
+  },
+  {
+   "key": "impossible-lands",
+   "name": "Impossible Lands",
+   "center": [
+    -5,
+    18.3
+   ],
+   "zoom": 4.8,
+   "resFactor": 4,
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Inner Sea Regions"
+  },
+  {
+   "key": "mwangi-expanse",
+   "name": "Mwangi Expanse",
+   "center": [
+    -16.3,
+    17.8
+   ],
+   "zoom": 4.4,
+   "resFactor": 4,
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Inner Sea Regions"
+  },
+  {
+   "key": "old-cheliax",
+   "name": "Old Cheliax",
+   "center": [
+    -19.8,
+    36.3
+   ],
+   "zoom": 5,
+   "resFactor": 4,
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Inner Sea Regions"
+  },
+  {
+   "key": "saga-lands",
+   "name": "Saga Lands",
+   "center": [
+    -24.6,
+    51.3
+   ],
+   "zoom": 4.7,
+   "resFactor": 4,
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Inner Sea Regions"
+  },
+  {
+   "key": "shining-kingdoms",
+   "name": "Shining Kingdoms",
+   "center": [
+    1.5,
+    40
+   ],
+   "zoom": 4.7,
+   "resFactor": 4,
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Inner Sea Regions"
+  },
+  {
+   "key": "varisia",
+   "name": "Varisia",
+   "fit": {
+    "category": "subregions",
+    "label": "Varisia"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "cheliax",
+   "name": "Cheliax",
+   "fit": {
+    "category": "nations",
+    "label": "Cheliax"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "andoran",
+   "name": "Andoran",
+   "fit": {
+    "category": "nations",
+    "label": "Andoran"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "taldor",
+   "name": "Taldor",
+   "fit": {
+    "category": "nations",
+    "label": "Taldor"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "osirion",
+   "name": "Osirion",
+   "fit": {
+    "category": "nations",
+    "label": "Osirion"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "qadira",
+   "name": "Qadira",
+   "fit": {
+    "category": "nations",
+    "label": "Qadira"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "ustalav",
+   "name": "Ustalav",
+   "fit": {
+    "category": "nations",
+    "label": "Ustalav"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "numeria",
+   "name": "Numeria",
+   "fit": {
+    "category": "nations",
+    "label": "Numeria"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "irrisen",
+   "name": "Irrisen",
+   "fit": {
+    "category": "nations",
+    "label": "Irrisen"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "nidal",
+   "name": "Nidal",
+   "fit": {
+    "category": "nations",
+    "label": "Nidal"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "katapesh",
+   "name": "Katapesh",
+   "fit": {
+    "category": "nations",
+    "label": "Katapesh"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "galt",
+   "name": "Galt",
+   "fit": {
+    "category": "nations",
+    "label": "Galt"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "kyonin",
+   "name": "Kyonin",
+   "fit": {
+    "category": "nations",
+    "label": "Kyonin"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "brevoy",
+   "name": "Brevoy",
+   "fit": {
+    "category": "nations",
+    "label": "Brevoy"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "belkzen",
+   "name": "Belkzen",
+   "fit": {
+    "category": "nations",
+    "label": "Belkzen"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "mendev",
+   "name": "Mendev",
+   "fit": {
+    "category": "nations",
+    "label": "Mendev"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "lands-of-the-linnorm-kings",
+   "name": "Lands of the Linnorm Kings",
+   "fit": {
+    "category": "nations",
+    "label": "Lands of the Linnorm Kings"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "realm-of-the-mammoth-lords",
+   "name": "Realm of the Mammoth Lords",
+   "fit": {
+    "category": "nations",
+    "label": "Realm of the Mammoth Lords"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "absalom-environs",
+   "name": "Absalom Region",
+   "fit": {
+    "category": "locations",
+    "label": "Absalom",
+    "radiusMi": 45
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "magnimar-environs",
+   "name": "Magnimar Region",
+   "fit": {
+    "category": "locations",
+    "label": "Magnimar",
+    "radiusMi": 45
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "korvosa-environs",
+   "name": "Korvosa Region",
+   "fit": {
+    "category": "locations",
+    "label": "Korvosa",
+    "radiusMi": 45
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "sandpoint-environs",
+   "name": "Sandpoint Region",
+   "fit": {
+    "category": "locations",
+    "label": "Sandpoint",
+    "radiusMi": 30
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "riddleport-environs",
+   "name": "Riddleport Region",
+   "fit": {
+    "category": "locations",
+    "label": "Riddleport",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "kaer-maga-environs",
+   "name": "Kaer Maga Region",
+   "fit": {
+    "category": "locations",
+    "label": "Kaer Maga",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "westcrown-environs",
+   "name": "Westcrown Region",
+   "fit": {
+    "category": "locations",
+    "label": "Westcrown",
+    "radiusMi": 45
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "sothis-environs",
+   "name": "Sothis Region",
+   "fit": {
+    "category": "locations",
+    "label": "Sothis",
+    "radiusMi": 45
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "oppara-environs",
+   "name": "Oppara Region",
+   "fit": {
+    "category": "locations",
+    "label": "Oppara",
+    "radiusMi": 45
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "almas-environs",
+   "name": "Almas Region",
+   "fit": {
+    "category": "locations",
+    "label": "Almas",
+    "radiusMi": 45
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "absalom-city",
+   "name": "Absalom",
+   "fit": {
+    "category": "districts",
+    "near": [
+     -0.23,
+     30.89
+    ],
+    "radiusDeg": 0.35,
+    "maxZoom": 11.5
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities"
+  },
+  {
+   "key": "magnimar-city",
+   "name": "Magnimar",
+   "fit": {
+    "category": "districts",
+    "near": [
+     -28.01,
+     43.93
+    ],
+    "radiusDeg": 0.35,
+    "maxZoom": 11.5
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities"
+  },
+  {
+   "key": "korvosa-city",
+   "name": "Korvosa",
+   "fit": {
+    "category": "districts",
+    "near": [
+     -18.74,
+     43.37
+    ],
+    "radiusDeg": 0.35,
+    "maxZoom": 11.5
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities"
+  },
+  {
+   "key": "kaer-maga-city",
+   "name": "Kaer Maga",
+   "fit": {
+    "category": "districts",
+    "near": [
+     -20.02,
+     45.79
+    ],
+    "radiusDeg": 0.35,
+    "maxZoom": 11.5
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities"
+  },
+  {
+   "key": "kintargo-city",
+   "name": "Kintargo",
+   "fit": {
+    "category": "districts",
+    "near": [
+     -23.09,
+     39.06
+    ],
+    "radiusDeg": 0.35,
+    "maxZoom": 11.5
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities"
+  },
+  {
+   "key": "vyre-city",
+   "name": "Vyre",
+   "fit": {
+    "category": "districts",
+    "near": [
+     -24.17,
+     39.82
+    ],
+    "radiusDeg": 0.35,
+    "maxZoom": 11.5
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities"
+  },
+  {
+   "key": "katapesh-city",
+   "name": "Katapesh",
+   "fit": {
+    "category": "districts",
+    "near": [
+     -1.21,
+     22.48
+    ],
+    "radiusDeg": 0.35,
+    "maxZoom": 11.5
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities"
+  },
+  {
+   "key": "almas-city",
+   "name": "Almas",
+   "fit": {
+    "category": "districts",
+    "near": [
+     -3.07,
+     33.76
+    ],
+    "radiusDeg": 0.35,
+    "maxZoom": 11.5
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities"
+  },
+  {
+   "key": "port-peril-city",
+   "name": "Port Peril",
+   "fit": {
+    "category": "districts",
+    "near": [
+     -25.86,
+     17.83
+    ],
+    "radiusDeg": 0.35,
+    "maxZoom": 11.5
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities"
+  },
+  {
+   "key": "ilizmagorti-city",
+   "name": "Ilizmagorti",
+   "fit": {
+    "category": "districts",
+    "near": [
+     -30.75,
+     24.28
+    ],
+    "radiusDeg": 0.35,
+    "maxZoom": 11.5
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities"
+  },
+  {
+   "key": "kerse-city",
+   "name": "Kerse",
+   "fit": {
+    "category": "districts",
+    "near": [
+     -6.23,
+     41.03
+    ],
+    "radiusDeg": 0.35,
+    "maxZoom": 11.5
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities"
+  },
+  {
+   "key": "nerosyan-city",
+   "name": "Nerosyan",
+   "fit": {
+    "category": "districts",
+    "near": [
+     -4.95,
+     51.23
+    ],
+    "radiusDeg": 0.35,
+    "maxZoom": 11.5
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities"
+  },
+  {
+   "key": "urgir-city",
+   "name": "Urgir",
+   "fit": {
+    "category": "districts",
+    "near": [
+     -13.71,
+     47.4
+    ],
+    "radiusDeg": 0.35,
+    "maxZoom": 11.5
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities"
+  },
+  {
+   "key": "breachill-town",
+   "name": "Breachill",
+   "fit": {
+    "category": "districts",
+    "near": [
+     -7.43,
+     38.73
+    ],
+    "radiusDeg": 0.12,
+    "maxZoom": 11.5
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities"
+  }
+ ]
 }

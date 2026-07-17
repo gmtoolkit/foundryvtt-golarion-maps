@@ -1,5 +1,5 @@
 {
- "name": "Kaer Maga Environs",
+ "name": "Kaer Maga Region",
  "width": 4608,
  "height": 3072,
  "padding": 0,
@@ -17,7 +17,7 @@
  "levels": [
   {
    "_id": "fGk5Hq2kqHGOqh6n",
-   "name": "Kaer Maga Environs",
+   "name": "Kaer Maga Region",
    "index": 0,
    "background": {
     "src": "modules/foundryvtt-golarion-maps/assets/scenes/kaer-maga-environs.webp"

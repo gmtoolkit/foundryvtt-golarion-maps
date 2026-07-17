@@ -1,5 +1,5 @@
 {
- "name": "Magnimar Environs",
+ "name": "Magnimar Region",
  "width": 4608,
  "height": 3072,
  "padding": 0,
@@ -17,7 +17,7 @@
  "levels": [
   {
    "_id": "nDwEAR8Hjn7Hqpl6",
-   "name": "Magnimar Environs",
+   "name": "Magnimar Region",
    "index": 0,
    "background": {
     "src": "modules/foundryvtt-golarion-maps/assets/scenes/magnimar-environs.webp"

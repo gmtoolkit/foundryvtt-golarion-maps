@@ -1,12 +1,12 @@
 {
- "name": "Oppara Region",
+ "name": "Kerse",
  "width": 4608,
  "height": 3072,
  "padding": 0,
  "grid": {
   "type": 1,
   "size": 100,
-  "distance": 3.45,
+  "distance": 0.317,
   "units": "mi"
  },
  "tokenVision": false,
@@ -16,20 +16,20 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "KH6vEHpsgRYaUDkV",
-   "name": "Oppara Region",
+   "_id": "ZjzGPybjAAY4Sg44",
+   "name": "Kerse",
    "index": 0,
    "background": {
-    "src": "modules/foundryvtt-golarion-maps/assets/scenes/oppara-environs.webp"
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/kerse-city.webp"
    }
   }
  ],
  "notes": [
   {
-   "_id": "VCqjzJr7OLqWUARc",
-   "x": 2304,
-   "y": 1541,
-   "text": "Oppara",
+   "_id": "MluQQ3y6UIH0FtKs",
+   "x": 2256,
+   "y": 1562,
+   "text": "Cerulean Docks",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -38,15 +38,15 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Oppara"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Cerulean_Docks"
     }
    }
   },
   {
-   "_id": "YbSLhV9hdK9eCIeB",
-   "x": 876,
-   "y": 2530,
-   "text": "Mut",
+   "_id": "5nn8gmagzgXEhBvZ",
+   "x": 2322,
+   "y": 1549,
+   "text": "Kerse",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -55,15 +55,15 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Mut"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Kerse"
     }
    }
   },
   {
-   "_id": "Un6EyaWLiiSGviql",
-   "x": 3605,
-   "y": 2070,
-   "text": "Pastorling",
+   "_id": "kSacn0LJ3KB40xIn",
+   "x": 2225,
+   "y": 1481,
+   "text": "Gems of Kalistrade",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -72,12 +72,12 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Pastorling"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Gems_of_Kalistrade"
     }
    }
   }
  ],
- "__key": "oppara-environs",
- "__folder": "City Environs",
- "_id": "iYrh0rsHljmfOt7T"
+ "__key": "kerse-city",
+ "__folder": "Cities",
+ "_id": "O7ZeQrwiKzW4AcTZ"
 }

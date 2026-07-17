@@ -1,0 +1,321 @@
+{
+ "name": "Korvosa",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 1,
+  "size": 100,
+  "distance": 0.305,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "l6ZH6gmbYrsDGkTN",
+   "name": "Korvosa",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/korvosa-city.webp"
+   }
+  }
+ ],
+ "notes": [
+  {
+   "_id": "yj2XBmMpGsSx9YJ8",
+   "x": 2207,
+   "y": 1732,
+   "text": "Pantheon of Many",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Pantheon_of_Many"
+    }
+   }
+  },
+  {
+   "_id": "mZdUhqQMBVrKzK9P",
+   "x": 2151,
+   "y": 1705,
+   "text": "Orkatto's Feathers and Fur",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Orkatto's_Feathers_and_Fur"
+    }
+   }
+  },
+  {
+   "_id": "1TB3Iqn37YYTjlxH",
+   "x": 2255,
+   "y": 1670,
+   "text": "Pestico's Dolls and Figurines",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Pestico's_Dolls_and_Figurines"
+    }
+   }
+  },
+  {
+   "_id": "TNT9HOIDCaURwXxu",
+   "x": 2329,
+   "y": 1658,
+   "text": "Eodred's Square",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Eodred's_Square"
+    }
+   }
+  },
+  {
+   "_id": "iSUi8ZJcZDSwJFnf",
+   "x": 2164,
+   "y": 1636,
+   "text": "Temple of Sarenrae",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Temple_of_Sarenrae"
+    }
+   }
+  },
+  {
+   "_id": "8pU5SOJQGuFDK0E4",
+   "x": 2406,
+   "y": 1634,
+   "text": "Shoreline Drinkhall",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Shoreline_Drinkhall"
+    }
+   }
+  },
+  {
+   "_id": "mZj5HAecXhulwsYG",
+   "x": 2458,
+   "y": 1595,
+   "text": "Horse Shop",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Horse_Shop"
+    }
+   }
+  },
+  {
+   "_id": "DkYqJbpecfx6Xn6h",
+   "x": 2315,
+   "y": 1581,
+   "text": "Bailer's Retreat",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Bailer's_Retreat"
+    }
+   }
+  },
+  {
+   "_id": "C175Vw9JLrUswTKf",
+   "x": 2212,
+   "y": 1570,
+   "text": "Castle Korvosa",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Castle_Korvosa"
+    }
+   }
+  },
+  {
+   "_id": "OKTQ1eMAJVCBJ7jv",
+   "x": 2474,
+   "y": 1537,
+   "text": "Theumanexus College",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Theumanexus_College"
+    }
+   }
+  },
+  {
+   "_id": "Eaq71fhbvKcwPzAx",
+   "x": 2286,
+   "y": 1520,
+   "text": "Korvosa",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Korvosa"
+    }
+   }
+  },
+  {
+   "_id": "RLlWkJweMsxLwqfj",
+   "x": 2340,
+   "y": 1436,
+   "text": "Sanctuary of Shelyn",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Sanctuary_of_Shelyn"
+    }
+   }
+  },
+  {
+   "_id": "OEyzuxsUNNPxFuJZ",
+   "x": 2188,
+   "y": 1427,
+   "text": "Great Tower",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Great_Tower"
+    }
+   }
+  },
+  {
+   "_id": "VPxujf7b6yUkflxA",
+   "x": 2445,
+   "y": 1407,
+   "text": "North Bridge",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/North_Bridge"
+    }
+   }
+  },
+  {
+   "_id": "DygmZNATG6xRHjxk",
+   "x": 2264,
+   "y": 1347,
+   "text": "Hessim, Newby, and Sage Paint Manufactory",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Hessim%2C_Newby%2C_and_Sage_Paint_Manufactory"
+    }
+   }
+  },
+  {
+   "_id": "zSZvMlfRiCvXcp1K",
+   "x": 2182,
+   "y": 1341,
+   "text": "Arkona Palace",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Arkona_Palace"
+    }
+   }
+  },
+  {
+   "_id": "KajdBUZFLHtIH7S7",
+   "x": 2332,
+   "y": 1331,
+   "text": "Exemplary Execrables",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Exemplary_Execrables"
+    }
+   }
+  }
+ ],
+ "__key": "korvosa-city",
+ "__folder": "Cities",
+ "_id": "3iztx3SvA6J34PaI"
+}

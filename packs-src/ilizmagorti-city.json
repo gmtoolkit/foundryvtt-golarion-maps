@@ -1,0 +1,134 @@
+{
+ "name": "Ilizmagorti",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 1,
+  "size": 100,
+  "distance": 0.383,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "KDgHCe8UCOvSJ892",
+   "name": "Ilizmagorti",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/ilizmagorti-city.webp"
+   }
+  }
+ ],
+ "notes": [
+  {
+   "_id": "j5EKzF465ezRtH2e",
+   "x": 2265,
+   "y": 1579,
+   "text": "Pagoda of the Mantis",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Pagoda_of_the_Mantis"
+    }
+   }
+  },
+  {
+   "_id": "9xmS1iiKPdGA3PQ8",
+   "x": 2201,
+   "y": 1541,
+   "text": "Mantis Stone",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Mantis_Stone"
+    }
+   }
+  },
+  {
+   "_id": "Q9So2Cmq0RzMskOl",
+   "x": 2360,
+   "y": 1530,
+   "text": "Besmara's House",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Besmara's_House"
+    }
+   }
+  },
+  {
+   "_id": "g7toXxRFZAWyw3hY",
+   "x": 2275,
+   "y": 1519,
+   "text": "Ilizmagorti",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Ilizmagorti"
+    }
+   }
+  },
+  {
+   "_id": "lOYpmQ0u6QaRhTB6",
+   "x": 2367,
+   "y": 1468,
+   "text": "Obari Imports",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Obari_Imports"
+    }
+   }
+  },
+  {
+   "_id": "s2EcA4OiPnptwcBJ",
+   "x": 2249,
+   "y": 1459,
+   "text": "Jungle Runners",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Jungle_Runners"
+    }
+   }
+  }
+ ],
+ "__key": "ilizmagorti-city",
+ "__folder": "Cities",
+ "_id": "BW0YeQAlHTDouXxv"
+}

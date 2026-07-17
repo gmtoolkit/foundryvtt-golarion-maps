@@ -1,5 +1,5 @@
 {
- "name": "Sandpoint Environs",
+ "name": "Sandpoint Region",
  "width": 4608,
  "height": 3072,
  "padding": 0,
@@ -17,7 +17,7 @@
  "levels": [
   {
    "_id": "dleWwksthH2NA6oe",
-   "name": "Sandpoint Environs",
+   "name": "Sandpoint Region",
    "index": 0,
    "background": {
     "src": "modules/foundryvtt-golarion-maps/assets/scenes/sandpoint-environs.webp"

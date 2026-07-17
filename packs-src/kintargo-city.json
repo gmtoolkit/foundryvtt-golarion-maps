@@ -1,0 +1,270 @@
+{
+ "name": "Kintargo",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 1,
+  "size": 100,
+  "distance": 0.326,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "lO9LNYJJNYyI3E5X",
+   "name": "Kintargo",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/kintargo-city.webp"
+   }
+  }
+ ],
+ "notes": [
+  {
+   "_id": "GyfAfU91J7T8PTg1",
+   "x": 2172,
+   "y": 1730,
+   "text": "Shrine of Saint Senex",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Shrine_of_Saint_Senex"
+    }
+   }
+  },
+  {
+   "_id": "Fy1WWnQ8tUJmNaLi",
+   "x": 2265,
+   "y": 1673,
+   "text": "Iudeimus Tenement",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Iudeimus_Tenement"
+    }
+   }
+  },
+  {
+   "_id": "W1JcFOj9csk8yDoP",
+   "x": 2415,
+   "y": 1659,
+   "text": "Fair Fortune Livery",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Fair_Fortune_Livery"
+    }
+   }
+  },
+  {
+   "_id": "ayMXc14cJ79doIat",
+   "x": 2194,
+   "y": 1647,
+   "text": "Lucky Bones",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Lucky_Bones"
+    }
+   }
+  },
+  {
+   "_id": "lMpsPJrzkOWAyPRQ",
+   "x": 2326,
+   "y": 1610,
+   "text": "Administrative and Civic Center of Ravounel",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Administrative_and_Civic_Center_of_Ravounel"
+    }
+   }
+  },
+  {
+   "_id": "s7eGkYXxsBCT4z33",
+   "x": 2260,
+   "y": 1605,
+   "text": "Kintargo Opera House",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Kintargo_Opera_House"
+    }
+   }
+  },
+  {
+   "_id": "PKP8fLOW1yT0o9TH",
+   "x": 2406,
+   "y": 1585,
+   "text": "Hocum's Fantasmagorium",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Hocum's_Fantasmagorium"
+    }
+   }
+  },
+  {
+   "_id": "5IH2l30FghcoRpvA",
+   "x": 2385,
+   "y": 1520,
+   "text": "Clenchjaw's",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Clenchjaw's"
+    }
+   }
+  },
+  {
+   "_id": "Gq2eOPBGz1viXs8y",
+   "x": 2215,
+   "y": 1502,
+   "text": "Kintargo Keep",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Kintargo_Keep"
+    }
+   }
+  },
+  {
+   "_id": "14ALZuF5jhDXcxzw",
+   "x": 2294,
+   "y": 1490,
+   "text": "Sunset Imports",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Sunset_Imports"
+    }
+   }
+  },
+  {
+   "_id": "M3ZaAVEQBOAmPKF5",
+   "x": 2430,
+   "y": 1461,
+   "text": "Aeldervenk Manor",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Aeldervenk_Manor"
+    }
+   }
+  },
+  {
+   "_id": "1V5f3bStHEtcl3Ai",
+   "x": 2335,
+   "y": 1430,
+   "text": "Kintargo",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Kintargo"
+    }
+   }
+  },
+  {
+   "_id": "VMlVxcBr4cSNleuZ",
+   "x": 2389,
+   "y": 1409,
+   "text": "Jarvis Estate",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Jarvis_Estate"
+    }
+   }
+  },
+  {
+   "_id": "l0hcOyCa69XP6rdm",
+   "x": 2277,
+   "y": 1400,
+   "text": "Long Roads Coffeehouse",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Long_Roads_Coffeehouse"
+    }
+   }
+  }
+ ],
+ "__key": "kintargo-city",
+ "__folder": "Cities",
+ "_id": "RIPPSPYIZ9dD5Yjh"
+}

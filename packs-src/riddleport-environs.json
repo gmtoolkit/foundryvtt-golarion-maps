@@ -1,5 +1,5 @@
 {
- "name": "Riddleport Environs",
+ "name": "Riddleport Region",
  "width": 4608,
  "height": 3072,
  "padding": 0,
@@ -17,7 +17,7 @@
  "levels": [
   {
    "_id": "attAPapChMRKlLbF",
-   "name": "Riddleport Environs",
+   "name": "Riddleport Region",
    "index": 0,
    "background": {
     "src": "modules/foundryvtt-golarion-maps/assets/scenes/riddleport-environs.webp"

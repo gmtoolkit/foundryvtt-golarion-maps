@@ -1,0 +1,117 @@
+{
+ "name": "Absalom",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 1,
+  "size": 100,
+  "distance": 0.36,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "O9GoBSP1YUriezeH",
+   "name": "Absalom",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/absalom-city.webp"
+   }
+  }
+ ],
+ "notes": [
+  {
+   "_id": "j6DB0g5wRyvB1IeD",
+   "x": 1463,
+   "y": 714,
+   "text": "Westerhold",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Westerhold"
+    }
+   }
+  },
+  {
+   "_id": "31hvaS0ODcxcQUGO",
+   "x": 3095,
+   "y": 550,
+   "text": "Copperwood",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Copperwood"
+    }
+   }
+  },
+  {
+   "_id": "pWr0fBCOWoNp0HJW",
+   "x": 3192,
+   "y": 2523,
+   "text": "Dawnfoot",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Dawnfoot"
+    }
+   }
+  },
+  {
+   "_id": "XOh4bONc4Ozc32QZ",
+   "x": 1397,
+   "y": 1382,
+   "text": "Shoreline",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Shoreline"
+    }
+   }
+  },
+  {
+   "_id": "9CmhYHNUiRY285Lp",
+   "x": 2404,
+   "y": 1090,
+   "text": "Absalom",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Absalom"
+    }
+   }
+  }
+ ],
+ "__key": "absalom-city",
+ "__folder": "Cities",
+ "_id": "ZIEjyEXW97YShSQL"
+}

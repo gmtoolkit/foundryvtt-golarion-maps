@@ -12,8 +12,17 @@ export interface RegionSpec {
   /** Explicit view… */
   center?: [number, number];
   zoom?: number;
-  /** …or fit a gazetteer feature's bbox (point features use radiusMi). */
-  fit?: { category: string; label: string; radiusMi?: number; maxZoom?: number };
+  /** …or fit a gazetteer feature's bbox (point features use radiusMi), or —
+   * with near/radiusDeg — the union bbox of every category entry near a
+   * point (e.g. all of a city's districts). */
+  fit?: {
+    category: string;
+    label?: string;
+    radiusMi?: number;
+    near?: [number, number];
+    radiusDeg?: number;
+    maxZoom?: number;
+  };
   width?: number;
   height?: number;
   resFactor?: number;
@@ -34,9 +43,31 @@ async function resolveView(spec: RegionSpec, width: number, height: number) {
   }
   if (!spec.fit) throw new Error(`${spec.key}: needs center+zoom or fit`);
   const gaz = await loadGazetteer();
-  const entry = findEntry(gaz, spec.fit.category, spec.fit.label);
-  if (!entry) throw new Error(`${spec.key}: gazetteer entry not found (${spec.fit.category}/${spec.fit.label})`);
   let bbox: [number, number, number, number];
+  if (spec.fit.near) {
+    const [nx, ny] = spec.fit.near;
+    const r = spec.fit.radiusDeg ?? 0.35;
+    const members = gaz.filter((e) => {
+      if (e.category !== spec.fit!.category) return false;
+      const c = entryCenter(e);
+      return Math.hypot(c.lng - nx, c.lat - ny) < r;
+    });
+    if (!members.length) throw new Error(`${spec.key}: no ${spec.fit.category} near ${nx},${ny}`);
+    bbox = [Infinity, Infinity, -Infinity, -Infinity];
+    for (const e of members) {
+      const b = e.bbox.length === 2 ? [e.bbox[0], e.bbox[1], e.bbox[0], e.bbox[1]] : e.bbox;
+      bbox = [
+        Math.min(bbox[0], b[0]),
+        Math.min(bbox[1], b[1]),
+        Math.max(bbox[2], b[2]),
+        Math.max(bbox[3], b[3])
+      ];
+    }
+    const view = viewFromBbox(bbox, width, height, { maxZoom: spec.fit.maxZoom ?? 8.4 });
+    return { center: { lng: view.center[0], lat: view.center[1] }, zoom: view.zoom };
+  }
+  const entry = findEntry(gaz, spec.fit.category, spec.fit.label!);
+  if (!entry) throw new Error(`${spec.key}: gazetteer entry not found (${spec.fit.category}/${spec.fit.label})`);
   if (entry.bbox.length === 2) {
     const r = spec.fit.radiusMi ?? 40;
     const dLat = r * MILES_TO_DEG_LAT;
@@ -94,12 +125,15 @@ async function buildNotes(
   }
   const notes: Record<string, unknown>[] = [];
   const seen = new Set<string>();
+  // Match tolerance shrinks with zoom: 0.03° is fine at nation scale but at
+  // city zoom neighboring buildings are far closer together than that.
+  const threshold = 0.03 / Math.max(1, 2 ** (view.zoom - 6));
   for (const f of rendered) {
     const [lng, lat] = f.geometry.coordinates;
     let best: { label: string; d: number } | null = null;
     for (const loc of locations) {
       const d = Math.hypot(loc.bbox[0] - lng, loc.bbox[1] - lat);
-      if (d < 0.03 && (!best || d < best.d)) best = { label: loc.label, d };
+      if (d < threshold && (!best || d < best.d)) best = { label: loc.label, d };
     }
     if (!best || seen.has(best.label)) continue;
     seen.add(best.label);

@@ -1,12 +1,12 @@
 {
- "name": "Oppara Region",
+ "name": "Nerosyan",
  "width": 4608,
  "height": 3072,
  "padding": 0,
  "grid": {
   "type": 1,
   "size": 100,
-  "distance": 3.45,
+  "distance": 0.263,
   "units": "mi"
  },
  "tokenVision": false,
@@ -16,20 +16,20 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "KH6vEHpsgRYaUDkV",
-   "name": "Oppara Region",
+   "_id": "44FQwAjRqJpeRWXQ",
+   "name": "Nerosyan",
    "index": 0,
    "background": {
-    "src": "modules/foundryvtt-golarion-maps/assets/scenes/oppara-environs.webp"
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/nerosyan-city.webp"
    }
   }
  ],
  "notes": [
   {
-   "_id": "VCqjzJr7OLqWUARc",
-   "x": 2304,
-   "y": 1541,
-   "text": "Oppara",
+   "_id": "gRhnJxrvAGPHqk4a",
+   "x": 1965,
+   "y": 1743,
+   "text": "Academy of the Reclamation",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -38,15 +38,15 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Oppara"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Academy_of_the_Reclamation"
     }
    }
   },
   {
-   "_id": "YbSLhV9hdK9eCIeB",
-   "x": 876,
-   "y": 2530,
-   "text": "Mut",
+   "_id": "BSHE1oGdMHrKfqoo",
+   "x": 1834,
+   "y": 1712,
+   "text": "Starrise Spire",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -55,15 +55,15 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Mut"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Starrise_Spire"
     }
    }
   },
   {
-   "_id": "Un6EyaWLiiSGviql",
-   "x": 3605,
-   "y": 2070,
-   "text": "Pastorling",
+   "_id": "5ApghmyFIo9CqI3N",
+   "x": 2306,
+   "y": 1535,
+   "text": "Nerosyan",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -72,12 +72,12 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Pastorling"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Nerosyan"
     }
    }
   }
  ],
- "__key": "oppara-environs",
- "__folder": "City Environs",
- "_id": "iYrh0rsHljmfOt7T"
+ "__key": "nerosyan-city",
+ "__folder": "Cities",
+ "_id": "HNvUgDxnbZYHYE7j"
 }

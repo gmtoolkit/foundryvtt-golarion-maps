@@ -1,5 +1,25 @@
 # Decision log — foundryvtt-golarion-maps
 
+## 2026-07-17 — Cities tier: 14 real city maps found in upstream district data
+
+**Decision:** Added a "Cities" folder with 14 full city-map scenes (Absalom,
+Magnimar, Korvosa, Kaer Maga, Kintargo, Vyre, Katapesh, Almas, Port Peril,
+Ilizmagorti, Kerse, Nerosyan, Urgir, Breachill), and renamed the environs tier
+to "City Regions" / "<City> Region" per Cliff. Cities are discovered by
+clustering the gazetteer's 109 district entries by proximity (a city = a
+district cluster), framed by the union bbox of its districts (new fit mode:
+`fit.near` + `radiusDeg`), baked at up to z11.5 overzoom.
+**Why:** Cliff asked whether upstream has real city maps like Paizo's painted
+Absalom map. Answer: yes for these 14 — district polygons, walls, harbors, and
+dozens of named building POIs render as clean vector city maps (verified
+Absalom side-by-side against the Paizo map: same districts, same landmarks).
+The painted Paizo artwork itself is product art and cannot be shipped.
+**Consequences:** 60 scenes total. Note-matching tolerance now scales with
+zoom (0.03° at nation scale is 2 mi; city zoom needs ~0.001°). City POI pin
+counts are conservative (icons render zoom-gated upstream); a deeper-zoom
+note pass is a QA follow-up. Earlier lesson kept: vector overzoom past
+maxZoomWithData=8 stays crisp for borders/labels, terrain polygons get chunky.
+
 ## 2026-07-17 — 46-scene pack: nations + city environs tiers, folders, wiki-linked pins
 
 **Decision:** Expanded from 18 to 46 scenes in four compendium folders (World

@@ -1,0 +1,134 @@
+{
+ "name": "Kaer Maga",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 1,
+  "size": 100,
+  "distance": 0.293,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "1P692N8UfRA67NQ7",
+   "name": "Kaer Maga",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/kaer-maga-city.webp"
+   }
+  }
+ ],
+ "notes": [
+  {
+   "_id": "70BZAtJVhWojipv3",
+   "x": 2279,
+   "y": 1614,
+   "text": "Temple of the Endless Step",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Temple_of_the_Endless_Step"
+    }
+   }
+  },
+  {
+   "_id": "M44FDu2k8oGEMZcz",
+   "x": 2210,
+   "y": 1540,
+   "text": "Duskwarden Guildhouse",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Duskwarden_Guildhouse"
+    }
+   }
+  },
+  {
+   "_id": "x3woc62Jyshn9WvD",
+   "x": 2303,
+   "y": 1537,
+   "text": "Kaer Maga",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Kaer_Maga"
+    }
+   }
+  },
+  {
+   "_id": "qOa2MKvtQHCHJFJA",
+   "x": 2386,
+   "y": 1501,
+   "text": "Last Rites",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Last_Rites"
+    }
+   }
+  },
+  {
+   "_id": "bYTvIs6RLJM1yjPK",
+   "x": 2244,
+   "y": 1471,
+   "text": "Halfway Houses",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Halfway_Houses"
+    }
+   }
+  },
+  {
+   "_id": "UEPauj924atYIjsT",
+   "x": 2308,
+   "y": 1463,
+   "text": "Lyceum",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Lyceum"
+    }
+   }
+  }
+ ],
+ "__key": "kaer-maga-city",
+ "__folder": "Cities",
+ "_id": "EDIURll5VDw68Viv"
+}
