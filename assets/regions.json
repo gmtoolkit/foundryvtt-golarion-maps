@@ -1149,6 +1149,118 @@
    "gridType": "square",
    "gridSize": 100,
    "folder": "City Regions"
+  },
+  {
+   "key": "otari-town",
+   "name": "Otari",
+   "fit": {
+    "category": "locations",
+    "label": "Otari",
+    "radiusMi": 8,
+    "maxZoom": 13
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities",
+   "keepIcons": true
+  },
+  {
+   "key": "katheer-city",
+   "name": "Katheer",
+   "fit": {
+    "category": "locations",
+    "label": "Katheer",
+    "radiusMi": 8,
+    "maxZoom": 13
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities",
+   "keepIcons": true
+  },
+  {
+   "key": "starfall-city",
+   "name": "Starfall",
+   "fit": {
+    "category": "locations",
+    "label": "Starfall",
+    "radiusMi": 8,
+    "maxZoom": 13
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities",
+   "keepIcons": true
+  },
+  {
+   "key": "pangolais-city",
+   "name": "Pangolais",
+   "fit": {
+    "category": "locations",
+    "label": "Pangolais",
+    "radiusMi": 8,
+    "maxZoom": 13
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities",
+   "keepIcons": true
+  },
+  {
+   "key": "isarn-city",
+   "name": "Isarn",
+   "fit": {
+    "category": "locations",
+    "label": "Isarn",
+    "radiusMi": 8,
+    "maxZoom": 13
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities",
+   "keepIcons": true
+  },
+  {
+   "key": "iadara-city",
+   "name": "Iadara",
+   "fit": {
+    "category": "locations",
+    "label": "Iadara",
+    "radiusMi": 8,
+    "maxZoom": 13
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities",
+   "keepIcons": true
+  },
+  {
+   "key": "new-stetven-city",
+   "name": "New Stetven",
+   "fit": {
+    "category": "locations",
+    "label": "New Stetven",
+    "radiusMi": 8,
+    "maxZoom": 13
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities",
+   "keepIcons": true
+  },
+  {
+   "key": "kalsgard-city",
+   "name": "Kalsgard",
+   "fit": {
+    "category": "locations",
+    "label": "Kalsgard",
+    "radiusMi": 8,
+    "maxZoom": 13
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Cities",
+   "keepIcons": true
   }
  ]
 }

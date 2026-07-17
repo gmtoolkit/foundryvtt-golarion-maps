@@ -174,7 +174,14 @@ export async function bakeBase(spec: RegionSpec, { resFactor = 1.5 } = {}) {
   const height = spec.height ?? DEFAULTS.height;
   const view = await resolveView(spec, width, height);
   const style = await loadStyle();
-  style.layers = style.layers.filter((l: any) => l.type !== "symbol" && l.id !== "location-icons");
+  // keepIcons: town-detail maps without district outlines keep the settlement
+  // marker icons (text still stripped) so AI stylization knows where the
+  // town sits; everything else gets pure geometry.
+  style.layers = style.layers.filter((l: any) =>
+    (spec as any).keepIcons
+      ? l.type !== "symbol"
+      : l.type !== "symbol" && l.id !== "location-icons"
+  );
   const blob = await bakeViewport({
     style,
     center: view.center,

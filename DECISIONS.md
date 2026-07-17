@@ -1,5 +1,22 @@
 # Decision log — foundryvtt-golarion-maps
 
+## 2026-07-17 — Town-detail tier (Otari + 7 capitals); keepIcons bases; label-dedup recomposite
+
+**Decision:** Added 8 town-detail scenes (Otari, Katheer, Starfall, Pangolais,
+Isarn, Iadara, New Stetven, Kalsgard) at radiusMi 8 / maxZoom 13 in the Cities
+folder — Cliff's call after 'Otari Region' (30 mi) proved too zoomed-out to
+show the town itself.  gained a  spec flag: district-less
+towns keep settlement marker icons in the AI base (text still stripped) so the
+model knows where to paint the town; district cities keep pure geometry.
+**Also:** five-kings-mountains painted art had model-drawn labels (Gemini
+knows Golarion from training and labeled Darkmoon Vale / Palakar Forest /
+Verduran Forest unprompted) duplicating our composite. Fix pattern for label
+collisions: recomposite from the existing painted jpg with the colliding
+names excluded from our label layer (filter ["!",["in",["get","label"],...]])
+— zero regeneration cost. Watch for this in QA on other maps.
+**Consequences:** 100 scenes/99 journals. Town pins are sparse (1-2) at
+16-mi frames — zoom-gated upstream icons; acceptable, gazetteer still per pin.
+
 ## 2026-07-17 — Two modules (lean + painted); hex-grid policy; composite pipeline
 
 **Decision:** Ship two modules from this repo: lean (code + vector art,
