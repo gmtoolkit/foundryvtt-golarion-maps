@@ -5,7 +5,7 @@
 **Decision:** Added 8 town-detail scenes (Otari, Katheer, Starfall, Pangolais,
 Isarn, Iadara, New Stetven, Kalsgard) at radiusMi 8 / maxZoom 13 in the Cities
 folder — Cliff's call after 'Otari Region' (30 mi) proved too zoomed-out to
-show the town itself.  gained a  spec flag: district-less
+show the town itself. bakeBase gained a keepIcons spec flag: district-less
 towns keep settlement marker icons in the AI base (text still stripped) so the
 model knows where to paint the town; district cities keep pure geometry.
 **Also:** five-kings-mountains painted art had model-drawn labels (Gemini
