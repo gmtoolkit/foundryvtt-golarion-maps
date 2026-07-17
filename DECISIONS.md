@@ -1,5 +1,26 @@
 # Decision log — foundryvtt-golarion-maps
 
+## 2026-07-17 — AI-painted art set pipeline (Gemini), label-free bases
+
+**Decision:** Added `api.bakeBase(spec)` — renders a region with every
+symbol/label/icon layer stripped at low resFactor (1.5): the clean geometry
+input for AI stylization. `.cache/gemini/gemini_batch.py` (gitignored, run
+manually from WSL with GEMINI_KEY pulled from Vault kv/gmkit/app) sends ONLY
+these self-rendered bases to gemini-3-pro-image-preview at 2K: painted-atlas
+prompt for regions/nations, painted-city prompt for the Cities tier. Prompts
+demand ZERO text (model-drawn labels hallucinate/typo — observed "Foreignt
+Court"); names stay in our label layer and Note pins. Labeled context images
+are NOT sent (text leaks into output). Never send Paizo artwork as input.
+**Why:** Cliff wants a high-fidelity painted art set; test renders (Inner Sea,
+Absalom) proved the model preserves geography well at region scale and paints
+plausible street-level city detail from wall/district outlines.
+**Consequences:** Painted outputs are derivatives of CUP content via a
+third-party model — same CUP posture, keep free. Integration (label
+compositing over painted bases, alternate art set packaging) is a follow-up
+decision once the 60-map batch is reviewed. City-scale geometric fidelity is
+approximate; treat painted city maps as illustrative, the vector set stays the
+canonical one.
+
 ## 2026-07-17 — All document ids normalized deterministically at pack build
 
 **Decision:** build-packs.mjs overrides scene/level/note ids with sha1-derived

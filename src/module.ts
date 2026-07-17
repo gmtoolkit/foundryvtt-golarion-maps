@@ -1,7 +1,7 @@
 import "maplibre-gl/dist/maplibre-gl.css";
 import "../styles/module.css";
 
-import { bakeRegion, generateScenes, makeThumb } from "./api";
+import { bakeBase, bakeRegion, generateScenes, makeThumb } from "./api";
 import { buildPickerClass } from "./apps/picker";
 import { buildSceneData } from "./scene-data";
 import { registerSettings } from "./settings";
@@ -19,7 +19,7 @@ Hooks.once("ready", () => {
   // Programmatic API: used by the compendium generation tooling and available
   // to macros/other modules.
   const mod = game.modules.get("foundryvtt-golarion-maps");
-  if (mod) mod.api = { bakeRegion, generateScenes, buildSceneData, makeThumb };
+  if (mod) mod.api = { bakeRegion, bakeBase, generateScenes, buildSceneData, makeThumb };
 });
 
 // Note pins link to gazetteer journal pages (installed via the Adventure).

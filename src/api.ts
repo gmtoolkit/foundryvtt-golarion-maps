@@ -164,6 +164,28 @@ async function buildNotes(
   return notes;
 }
 
+/**
+ * Render a region WITHOUT any symbol/label/icon layers — the clean geometry
+ * base used as input for AI stylization. resFactor is fixed low: the model
+ * consumes ~1-2K inputs; full bake resolution would be wasted.
+ */
+export async function bakeBase(spec: RegionSpec, { resFactor = 1.5 } = {}) {
+  const width = spec.width ?? DEFAULTS.width;
+  const height = spec.height ?? DEFAULTS.height;
+  const view = await resolveView(spec, width, height);
+  const style = await loadStyle();
+  style.layers = style.layers.filter((l: any) => l.type !== "symbol" && l.id !== "location-icons");
+  const blob = await bakeViewport({
+    style,
+    center: view.center,
+    zoom: view.zoom,
+    width,
+    height,
+    pixelRatio: resFactor
+  });
+  return { blob, view };
+}
+
 /** Render one region spec to a WebP blob + matching scene document source. */
 export async function bakeRegion(spec: RegionSpec, imagePath: string) {
   const { width, height, resFactor, gridType, gridSize, notes } = { ...DEFAULTS, ...spec };
