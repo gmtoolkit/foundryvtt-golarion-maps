@@ -22,10 +22,14 @@ Hooks.once("ready", () => {
   if (mod) mod.api = { bakeRegion, generateScenes, buildSceneData, makeThumb };
 });
 
-// Note pins carry a PathfinderWiki URL flag; clicking one opens the article.
+// Note pins link to gazetteer journal pages (installed via the Adventure).
+// When the journal isn't in the world — e.g. a scene imported individually —
+// fall back to opening the pin's PathfinderWiki article instead.
 Hooks.on("activateNote", (note: any) => {
-  const url = note?.document?.getFlag?.("foundryvtt-golarion-maps", "wikiUrl");
+  const doc = note?.document;
+  const url = doc?.getFlag?.("foundryvtt-golarion-maps", "wikiUrl");
   if (!url || !/^https:\/\/pathfinderwiki\.com\//.test(url)) return true;
+  if (doc.entryId && doc.entry) return true;
   window.open(url, "_blank", "noopener");
   return false;
 });

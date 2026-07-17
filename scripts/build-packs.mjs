@@ -24,9 +24,10 @@ const PACK_CORE_VERSION = "14.365";
 // Embedded scene collections we ship, stored as sub-entries.
 const EMBEDDED = ["levels", "notes"];
 
-// Deterministic folder ids so rebuilds don't churn the pack.
-const folderId = (name) =>
-  createHash("sha1").update(`golarion-maps-folder:${name}`).digest("hex").slice(0, 16);
+// Deterministic ids so rebuilds and re-imports don't churn documents.
+const did = (seed) =>
+  createHash("sha1").update(`golarion-maps:${seed}`).digest("hex").slice(0, 16);
+const folderId = (name) => did(`folder:${name}`);
 
 const manifest = JSON.parse(readFileSync(join(root, "assets", "regions.json"), "utf8"));
 const folderByKey = new Map(manifest.regions.map((r) => [r.key, r.folder ?? null]));
@@ -54,7 +55,14 @@ for (const name of manifest.folders ?? []) {
   console.log(`folder ${name}`);
 }
 
-let count = 0;
+// Load all scene docs, build a gazetteer journal per scene from its note
+// pins, and wire note.entryId/pageId to it. Journals ship inside the
+// Adventure pack; on scenes imported individually (no journal present) the
+// module's activateNote hook falls back to opening the PathfinderWiki URL.
+const sceneDocs = [];
+const journalDocs = [];
+const JOURNAL_FOLDER = "Golarion Gazetteers";
+
 for (const file of readdirSync(srcDir).filter((f) => f.endsWith(".json"))) {
   const doc = JSON.parse(readFileSync(join(srcDir, file), "utf8"));
   delete doc._key;
@@ -66,22 +74,122 @@ for (const file of readdirSync(srcDir).filter((f) => f.endsWith(".json"))) {
   doc.folder = folderName ? folderId(folderName) : null;
   doc._stats = { coreVersion: PACK_CORE_VERSION, ...doc._stats };
 
+  const notes = Array.isArray(doc.notes) ? doc.notes : [];
+  if (notes.length) {
+    const entryId = did(`journal:${key}`);
+    const seen = new Set();
+    const pages = [];
+    let sort = 0;
+    for (const n of [...notes].sort((a, b) => String(a.text).localeCompare(String(b.text)))) {
+      if (seen.has(n.text)) continue;
+      seen.add(n.text);
+      const wiki = n.flags?.["foundryvtt-golarion-maps"]?.wikiUrl;
+      const pageId = did(`page:${key}:${n.text}`);
+      pages.push({
+        _id: pageId,
+        name: n.text,
+        type: "text",
+        title: { show: true, level: 1 },
+        text: {
+          format: 1,
+          content:
+            `<p><em>A location on the ${doc.name} map.</em></p>` +
+            (wiki ? `<p><a href="${wiki}">View on PathfinderWiki</a></p>` : "")
+        },
+        sort: (sort += 100),
+        _stats: { coreVersion: PACK_CORE_VERSION }
+      });
+    }
+    journalDocs.push({
+      _id: entryId,
+      name: `${doc.name} Gazetteer`,
+      folder: folderId(JOURNAL_FOLDER),
+      pages,
+      ownership: { default: 2 },
+      _stats: { coreVersion: PACK_CORE_VERSION }
+    });
+    for (const n of notes) {
+      n.entryId = entryId;
+      n.pageId = did(`page:${key}:${n.text}`);
+    }
+  }
+  sceneDocs.push(doc);
+}
+
+// --- Scene compendium (browse / cherry-pick) ---
+let count = 0;
+for (const doc of sceneDocs) {
+  const copy = structuredClone(doc);
   let embeddedTotal = 0;
   for (const collection of EMBEDDED) {
-    const entries = doc[collection] ?? [];
+    const entries = copy[collection] ?? [];
     if (!Array.isArray(entries)) continue;
-    doc[collection] = entries.map((e) => e._id);
+    copy[collection] = entries.map((e) => e._id);
     for (const e of entries) {
       delete e._key;
       e._stats = { coreVersion: PACK_CORE_VERSION, ...e._stats };
-      batch.put(`!scenes.${collection}!${doc._id}.${e._id}`, e);
+      batch.put(`!scenes.${collection}!${copy._id}.${e._id}`, e);
       embeddedTotal++;
     }
   }
-  batch.put(`!scenes!${doc._id}`, doc);
-  console.log(`packed ${doc._id} (${doc.name}, ${embeddedTotal} embedded)`);
+  batch.put(`!scenes!${copy._id}`, copy);
   count++;
 }
 await batch.write();
 await db.close();
 console.log(`pack built: packs/golarion-scenes (${count} scenes)`);
+
+// --- Adventure pack (install-everything, ids preserved on import) ---
+const advDir = join(root, "packs", "golarion-adventure");
+rmSync(advDir, { recursive: true, force: true });
+mkdirSync(advDir, { recursive: true });
+const advDb = new ClassicLevel(advDir, { keyEncoding: "utf8", valueEncoding: "json" });
+await advDb.open();
+const advFolders = (manifest.folders ?? []).map((name, i) => ({
+  _id: folderId(name),
+  name,
+  type: "Scene",
+  folder: null,
+  sorting: "a",
+  sort: (i + 1) * 100,
+  color: null,
+  flags: {},
+  _stats: { coreVersion: PACK_CORE_VERSION }
+}));
+advFolders.push({
+  _id: folderId(JOURNAL_FOLDER),
+  name: JOURNAL_FOLDER,
+  type: "JournalEntry",
+  folder: null,
+  sorting: "a",
+  sort: 100,
+  color: null,
+  flags: {},
+  _stats: { coreVersion: PACK_CORE_VERSION }
+});
+const adventure = {
+  _id: did("adventure"),
+  name: "Golarion Maps",
+  img: "modules/foundryvtt-golarion-maps/assets/thumbs/golarion-world.webp",
+  caption: "The PathfinderWiki interactive map of Golarion as Foundry scenes.",
+  description:
+    "<p>Sixty scenes of Golarion — the world, continents, the Inner Sea meta-regions, eighteen nations, city regions, and fourteen full city maps — generated from the <a href=\"https://github.com/pf-wikis/mapping\">PathfinderWiki mapping project</a>, with location pins linked to gazetteer journals and PathfinderWiki articles.</p><p>This module uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy. It is not published, endorsed, or specifically approved by Paizo.</p>",
+  scenes: sceneDocs,
+  journal: journalDocs,
+  folders: advFolders,
+  actors: [],
+  items: [],
+  tables: [],
+  macros: [],
+  cards: [],
+  playlists: [],
+  combats: [],
+  sort: 0,
+  flags: {},
+  _stats: { coreVersion: PACK_CORE_VERSION }
+};
+await advDb.put(`!adventures!${adventure._id}`, adventure);
+await advDb.close();
+console.log(
+  `pack built: packs/golarion-adventure (1 adventure: ${sceneDocs.length} scenes, ${journalDocs.length} journals, ${advFolders.length} folders)`
+);
