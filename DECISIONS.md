@@ -1,5 +1,26 @@
 # Decision log — foundryvtt-golarion-maps
 
+## 2026-07-17 — All document ids normalized deterministically at pack build
+
+**Decision:** build-packs.mjs overrides scene/level/note ids with sha1-derived
+ids from the region key (journals/pages/folders already were). Generation-time
+random ids are treated as throwaway.
+**Why:** Adventure re-imports match by id; random ids meant every regeneration
+duplicated all 60 scenes in users' worlds instead of updating them (found when
+Cliff's world had a stale 5-pin Absalom next to the new 143-pin one).
+**Consequences:** Regenerate-and-reimport is now a safe update path. Note ids
+derive from (scene, label) so a pin's world identity survives regeneration;
+GM customizations on our pins survive re-import as updates, not dupes.
+
+## 2026-07-17 — City maps pin every POI (dense-filter was nation-only concern)
+
+**Decision:** The settlement-only filter for dense views applies below zoom 9
+only; city-zoom views pin every rendered marker (capped 150 by prominence).
+Match tolerance floors at ~150 m (overzoomed tiles quantize to the z8 grid).
+**Why:** Absalom's city map rendered 100+ POI markers, tripping the dense
+filter meant for nation maps and leaving 5 pins; on a city map the POIs are
+the content. Absalom now pins 143 locations, each with a gazetteer page.
+
 ## 2026-07-17 — Gazetteer journals via Adventure packaging; one-button installer
 
 **Decision:** Phase B executed. Per-scene gazetteer journals (59) generated at
