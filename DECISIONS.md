@@ -1,5 +1,29 @@
 # Decision log — foundryvtt-golarion-maps
 
+## 2026-07-17 — Two modules (lean + painted); hex-grid policy; composite pipeline
+
+**Decision:** Ship two modules from this repo: lean (code + vector art,
+~30 MB) and `foundryvtt-golarion-maps-painted` (72 MB: painted backgrounds +
+its own scene/adventure packs, `requires` lean, no code). Same deterministic
+document ids in both, so importing the painted Adventure upgrades a lean
+world's scenes in place (verified; note: the update path takes ~4 min vs ~1
+min for fresh import — PF2e re-prepares each scene). Painted scenes are the
+composite of the Gemini art + a labels-only transparent MapLibre bake at
+matched pixel ratio; note coords/grid sizes scale per-axis (Gemini "3:2 2K" is
+2528x1696 = 1.4906, a 0.6% vertical stretch vs true 3:2 — axes scaled
+independently so pins stay exact). World map rebaked/re-rolled at 3:2 (was
+16:10, would have stretched).
+**Grid policy** (build-time, both modules): Inner Sea meta-regions hex rows @
+exactly 50 mi; Nations + City Regions hex rows @ exactly 10 mi (PF2e
+hexploration); World & Continents and Cities gridless with correct ruler
+distances (grids are noise over painted rooftops; flipping a city scene to
+squares yields exact distances). Hex px size derived from real map scale so
+distances are round numbers.
+**Consequences:** Two manifests/registry listings (module.json +
+painted/module.json; release assets module.zip / module-painted.zip). Painted
+art committed to the repo for reproducible releases. 10-mi hexes are dense on
+big nation maps (24 px) — QA may want 20-25 mi on the largest.
+
 ## 2026-07-17 — AI-painted art set pipeline (Gemini), label-free bases
 
 **Decision:** Added `api.bakeBase(spec)` — renders a region with every

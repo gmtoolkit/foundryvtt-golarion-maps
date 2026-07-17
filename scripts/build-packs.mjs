@@ -17,7 +17,51 @@ import { fileURLToPath } from "node:url";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const srcDir = join(root, "packs-src");
-const packDir = join(root, "packs", "golarion-scenes");
+
+// PAINTED=1 builds the enhanced companion module (foundryvtt-golarion-maps-
+// painted): same documents and deterministic ids, but backgrounds point at
+// the painted art, dimensions/notes/grids scale to the painted image size,
+// and output goes under painted/. Same ids mean importing the painted
+// Adventure upgrades a lean install's scenes in place.
+const PAINTED = process.env.PAINTED === "1";
+const PAINTED_ID = "foundryvtt-golarion-maps-painted";
+const PAINTED_W = 2528;
+const PAINTED_H = 1696;
+const outRoot = PAINTED ? join(root, "painted") : root;
+const packDir = join(outRoot, "packs", "golarion-scenes");
+
+// Web-mercator miles-per-image-pixel (world map needs a fresh computation:
+// its painted view was rebaked at 3:2, unlike its original 16:10 scene doc).
+const milesPerImagePx = (latDeg, zoom, cssWidth, imageWidth) =>
+  (40075016.686 * Math.cos((latDeg * Math.PI) / 180)) /
+  (512 * 2 ** zoom) / (imageWidth / cssWidth) / 1609.344;
+
+function paintify(doc, key) {
+  if (key === "golarion-world") {
+    // Rebaked at center [20,10] zoom 1.4, css 1152x768 (see regions.json).
+    doc.width = PAINTED_W;
+    doc.height = PAINTED_H;
+    doc.grid = { ...doc.grid, size: 100, distance: Number((100 * milesPerImagePx(10, 1.4, 1152, PAINTED_W)).toPrecision(3)), units: "mi" };
+    doc.notes = [];
+  } else {
+    // Gemini's "3:2 2K" is 2528x1696 (1.4906), a 0.6% vertical stretch vs our
+    // true-3:2 sources — visually negligible, but scale axes independently so
+    // pin positions stay exact.
+    const rx = PAINTED_W / doc.width;
+    const ry = PAINTED_H / doc.height;
+    doc.width = PAINTED_W;
+    doc.height = PAINTED_H;
+    doc.grid = { ...doc.grid, size: Math.max(20, Math.round(doc.grid.size * rx)) };
+    for (const n of doc.notes ?? []) {
+      n.x = Math.round(n.x * rx);
+      n.y = Math.round(n.y * ry);
+    }
+  }
+  for (const lv of doc.levels ?? []) {
+    lv.background = { ...lv.background, src: `modules/${PAINTED_ID}/assets/scenes/${key}.webp` };
+  }
+  doc.thumb = `modules/${PAINTED_ID}/assets/thumbs/${key}.webp`;
+}
 
 // Documents without _stats.coreVersion are treated as pre-v14 and migrated.
 const PACK_CORE_VERSION = "14.365";
@@ -31,6 +75,31 @@ const folderId = (name) => did(`folder:${name}`);
 
 const manifest = JSON.parse(readFileSync(join(root, "assets", "regions.json"), "utf8"));
 const folderByKey = new Map(manifest.regions.map((r) => [r.key, r.folder ?? null]));
+
+// Grid policy (PF2e hexploration-friendly), applied at build time so both the
+// lean and painted packs agree:
+// - Inner Sea meta-regions: hex rows, snapped to exactly 50 mi per hex
+// - Nations & City Regions: hex rows, snapped to exactly 10 mi per hex
+// - World & Continents: gridless (ruler distance still correct)
+// - Cities: gridless — grids are noise over painted rooftops; ruler distance
+//   stays correct and flipping the scene to squares yields exact distances.
+// Snapping keeps distance a round number by resizing the hex in pixels from
+// the scene's real miles-per-pixel (derived from the stored grid fields).
+const HEX_ROWS = 2; // CONST.GRID_TYPES.HEXODDR
+const GRIDLESS = 0;
+function applyGridPolicy(doc, folder) {
+  const g = doc.grid ?? {};
+  const milesPerPx = (g.distance ?? 1) / (g.size ?? 100);
+  const snapHex = (targetMi) => {
+    const size = Math.round(targetMi / milesPerPx);
+    doc.grid = { ...g, type: HEX_ROWS, size: Math.max(20, size), distance: targetMi, units: "mi" };
+  };
+  if (folder === "Inner Sea Regions") snapHex(50);
+  else if (folder === "Nations" || folder === "City Regions") snapHex(10);
+  else if (folder === "Cities" || folder === "World & Continents") {
+    doc.grid = { ...g, type: GRIDLESS };
+  }
+}
 
 // Optional wiki content cache (scripts/fetch-wiki-extracts.mjs). Pages for
 // labels present here embed the article lead with CC BY-NC-SA attribution.
@@ -104,6 +173,8 @@ for (const file of readdirSync(srcDir).filter((f) => f.endsWith(".json"))) {
   doc._id = did(`scene:${key}`);
   for (const lv of doc.levels ?? []) lv._id = did(`level:${key}`);
   for (const n of doc.notes ?? []) n._id = did(`note:${key}:${n.text}`);
+  if (PAINTED) paintify(doc, key);
+  applyGridPolicy(doc, folderByKey.get(key) ?? null);
   const folderName = doc.__folder ?? folderByKey.get(key) ?? null;
   delete doc.__folder;
   doc.folder = folderName ? folderId(folderName) : null;
@@ -173,7 +244,7 @@ await db.close();
 console.log(`pack built: packs/golarion-scenes (${count} scenes)`);
 
 // --- Adventure pack (install-everything, ids preserved on import) ---
-const advDir = join(root, "packs", "golarion-adventure");
+const advDir = join(outRoot, "packs", "golarion-adventure");
 rmSync(advDir, { recursive: true, force: true });
 mkdirSync(advDir, { recursive: true });
 const advDb = new ClassicLevel(advDir, { keyEncoding: "utf8", valueEncoding: "json" });
@@ -201,9 +272,11 @@ advFolders.push({
   _stats: { coreVersion: PACK_CORE_VERSION }
 });
 const adventure = {
-  _id: did("adventure"),
-  name: "Golarion Maps",
-  img: "modules/foundryvtt-golarion-maps/assets/thumbs/golarion-world.webp",
+  _id: did(PAINTED ? "adventure-painted" : "adventure"),
+  name: PAINTED ? "Golarion Maps (Painted)" : "Golarion Maps",
+  img: PAINTED
+    ? `modules/${PAINTED_ID}/assets/thumbs/golarion-world.webp`
+    : "modules/foundryvtt-golarion-maps/assets/thumbs/golarion-world.webp",
   caption: "The PathfinderWiki interactive map of Golarion as Foundry scenes.",
   description:
     "<p>Sixty scenes of Golarion — the world, continents, the Inner Sea meta-regions, eighteen nations, city regions, and fourteen full city maps — generated from the <a href=\"https://github.com/pf-wikis/mapping\">PathfinderWiki mapping project</a>, with location pins linked to gazetteer journals and PathfinderWiki articles.</p><p>This module uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy. It is not published, endorsed, or specifically approved by Paizo.</p>",
