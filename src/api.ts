@@ -206,12 +206,26 @@ export async function bakeRegion(spec: RegionSpec, imagePath: string) {
   return { blob, sceneData, scale, view, noteCount: noteDocs.length };
 }
 
+/** Downscale a baked image blob to a sidebar/compendium thumbnail. */
+export async function makeThumb(blob: Blob, targetWidth = 400): Promise<Blob> {
+  const bmp = await createImageBitmap(blob);
+  const scale = targetWidth / bmp.width;
+  const canvas = document.createElement("canvas");
+  canvas.width = targetWidth;
+  canvas.height = Math.round(bmp.height * scale);
+  canvas.getContext("2d")!.drawImage(bmp, 0, 0, canvas.width, canvas.height);
+  bmp.close();
+  return new Promise<Blob>((resolve, reject) =>
+    canvas.toBlob((b) => (b ? resolve(b) : reject(new Error("thumb failed"))), "image/webp", 0.8)
+  );
+}
+
 /**
  * Compendium-generation driver (dev tooling, run from a GM session): bakes
  * every region, uploads webps into <uploadDir> for later copying into the
  * repo, and returns scene document sources pointing at the module's shipped
  * assets path. Each doc carries __key and __folder passthroughs for the pack
- * builder.
+ * builder. Every scene gets a shipped thumbnail (assets/thumbs/<key>.webp).
  */
 export async function generateScenes(
   regions: RegionSpec[],
@@ -227,6 +241,15 @@ export async function generateScenes(
     const file = new File([blob], `${spec.key}.webp`, { type: "image/webp" });
     const uploaded = await FP.upload("data", uploadDir, file, {}, { notify: false });
     if (!uploaded?.path) throw new Error(`upload failed for ${spec.key}`);
+    const thumb = await makeThumb(blob);
+    await FP.upload(
+      "data",
+      uploadDir,
+      new File([thumb], `${spec.key}-thumb.webp`, { type: "image/webp" }),
+      {},
+      { notify: false }
+    );
+    sceneData.thumb = `modules/${MODULE_ID}/assets/thumbs/${spec.key}.webp`;
     (sceneData as any).__key = spec.key;
     (sceneData as any).__folder = spec.folder ?? null;
     docs.push(sceneData);
