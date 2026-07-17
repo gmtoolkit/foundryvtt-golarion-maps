@@ -96,9 +96,14 @@ const JOURNAL_FOLDER = "Golarion Gazetteers";
 for (const file of readdirSync(srcDir).filter((f) => f.endsWith(".json"))) {
   const doc = JSON.parse(readFileSync(join(srcDir, file), "utf8"));
   delete doc._key;
-  if (!doc._id) throw new Error(`${file}: missing _id`);
   const key = doc.__key ?? file.replace(/\.json$/, "");
   delete doc.__key;
+  // Normalize ALL document ids deterministically from the region key so that
+  // regenerating scenes never churns ids — Adventure re-imports then update
+  // documents in place instead of duplicating them.
+  doc._id = did(`scene:${key}`);
+  for (const lv of doc.levels ?? []) lv._id = did(`level:${key}`);
+  for (const n of doc.notes ?? []) n._id = did(`note:${key}:${n.text}`);
   const folderName = doc.__folder ?? folderByKey.get(key) ?? null;
   delete doc.__folder;
   doc.folder = folderName ? folderId(folderName) : null;
