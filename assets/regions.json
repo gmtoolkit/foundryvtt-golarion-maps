@@ -779,6 +779,376 @@
    "gridType": "square",
    "gridSize": 100,
    "folder": "Cities"
+  },
+  {
+   "key": "five-kings-mountains",
+   "name": "Five Kings Mountains",
+   "fit": {
+    "category": "nations",
+    "label": "Five Kings Mountains"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "river-kingdoms",
+   "name": "River Kingdoms",
+   "fit": {
+    "category": "subregions",
+    "label": "River Kingdoms"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "the-shackles",
+   "name": "The Shackles",
+   "fit": {
+    "category": "nations",
+    "label": "The Shackles"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "isger",
+   "name": "Isger",
+   "fit": {
+    "category": "nations",
+    "label": "Isger"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "ravounel",
+   "name": "Ravounel",
+   "fit": {
+    "category": "nations",
+    "label": "Ravounel"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "gravelands",
+   "name": "Gravelands",
+   "fit": {
+    "category": "nations",
+    "label": "Gravelands"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "sarkoris-scar",
+   "name": "Sarkoris Scar",
+   "fit": {
+    "category": "nations",
+    "label": "Sarkoris"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "molthune",
+   "name": "Molthune",
+   "fit": {
+    "category": "nations",
+    "label": "Molthune"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "nirmathas",
+   "name": "Nirmathas",
+   "fit": {
+    "category": "nations",
+    "label": "Nirmathas"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "rahadoum",
+   "name": "Rahadoum",
+   "fit": {
+    "category": "nations",
+    "label": "Rahadoum"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "thuvia",
+   "name": "Thuvia",
+   "fit": {
+    "category": "nations",
+    "label": "Thuvia"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "jalmeray",
+   "name": "Jalmeray",
+   "fit": {
+    "category": "nations",
+    "label": "Jalmeray"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "druma",
+   "name": "Druma",
+   "fit": {
+    "category": "nations",
+    "label": "Druma"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "razmiran",
+   "name": "Razmiran",
+   "fit": {
+    "category": "nations",
+    "label": "Razmiran"
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "Nations"
+  },
+  {
+   "key": "highhelm-region",
+   "name": "Highhelm Region",
+   "fit": {
+    "category": "locations",
+    "label": "Highhelm",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "otari-region",
+   "name": "Otari Region",
+   "fit": {
+    "category": "locations",
+    "label": "Otari",
+    "radiusMi": 30
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "whitethrone-region",
+   "name": "Whitethrone Region",
+   "fit": {
+    "category": "locations",
+    "label": "Whitethrone",
+    "radiusMi": 45
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "caliphas-region",
+   "name": "Caliphas Region",
+   "fit": {
+    "category": "locations",
+    "label": "Caliphas",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "nantambu-region",
+   "name": "Nantambu Region",
+   "fit": {
+    "category": "locations",
+    "label": "Nantambu",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "egorian-region",
+   "name": "Egorian Region",
+   "fit": {
+    "category": "locations",
+    "label": "Egorian",
+    "radiusMi": 45
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "daggermark-region",
+   "name": "Daggermark Region",
+   "fit": {
+    "category": "locations",
+    "label": "Daggermark",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "pitax-region",
+   "name": "Pitax Region",
+   "fit": {
+    "category": "locations",
+    "label": "Pitax",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "elidir-region",
+   "name": "Elidir Region",
+   "fit": {
+    "category": "locations",
+    "label": "Elidir",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "vigil-region",
+   "name": "Vigil Region",
+   "fit": {
+    "category": "locations",
+    "label": "Vigil",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "kenabres-region",
+   "name": "Kenabres Region",
+   "fit": {
+    "category": "locations",
+    "label": "Kenabres",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "canorate-region",
+   "name": "Canorate Region",
+   "fit": {
+    "category": "locations",
+    "label": "Canorate",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "tamran-region",
+   "name": "Tamran Region",
+   "fit": {
+    "category": "locations",
+    "label": "Tamran",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "azir-region",
+   "name": "Azir Region",
+   "fit": {
+    "category": "locations",
+    "label": "Azir",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "merab-region",
+   "name": "Merab Region",
+   "fit": {
+    "category": "locations",
+    "label": "Merab",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "niswan-region",
+   "name": "Niswan Region",
+   "fit": {
+    "category": "locations",
+    "label": "Niswan",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "thronestep-region",
+   "name": "Thronestep Region",
+   "fit": {
+    "category": "locations",
+    "label": "Thronestep",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
+  },
+  {
+   "key": "alkenstar-region",
+   "name": "Alkenstar Region",
+   "fit": {
+    "category": "locations",
+    "label": "Alkenstar City",
+    "radiusMi": 40
+   },
+   "gridType": "square",
+   "gridSize": 100,
+   "folder": "City Regions"
   }
  ]
 }

@@ -297,3 +297,22 @@ what users measure on the website. No canonical Golarion planet radius is
 authoritative enough to fight that.
 **Consequences:** High-latitude bakes inherit mercator distortion; distance is
 exact only at viewport center. Fine at region/city zooms; documented in README.
+
+## 2026-07-17 — Add-on round (92 scenes) + chunked import (socket-size hang)
+
+**Decision:** Added 32 scenes: 14 nations/regions (River Kingdoms, Shackles,
+Isger, Ravounel, Gravelands, Sarkoris Scar, Molthune, Nirmathas, Rahadoum,
+Thuvia, Jalmeray, Druma, Razmiran, Five Kings Mountains) + 18 city regions
+(Highhelm, Otari, Alkenstar, Whitethrone, Caliphas, Nantambu, Egorian,
+Daggermark, Pitax, Elidir, Vigil, Kenabres, Canorate, Tamran, Azir, Merab,
+Niswan, Thronestep). Total 92 scenes / 91 journals in both modules.
+**Hard-won:** Adventure#import() silently hangs at this content size — it
+ships the whole set in a few giant socket batches (~5k notes + journal pages
+with article text exceed what the websocket path handles). The settings-menu
+importer now does CHUNKED create/update (8 scenes / 4 journals per batch,
+keepId) — 40 s instead of a permanent hang. Never revert to sheet-based
+Adventure import. Also: never run two in-page bake loops concurrently (WebGL
+context exhaustion → "timed out waiting for map render").
+**Consequences:** Highhelm and other interior/underground cities can only get
+surface "Region" maps (no district data; their canonical maps are interiors).
+Tian Xia nations deferred to a dedicated round.
