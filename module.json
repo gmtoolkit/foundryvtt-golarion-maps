@@ -9,8 +9,8 @@
   },
   "authors": [
     {
-      "name": "gmtoolkit",
-      "url": "https://github.com/gmtoolkit"
+      "name": "Cliff Colvin",
+      "url": "https://github.com/cliffcolvin"
     }
   ],
   "esmodules": ["dist/module.js"],
@@ -44,10 +44,10 @@
       "path": "lang/en.json"
     }
   ],
-  "url": "https://github.com/gmtoolkit/foundryvtt-golarion-maps",
-  "manifest": "https://github.com/gmtoolkit/foundryvtt-golarion-maps/releases/latest/download/module.json",
-  "download": "https://github.com/gmtoolkit/foundryvtt-golarion-maps/releases/latest/download/module.zip",
-  "readme": "https://github.com/gmtoolkit/foundryvtt-golarion-maps#readme",
-  "bugs": "https://github.com/gmtoolkit/foundryvtt-golarion-maps/issues",
+  "url": "https://github.com/cliffcolvin/foundryvtt-golarion-maps",
+  "manifest": "https://github.com/cliffcolvin/foundryvtt-golarion-maps/releases/latest/download/module.json",
+  "download": "https://github.com/cliffcolvin/foundryvtt-golarion-maps/releases/latest/download/module.zip",
+  "readme": "https://github.com/cliffcolvin/foundryvtt-golarion-maps#readme",
+  "bugs": "https://github.com/cliffcolvin/foundryvtt-golarion-maps/issues",
   "license": "LICENSE"
 }

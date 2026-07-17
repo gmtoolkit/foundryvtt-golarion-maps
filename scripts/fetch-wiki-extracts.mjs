@@ -17,7 +17,7 @@ import { fileURLToPath } from "node:url";
 
 const API = "https://pathfinderwiki.com/w/api.php";
 const USER_AGENT =
-  "foundryvtt-golarion-maps gazetteer builder (https://github.com/gmtoolkit/foundryvtt-golarion-maps)";
+  "foundryvtt-golarion-maps gazetteer builder (https://github.com/cliffcolvin/foundryvtt-golarion-maps)";
 const BATCH = 10;
 const THROTTLE_MS = 600;
 

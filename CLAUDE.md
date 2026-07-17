@@ -2,7 +2,7 @@
 
 Foundry VTT module: create scenes from the PathfinderWiki interactive Golarion
 map (pf-wikis/mapping). Answers upstream issue pf-wikis/mapping#299. Owned by
-the gmtoolkit org; MIT code, map data under Paizo Community Use Policy.
+github.com/cliffcolvin/foundryvtt-golarion-maps; MIT code, map data under Paizo Community Use Policy.
 
 Read DECISIONS.md before changing anything structural — endpoint
 configurability, the style generation pipeline, and the maplibre version pin
