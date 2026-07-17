@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "hLDd8QSN4cqlA1GS",
+   "_id": "PDp3No2PHbTvSMCt",
    "name": "Magnimar",
    "index": 0,
    "background": {
@@ -26,7 +26,7 @@
  ],
  "notes": [
   {
-   "_id": "tK1NLPyPMp0GiS4S",
+   "_id": "ylMID32NlMx5Yx5X",
    "x": 2305,
    "y": 1628,
    "text": "Fifth Wind",
@@ -43,7 +43,7 @@
    }
   },
   {
-   "_id": "iEYqnU7kCmGiU59g",
+   "_id": "yvLQpt9c7fx013PJ",
    "x": 2669,
    "y": 1608,
    "text": "Osprey Club",
@@ -60,7 +60,7 @@
    }
   },
   {
-   "_id": "5s7oeE3OzLCkzoU1",
+   "_id": "2mqY96KsOFT8ufyB",
    "x": 2751,
    "y": 1602,
    "text": "Pediment Building",
@@ -77,7 +77,7 @@
    }
   },
   {
-   "_id": "inHXKlczKWvKVuoQ",
+   "_id": "cjzrlidq5NPxHSPe",
    "x": 2082,
    "y": 1591,
    "text": "Lost Lane",
@@ -94,7 +94,7 @@
    }
   },
   {
-   "_id": "rW3g82neRR2Fw8GQ",
+   "_id": "y6W6uDsYhFFBhK37",
    "x": 2187,
    "y": 1579,
    "text": "Jaijarko Castle",
@@ -111,7 +111,7 @@
    }
   },
   {
-   "_id": "bJz6D59k3jSKOjJL",
+   "_id": "S2u88hFSkVLg2MeM",
    "x": 2824,
    "y": 1557,
    "text": "Founder's Archive and Museum of Ages",
@@ -128,7 +128,7 @@
    }
   },
   {
-   "_id": "ZrRE1MKxyuOyapcn",
+   "_id": "Es3KMXSe6ACCMF7p",
    "x": 2260,
    "y": 1529,
    "text": "Harbormaster",
@@ -145,7 +145,7 @@
    }
   },
   {
-   "_id": "zMVbO4kgELbxIX9t",
+   "_id": "md4S1OpnjrZFK4uT",
    "x": 3027,
    "y": 1459,
    "text": "Versade Villa",
@@ -162,7 +162,7 @@
    }
   },
   {
-   "_id": "ArnOaeZpxbYPmHMW",
+   "_id": "O7pzZ13GVp2FtheN",
    "x": 2480,
    "y": 1450,
    "text": "Bazaar of Sails",
@@ -179,7 +179,7 @@
    }
   },
   {
-   "_id": "F0kL7EC6uBRLXle2",
+   "_id": "xfCQIkAje0QiGYD0",
    "x": 2587,
    "y": 1447,
    "text": "No-Horn",
@@ -196,7 +196,7 @@
    }
   },
   {
-   "_id": "e1GppceunoyRIMDZ",
+   "_id": "4TmWl3MaADhAV7e6",
    "x": 2086,
    "y": 1439,
    "text": "Battle of Charda",
@@ -213,7 +213,7 @@
    }
   },
   {
-   "_id": "9sQmiWxSC4blzwJl",
+   "_id": "YMfiR6tHRPXHD6GA",
    "x": 2761,
    "y": 1387,
    "text": "Golemworks",
@@ -230,7 +230,7 @@
    }
   },
   {
-   "_id": "3cw5hsnNPVcFdbe9",
+   "_id": "dy6ULasOuuWtU7Py",
    "x": 3017,
    "y": 1377,
    "text": "Mindurian Villa",
@@ -247,7 +247,7 @@
    }
   },
   {
-   "_id": "ELZIPFGpdc7wCRBS",
+   "_id": "vJ5WnJlHaO5yS5GQ",
    "x": 2097,
    "y": 1356,
    "text": "Wyrmwatch",
@@ -264,7 +264,7 @@
    }
   },
   {
-   "_id": "qfPB1DMJh77utWPG",
+   "_id": "bqcvr7lNvlhBMDDf",
    "x": 2562,
    "y": 1341,
    "text": "Gecko",
@@ -281,7 +281,7 @@
    }
   },
   {
-   "_id": "4TEu9cU4gKo0K8TB",
+   "_id": "87WB58DKzZZCGtHs",
    "x": 3018,
    "y": 1288,
    "text": "Vanderale Villa",
@@ -298,7 +298,7 @@
    }
   },
   {
-   "_id": "QDqavylmvvC7TsH1",
+   "_id": "7VdcpOfzo7BeIlqm",
    "x": 2635,
    "y": 1287,
    "text": "Shadow Clock",
@@ -315,7 +315,7 @@
    }
   },
   {
-   "_id": "GxKY8yF3rdXjONwJ",
+   "_id": "gZiy5TivG7QMuatJ",
    "x": 2496,
    "y": 1254,
    "text": "Gull",
@@ -332,7 +332,7 @@
    }
   },
   {
-   "_id": "KyaagXHf1q6KYpUX",
+   "_id": "1wlcivBaggkFnauT",
    "x": 3030,
    "y": 1191,
    "text": "Serpent's Run",
@@ -349,7 +349,7 @@
    }
   },
   {
-   "_id": "RSRLXhaAiwAMp5PX",
+   "_id": "mMpIGmtczLBChF7Z",
    "x": 2615,
    "y": 1165,
    "text": "Rat",
@@ -366,7 +366,7 @@
    }
   },
   {
-   "_id": "2sgc8HzcIifN2h6K",
+   "_id": "001YAtwbUm8vBlEh",
    "x": 2420,
    "y": 1153,
    "text": "Whale",
@@ -383,7 +383,7 @@
    }
   },
   {
-   "_id": "fsk7oJzJYbhoe6v0",
+   "_id": "f8YJx3MkHt1s5Pcx",
    "x": 3016,
    "y": 1068,
    "text": "Nirodin Villa",
@@ -400,7 +400,7 @@
    }
   },
   {
-   "_id": "OWWE9qKfrkQBX5uq",
+   "_id": "VN0uwAERt6TxsIWC",
    "x": 2531,
    "y": 1065,
    "text": "Salmon",
@@ -417,7 +417,7 @@
    }
   },
   {
-   "_id": "kEfPkHeiqjJId7Ak",
+   "_id": "hvEpHJ8GFeM0DSmY",
    "x": 2350,
    "y": 1063,
    "text": "Firepelt",
@@ -434,7 +434,7 @@
    }
   },
   {
-   "_id": "9udV4YJ7rPfe1VR2",
+   "_id": "FnIoO7lDUMwCQowa",
    "x": 2284,
    "y": 979,
    "text": "Crow",
@@ -451,7 +451,7 @@
    }
   },
   {
-   "_id": "5BJKScujg42wAIjx",
+   "_id": "PEi51HnTAtCLcBrg",
    "x": 2464,
    "y": 976,
    "text": "Osprey",
@@ -468,7 +468,7 @@
    }
   },
   {
-   "_id": "3qKcfnNskmkqLDBX",
+   "_id": "Ih2HLDhqrUVqI20J",
    "x": 2920,
    "y": 946,
    "text": "Fort Indros",
@@ -485,7 +485,7 @@
    }
   },
   {
-   "_id": "WNDcQzFKO00Hz4bP",
+   "_id": "uiZM1A2iwH3Ez7m0",
    "x": 2396,
    "y": 891,
    "text": "Shark",
@@ -502,7 +502,7 @@
    }
   },
   {
-   "_id": "hFZFeS89YjFUoGLH",
+   "_id": "AOW34773K11DgEdA",
    "x": 1594,
    "y": 1877,
    "text": "Mistress of Angels",
@@ -519,7 +519,7 @@
    }
   },
   {
-   "_id": "kXrT95PEEUAsMJnM",
+   "_id": "4EBQnaGznTD8kZYK",
    "x": 1630,
    "y": 1801,
    "text": "Embassy Building",
@@ -536,7 +536,7 @@
    }
   },
   {
-   "_id": "9a2EpvPia80fCjUD",
+   "_id": "q1DUPYDRUmzlFbnS",
    "x": 1502,
    "y": 1707,
    "text": "Billivin's Benevolent Balms and Effulgent Elixirs",
@@ -553,7 +553,7 @@
    }
   },
   {
-   "_id": "x6EXgO5GV8QLPls6",
+   "_id": "3aMrCOLox7rhZ8iv",
    "x": 1590,
    "y": 1636,
    "text": "Red Kestrel Imports",
@@ -570,7 +570,7 @@
    }
   },
   {
-   "_id": "PLNfxROWTCcxfkrk",
+   "_id": "0WX8FyTLzgWb8a1n",
    "x": 2911,
    "y": 2060,
    "text": "Boria's",
@@ -587,7 +587,7 @@
    }
   },
   {
-   "_id": "9VRZ9Z4zHwULhp2o",
+   "_id": "Y4VJnVkzChLZbPVY",
    "x": 2074,
    "y": 2006,
    "text": "Bent Rib Alley",
@@ -604,7 +604,7 @@
    }
   },
   {
-   "_id": "AKqeuYxvsqNCZU9A",
+   "_id": "7pN0McKbhsPgxS6v",
    "x": 2521,
    "y": 2004,
    "text": "Arvensoar",
@@ -621,7 +621,7 @@
    }
   },
   {
-   "_id": "ztLAYYVX4zHPiPrR",
+   "_id": "mJISz5jNtM5a8prI",
    "x": 2673,
    "y": 1986,
    "text": "Temple of Iomedae",
@@ -638,7 +638,7 @@
    }
   },
   {
-   "_id": "dR9Y6ff4SfxcqvC9",
+   "_id": "jUOiQaeLSU3PeGIy",
    "x": 2209,
    "y": 1980,
    "text": "Dome of the Savored Sting",
@@ -655,7 +655,7 @@
    }
   },
   {
-   "_id": "y0VGFzfEjn1r0OWu",
+   "_id": "v6gbzoitM8W2X9sN",
    "x": 2130,
    "y": 1944,
    "text": "Aquaretum",
@@ -672,7 +672,7 @@
    }
   },
   {
-   "_id": "cFOThsuddGOHWpyn",
+   "_id": "4CA4CzNRCogLJ5GA",
    "x": 1675,
    "y": 1912,
    "text": "Pug's Contraptions",
@@ -689,7 +689,7 @@
    }
   },
   {
-   "_id": "svpRkaivPmf0JMNn",
+   "_id": "CfPq91k5aOWNE3WG",
    "x": 3003,
    "y": 1905,
    "text": "Triodea",
@@ -706,7 +706,7 @@
    }
   },
   {
-   "_id": "ezjFf6UoysCDXrZY",
+   "_id": "Z0aDEpmRAFDMrQuI",
    "x": 2436,
    "y": 1901,
    "text": "Courtesan and Unicorn",
@@ -723,7 +723,7 @@
    }
   },
   {
-   "_id": "HKXVoVhKo1845Ssu",
+   "_id": "zIE7d2xnrVwxjSub",
    "x": 2210,
    "y": 1889,
    "text": "Deadeye Lodge",
@@ -740,7 +740,7 @@
    }
   },
   {
-   "_id": "ctgc4ZPJo6t9ULgW",
+   "_id": "X69smJY16xh5XOy0",
    "x": 1827,
    "y": 1888,
    "text": "Cynosure Tower",
@@ -757,7 +757,7 @@
    }
   },
   {
-   "_id": "x3U0KtoVLL8vv16Q",
+   "_id": "2yrkR5pG8qjBade7",
    "x": 2589,
    "y": 1881,
    "text": "Defiant's Garden",
@@ -774,7 +774,7 @@
    }
   },
   {
-   "_id": "9Pv9lRa43RibPZjN",
+   "_id": "H4NVwzNOGGof9Z8a",
    "x": 1930,
    "y": 1873,
    "text": "Burn",
@@ -791,7 +791,7 @@
    }
   },
   {
-   "_id": "29HrMgbhsvkdFriq",
+   "_id": "TgMIGwKN101Rkcp4",
    "x": 2355,
    "y": 1851,
    "text": "Dreaming Dryad",
@@ -808,7 +808,7 @@
    }
   },
   {
-   "_id": "sEzvNWLVDQuMqdl0",
+   "_id": "usoqdajCgvXFrtEo",
    "x": 3043,
    "y": 1829,
    "text": "House of Lords",
@@ -825,7 +825,7 @@
    }
   },
   {
-   "_id": "eP1SiXqlTRPj2ddl",
+   "_id": "MHwyZ5XYhQ6Plyex",
    "x": 2156,
    "y": 1824,
    "text": "Stone of the Seers",
@@ -842,7 +842,7 @@
    }
   },
   {
-   "_id": "pjFxr4Mf4GjDCZot",
+   "_id": "2lCmdf0wSfWeibG1",
    "x": 1726,
    "y": 1820,
    "text": "Seven's Sawmill",
@@ -859,7 +859,7 @@
    }
   },
   {
-   "_id": "w9TbrxKXpDz0IX2f",
+   "_id": "DAxPKI5HCi8cQKCx",
    "x": 2680,
    "y": 1778,
    "text": "Cathedral of Abadar",
@@ -876,7 +876,7 @@
    }
   },
   {
-   "_id": "04aygMYVm7fnwZqI",
+   "_id": "i8Ke32Dpgc1XeTCW",
    "x": 2587,
    "y": 1763,
    "text": "Deverin Villa",
@@ -893,7 +893,7 @@
    }
   },
   {
-   "_id": "1sLD6CAwTGhJfX9r",
+   "_id": "ZBIYqzk6S1vbKR7B",
    "x": 2426,
    "y": 1759,
    "text": "Fancy Reefclaw",
@@ -910,7 +910,7 @@
    }
   },
   {
-   "_id": "KOTZIDQtQgQwMAaL",
+   "_id": "dghQEfMJ7EqG0TiM",
    "x": 3073,
    "y": 1751,
    "text": "Heidmarch Manor",
@@ -927,7 +927,7 @@
    }
   },
   {
-   "_id": "VSXEnxLacPfhPsOf",
+   "_id": "UckTEsyXCj7Nc2WY",
    "x": 2935,
    "y": 1749,
    "text": "Lord-Mayor's Menagerie",
@@ -944,7 +944,7 @@
    }
   },
   {
-   "_id": "NvS2OVHJlIvh69xK",
+   "_id": "gfwJ9bSsEn4Hum61",
    "x": 1963,
    "y": 1719,
    "text": "Pig",
@@ -961,7 +961,7 @@
    }
   },
   {
-   "_id": "jsp3xkVaNsNqyJtU",
+   "_id": "cqgOrKi0akXzv4aq",
    "x": 2993,
    "y": 1662,
    "text": "Derexhi Villa",
@@ -978,7 +978,7 @@
    }
   },
   {
-   "_id": "Wsxrn27QF2gK5gXu",
+   "_id": "wPwyBcMeVaTlTE28",
    "x": 2533,
    "y": 1644,
    "text": "Bronze House",
@@ -995,8 +995,8 @@
    }
   }
  ],
+ "thumb": "modules/foundryvtt-golarion-maps/assets/thumbs/magnimar-city.webp",
  "__key": "magnimar-city",
  "__folder": "Cities",
- "_id": "4JVKxQVJ2EZNsWW6",
- "thumb": "modules/foundryvtt-golarion-maps/assets/thumbs/magnimar-city.webp"
+ "_id": "MeXvWMY2vifLwU0X"
 }

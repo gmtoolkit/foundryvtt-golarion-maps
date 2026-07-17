@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "241eFfMH9il353jS",
+   "_id": "8LmvfsoRhrNKi6mq",
    "name": "Almas",
    "index": 0,
    "background": {
@@ -26,7 +26,7 @@
  ],
  "notes": [
   {
-   "_id": "VI01EN7fT41MPQ9z",
+   "_id": "f23pjXTyKakGndnr",
    "x": 3316,
    "y": 1609,
    "text": "Avenue of the Gods",
@@ -43,7 +43,7 @@
    }
   },
   {
-   "_id": "GuswyWzmX2p07HHF",
+   "_id": "iKMNgaQHE53ryoxx",
    "x": 3619,
    "y": 1538,
    "text": "Godsgate",
@@ -60,7 +60,7 @@
    }
   },
   {
-   "_id": "576GJsBvCFUmieia",
+   "_id": "7UKTznj8kqtyV7UO",
    "x": 3387,
    "y": 1527,
    "text": "Almas University",
@@ -77,7 +77,7 @@
    }
   },
   {
-   "_id": "nW8kTfuN6cso7Zyk",
+   "_id": "kv3pFGwNr7rPN6eY",
    "x": 2683,
    "y": 1483,
    "text": "Almas",
@@ -94,7 +94,7 @@
    }
   },
   {
-   "_id": "nVBCTk91XxZf0atO",
+   "_id": "U9THDUHFZI7GRDsH",
    "x": 3087,
    "y": 1447,
    "text": "Golden Aerie",
@@ -111,7 +111,7 @@
    }
   },
   {
-   "_id": "CwMeL6151rTWB5rH",
+   "_id": "XmfKGg0kJWmiATIF",
    "x": 3515,
    "y": 1441,
    "text": "Golden Cathedral",
@@ -128,7 +128,7 @@
    }
   },
   {
-   "_id": "unShxQGFpHxu8ZNq",
+   "_id": "Vw9usF3AaGp2VP52",
    "x": 2799,
    "y": 1410,
    "text": "Citadel of the Supreme Elect",
@@ -145,7 +145,7 @@
    }
   },
   {
-   "_id": "w54u7QRR9DpaAoMX",
+   "_id": "R6PDRXWIQqnN0Akb",
    "x": 1804,
    "y": 1818,
    "text": "Iron and Hoof Gate",
@@ -162,7 +162,7 @@
    }
   },
   {
-   "_id": "zCJ38XnG384QuDMT",
+   "_id": "gmFGT2jW8qN7oWsD",
    "x": 2904,
    "y": 2140,
    "text": "Benedict's Hope",
@@ -179,7 +179,7 @@
    }
   },
   {
-   "_id": "iUiLZMuDPGDT40Js",
+   "_id": "NMfGlkdsehZlvI4r",
    "x": 2197,
    "y": 1931,
    "text": "Balmore's Canal",
@@ -196,7 +196,7 @@
    }
   },
   {
-   "_id": "yTgWCl5RQxNxFWL7",
+   "_id": "Qb9ayRCjFzPFb86s",
    "x": 3252,
    "y": 1784,
    "text": "Well of Gorum",
@@ -213,7 +213,7 @@
    }
   },
   {
-   "_id": "k4ZexCq9PJe1slKa",
+   "_id": "x8yoxboA7L0YvDUl",
    "x": 3495,
    "y": 1720,
    "text": "Grand Exchange",
@@ -230,8 +230,8 @@
    }
   }
  ],
+ "thumb": "modules/foundryvtt-golarion-maps/assets/thumbs/almas-city.webp",
  "__key": "almas-city",
  "__folder": "Cities",
- "_id": "7rDLJ5HScgwGsSmf",
- "thumb": "modules/foundryvtt-golarion-maps/assets/thumbs/almas-city.webp"
+ "_id": "V0os5k4A90R3kRDU"
 }

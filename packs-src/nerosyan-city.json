@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "fvZSMh2TR4Q6RsNa",
+   "_id": "9Yc7m8xAFYZ7nU86",
    "name": "Nerosyan",
    "index": 0,
    "background": {
@@ -26,7 +26,7 @@
  ],
  "notes": [
   {
-   "_id": "Dpp2NBAaEq4wXEhn",
+   "_id": "GEwXZP9W7aDNjOfV",
    "x": 1776,
    "y": 1857,
    "text": "Academy of the Reclamation",
@@ -43,7 +43,7 @@
    }
   },
   {
-   "_id": "fcKKsHce5EMtPYlk",
+   "_id": "oRAa20VNrwajf2u3",
    "x": 1571,
    "y": 1810,
    "text": "Starrise Spire",
@@ -60,7 +60,7 @@
    }
   },
   {
-   "_id": "IZumqm5RxbAnJjdv",
+   "_id": "x2Jwckpfvcw0RL7h",
    "x": 2307,
    "y": 1535,
    "text": "Nerosyan",
@@ -77,8 +77,8 @@
    }
   }
  ],
+ "thumb": "modules/foundryvtt-golarion-maps/assets/thumbs/nerosyan-city.webp",
  "__key": "nerosyan-city",
  "__folder": "Cities",
- "_id": "LwgQypOkffx0OqYl",
- "thumb": "modules/foundryvtt-golarion-maps/assets/thumbs/nerosyan-city.webp"
+ "_id": "L1Irr4vYy3qomTtQ"
 }

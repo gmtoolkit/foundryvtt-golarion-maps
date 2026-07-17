@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "XyXQyb904MpnsOd8",
+   "_id": "IgAbfOGpVb0zyOxY",
    "name": "Urgir",
    "index": 0,
    "background": {
@@ -26,7 +26,7 @@
  ],
  "notes": [
   {
-   "_id": "rbfS7kQICruhJ6Ie",
+   "_id": "ZhYLT2mhD552jDEM",
    "x": 2013,
    "y": 1541,
    "text": "Market District",
@@ -43,7 +43,7 @@
    }
   },
   {
-   "_id": "UBkfgZynxljcu1r4",
+   "_id": "k141ArqpAMjq6LuG",
    "x": 2375,
    "y": 1705,
    "text": "Sharpened Axe",
@@ -60,7 +60,7 @@
    }
   },
   {
-   "_id": "j0nq5J96j5pxeNvk",
+   "_id": "vW1kUzvD2QgQkndN",
    "x": 2317,
    "y": 1541,
    "text": "Urgir",
@@ -77,7 +77,7 @@
    }
   },
   {
-   "_id": "Vh2dgKyG8vJq38Vw",
+   "_id": "2U5wXgAP3kUpTdML",
    "x": 2600,
    "y": 1540,
    "text": "Great Palace",
@@ -94,7 +94,7 @@
    }
   },
   {
-   "_id": "acojCA8nLwiKtctV",
+   "_id": "JIlE34yl9OQNzsU6",
    "x": 2448,
    "y": 1400,
    "text": "Halls of the Closed Fist",
@@ -111,8 +111,8 @@
    }
   }
  ],
+ "thumb": "modules/foundryvtt-golarion-maps/assets/thumbs/urgir-city.webp",
  "__key": "urgir-city",
  "__folder": "Cities",
- "_id": "MSVxrFH3k9sHtbW5",
- "thumb": "modules/foundryvtt-golarion-maps/assets/thumbs/urgir-city.webp"
+ "_id": "9e9dKLJ1lMDl6Oli"
 }

@@ -98,10 +98,10 @@ async function buildNotes(
   let rendered = map
     .queryRenderedFeatures(undefined, { layers: ["location-icons"] })
     .filter((f: any) => f.geometry?.type === "Point");
-  // Dense views (nation/region zoom) render hundreds of generic POI dots;
-  // keep settlement markers only there. Sparse views (city environs) keep
-  // every marker, where landmarks are the point.
-  if (rendered.length > 60) {
+  // Dense views at nation/region zoom render hundreds of generic POI dots;
+  // keep settlement markers only there. At city zoom (>= 9) every marker IS
+  // the content (landmarks, buildings), so never settlement-filter those.
+  if (rendered.length > 60 && view.zoom < 9) {
     rendered = rendered.filter((f: any) =>
       /city|town|village|capital/.test(String(f.properties?.icon ?? ""))
     );
@@ -126,8 +126,10 @@ async function buildNotes(
   const notes: Record<string, unknown>[] = [];
   const seen = new Set<string>();
   // Match tolerance shrinks with zoom: 0.03° is fine at nation scale but at
-  // city zoom neighboring buildings are far closer together than that.
-  const threshold = 0.03 / Math.max(1, 2 ** (view.zoom - 6));
+  // city zoom neighboring buildings are far closer together than that. Floor
+  // at ~150 m: overzoomed tiles quantize positions to the z8 tile grid
+  // (~40 m), so a tighter tolerance starts missing legitimate matches.
+  const threshold = Math.max(0.03 / Math.max(1, 2 ** (view.zoom - 6)), 0.0015);
   for (const f of rendered) {
     const [lng, lat] = f.geometry.coordinates;
     let best: { label: string; d: number } | null = null;

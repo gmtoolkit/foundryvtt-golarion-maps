@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "52OVihxnb3pDO3Yy",
+   "_id": "GTTJUEUyvs7Y8mhe",
    "name": "Vyre",
    "index": 0,
    "background": {
@@ -26,7 +26,7 @@
  ],
  "notes": [
   {
-   "_id": "mLBPebwsW7BQ6RBx",
+   "_id": "8pbSqXhsGoVXWCbv",
    "x": 2603,
    "y": 1505,
    "text": "Vyre",
@@ -43,8 +43,8 @@
    }
   }
  ],
+ "thumb": "modules/foundryvtt-golarion-maps/assets/thumbs/vyre-city.webp",
  "__key": "vyre-city",
  "__folder": "Cities",
- "_id": "24TIWP81ZGIQ9e9v",
- "thumb": "modules/foundryvtt-golarion-maps/assets/thumbs/vyre-city.webp"
+ "_id": "toicuNQcQlyaOrg9"
 }

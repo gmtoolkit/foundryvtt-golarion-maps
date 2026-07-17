@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "jA22nZgxH8lLgpB4",
+   "_id": "KCSO0e4h2JfE3r1p",
    "name": "Ilizmagorti",
    "index": 0,
    "background": {
@@ -26,7 +26,7 @@
  ],
  "notes": [
   {
-   "_id": "C9tMSzLFWVdWUHBk",
+   "_id": "rsIB4XOZaJQsno5U",
    "x": 2253,
    "y": 1769,
    "text": "Hospice of Serenity",
@@ -43,7 +43,7 @@
    }
   },
   {
-   "_id": "FAFTtjggtAizX3x2",
+   "_id": "4QLpSJr3kCUXIV5K",
    "x": 2193,
    "y": 1656,
    "text": "Pagoda of the Mantis",
@@ -60,7 +60,7 @@
    }
   },
   {
-   "_id": "fu1kKb3YSKJD0LUa",
+   "_id": "ATVHHmVKbpGzmzWg",
    "x": 2323,
    "y": 1651,
    "text": "Bargecrew's Guild Headquarters",
@@ -77,7 +77,7 @@
    }
   },
   {
-   "_id": "CBCB72rKU79FLhDc",
+   "_id": "8Owm0OfZQuHPae0t",
    "x": 2014,
    "y": 1548,
    "text": "Mantis Stone",
@@ -94,7 +94,7 @@
    }
   },
   {
-   "_id": "OAXmc2V8pglhb6Pm",
+   "_id": "et836UHjybvJzElX",
    "x": 2463,
    "y": 1520,
    "text": "Besmara's House",
@@ -111,7 +111,7 @@
    }
   },
   {
-   "_id": "xcgsRV8Hq9n7vyhb",
+   "_id": "CmqjOrKnz49O1OD6",
    "x": 2223,
    "y": 1490,
    "text": "Ilizmagorti",
@@ -128,7 +128,7 @@
    }
   },
   {
-   "_id": "UX4P7Xx79n2EeCyv",
+   "_id": "ZvoZDivh2LtMbniJ",
    "x": 2416,
    "y": 1401,
    "text": "Seaside Betty's",
@@ -145,7 +145,7 @@
    }
   },
   {
-   "_id": "BLhBXO6lIrLPhSuM",
+   "_id": "eLBVZbeWiy073gYM",
    "x": 2481,
    "y": 1344,
    "text": "Obari Imports",
@@ -162,7 +162,7 @@
    }
   },
   {
-   "_id": "SjtIp7NRtuChkeEB",
+   "_id": "ww2HJLqfxUnwFTQa",
    "x": 2287,
    "y": 1337,
    "text": "Murdered Manticore",
@@ -179,7 +179,7 @@
    }
   },
   {
-   "_id": "1G4KVnRUa3kh1qsy",
+   "_id": "23XlUXTO1cYhp7Vi",
    "x": 2150,
    "y": 1318,
    "text": "Jungle Runners",
@@ -196,8 +196,8 @@
    }
   }
  ],
+ "thumb": "modules/foundryvtt-golarion-maps/assets/thumbs/ilizmagorti-city.webp",
  "__key": "ilizmagorti-city",
  "__folder": "Cities",
- "_id": "jaabeHXIT0z3QQM1",
- "thumb": "modules/foundryvtt-golarion-maps/assets/thumbs/ilizmagorti-city.webp"
+ "_id": "wN1xfBHuh2g47Xzc"
 }

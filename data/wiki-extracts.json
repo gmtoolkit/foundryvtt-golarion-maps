@@ -7318,5 +7318,781 @@
   "url": "https://pathfinderwiki.com/wiki/Sanqatada_Cinqarda",
   "extract": "<p>The <b>Sanqatada Cinqarda</b>, the <b>Cathedral of the Five Founders</b>, is an immense cathedral dedicated to the five founders of Westcrown, which predates Cheliax and Andoran as provinces of the empire. The facade remains shining, refusing any attempt to deface it in any way.<span></span> The 30-foot-tall limestone statues beside each doorway stand on Turanian greenstone columns and represent one of the founders: Dotara, Palmor, Rixana, Adel, and Crucisal.<span></span>\n</p>",
   "retrieved": "2026-07-17"
+ },
+ "College of Mysteries": {
+  "title": "College of Mysteries",
+  "url": "https://pathfinderwiki.com/wiki/College_of_Mysteries",
+  "extract": "<p>The <b>College of Mysteries</b> (formerly known as the <b>House of Secrets</b>) is the oldest school of magic in Absalom and is located in the Petal District. The college has a superb reputation in the city and is favored by a number of organisations, such the Javelin Gallery, whom they aid by enchanting weapons.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "White Grotto": {
+  "title": "White Grotto",
+  "url": "https://pathfinderwiki.com/wiki/White_Grotto",
+  "extract": "<p><b>White Grotto</b> is the premier bardic college in Absalom where the students learn the art of using magic to enhance all forms of entertainment.<span></span> The school is located in the upscale Ivy District.<span></span>\n</p><p>The college is not associated with any guilds, but pays the Ivy District Council and the district's larger businesses and establishments to allow their students to perform without worrying about repercussions. Students wear uniforms that reflect their rank—green for apprentices, blue for journeymen, and black for masters. Graduates can no longer enjoy the school's support, and have to figure out how they will earn a living themselves.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Spiralcross Cemetery": {
+  "title": "Spiralcross Cemetery",
+  "url": "https://pathfinderwiki.com/wiki/Spiralcross_Cemetery",
+  "extract": "<p><br>\nThe <b>Spiralcross Cemetery</b> is the largest and most prestigious cemetery in all of Absalom, where Primarch]s, nobles, and high priests are buried. Located next to the Ahnkamen Estate, this cemetery is a labyrinth of vaults and shrines belonging to families with over four millennia of history. A large church of Pharasma stands among the tombs, and its presence, along with the proximity to Mother Jackal, means that few undead awaken in the area.<span></span>\n</p><p>There are several ghost stories about the place, but only one seems true: white orbs are seen moving through the cemetery at night, and it is said that they may be codes used by spies in the city, although no one has confirmed their purpose.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Palace of Thirteen Spires": {
+  "title": "Palace of Thirteen Spires",
+  "url": "https://pathfinderwiki.com/wiki/Palace_of_Thirteen_Spires",
+  "extract": "<p>The <b>Palace of Thirteen Spires</b> is a small but opulent palace in the Wise Quarter, divided into four wings, each in a Chelaxian, Osirian, Taldan, and Minkan style. For most of the year, the rooms are rented to merchants and nobles visiting the city.<span></span> The White Grotto holds the contract to the estate, working with the Wise Council to manage the building exclusively, a fact that greatly displeases the Arcanamirium. When a head of state visits, everyone else is evicted so the best rooms can be reserved for royalty, and the money raised goes toward public works and scholarships.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Tempest": {
+  "title": "Tempest",
+  "url": "https://pathfinderwiki.com/wiki/Tempest",
+  "extract": "<p><b>Tempest</b> is a nightclub in the Ivy District that was formerly a theater with a second floor containing apartments. Thanks to the illusions employed by the establishment, an esoteric and incomprehensible aesthetic is revealed, even though the common man is not permitted entry if they were the establishment would make no sense to them. Models pose in strange clothing, and niche artists use the stage for plays whose symbolism is convolutedly difficult to understand. The second floor is reserved for the elite, serving as the apartment of a painter whose disturbing murals cover the walls and who hated both affection and wealth. The sealed balcony is the residence of Zozzler Vondorun, the High Priest of Zon-Kuthon in Absalom, and with a touch of his hand, he can reveal the secret temple hidden behind the grotesque paintings.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Thistleguard Station": {
+  "title": "Thistleguard Station",
+  "url": "https://pathfinderwiki.com/wiki/Thistleguard_Station",
+  "extract": "<p>The <b>Thistleguard Station</b> is the base from which the Ivy District guard operates. Located north of the Ivy District Park, it has a holding cell for up to 10 criminals to be detained until they are prosecuted. The Thistleguard does not concern itself with minor crimes, as it wishes to maintain a smooth relationship with the neighborhoods, and instead only goes after violent acts that disrupt the residents. One exception to this system is that performers who are not members of the Street Performers and Actors' Guild are more frequently arrested by the guard, and it doesn't take a genius to connect the conflicting interests with Nomarch Alain Always. They come into conflict with the Brotherhood of Abadar, which wants the law to be followed to the fullest extent, and nobles and merchants hire them to protect their merchandise since the guard does not investigate incidents of theft.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Wandering Monster": {
+  "title": "Wandering Monster",
+  "url": "https://pathfinderwiki.com/wiki/Wandering_Monster",
+  "extract": "<p>The <b>Wandering Monster</b> is an irregular park maintained by the Ivy District's leshy population. It features an open-air amphitheater that circumvents the rules prohibiting unregistered artists outside the Street Performers and Actors' Guild from performing. It is therefore popular with traveling artists who enjoy nature, and because the Nomarch keeps a watchful eye on who performs here, artists often wear masks to conceal their identities. The Thistleguard used to patrol the area, removing anyone attempting to get on stage, but now the Brotherhood of Abadar maintains at least one member on site at all times to prevent people from being removed unless they actually break the law.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Uiry Manor Museum": {
+  "title": "Uiry Manor Museum",
+  "url": "https://pathfinderwiki.com/wiki/Uiry_Manor_Museum",
+  "extract": "<p>The <b>Uiry Manor Museum</b> was the residence of this noble family who held considerable influence in the city until 4673 AR. One night, a stranger arrived at the house, invited by the Scion Lord and when the butler went to another manor to get more wine, he returned to find a scene of carnage; everyone was dead, from the nobles to the children of the servants. The crime was never solved, and the family turned the house into a museum to avoid falling into poverty. Several guides explain the history of the artifacts and theories about how the murders might have occurred. Scion Lady Veridel was a schoolgirl when her family was murdered, and although she refuses to sleep in the manor, she also refuses to sell it for reasons that remain unclear.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Grand Council Hall": {
+  "title": "Grand Council Hall",
+  "url": "https://pathfinderwiki.com/wiki/Grand_Council_Hall",
+  "extract": "<p>The <b>Grand Council Hall</b> is a magnificent, large white marble structure where the city's most influential people meet to discuss the city's laws and administration. The 49 members of the Low Council meet monthly in a large hall with alcoves and stone thrones, where the acoustics provide good communication over long distances, though paradoxically, they also offer privacy for quiet conversations. Above these alcoves are the 13 seats of the High Council, which are in every respect superior to the others, and its members rarely appear in public except on the rare occasions when the entire body must vote on a motion, as they prefer to hold these debates in private rooms around the city.<span></span> \n</p><p>The general public can attend if they possess one of the tablets granted to the councillors, which in theory should be given to the city's military and heroes, but in practice end up in the hands of corrupt merchants and nobles who want to be close to those in power to see if they can plunder something like vultures. A series of underground passages connect to factories and scriptoriums where the council's bureaucracy is on full display, and the entire system is protected by a private guard at the service of the institution itself.<span></span> \n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Kin Gate": {
+  "title": "Kin Gate",
+  "url": "https://pathfinderwiki.com/wiki/Kin_Gate",
+  "extract": "<p>The <b>Kin Gate</b> is located in the northeast of Absalom. It was originally a siege castle, commissioned by the fey prince Juroveal during the Siege of Kin, but when he was banished, the fortification was merged with the rest of the city.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Arcanamirium": {
+  "title": "Arcanamirium",
+  "url": "https://pathfinderwiki.com/wiki/Arcanamirium",
+  "extract": "<p>The <b>Arcanamirium</b> is not only the largest and oldest school in Absalom, but quite possibly the most prestigious arcane magic academy in the entire Inner Sea region of Golarion.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Forae Logos": {
+  "title": "Forae Logos",
+  "url": "https://pathfinderwiki.com/wiki/Forae_Logos",
+  "extract": "<p>Also known as the <b>Wise House</b> and <b>Library of Kortos</b>, the <b>Forae Logos</b> in Absalom's Wise Quarter is the city's oldest and largest library, and one of the most extensive archives of written texts west of the Pit of Gormuz.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Lantern Lodge": {
+  "title": "Lantern Lodge",
+  "url": "https://pathfinderwiki.com/wiki/Lantern_Lodge",
+  "extract": "<dl><dd><i>For other meanings of \"<b>Lantern Lodge</b>\", please see Lantern Lodge (disambiguation).</i></dd></dl>\n<p>After being purchased by Venture-Captain Amara Li for a large sum of money, the <b>Lantern Lodge</b> in the Petal District<span></span> of Absalom reflects the finest culture that the city has to offer. During her many trips to Absalom, she purchased many furnishings for the lodge and has brought them back to Goka, currently on display even today. The lodge is kept extremely clean and Amara Li expects her guests to conduct themselves professionally. Any Pathfinder who is heading on a long journey usually stops by this lodge before leaving.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Ahnkamen Estate": {
+  "title": "Ahnkamen Estate",
+  "url": "https://pathfinderwiki.com/wiki/Ahnkamen_Estate",
+  "extract": "<p>The <b>Ahnkamen Estate</b> is a beautiful Osirian-style manor with magnificent gardens that are frequently visited for the parties held every two weeks. These are the most fun in town, and no one realizes that beneath them lie cellars with temples to Yog-Sothoth and other Outer Gods, the extensive residence of Mother Jackal, who uses illusions and abjurations to maintain the secrecy of her existence. The Eaters of Knowledge also operate in the area, taking bodies from the city's prisons and serving them to their mistress. Only the most influential in House Ahnkamen, such as Scion Lady Neferpatra, know of their progenitor's existence, and it is their knowledge, which predates the existence of Ancient Osirion, that allowed them to rise to masters in matters of law and death.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Gutless Griffon": {
+  "title": "Gutless Griffon",
+  "url": "https://pathfinderwiki.com/wiki/Gutless_Griffon",
+  "extract": "<p>The <b>Gutless Griffon</b> is a tavern in the Ivy District that has become very popular thanks to its owner, Fronsac Shimm. He chooses the food and the music, but above all, it's his lively attitude that makes him so appealing. He introduces himself to new patrons by telling anecdotes or serving drinks. His popularity even earned him a seat on the Grand Council, giving him a rags-to-riches story that only makes him more likable.<span></span> The establishment boasts a taproom and balconies furnished with the finest furniture, and bards who are excluded from the Street Performers and Actors' Guild are welcome. Shimm has a mutual animosity with Alain Always, even though they were once best friends. They respect each other and generally don't interfere in each other's affairs, but since the Brotherhood of Abadar often hangs out at the tavern, the rift between them only widens. One of the first things you notice upon entering is its large fireplace and hearth, where the craziest stories from all over the Inner Sea are told.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Withrun House": {
+  "title": "Withrun House",
+  "url": "https://pathfinderwiki.com/wiki/Withrun_House",
+  "extract": "<p>The <b>Withrun House</b> is a school founded by Kalistocrats who instill their doctrine in the children of Absalom's wealthiest families, who are unaware of the cult's control. Due to its similarity to the Prophet's Academy, it maintains a rivalry with them. They also have their own team of ruk called the Withrun Wraiths.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Kyonin Embassy": {
+  "title": "Kyonin Embassy",
+  "url": "https://pathfinderwiki.com/wiki/Kyonin_Embassy",
+  "extract": "<p>The <b>Kyonin Embassy</b> is located in the Ivy District, a gathering place for artists and a haven for the free-spirited elves of the forest nation. The manor house is built in the Castrovel style, and a number of ambassadors are rotating through, pursuing the nation's goals in Absalom. Rumors suggest that Queen Telandia Edasseril will visit the city to discuss something with Wynsal Starborn in person.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Madinani Manor": {
+  "title": "Madinani Manor",
+  "url": "https://pathfinderwiki.com/wiki/Madinani_Manor",
+  "extract": "<p>The <b>Madinani Manor</b> is an imposing estate with a white wall, gardens with plants used for arcane or alchemical purposes, and a three-story building in the center. This impressive structure serves as the home of Lady Darchana, one of Absalom's most prominent political figures and a master of arcane magic.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Wisdom's Refuge": {
+  "title": "Wisdom's Refuge",
+  "url": "https://pathfinderwiki.com/wiki/Wisdom%27s_Refuge",
+  "extract": "<p><b>Wisdom's Refuge</b> is where the district's Wise Council conducts its administrative activities, focusing on education and the arts. To further their goals, many institutions dedicated to preserving history or knowledge receive reduced taxes, which are then passed on to students at the district's numerous schools and academies. Many council members have studied at the Arcanamirium, so they are aware of the dangers of magic manipulating elections and ensure that all processes adhere to the district's philosophy of fairness.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Daltus Academy": {
+  "title": "Daltus Academy",
+  "url": "https://pathfinderwiki.com/wiki/Daltus_Academy",
+  "extract": "<p>The <b>Daltus Academy</b> is a boarding school that occupies an entire block of the district where its campus, dormitories, and classrooms are located. Students at this academy are often involved in fights and are viewed unfavorably by the other residents of the district who tend to avoid them.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Brine": {
+  "title": "Brine",
+  "url": "https://pathfinderwiki.com/wiki/Brine",
+  "extract": "<dl><dd><i>For other meanings of \"<b>Brine</b>\", please see Brine (disambiguation).</i></dd></dl>\n<p><b>The Brine</b> is an imposing stone prison house located in the Puddles district in Absalom. Lady Seichya of House Tevineg serves as the prison's head warden.<span></span>\n</p><p>Ever since the regular flooding of the district, The Brine has ensured a slow but certain death for the criminals within. The holding pens is usually soaked with at least a foot of water from the flooding, but also raw sewage washes in from time to time, typically resulting in outbreaks of filth fever and general sickness.\n</p><p>Although the guards use elevated catwalks to stay out of the muck, the prisoners below frequently are forced to stand, sit and sleep in the foul waters.<span></span>  \n</p><p>Especially important individuals are sent to Black Whale prison.<span></span>\n</p><p>The Salt Cartel fills its stocks of slaves from prisoners fraudulently collected from the Brine.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Beldrin's Tower": {
+  "title": "Beldrin's Tower",
+  "url": "https://pathfinderwiki.com/wiki/Beldrin%27s_Tower",
+  "extract": "<p><b>Beldrin's Tower</b>, sometimes known as the <b>Tower of the Broken Shield</b>, is the most famous monument in the Precipice Quarter of Absalom. Originally part of a three-spire magic academy established by the wizard Beldrin, it suffered considerable damage after the earthquake of 4698 AR. It has since teetered on the cliff's edge, shaken and cracked but unbowed.<span><sup class=\"reference conflict\">✝︎</sup></span>\n</p><p>Beldrin's Tower, as well as the shattered ruins of the other two towers, derive their name from the objects of power that Beldrin sequestered within: the Tower of the Candelabra for Beldrin's Candelabra, the Tower of the Horn for Beldrin's Horn, and the Tower of the Broken Shield for Beldrin's Shield.<span></span> The three spires were also collectively known as the <b>Tri-Towers</b>, and the former name of the nearby Drownyard was the Tri-Towers Yard.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Silken Court": {
+  "title": "Silken Court",
+  "url": "https://pathfinderwiki.com/wiki/Silken_Court",
+  "extract": "<p>The <b>Silken Court</b> is a brothel in the Petal District of Absalom. It is the city's most expensive establishment of its type, and among of the Inner Sea's most famous. Previously owned and managed by Elissa the Fair<span></span> until her recent retirement, it has since been fully renovated by its new manager, the Calistrian Head Hetaera Dyrianna of House Avenstar.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Darkgate": {
+  "title": "Darkgate",
+  "url": "https://pathfinderwiki.com/wiki/Darkgate",
+  "extract": "<p>The <b>Darkgate</b> is a fissure in the Precipice Quarter, created during the earthquake that devastated much of the district. Months after it opened, undead and monsters emerged from the fissure and still roam the city streets. Taking advantage of the situation, the Nailfists moved into the area and keep the threats from below at bay. The gang doesn't do this out of charity, of course; they only allow access to the caverns if they are paid a price.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Wracked Rock": {
+  "title": "Wracked Rock",
+  "url": "https://pathfinderwiki.com/wiki/Wracked_Rock",
+  "extract": "<p>The <b>Wracked Rock</b> is a stony structure in an abandoned block of buildings in the Precipice Quarter, inhabited not out of necessity but because they are drawn by the strange dreams that occur when sleeping near the obelisk. Thousands of years ago, a Rovagug cultist summoned a giant monster to destroy the city, but heroes managed to turn it to stone before it could ravage the neighborhood, killing it by shattering it into pieces. The only part that remained was this rock, a tusk protruding from the head that lies buried underground. After the earthquake a few decades ago, a small opening opened into the subsoil, from which all who have ventured never return. Rovagug cultists are often seen in the area, but since their violence doesn't spread beyond the block, the Knights of Lastwall see no reason to intervene.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Absalom Menagerie": {
+  "title": "Absalom Menagerie",
+  "url": "https://pathfinderwiki.com/wiki/Absalom_Menagerie",
+  "extract": "<p>The <b>Absalom Menagerie</b> is a park where a wide variety of animals live in climate-controlled enclosures behind magical walls designed to reduce the danger to visitors. Almost anyone can enter, as its founder bequeathed the park to the city with the stipulation that no member of the Blakros family be allowed entry, though the reason for this is unknown. The government pays the park's caretakers, who are usually members of the founder's family, a matter of tradition rather than obligation and Alina Muraabe is the High Warden of the park. The druids are divided between those who consider the place an affront to the natural order and those who believe that exposing urban dwellers to nature can foster greater appreciation and respect for it.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Spiral Shrine": {
+  "title": "Spiral Shrine",
+  "url": "https://pathfinderwiki.com/wiki/Spiral_Shrine",
+  "extract": "<p>The <b>Spiral Shrine</b> is a temple of Pharasma that was among the first to be rebuilt in the Precipice Quarter after the earthquake that shook the district. Hundreds of candles were placed in its alcoves to honor the memory of those whose bodies could not be recovered from the rubble, and the residents of Beldrin's Bluff donated significantly to consecrate the temple and enable them to hire undead hunters. It is one of the few places in the district where divine magical healing can be obtained, and the abandoned mansions in the area have been converted into apartments where a community of duskwalkers lives, fighting the undead. For this reason, the district's living residents hold them in great reverence, bowing their heads when they see one or offering them food and water when asked.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Palace Ormuz": {
+  "title": "Palace Ormuz",
+  "url": "https://pathfinderwiki.com/wiki/Palace_Ormuz",
+  "extract": "<p>The <b>Palace Ormuz</b> is a white Thuvian-style structure where Scion Lord Yamthar invites the aristocracy to seminars where they can speak with researchers, scholars, and intellectuals, listening to or testing their theories. The south wing houses the laboratories where dozens of alchemists work and where Yamthar keeps his collection of Jistkan artifacts, which he has acquired and attempts to reactivate, including those that are normally dormant.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Mortecant": {
+  "title": "Mortecant",
+  "url": "https://pathfinderwiki.com/wiki/Mortecant",
+  "extract": "<p><b>Mortecant</b> is a neighborhood in the southern part of the Precipice Quarter where followers of Urgathoa, seeking to be corrupted by the area's necromantic energies, move from abandoned house to abandoned house, weaving through a tangled web of people as if they were undead. Even the knights of Vigil's Hope have killed several mobs without realizing they weren't truly undead. Not all members of this community are inherently evil; some cannot move because the neighborhood's reputation would lead to their new neighbors killing them if they discovered their origins. Thus, they are trapped between the Knights of Lastwall and the wall of semi-dead mobs at their backs.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Sphinx Gate": {
+  "title": "Sphinx Gate",
+  "url": "https://pathfinderwiki.com/wiki/Sphinx_Gate",
+  "extract": "<p>The <b>Sphinx Gate</b> is located in the northwest of Absalom and is usually open even at night due to the constant traffic in the area. It connects to the farms of the region and is used by the First Guard to patrol the Cairnlands, taking its name from the enormous sphinx statue erected there. During the Unraveling Siege, when the proteans attacked the city, dozens of riddles appeared at the gate, and after a guard solved one, the proteans were no longer able to dominate the city's skies, proving instrumental in the victory against them.<span></span> Only those who have aided Absalom on countless occasions have access to the riddles, as no one knows what dangerous magic they may contain, and of all the city's entrances, this is the only one that has never been breached, partly due to its proximity to the Azlanti Keep.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Drownyard": {
+  "title": "Drownyard",
+  "url": "https://pathfinderwiki.com/wiki/Drownyard",
+  "extract": "<p>The <b>Drownyard</b> is a location in the city of Absalom, in the (now mostly destroyed) Precipice Quarter.\n</p><p>Before the terrible earthquake of 4698 AR, the Precipice Quarter (formerly known as Beldrin's Bluff) was known as the <b>Tri-Towers Yard</b>, the premier finishing school for children of the rich and powerful. The unexpected quake destroyed the academy and the students within, but the quake also brought forth a spray from the sewer that contained the remains of an (previously unknown) ancient necropolis over which the school had been built. The lower reaches of the Drownyard access this old necropolis.<span></span>\n</p><p>Now the Tri-Towers Yard is better known as the Drownyard, a desolate ruin filled with salty brine and haunted by undead. For a decade after the tragedy, the site has been off limits to outsiders, the families of the dead erecting a fence of black iron around the area to keep out morbid intruders and even archaeological groups. The Pathfinder Society was eventually permitted access to the area.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Arboretum Arcanis": {
+  "title": "Arboretum Arcanis",
+  "url": "https://pathfinderwiki.com/wiki/Arboretum_Arcanis",
+  "extract": "<p>The <b>Arboretum Arcanis</b> once contained a wonderland of exotic fruit and blossoms from beyond Golarion. It was housed in a magical crystal dome in the Precipice Quarter in Absalom.<span></span>\n</p><p>The magic that protected and nurtured the flora was placed by Beldrin, but these wavered and collapsed when the earthquake of 4698 AR struck the district. The magical cloud that hovered overhead, designed to provide nutrient-rich rain, became corrupted. Now the purple-black cloud spills caustic gray and yellow rain on the plants below. The plants that once thrived either withered away or evolved into horrific versions of themselves, while new abominations of nature have since sprung into existence.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Vigil's Hope": {
+  "title": "Vigil's Hope",
+  "url": "https://pathfinderwiki.com/wiki/Vigil%27s_Hope",
+  "extract": "<p><b>Vigil's Hope</b>, located in the Precipice Quarter of Absalom, is the headquarters of the Knights of Lastwall and serves as an embassy for the exiled leadership of the destroyed nation of Lastwall. Watcher-Lord Ulthun II resides in Vigil's Hope, from where he coordinates the organization's diplomatic and fundraising activities.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Aysepir's Astounded Abyss": {
+  "title": "Aysepir's Astounded Abyss",
+  "url": "https://pathfinderwiki.com/wiki/Aysepir%27s_Astounded_Abyss",
+  "extract": "<p><b>Aysepir's Astounded Abyss</b> is a carnival show of unusual, and often disturbing, beings in the Puddles district of Absalom. Despite having the trappings of fiction and making extraordinary claims, its employees are exactly what they are presented to be—beings of sometimes immense power afflicted by curses or misfortune, or simply being of unique parentage.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Red Drake Warehouses": {
+  "title": "Red Drake Warehouses",
+  "url": "https://pathfinderwiki.com/wiki/Red_Drake_Warehouses",
+  "extract": "<p><b>Red Drake Warehouses</b> is a series of warehouses in The Docks run by Ptarnex Dexarion, the ruthless boss of Ogrekin Hall. He runs the business by offering merchants space to store whatever they want, with the caveat that if they fail to pay for even a single month, all the merchandise inside becomes his property. He makes sure his customers are aware of this situation and has made more money selling confiscated goods than renting the space. It is said that he uses infernal contracts and hired thieves to steal from merchants so they can't pay on time, but since the rent is so low, many take the risk.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Wondervale": {
+  "title": "Wondervale",
+  "url": "https://pathfinderwiki.com/wiki/Wondervale",
+  "extract": "<p>The <b>Wondervale</b> was created decades after Aroden's death by Absalom's intellectuals, who sought to showcase the city's inventions and demonstrate that it had not declined in relevance after the death of its patron god. They chose Eastgate and Green Ridge as the venue for they were the least populated areas with the largest open spaces, and proceeded to construct illuminated bridges, Tian Xia-style towers, Vudra pagodas, and Casmaron palaces. The resulting intellectual and cultural exchange was a resounding success, drawing attention to the nation. After the festival, the structure was abandoned, and the escaped plants and animals give the site a sense of ancient ruin, a place favored by lovers, poets, and followers of Brigh. The most striking features are the Jalmeray-style flying towers, teeming with bats.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Barque Bazaar": {
+  "title": "Barque Bazaar",
+  "url": "https://pathfinderwiki.com/wiki/Barque_Bazaar",
+  "extract": "<p>The <b>Barque Bazaar</b> is a floating business where several barges have joined together, and merchants sell their foreign goods to customers all along the Absalom coast. Created by Market Master Annavi, she believed her business would be a success, but she hadn't anticipated that the residents of The Puddles, The Docks, and Precipice Quarter would be the poorest in the city, and she's struggling to keep the business afloat, both literally and figuratively. Her best customers are in The Puddles, where she's become involved with criminal gangs, acting as a fencer. However, she may be too deeply involved in the criminal underworld, and someone might eventually retaliate against her and the floating business.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Barterfall": {
+  "title": "Barterfall",
+  "url": "https://pathfinderwiki.com/wiki/Barterfall",
+  "extract": "<p><b>Barterfall</b> is a neighborhood in the Precipice Quarter, named for its economy and precarious living conditions. It's one of the least dangerous parts of the district, though that's not saying much. Its inhabitants are the descendants of those who were either too poor to move or wanted by the law, and many don't even have jobs, earning their living by fishing, trapping for vermin, and farming whatever they can. Violence and disease are common, and the mansions converted into apartments are falling apart. While its residents want to move to other districts, they also resent the rest of the city for abandoning them. There's an enclave of Kalistocrats who trade coin for what the residents scavenge from the ruins, making them the object of envy and hatred from the inhabitants who barely see them behind their walls and clean houses.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Grislyfair": {
+  "title": "Grislyfair",
+  "url": "https://pathfinderwiki.com/wiki/Grislyfair",
+  "extract": "<p>The <b>Grislyfair</b> is an attempted amusement park that the Grand Council created in the Precipice Quarter to attract new residents and generate jobs. Most of the performers would be wanderers, thus not exposed to the district's spiritual corruption, and the use of clockworks unafraid of spirits should ensure the park's smooth operation. Due to sabotage by either cultists or smugglers, the construction suffered several accidents and was abandoned. The spirits moved about, enchanting the musical instruments and the carousels that now spin aimlessly, making it a place of eerie amusement. Reclaiming the Grislyfair is one of Wynsal Starborn's priorities for cleansing the district of corruption, as similar public works cannot be undertaken without serving as a constant reminder of past failures.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Rat-Taker's Palace": {
+  "title": "Rat-Taker's Palace",
+  "url": "https://pathfinderwiki.com/wiki/Rat-Taker%27s_Palace",
+  "extract": "<p>The <b>Rat-Taker's Palace</b> is the base of operations for the city's cleaners, responsible for maintaining the sewers, repairing pipes, and pest control. The building was abandoned after the earthquake, but they quickly returned to reclaim it, as its ostentatious appearance was too tempting to not move back in. Unfortunately, during their absence, a rat infestation took hold and continues to be a problem to this day.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Green Ridge": {
+  "title": "Green Ridge",
+  "url": "https://pathfinderwiki.com/wiki/Green_Ridge",
+  "extract": "<p><b>Green Ridge</b> is a neighborhood in the Eastgate district of Absalom.<span></span> It is one of smallest and least populated parts of the city. It contains a number of extensive gardens and parks, as well as several copses of trees scattered throughout it, that inspire the district's name. Green Ridge also contains many small farms a result of past sieges. In contrast to much of Absalom, the district tends to be peaceful and quiet.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Sea King Shipyards": {
+  "title": "Sea King Shipyards",
+  "url": "https://pathfinderwiki.com/wiki/Sea_King_Shipyards",
+  "extract": "<p><b>Sea King Shipyards</b><span></span> is a small shipyard in the Docks district of the city of Absalom. The yard builds only one ocean-going vessel at a time, but it remains famous for the high quality and sturdiness of its fluyts and galleons<span></span> that can sail the most dangerous waters in the Inner Sea.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Devil's Own": {
+  "title": "Devil's Own",
+  "url": "https://pathfinderwiki.com/wiki/Devil%27s_Own",
+  "extract": "<p>The <b>Devil's Own</b> is a shipyard in the Docks district of the city of Absalom. The shipyard specializes in war galleys used by Absalom's navy and sold to the markets throughout the Inner Sea. Its owner, Lord Archych of House Dureanz is a loyal Chelaxian. He employs the worst thugs and pushes around his considerable weight at every opportunity. The machinations of Lord Archych and those of his rival Goodmiss Alidane of House Candren, manager of the Sea King Shipyard, are the main source of intrigue and violence in the Docks.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Beneath the Docks": {
+  "title": "Beneath the Docks",
+  "url": "https://pathfinderwiki.com/wiki/Beneath_the_Docks",
+  "extract": "<p><b>Beneath the Docks</b> is a neighborhood beneath the wooden planks of the district, inhabited by the area's poorest residents, those with criminal connections, or those who prefer to live as close to the water as possible. The <b>Seafoam Conclave</b>, comprised of azarketi, is the largest community here,<span></span> though they are generally poorer than those living in Gilltown, often working as garbage collectors or fishermen. Jossie Slimfin is one such garbage collector, selling items to surface dwellers as aquatic treasures and also acting as an informant between the merfolk and cecaelia communities living deeper underground. The communities here tend to be insular, with little interaction with the outside world, though in 4711 AR, many cecaelia arrived from Xidao in pursuit of a criminal who had already been killed by the Pathfinder Society, and many stayed to live here.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Broadfoot Marshals Station House": {
+  "title": "Broadfoot Marshals Station House",
+  "url": "https://pathfinderwiki.com/wiki/Broadfoot_Marshals_Station_House",
+  "extract": "<p><b>Broadfoot Marshals Station House</b> is a base for a private firefighting brigade in The Docks district of Absalom. Under the instruction of the dwarven engineer Bagara Broadfoot, they use water carts that, through pedals, can create pressure to expel water and extinguish fires, which are quite dangerous in a district made almost entirely out of wood.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Temple Row": {
+  "title": "Temple Row",
+  "url": "https://pathfinderwiki.com/wiki/Temple_Row",
+  "extract": "<p><b>Temple Row</b> is a neighborhood teeming with temples to various deities, most of them related to the sea and weather, located in The Docks. The temple of Gozreh is near tide pools that fluctuate with the high ot low tide, generating a good amount of wind, and the area is favored by water druids. Those unfamiliar with the faith consider Besmara's Boardwalk to be its temple, but that's a stretch, as true followers gather in a seedy tavern with a tradition of throwing out customers who lose bets by tossing a hand in the air as an offering. A group of tengus erected a temple to Hei Feng on the second floor of a warehouse that was struck by lightning twice during a storm. After convincing the owner, they repaired the roof and can now live there rent-free.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Kortos Watercrafts": {
+  "title": "Kortos Watercrafts",
+  "url": "https://pathfinderwiki.com/wiki/Kortos_Watercrafts",
+  "extract": "<p>The <b>Kortos Watercrafts</b> is a shipyard that creates boats and small vessels using the finest quality wood on the island. They are owned by the Kortos Consortium, which uses the vessels to navigate the region's waterways.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Soggy Piper": {
+  "title": "Soggy Piper",
+  "url": "https://pathfinderwiki.com/wiki/Soggy_Piper",
+  "extract": "<p>The <b>Soggy Piper</b> is a tavern perched on a cliff in The Puddles, a hangout for criminals and cultists. Violent crime is commonplace there, as bodies can be disposed of by simply pushing them off the cliff into the sea. The patrons avoid eye contact, creating a moody atmosphere and while the food is fairly average, it's a good place to gather information about the district's activities.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Consulate of the Platinum Band": {
+  "title": "Consulate of the Platinum Band",
+  "url": "https://pathfinderwiki.com/wiki/Consulate_of_the_Platinum_Band",
+  "extract": "<p>The <b>Consulate of the Platinum Band</b> is a temple dedicated to Apsu where his non-draconic followers gather and help others. Although the faith isn't widely understood by the residents of The Puddles, they won't refuse the magical assistance offered. The building also houses archives on the region's dragon lore. The Consulate has few members, distinguished by their pendants bearing the symbol of their god. The rest avoid leaving the temple and do not interact with the Muckruckers or other ruthless groups in the district.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Goblin King's Court": {
+  "title": "Goblin King's Court",
+  "url": "https://pathfinderwiki.com/wiki/Goblin_King%27s_Court",
+  "extract": "<p>The <b>Goblin King's Court</b> is a series of wooden walkways and towers resembling a castle amidst the flooded houses of The Puddles. It is where Zusgut resides, acting as king. The goblins' short stature makes them reluctant to walk through the wet streets, so they hop from house to house to reach the court. Zusgut has advisors from all over Golarion who come to the city following tales of his fame.<span></span> The goblins have devised a system that repairs and removes planks depending on the tide, and they have prepared a large stage where they perform daily. Therefore, it is easy to find the court simply by listening for the tremendous noise they make shouting during theatrical performances.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Ogrekin Hall": {
+  "title": "Ogrekin Hall",
+  "url": "https://pathfinderwiki.com/wiki/Ogrekin_Hall",
+  "extract": "<dl><dd><i>For other meanings of \"<b>Ogrekin</b>\", please see Ogrekin (disambiguation).</i></dd></dl>\n<p><b>Ogrekin</b> is a transporting business located in the Docks district of Absalom. Ogrekin can move anything that needs moving anywhere within the city. Its characteristically strong employees cooperate with the Pilot House and Harbormaster's Grange to get to ships first and offer to move their goods quickly and securely. Its base of operations is a simple building called <b>Ogrekin Hall</b>,<span></span> distinguished by two disturbing life-sized ogrekin sculptures that flank its main entrance.<span></span>\n</p><p>Ogrekin is owned by the Second Harbormaster, Ptarnex Dexarion,<span></span> who also owns the city's Red Drake Warehouses.<span></span> It is managed by his second-in-command and labormaster Feldreth Noor,<span></span> and its employees work with the city's Pilot's House and Harbormaster's Grange.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Gilltown": {
+  "title": "Gilltown",
+  "url": "https://pathfinderwiki.com/wiki/Gilltown",
+  "extract": "<p><b>Gilltown</b> is a secluded collection of crude surface buildings in southern Eastgate, a district of Absalom, where azarketi ply their public trades. The surface neighborhood is a facade for an underground and underwater tunnel community leading to the Bay of Kortos. Despite the lack of formal shops, items retrieved by its residents from underwater wreckage can often be bought here, particularly necromantic items.<span></span>\n</p><p>The azarketi trade on the surface, while underwater they descend to worship their deities and conduct business amongst themselves. The surface is intentionally neglected to keep the existence of the underwater tunnels hidden from humans. Not only pearls, oysters, and marine materials are sold, but the azarketi also recover marine artifacts from past empires, with those from Azlant being the most sought after.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Purewater Home": {
+  "title": "Purewater Home",
+  "url": "https://pathfinderwiki.com/wiki/Purewater_Home",
+  "extract": "<p>The <b>Purewater Home</b> is an orphanage that takes in the most unfortunate children in The Puddles while also serving as the base of operations for the local Firebrands cell, run by Hope, the building's owner. The place is relatively safe and dry thanks to Hope's efforts and reputation, and the children are instructed in political issues by helping with acts of vandalism that keep them occupied and away from more serious crime.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Tallavont School": {
+  "title": "Tallavont School",
+  "url": "https://pathfinderwiki.com/wiki/Tallavont_School",
+  "extract": "<p>The <b>Tallavont School</b> was founded centuries ago by idealists seeking to foster a sense of community in Eastgate by creating an institution that would allow teachers persecuted in their home countries for their political beliefs to teach here instead of being entangled in the city's treacherous and infighting politics. Called \"the Fortress\" because it incorporates an old war keep from the city's early history, this structure defines the district's skyline and is visible for miles around.<span></span> Teachers often use the height to give lessons from the balconies, offering views of the city and providing their students with a unique teaching perspective. A quarter of the students live in Eastgate, while the rest come from noble families in the city or abroad who send their children to study here.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "House of Guile": {
+  "title": "House of Guile",
+  "url": "https://pathfinderwiki.com/wiki/House_of_Guile",
+  "extract": "<p>The <b>House of Guile</b> is a gallery in Eastgate where Parsin Guile exhibits his works—some artistic, others more practical, featuring mechanical designs in wood—to the general public. The commercial side is managed by his wife, Hilenda Guile. The building's facade features over 30 different types of wood sourced from the Isle of Kortos, some of which have been extinct for centuries.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Pickled Imp": {
+  "title": "Pickled Imp",
+  "url": "https://pathfinderwiki.com/wiki/Pickled_Imp",
+  "extract": "<p>The <b>Pickled Imp</b> is a curio shop in The Docks run by the infamous Guaril Karela, though he's rarely seen there. It now operates more like a pawn shop, keeping no records of any transactions, making it impossible to know what's being sold, bought, or who the customers are. Captain Elmoira Taggart used to work as a clerk there, and when anyone tries to suggest the wares aren't entirely legal, the employees point out that she still frequents the shop and there have never been any investigations into the establishment.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Mithril Chef": {
+  "title": "Mithril Chef",
+  "url": "https://pathfinderwiki.com/wiki/Mithril_Chef",
+  "extract": "<p>The <b>Mithril Chef</b> is a high-end restaurant that also serves as a second-mark Firebrands cell located in The Docks district. All its staff are members of the organization, led by Claudette Butterfoot, who is more focused on cooking than going on adventures, though she frequently gives her employees \"vacations\", after which news of their deeds is heard around the city. The food they serve is excellent, very varied, and with strong aromas that make a good impression and one can also see the chefs using juggling techniques to prepare it, which always entertains the customers. They have a rivalry with the Bladed Bastards, although their fights are staged as a distraction until agents from both groups collaborate to free prisoners and help the population.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Antler Lodge": {
+  "title": "Antler Lodge",
+  "url": "https://pathfinderwiki.com/wiki/Antler_Lodge",
+  "extract": "<p><b>Antler Lodge</b> is the temple of Erastil, located in the urban city of Absalom, offering respite in its gardens to those who long for a rustic life. In the Eastgate district, a modest two-story structure can be seen with aesthetically pleasing wooden atlers at the entrance. The walls are magically reinforced to block out outside noise, granting tranquility to those inside. Instead of windows, illusions of rural landscapes adorn the walls, and the lodge is maintained by High Priestess Loys Zepah, an elderly woman who feeds sweets and confectionery like a grandmother to her grandchildren. Lately, strange things have begun to appear in the illusions, such as sick animals or burning landscapes, and adventurers are being sought to investigate the cause of this phenomenon.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Beragel's Fur and Feathers": {
+  "title": "Beragel's Fur and Feathers",
+  "url": "https://pathfinderwiki.com/wiki/Beragel%27s_Fur_and_Feathers",
+  "extract": "<p><b>Beragel's Fur and Feathers</b> is a pet shop run by Beragel Tindertales, offering animals from all over Golarion, as well as food and specialized enclosures to keep them happy. As a rule, sentient animals, endangered species, and monsters are not sold in the shop, though, whether by mistake or due to her gnome tendencies for novelties, she sometimes acquires a larva or hatchling that later turns out to be something that shouldn't be anyone's pet.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Church of the Muted God": {
+  "title": "Church of the Muted God",
+  "url": "https://pathfinderwiki.com/wiki/Church_of_the_Muted_God",
+  "extract": "<p>The <b>Church of the Muted God</b> is dedicated to this would-be god of the Failed, who perished during the Test of the Starstone but still has followers. The Muted God provides no divine power or guidance, and the members of this benevolent organization are becoming more of a criminal group than a religious congregation.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Postern": {
+  "title": "Postern",
+  "url": "https://pathfinderwiki.com/wiki/Postern",
+  "extract": "<p>The <b>Postern Gate</b>, or simply the <b>Postern</b>, is the eastern gate of Absalom. It is the smallest of the city's gates, only 50 feet high and 40 feet wide, and the only one that is normally kept closed and locked. It is a defensive building designed by Aroden and made of thick stone with balconies, and is used mainly to get goods to and from the Starwatch Keep.\n</p><p>The gate was often the focus of siege attacks, and was breached during the Siege of Prophets even if the enemy forces proved unable to penetrate the city. A carved stone set in the last hall within the Postern commemorates the deepest point the enemy reached. The Postern Gate also serves as the headquarters of Eastgate's district guard, the Post Guard.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Statue Street": {
+  "title": "Statue Street",
+  "url": "https://pathfinderwiki.com/wiki/Statue_Street",
+  "extract": "<p><b>Statue Street</b> is a long stretch of road in the Absalom district of Westgate.<span></span>\n</p><p>Appropriately named, the street contains dozens of scattered statues in various poses. These are the remnants of an Absalom tradition that has only recently been outlawed. In order to prevent prison overcrowding, nonviolent offenders were sometimes allowed to compete for a pardon in a race to outrun an enraged gorgon. The fortunate or skilful who evade the beast are granted a pardon for their crimes, while others now decorate the area with contorted expressions of shock, defiance, or terror. \n</p><p>Although ultimately considered unethical at best, there are many in the community who are upset that this tradition has been made illegal.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Grand Holt": {
+  "title": "Grand Holt",
+  "url": "https://pathfinderwiki.com/wiki/Grand_Holt",
+  "extract": "<p>The <b>Grand Holt</b> is a massive, multi-trunked fig tree located in the Green Ridge neighborhood of Absalom's Eastgate district. It is the oldest and largest tree on the Isle of Kortos, maybe even older than Absalom.<span></span>\n</p><p>The tree is tended by a fanatical druidic sect known as the Circle of Stones,<span></span> who also care for Iolanthe, the immortal dryad queen who lives within it. The Grand Holt has expanded greatly over the millennia of its life, and entire blocks of buildings have been demolished to facilitate its growth. Blights, such as those caused by the Welt and the Tyrant's Grasp, have not been able to deter the tree's growth, and in fact seem to cause it to grow stronger. The tree provides a refuge for nature-loving adventurers, who are hired by the Circle of Stones to further Iolanthe's cause within the city and beyond.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Hall of Commerce": {
+  "title": "Hall of Commerce",
+  "url": "https://pathfinderwiki.com/wiki/Hall_of_Commerce",
+  "extract": "<p>The <b>Hall of Commerce</b> is a magnificent building, constructed in the most modern and ostentatious style, which serves as the government office of the Coin Council as well as a bank. The various district taxes are administered here, and both the Foreign Coin Exchange and the church of Abadar maintain several offices in the building. It is one of the areas with the highest concentration of foreign visitors.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Band of the Palm Headquarters": {
+  "title": "Band of the Palm Headquarters",
+  "url": "https://pathfinderwiki.com/wiki/Band_of_the_Palm_Headquarters",
+  "extract": "<p>The <b>Band of the Palm Headquarters</b> is where the Bloody Barbers criminal gang gathers for their operations throughout the city. Under the guise of the <b>Band of the Palm</b>, a union of chimney sweeps, garbage collectors, and cleaners operate out of this series of buildings that include offices, sleeping quarters, bankrupt businesses, and warehouses, all connected by ropes and bridges that make it difficult to distinguish one building from another. Legitimate members live in the area closest to the entrance, while below, the Barbers operate in a series of catacombs, sewers, and caverns guarded by the <b>Ghostguides</b>, a group of albino chokers who show the way to the base where the leaders reside—an impenetrable fortress. In a room hidden even from the guides, Dr. Bensi Skule experimented on a troll prisoner who would become the gang's leader.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Gallery of Innovation": {
+  "title": "Gallery of Innovation",
+  "url": "https://pathfinderwiki.com/wiki/Gallery_of_Innovation",
+  "extract": "<p>The <b>Gallery of Innovation</b> is the Brigh temple in Absalom  run by the impassive High Priestess Flindish Tanwhirl. Followers from all over the Inner Sea come to the temple, which is filled with engineers, blacksmiths, and metalworkers who push their skills to the limit working in the workshops inside. Constant classes and seminars are given by the clergy on the functions of inventions or new ideas that can be put into practice.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Five-Fire Pavilions": {
+  "title": "Five-Fire Pavilions",
+  "url": "https://pathfinderwiki.com/wiki/Five-Fire_Pavilions",
+  "extract": "<p>The <b>Five-Fire Pavilions</b> is a burnt-out structure with exposed blackened metal beams that can be considered Absalom's goblin embassy, ​​led by the explorer Skirma Toadlicker, who seeks to show that goblins are ready to join the \"civilized\" world.<span></span> \n</p><p>Many goblins, hobgoblins, and others considered monsters have attended the pavilion's exhibitions, art displays, and fireworks, trading amongst themselves. However, not all cultural exchanges go smoothly, especially when a neighbor walks their dog, which some goblins interpret as a meat offering. There are also rivalries between tribes and differences between those who seek a more savage life, insulting hobgoblins who ride horses, and the more civilized, who call their less educated kin deformed. Even so, Skirma hopes that things will be better in the future and that this is a step forward.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Flying Alderman": {
+  "title": "Flying Alderman",
+  "url": "https://pathfinderwiki.com/wiki/Flying_Alderman",
+  "extract": "<p>The <b>Flying Alderman</b> is a modest inn on the edge of the Foreign Quarter, serving as a safe house for Pathfinder Society agents. Drock Ovix, the innkeeper, is a Pathfinder himself and allows them to use tunnels beneath the inn that connect directly to the Grand Lodge—a closely guarded secret of the organization. Agents can spend three nights free at the inn, while others must pay two silver pieces, which includes bed, dinner, and breakfast the next day.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Little Lirgen": {
+  "title": "Little Lirgen",
+  "url": "https://pathfinderwiki.com/wiki/Little_Lirgen",
+  "extract": "<p><b>Little Lirgen</b> is a neighborhood in the Foreign Quarter where the diaspora of the fallen nation of Lirgen gathers, and most of them maintain their nation's astronomical traditions. Mosaics of stars fill the streets, painted like the night sky, and although in the first few years after the Eye of Abendego opened they hoped the storm would dissipate, they are increasingly uncertain about whether to remain culturally separate from the rest of Absalom or assimilate. The death of prophecy has rendered many of their stargazing rituals and artifacts obsolete, and a feeling of emptiness fills the hearts of these residents. The neighborhood is also where the city's lizardfolk population gathers, with inns offering live fish to eat, hot showers to sleep in, and lights that provide solar warmth in the winter.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Kennel": {
+  "missing": true,
+  "retrieved": "2026-07-17"
+ },
+ "Saucy Wench": {
+  "title": "Saucy Wench",
+  "url": "https://pathfinderwiki.com/wiki/Saucy_Wench",
+  "extract": "<p>The <b>Saucy Wench</b> meadhall is one of the very few of the permanent buildings in the Grand Bazaar in the Coins district of Absalom.<span></span> The popular four-story edifice near the center of the bazaar serves roast meat, bread, and mead, and is well-known for its uniformed all-female waiting staff.<span></span> The tavern's employees all work for owner Lady Kythes Finch, captain of the Token Guard, so unwelcome advances are often dealt with by one of the many off-duty guardsmen who number among the meadhall's patrons.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Anandari Block": {
+  "title": "Anandari Block",
+  "url": "https://pathfinderwiki.com/wiki/Anandari_Block",
+  "extract": "<p>The <b>Anandari Block</b> is a Westgate neighborhood populated mostly by people of vudrani descent, and the architecture and food offered in the area reflect this style. The House Anandari are said to have been companions of Khiben-Sald in the past, and in just three generations, they became a prominent family and now control the entire neighborhood, which is patrolled by their Guild of Spears mercenaries.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Javelin Gallery": {
+  "title": "Javelin Gallery",
+  "url": "https://pathfinderwiki.com/wiki/Javelin_Gallery",
+  "extract": "<p>The <b>Javelin Gallery</b> is the base of operations for the Guild of Spears, composed of veteran guards who have joined as mercenaries. The structure was a second-millennium manor house converted into a defensive fortification and boasts enough forges to equip an entire army if needed. The Guild has contracts with various mercenaries in the city and they are either highly respected or feared, depending on who sees them.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Guiding Hand": {
+  "title": "Guiding Hand",
+  "url": "https://pathfinderwiki.com/wiki/Guiding_Hand",
+  "extract": "<p>The <b>Guiding Hand</b> is an establishment that offers food, shelter, and job opportunities in the poverty-stricken neighborhood of Mudhaven. Tern on the Wind is an elf from the Crown of the World who came to represent her insular people in the city, but upon witnessing the plight of the people in the streets, she began her religious mission to help the community. She follows Findeladlara, and the two-story building with stained-glass windows is kept clean thanks to magical wards amidst the filthy streets and buildings.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Mother Sphinx": {
+  "title": "Mother Sphinx",
+  "url": "https://pathfinderwiki.com/wiki/Mother_Sphinx",
+  "extract": "<p><b>Mother Sphinx</b> is a shop a few blocks from the Grand Bazaar where Horner Shan sells household gadgets at great prices. Behind secret doors, illusions, and traps in the underground lies a temple dedicated to Norgorber, where Horner is its high priest, praying to the Gray Master aspect of the deity. Rival gangs gather to settle disputes, recruit new talent, or profess their faith, but few know that Horner knows what goes on beneath his shop or that he is the leader of the city's most secretive thieves' guild, the Smoke Knights.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Eastgate Hall": {
+  "title": "Eastgate Hall",
+  "url": "https://pathfinderwiki.com/wiki/Eastgate_Hall",
+  "extract": "<p><b>Eastgate Hall</b> is an ornate stone structure that once served a group of adventurers fighting against the corruption spread by Rovagug's followers. Today, it is used by the Eastgate Council, which meets monthly to resolve issues arising in the district.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Broken Bastion": {
+  "title": "Broken Bastion",
+  "url": "https://pathfinderwiki.com/wiki/Broken_Bastion",
+  "extract": "<p>The <b>Broken Bastion</b> was a clock tower maintained by a mystical sect obsessed with time, but three centuries ago the structure and the temporal artifact it protected were destroyed by the dragon Maejeryx Steeleye. Since then, strange temporal anomalies have occurred in the area, attracting the curiosity of Fourth Spell Lord Muar Gauthfallow, who resides in the complex. The sect constructed many chambers sealed with anti-divination magic to store dangerous magical artifacts, and Muar is putting them to good use by storing the dangerous contraband he acquires in the course of his duties, intended for use against any external magical threat. There is only one chamber that was already sealed before his arrival, and whenever a temporal anomaly occurs, the lock keeping it closed moves. Muar considers it his responsibility to be in the area in case whatever emerges from the chamber proves dangerous.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Tiantown": {
+  "title": "Tiantown",
+  "url": "https://pathfinderwiki.com/wiki/Tiantown",
+  "extract": "<p><b>Tiantown</b> is a neighborhood in the Foreign Quarter where most of the Tian Xia immigrants on Absalom reside. Although empires on that continent tend to be long-lasting, their fall results in great trauma for their inhabitants, who then move to Absalom and the most recent wave of migration came with the collapse of Lung Wa. Rival cultures and past enmities occasionally resurface, but the residents prefer the security of a familiar culture and language, blending with the more curious aspects of Absalom. Other unique residents include nagas, hobgoblins from Kaoling, and strange goblins never before seen in the Inner Sea.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Yemhasin": {
+  "title": "Yemhasin",
+  "url": "https://pathfinderwiki.com/wiki/Yemhasin",
+  "extract": "<p><b>Yemhasin</b> is a neighborhood in Absalom where the Yamasan diaspora goes about their daily lives. Most are farmers, and even if they don't sell their vegetables, they likely have a garden where they grow them for personal use. Initial opinions about them were negative because they couldn't use their agricultural skills in an urban setting, and compared to the Lirgeni diaspora, they didn't assimilate well to the city. However, over time, they adapted, using whatever space they had to plant crops and preserve their culinary culture, while also leaving behind the caste system of their original nation.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Groggy Froggy": {
+  "title": "Groggy Froggy",
+  "url": "https://pathfinderwiki.com/wiki/Groggy_Froggy",
+  "extract": "<p>The <b>Groggy Froggy</b> is a Westgate tavern that changed hands when its previous owner was petrified by a gorgon in 4714 AR, and the tavern was passed on to Annara Laskin and the other staff members. The statue of the cruel tavern keeper stands in the middle of the tavern with its mouth agape in a ridiculed expression of terror, and the tavern's popularity has reached unprecedented levels. A pastime was created where customers could paint on the statue, giving it a new look, and it was magically cleaned every week.<span></span> This pastime stopped when the statue mysteriously disappeared one day, and there are conflicting accounts, with some saying that an enemy destroyed the statue while others say that an ally unpetrified it, although it's hard to believe he had any.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Grand Bazaar": {
+  "title": "Grand Bazaar",
+  "url": "https://pathfinderwiki.com/wiki/Grand_Bazaar",
+  "extract": "<dl><dd><i>For other meanings of \"<b>Grand Bazaar</b>\", please see Grand Bazaar (disambiguation).</i></dd></dl>\n<p>Nearly anything can be found for sale in the <b>Grand Bazaar</b> of The Coins district in Absalom. The area has few permanent buildings, and most goods are sold from tents, carts, portable stages, and merchant wagons. Many merchants use dancers or illusionists to draw a sufficient crowd to make a sale. After dark, the Grand Bazaar becomes quite dangerous as criminals from the Docks and Puddles districts come here in search of heavy purses.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Grand Lodge": {
+  "title": "Grand Lodge",
+  "url": "https://pathfinderwiki.com/wiki/Grand_Lodge",
+  "extract": "<dl><dd><i>For another meaning of \"Grand Lodge\", please see Grand Lodge (faction).</i></dd></dl>\n<p>The <b>Grand Lodge</b> is the world headquarters for the organization of explorers known as the Pathfinder Society. Located in the Foreign Quarter of the city of Absalom, it is a massive fortress surrounded by tall stone walls. Within the outer walls sit seven smaller fortified structures that each have a separate function, the largest of which is Skyreach, an enormous five-towered building, which also houses the Society's Grand Hall.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Clockwork Cathedral": {
+  "title": "Clockwork Cathedral",
+  "url": "https://pathfinderwiki.com/wiki/Clockwork_Cathedral",
+  "extract": "<p>The <b>Clockwork Cathedral</b>, the youngest of Absalom's Great Schools, specializes in the studies of mechanical engineering and constructs. The Cathedral is located in the Merchants' Quarter, within The Coins district of Absalom.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Mithril Hall": {
+  "title": "Mithril Hall",
+  "url": "https://pathfinderwiki.com/wiki/Mithril_Hall",
+  "extract": "<p>The <b>Mithril Hall</b> is a beautiful, traditional-style structure in Westgate that serves as offices and residences for the bureaucrats and diplomats of the Western Council, which administers the district. It is divided into hexagonal sections, resembling a honeycomb, with each office having a corridor that connects to an interior courtyard with a garden and fountain in the center. While undeniably beautiful, it can be disorienting for visitors. The Hall is open five days a week until sunset and later on weekends, and this schedule has drawn complaints from working-class residents who find it difficult to attend to administrative matters or file complaints during those hours.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Second Labyrinth": {
+  "title": "Second Labyrinth",
+  "url": "https://pathfinderwiki.com/wiki/Second_Labyrinth",
+  "extract": "<p>The <b>Second Labyrinth</b> is a popular social and gambling club among chelaxians and gamblers in The Coins district, run by the beautiful Lady Azoria. The gothic exterior and gargoyles watching passersby are the first things one sees upon arrival, and inside, games of all kinds from Vudra to Riddleport fill the tables. Since Lord Gulv's return, the establishment has been experiencing a resurgence, and the profits earned by House Tevineg are on the rise.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Concerned Residents' Union": {
+  "title": "Concerned Residents' Union",
+  "url": "https://pathfinderwiki.com/wiki/Concerned_Residents%27_Union",
+  "extract": "<p>The <b>Concerned Residents' Union</b> is Eastgate's second council, unrecognized as official. However, because the district is such a close-knit community, decisions made by the residents are often final, while official recognition is merely a formality. Their headquarters are located in a red brick building in the district center, and landowners and shopkeepers coordinate their schedules to meet regularly. The union's operations could be considered organized crime, as they decide who to elect as Nomarch, which lieutenants to be promoted to the Post Guard, and what favors the council owes to the union's businesses.<span></span>\n</p><p>The organization operates through donations to charitable causes, though this money tends to disappear as it passes through various channels, and any criminal investigation is terminated before it even begins, simply by one resident whispering something to another until the guard catches on. The union isn't interested in lining its own pockets; it aims to maintain the calm and supportive atmosphere of Eastgate, even if it means marginalizing some people. The two cults, the Children of Spring and the Circle of Stones, are a concern, as President Gelda Dellby's son, Rance, has joined the Children as a recruiter. This betrayal has hardened her heart, and she seeks to close the park and eliminate the cults. The more sons and daughters who join the cults, the more likely her proposals are to be approved.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Endiron School": {
+  "title": "Endiron School",
+  "url": "https://pathfinderwiki.com/wiki/Endiron_School",
+  "extract": "<p>The <b>Endiron School</b> in Eastgate is a school founded by a noble family with the aim of using words to resolve conflicts between people. To this end, the institution places great emphasis on languages, and its students must know two non-native languages ​​before graduating.<span></span> Instructors from abroad come to share their culture, language, and food with the students, who often become merchants, diplomats, or travelers. The student body is composed of three-quarters Eastgate children who do not have to pay for their education, while the remaining third consists of children from abroad from families who have heard of the school's reputation and pay exorbitant tuition fees for their children to study there.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Mama Shrog's Solutions": {
+  "title": "Mama Shrog's Solutions",
+  "url": "https://pathfinderwiki.com/wiki/Mama_Shrog%27s_Solutions",
+  "extract": "<p><b>Mama Shrog's Solutions</b> is a shop that was bought years ago by a woman called Mama Shrog. The building has a grotesque history, having belonged to a painter who murdered his entire family to obtain the specific colour of red he sought. Mama Shrog is a curious old woman who claims to be able to answer her visitors' questions, and although she has no children, she calls everyone her own.<span></span> The shop primarily sells alchemical products to address her customers' physical ailments, and although people view Shrog with suspicion because she doesn't hide her faith in Lamashtu, there is no evidence that she has committed any crimes. Several champions and holy warriors have tried to expel her from the city and close the shop, but they haven't made any progress through legal means. When some Firebrands have tried to forcibly remove her, demons appear to defend her with extreme violence, which she justifies as self-defense when questioned by the guards. Although the shop is the only obvious temple of the goddess, shrines are also springing up throughout the city, taking advantage of Absalom's religious freedom.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Utterhome": {
+  "title": "Utterhome",
+  "url": "https://pathfinderwiki.com/wiki/Utterhome",
+  "extract": "<p><b>Utterhome</b> is the base of operations for the Sleepless Suns, the guard of Absalom's Foreign Quarter. The structure was a manor in the Osirian style, complete with Jadwiga ice statues, glass panels imported from New Thassilon, Tian Xia-style pools, and Vudrani area gardens, the fortress reflects the district's diversity.<span></span> The very name Utterhome represents the many ways in which languages ​​refer to the concept of home, and all people are welcome regardless of their cultural background. The guard's name also has a similar concept, indicating that the sun never sets for them, as their members come from all over the world. Therefore, when it is night in Absalom, it is day in Tian Xia, and its members embody that devotion to citizen protection.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Watchtower": {
+  "missing": true,
+  "retrieved": "2026-07-17"
+ },
+ "Grand Dance Hall of Kortos": {
+  "title": "Grand Dance Hall of Kortos",
+  "url": "https://pathfinderwiki.com/wiki/Grand_Dance_Hall_of_Kortos",
+  "extract": "<p>The Grand Dance Hall of Kortos is an ornate, round theater on the district of The Coins in the city of Absalom. \n</p><p>The city's richest merchants and most ambitious nobles gather in the theater to organise deals in order to control the economy\nof the Inner Sea. Admission is free to those in the appropriate attire, but access to the hall's three balconies requires increasingly audacious fees as the guest ascends the levels.\n</p><p>The entertainment includes the finest Vudrani dancers and gymnasts from throughout the Inner Sea and beyond.<span></span> \n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Evergreen Park": {
+  "title": "Evergreen Park",
+  "url": "https://pathfinderwiki.com/wiki/Evergreen_Park",
+  "extract": "<p><b>Evergreen Park</b>, located in the Eastgate district, is the city's largest park, maintaining a perpetual spring thanks to the efforts of the Children of Spring, a Gozreh cult led by Lady Evigail of House Wycomb. At the center of the park is an open-air altar, often visited by sailors before embarking on voyages to distant lands.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Devils' Garden": {
+  "title": "Devils' Garden",
+  "url": "https://pathfinderwiki.com/wiki/Devils%27_Garden",
+  "extract": "<p><b>Devil's Garden</b>, also known as <b>Cheliax's Garden</b>, is a neighborhood in the Foreign Quarter where both exiles from the nation and agents of House Thrune live together, enjoying wine, opera, and the company of each other most of which cannot return to their homeland. After the civil war, many nobles went to Absalom to escape persecution, although several were killed by the new regime, which did not provoke a strong response from Absalom beyond a letter of disapproval to their embassy. Tensions have eased in recent decades, and as long as these nobles do not act against Her Majestrix, they have nothing to fear. Throughout the district, hatred and detestance toward Ravounel can be observed.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "School of the North Song-Wind": {
+  "title": "School of the North Song-Wind",
+  "url": "https://pathfinderwiki.com/wiki/School_of_the_North_Song-Wind",
+  "extract": "<p>The <b>School of the North Song-Wind</b>, located in the Foreign Quarter, is a branch of the Magaambya. It consists of a grove of trees with fabric draped around the trunks, creating natural walls within the \"structure\". This structure is characterized by geometric patterns carved into the vegetation, as well as crystals symbolizing Nantambu. The study of the arcane is paramount here, though it also serves as an unofficial embassy for those seeking to learn about Nantambu culture and way of life. Thanks to the area's natural magic, the leshy are drawn in droves, finding great comfort resting among the trees.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Taurean Embassy": {
+  "title": "Taurean Embassy",
+  "url": "https://pathfinderwiki.com/wiki/Taurean_Embassy",
+  "extract": "<p>The <b>Taurean Embassy</b> is a residence built in the style of Iblydos, and it's where one of Absalom's most curious inhabitants, the albino minotaur Nuar Spiritskin, lives. He was banished by his tribe from the Kortos Mounts, and being just over seven feet tall, he had no trouble integrating into human society. When he intervened to save a man being beaten by sailors, his life changed drastically, for this man was none other than Lord Gyr on a confidential mission. Gyr bestowed upon him the title of Prince of Minotaurs, but he knew it was merely a flight of fancy from the Primarch. Now, he works to keep the streets crime-free, with no aspirations to leadership, content simply to have a place to call home.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Al'Hakam Estate": {
+  "title": "Al'Hakam Estate",
+  "url": "https://pathfinderwiki.com/wiki/Al%27Hakam_Estate",
+  "extract": "<p>The <b>Al'Hakam Estate</b> is an impressive manor house on the edge of The Coins, near the Ascendant Court. Its grandeur is understandable, as it is not only the home of the influential merchant Aaqir al'Hakam but also of Emir Thalzar Gaatan, ambassador of Qadira. The couple lives there with their three adopted daughters, whom they adore.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Turning Leaf": {
+  "title": "Turning Leaf",
+  "url": "https://pathfinderwiki.com/wiki/Turning_Leaf",
+  "extract": "<p>The <b>Turning Leaf</b> is a very popular restaurant in Eastgate that focuses on fish and vegetable dishes sourced from the Green Ridge. For two or three days each month, traveling chefs make appearances, preparing specialties from far-flung regions around the world. Tickets for these days are not only expensive because of the food but also because they are a significant social status symbol in the city, and there is fierce competition to get even one seat at the table. The owner is a ghoran named Qidesca who doesn't understand the intricacies of comedy, but for some reason, their stand-up routines have the clientele roaring with laughter each time they perform.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Blackblade's": {
+  "title": "Blackblade's",
+  "url": "https://pathfinderwiki.com/wiki/Blackblade%27s",
+  "extract": "<p><b>Blackblade's</b> is a successful fighting academy where former pathfinder and mercenary Benkhal Blackblade instructs his students in combat for five pieces of silver twice a week. Novices spar in the academy's courtyards, serving as an advertisement to attract more students, while the most talented are personally trained by Benkhal inside the building. Most students do not live on the premises, with the exception of the instructors, who at the end of the week lock the doors and meet with former students for parties that last until dawn.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "To Eat the World": {
+  "title": "To Eat the World",
+  "url": "https://pathfinderwiki.com/wiki/To_Eat_the_World",
+  "extract": "<p><b>To Eat the World</b> is a famous restaurant in Westgate thanks to its chef, Sammael Rantore, who transforms the process of cooking and serving food into a dramatic spectacle that people even pay to watch. Only the wealthiest and most noble can afford to book a dinner here, which can take weeks or months, but the price is commensurate with the work and entertainment provided. Adventurers are hired to obtain the specific ingredients desired by their clients, and mementos of the most outlandish culinary feats adorn the walls. On one of the tables are statues of the Rantore family eating a cake shaped like Golarion.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Tomb of the Living": {
+  "title": "Tomb of the Living",
+  "url": "https://pathfinderwiki.com/wiki/Tomb_of_the_Living",
+  "extract": "<p>The <b>Tomb of the Living</b> is located in Westgate and is built in the Osirian style. Thanks to the loophole that those who continue to move when entombed can be imprisoned without trial after being buried, the city maintains that this is a tomb, not a prison and its spaciousness allows them to incarcerate enemies of the city indefinitely, whenever they wish, without technically breaking the laws established by Aroden. The prison's existence is a secret from the masses and other nations, who would not react well to its presence. The city performs rituals in the upper crypts, which contain the corpses of nobles who lacked the means for burial elsewhere in the city and below lies a labyrinth of cells accessible only to members of the Sally Guard, those who reveal its secret are punished by being imprisoned in the tomb. The darkness, scarce food and water, and limited space drive those imprisoned here insane, causing their muscles to atrophy and constantly weakened.<span></span>\n</p><p>Some of the prisoners here whose names have been forgotten include: \n</p>\n<ul><li><b>The Almost Goddess</b>, around 4700 AR, a charismatic woman who arrived in Absalom to take the Test of the Starstone. She amassed a large following and was talented in everything she did; no one doubted she would become a goddess. On the day she was to take the test, she disappeared and was forgotten.</li>\n<li><b>The Forever Wizard</b>, a researcher obsessed with his own mortality, tried to overcome it, and surprisingly, contrary to what usually happens with these immortality schemes, he achieved eternal life. After experimenting on his own body, he achieved perfect regeneration, making it impossible for him to die from violence or old age. He was going to leave to go see his elderly parents in Taldor to share the secret of immortality with them and then with the rest of the world. He disappeared the day before he was to leave by ship.</li>\n<li><b>The Quiet King</b>, a nobleman of the city, witnessed all the atrocities Absalom committed for the \"good of the nation\", and his conscience wouldn't allow him to let this continue. He spoke to journalists, telling them he would bring them proof of these atrocities and that they should wait for him. Now he is in a cell under constant magical silence, and his tongue has been cut out.<span></span></li></ul>",
+  "retrieved": "2026-07-17"
+ },
+ "Avenue of the Hopeful": {
+  "title": "Avenue of the Hopeful",
+  "url": "https://pathfinderwiki.com/wiki/Avenue_of_the_Hopeful",
+  "extract": "<hr>\n\n<p>The <b>Avenue of the Hopeful</b> is a winding street in Absalom's Ascendant Court and a busy market catering to those fascinated by the Test of the <i>Starstone</i>: hopefuls, followers, worshippers, and the merchants, pickpockets, and charlatans who hope to make money from them.<span></span> Some of the sincere hopefuls have lived on the street for years, while others are merely confidence men.<span></span> Merchants offer religious symbols, holy water, and relics, as well as \"faith papers\", which indicate the popularity of a hopeful deity.<span></span> The booth of the Masked God of Secrets, a presumed hopeful, is a front for an organization that collects and sells secrets.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Irorium": {
+  "title": "Irorium",
+  "url": "https://pathfinderwiki.com/wiki/Irorium",
+  "extract": "<p>The <b>Irorium</b> is an enormous open-air coliseum located in Absalom's Foreign Quarter that showcases non-lethal gladiatorial combat, mock sea-battles, religious festivals, and many other types of events and is the largest arena in the Inner Sea region.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Guild of Wonders": {
+  "title": "Guild of Wonders",
+  "url": "https://pathfinderwiki.com/wiki/Guild_of_Wonders",
+  "extract": "<p>The headquarters of the <b>Guild of Wonders</b> is ostensibly an unmarked, poorly received tourism attraction composed of creative taxidermy that purportedly depicts cryptids and other beings, and is located in a shoddy building in the Westgate neighborhood of Absalom. However, its decrepit appearance masks its true purpose as a guildhouse for assassins, spies, and saboteurs.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Stoneshield House": {
+  "title": "Stoneshield House",
+  "url": "https://pathfinderwiki.com/wiki/Stoneshield_House",
+  "extract": "<p><b>Stoneshield House</b> serves as the headquarters for the Graycloaks, the district watch of the Ascendant Court district of Absalom. Stoneshield House is named in honour of Dunarr Stoneshield, a former captain of the Graycloaks who is treated almost like a secular saint by serving members of the Graycloaks. The Graycloaks themselves are all atheists, allowing them to police the countless religions that call the Ascendant Court home with a sense of fairness, uninfluenced by any faith in the gods. They are currently led by Runewulf the Unbeliever, who lives within Stoneshield House. The building of Stoneshield House is understated in form, particularly when compared with the endless ostentatious temples and shrines within the district. Still, the Stoneshield House has its own imposing, ominous air to it. The Graycloaks are called on to deal with strange and powerful threats, and who knows what they have locked away within their headquarters.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Tower of Twin Truths": {
+  "title": "Tower of Twin Truths",
+  "url": "https://pathfinderwiki.com/wiki/Tower_of_Twin_Truths",
+  "extract": "<p>The <b>Tower of Twin Truths</b> is the largest and most important temple of Nethys in Absalom.<span></span> \n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Windarium": {
+  "title": "Windarium",
+  "url": "https://pathfinderwiki.com/wiki/Windarium",
+  "extract": "<p>The <b>Windarium</b> is a clockworks shop in Westgate that is going through difficult times. The shop is located in a shopping district frequented by those looking for parts or repairs. Founded by Symo in 4705 AR, the shop began to gain popularity when he met Mirtion, who had already successfully run several shops. In 4710 AR, they married, and Symo was promoted in 4716 AR. The shop's popularity was booming, and everything was going great. After the Black Echelon Uprising of 4717 AR, Symo was promoted again, and with no time for the shop, Mirtion has had to run it alone. He has no idea about the engineering required to maintain clockworks and, demotivated, has put his passion into the badgers who fill the shop and generate complaints about the bribes they take from customers and employees alike.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Absalom Chirurgeon Dispatch": {
+  "title": "Absalom Chirurgeon Dispatch",
+  "url": "https://pathfinderwiki.com/wiki/Absalom_Chirurgeon_Dispatch",
+  "extract": "<p>The <b>Absalom Chirurgeon Dispatch</b> is where the doctors, physicians, and healers of the Westgate district meet. It operates similarly to the practices of smaller towns where there is no hospital, and the doctor travels to the patient's home when called. The Sally Guard maintains magical communications with the Dispatch, allowing them to act quickly in emergencies. Although their primary focus is the district's health, they can be employed throughout Absalom and swear to assist in situations such as a siege. Classes are also offered on how to provide basic medical services, and they are always hiring new doctors, paying those with magical healing powers quite well.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Watercleft": {
+  "title": "Watercleft",
+  "url": "https://pathfinderwiki.com/wiki/Watercleft",
+  "extract": "<p>The <b>Watercleft</b> is a cliff on the border between the Petal District and Eastgate, where a spring is moved by aqueducts, creating a beautiful view. There is much social activity in the area as people come to collect water from the spring. The distribution of water through private tunnels is seen as a disgrace by the residents of Green Ridge, which was once a separate district from Eastgate with its own council. After being absorbed, the people of Green Ridge lamented the loss of the values ​​that made the Watercleft so appealing.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Hothouse": {
+  "title": "Hothouse",
+  "url": "https://pathfinderwiki.com/wiki/Hothouse",
+  "extract": "<p>The <b>Hothouse</b> is the administrative headquarters of the Petal District, where the Conclave of Flowers meets. It also serves as a greenhouse, housing plants imported from around the world, symbolizing the transparency of the council's actions. In practice, however, the interior is uncomfortable and unpleasant, also serving as a metaphor for the interests behind the councilors' actions, which are directed by the local aristocracy.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Sally Port": {
+  "title": "Sally Port",
+  "url": "https://pathfinderwiki.com/wiki/Sally_Port",
+  "extract": "<p>The <b>Sally Port</b> is the Sally Guard's base of operations and the gateway to the district, connecting it to Westerhold and Shoreline outside the city. The gate is specifically designed to facilitate cavalry charges, and tax collectors and bureaucrats record the trade passing through it, as the settlements of Otari, Galizhur, and Diobel use this gate to enter the city. A ditch surrounds the wall, and four drawbridges allow for adaptation to the city's defensive needs. Lady Seleenae regularly visits her office on the walls, where her financial acumen makes extensive use of the records of the economy flowing through the gate. Exports from the nearest settlements include fish from Shoreline and dwarven crafts from Westerhold, often incorporating the district's cultural influences.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Seventh Church of Iomedae": {
+  "title": "Seventh Church of Iomedae",
+  "url": "https://pathfinderwiki.com/wiki/Seventh_Church_of_Iomedae",
+  "extract": "<p>The <b>Seventh Church of Iomedae</b> is an important temple of goddess in the Ascendant Court district of Absalom, and the site of the seventh of Iomedae's 11 miraculous acts, the calling of the Undying Light.<span></span> This miracle is commemorated by the temple itself and the <b>Iomedaenne</b>, a 10-foot statue of the goddess carved from red limestone and banded with sapphires. Although the goddess is popular in the city, and the Seventh Church trains most of her clerics here for three or four years, most of the priests at the church are young or elderly, since her most vital followers take up service elsewhere. Absalom is seen as a place of recruitment by the goddess's church, rather than a bulwark of faith in peril. The high priest of the temple is Tavorae Falsebane, who replaced the aged Genedair the Faithful who passed on to his final reward. Across the main street from the church is the Tempering Hall, which trains paladins of Iomedae, as well those of the churches of Abadar, Irori, and Shelyn.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Cayden's Hall": {
+  "title": "Cayden's Hall",
+  "url": "https://pathfinderwiki.com/wiki/Cayden%27s_Hall",
+  "extract": "<p><b>Cayden's Hall</b> in the Ascendant Court district of Absalom is a large, boisterous meadhall and temple of Cayden Cailean, built of wood as was the original meadhall from which Cayden set out to take the Test of the <i>Starstone</i>.<span></span> Due to the drunken revelry, religious bonfires, and consequent accidents, this is the fourteenth temple built on the current site near a large fountain, which is itself at least the fourth site to house Cayden's temple.<span></span> \n</p>\n\n<p>Efforts are made by the local priests and the house guards to quell any serious fights and extinguish uncontrolled fires, despite the fact that they are often as inebriated as the patrons who frequent the hall. Aside from simple drinks and food, the hall also boasts a mid-sized speaking hall, intended for both religious proclamations and general entertainment.<span></span>\n</p><p>Ruled by High Priestess Saphira, the Lady of Intemperance, it is not merely a place to get drunk, but also a gathering-hall for adventurers to meet and plot expeditions, rebellions, and exploits of all kinds.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Pleasure Salon of Calistria": {
+  "title": "Pleasure Salon of Calistria",
+  "url": "https://pathfinderwiki.com/wiki/Pleasure_Salon_of_Calistria",
+  "extract": "<p>Elves and aiuvarins are common among the temple prostitutes of the <b>Pleasure Salon of Calistria</b> in the Ascendant Court district of Absalom.<span></span> Elves are otherwise relatively uncommon in Absalom, mostly consisting of adventurers or outcasts; more common are their half-elven descendants.<span></span> Although Calistria's priests play a significant role in the operations of the temple, the Pleasure Salon is managed by the ranking sacred prostitute, Dyrianna of House Avenstar.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Court of Black Paper": {
+  "title": "Court of Black Paper",
+  "url": "https://pathfinderwiki.com/wiki/Court_of_Black_Paper",
+  "extract": "<p>The <b>Court of Black Paper</b> in Absalom is, in nearly equal parts, a powerful cartel-like law firm, a cutthroat school of legal studies, and a cult of Norgorber. Its ranking members are known as priest-advocates and are led by Senior Priest-Advocate Samel Maleagant, who has a reputation as the city's most prominent lawyer.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Azari Palace": {
+  "title": "Azari Palace",
+  "url": "https://pathfinderwiki.com/wiki/Azari_Palace",
+  "extract": "<p>The <b>Azari Palace</b> is an ossified remnant of the period when worship of Aroden was a prominent feature of life in Absalom, before his death and the dawn of the Age of Lost Omens. Aroden's church was once an integral part of civic life in the City at the Centre of the World, but, with his passing in 4606 AR, his followers fell to infighting and despair. Many worshippers converted to other faiths, but 5,000 years of history, relics, and influence do not disperse quite as easily. The Azari Palace is the physical embodiment of this. Once called <b>Saint Solian Temple</b>, it once served as the second-largest temple of Aroden in the Ascendant Court; the largest ex-cathedral in the district now serves as the Chelaxian embassy.<span></span> Nevertheless, it is still one of the district's most beautiful buildings.<span></span> \n</p><p>Azari Palace is named after its owners, House Azari, one of Absalom's numerous noble houses that traces its roots back to one of Aroden's earliest disciples and was intrinsically linked to Aroden's church. Dozens of House Azari's scions were elected to lead the church of Aroden, and three members of the house, including St. Solian, ascended to become saints of Aroden's religion. House Azari's support of the crumbling church of Aroden cost them everything, bankrupting the family and forcing them to sell their palatial estate in the Petal District. Led by house patriarch Lord Toiden, they moved into St. Solian Temple instead.<span></span> \n</p><p>As more and more churches and temples of Aroden have closed, the Azari Palace has become a vast repository for relics and artifacts of the now-dead religion. With no new worshippers coming to the faith and House Azari fallen in all but name, the Azari Palace has a feeling of forlorn abandonment, with near-endless chambers of dusty relics and forlorn treasures left forgotten in a temple to a god that Golarion has moved on from.<span></span> \n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Fierce Stripe": {
+  "title": "Fierce Stripe",
+  "url": "https://pathfinderwiki.com/wiki/Fierce_Stripe",
+  "extract": "<p>The <b>Fierce Stripe</b> is a shop where all of Absalom's badger needs are met. Lady Chesne of House Yuriel runs the shop, acquiring unique breeds of badgers for adoption by the residents of Westgate, where the animal has supplanted dogs and cats as a pet. The Tri-Stripe Society shops there and meets weekly to drink tea and discuss the town's badger competitions.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Metringer Sanitarium": {
+  "title": "Metringer Sanitarium",
+  "url": "https://pathfinderwiki.com/wiki/Metringer_Sanitarium",
+  "extract": "<p><b>Metringer Sanitarium</b> has been in operation since 4000 AR, serving as a place of healing and medicine for those suffering from mental illness, as well as a site for ethically questionable experiments on these patients. Its director, Flevvid Grummlin, has shown the facility to the Sally Guard on several occasions, but they have found nothing out of the ordinary. In secret dungeons, patients deemed unfit for service are taken to end their stay. Salindra Concilio escaped the building and has been warning others and seeking help to reveal the situation inside, though many consider her delusional. Only one person is offering a reward for this information.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Embassy of New Thassilon": {
+  "title": "Embassy of New Thassilon",
+  "url": "https://pathfinderwiki.com/wiki/Embassy_of_New_Thassilon",
+  "extract": "<p>The <b>Embassy of New Thassilon</b>, located in the Foreign Quarter, represents the interests of Eurythnia and Edasseril in Absalom. During its first year of operation, both navion agents cooperated with their stone giant allies to renovate a dilapidated building into a magnificent embassy. The embassy is divided into three parts, the first is a central hall open to the public, with the Sihedron symbol engraved on the floor. It is here that diplomats assure everyone that their masters do not cause problems in the region. The west hall is where Edasseril's agents paint and renovate the structure, aiming to make it more magnificent, Ambassador Firandivar is found there, claiming to be one of Belimarius's grandsons. In the west hall, Eurythnian agents have created a shrine for Nocticula, and a simulacrum of Sorshen acts as ambassador, calling herself Ayandai to avoid confusion, she offers the hall to artists persecuted by the city's inhabitants.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Gerig's Workshop": {
+  "title": "Gerig's Workshop",
+  "url": "https://pathfinderwiki.com/wiki/Gerig%27s_Workshop",
+  "extract": "<p><b>Gerig's Workshop</b> is where the popular drink  of Gerig the Inspirer is produced, and since its production is a trade secret, there are always many Guild of Spears guards patrolling the area.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Lions' Square": {
+  "title": "Lions' Square",
+  "url": "https://pathfinderwiki.com/wiki/Lions%27_Square",
+  "extract": "<p>The <b>Lions' Square</b> is located in the Foreign Quarter and is one of the largest enclaves in the district where Taldor expatriates can live in peace. After every war, famine, and political conflict, the district receives new migrants, and with the prohibition of faith in Sarenrae by Stavian I, many of the inhabitants are devout followers of the goddess. After the War for the Crown, many nobles, exiled or dissatisfied with the new direction of the country, have come to enjoy the freedom that Absalom offers.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Vault of Abadar": {
+  "title": "Vault of Abadar",
+  "url": "https://pathfinderwiki.com/wiki/Vault_of_Abadar",
+  "extract": "<dl><dd><i>For other meanings of \"<b>Bank of Abadar</b>\", please see Bank of Abadar (disambiguation).</i></dd></dl>\n<p>The <b>Vault of Abadar</b>, also known as the <b>Bank of Abadar</b>, in Absalom's Ivy District is the most holy site to the faithful of Abadar.<span></span>\n</p><p>While the Vault may appear to be unstable, it is sturdy and solid. Jostlin Ferqyr, councilwoman for the Ivy District, runs the vault like a merchant bank and provides venture capital to young merchants and artist groups.\n</p><p>Bor Dralfo, a paladin affiliated with Jostlin and the Vault, leads the Brotherhood of Abadar and enforces Ivy District rules to keep streets safe and clear, which has lead to tension with Nomarch Alain Always.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Menhemes Manor": {
+  "title": "Menhemes Manor",
+  "url": "https://pathfinderwiki.com/wiki/Menhemes_Manor",
+  "extract": "<p><b>Menhemes Manor</b> has served as the residence for members of the Menhemes family for generations in Otari. It is currently the residence of Oseph Menhemes, the village mayor, along with his wife, Emnala, and five children. Part of the manor serves as a public museum chronicling the history of Otari.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Bank of Absalom": {
+  "title": "Bank of Absalom",
+  "url": "https://pathfinderwiki.com/wiki/Bank_of_Absalom",
+  "extract": "<p>The <b>Bank of Absalom</b> has a far-reaching power, influencing trade and finance beyond the City at the Centre of the World across the Inner Sea region. From the Bank of Absalom, its bankers can influence the flow of trade and commerce by adjusting interest rates, approving (or not) massive loans, and issuing debt collection orders. The Bank of Absalom is nominally a secular institution, rather than a temple devoted to Abadar, the god of trade, but, in reality, the Bank of Absalom is run by Vroclaw of Brevoy, the most powerful Archbanker of Abadar in Absalom. The Bank of Absalom takes its religious orders from the Vault of Abadar in the Ivy District, but Vroclaw controls all loans and debt collection. Vroclaw's critics accuse him of facilitating the exploitation of indigenous peoples to extract profit, a claim Vroclaw does not deign to refute.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Street of Little Gods": {
+  "title": "Street of Little Gods",
+  "url": "https://pathfinderwiki.com/wiki/Street_of_Little_Gods",
+  "extract": "<p>The <b>Street of Little Gods</b> is located in the Tarheel Promenade district, where deities without large congregations have small altars dedicated to them. From minor northern gods like Demon Lords, to the faith of Razmir or the Prophecies of Kalistrade, all have a place to pray and pay homage to their faith, seeking new followers.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Castle Blakros": {
+  "title": "Castle Blakros",
+  "url": "https://pathfinderwiki.com/wiki/Castle_Blakros",
+  "extract": "<p><b>Castle Blakros</b> is an imposing black stone structure in the Petal District. The Blakros family lives surrounded by 20-foot-high walls and beautiful gardens near a natural lake. Inside, Lady Hamaria manages the artifacts that don't fit in the Blakros Museum, frequently hiring adventurers to handle problems her own agents can't solve, focusing instead on political and commercial issues.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Hillview Station": {
+  "title": "Hillview Station",
+  "url": "https://pathfinderwiki.com/wiki/Hillview_Station",
+  "extract": "<p><b>Hillview Station</b> is the Lotus Guard's base of operations and the Petal District courthouse, hosting the city's highest-profile trials. Inside, the galleries offer spacious viewing areas and elevated balconies for observing the proceedings, and the holding cells resemble luxury suites compared to other jails in the city.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "House of Seven Faces": {
+  "title": "House of Seven Faces",
+  "url": "https://pathfinderwiki.com/wiki/House_of_Seven_Faces",
+  "extract": "<p>The <b>House of Seven Faces</b> is a Westgate temple dedicated to Desna where her followers can rest. The clergy dislike ostentatious cathedrals, so there is little decoration except for the seven faces that appeared on the facade the first night the temple was built, and whose origin remains a mystery. There are many theories: some link the seven faces to Thassilon, others suggest they represent Sivanah and that Desna and she are the same person—a theory met with laughter or annoyance by the clergy. But the most sensible theory points to a connection with the Sevenfold Cynosure, where she dwells, the realm being a tribute to the seven planets Rovagug destroyed first. The faces, then, represent seven cultures from these planets that may have arisen and they also serve as a memorial.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Archerus Manor": {
+  "title": "Archerus Manor",
+  "url": "https://pathfinderwiki.com/wiki/Archerus_Manor",
+  "extract": "<p><b>Archerus Manor</b> is the residence of one of the Inner Sea's most famous artists, the painter Endrik Archerus, who lives in a massive stone tower visible throughout the district.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Statue of Primarch Harvi": {
+  "title": "Statue of Primarch Harvi",
+  "url": "https://pathfinderwiki.com/wiki/Statue_of_Primarch_Harvi",
+  "extract": "<p>The <b>Statue of Primarch Harvi</b>, located in the Petal District, is one of the city's most famous public artworks, but not for a positive reason as it's considered the most ugly statue in all of Absalom. It depicts this Primarch from the Age of Enthronement on horseback during the Red Siege of 4499 AR, but his face makes him look more like he has a cold or intestinal problems than anything that inspires courage. The Conclave of Flowers seems to agree that it should be removed, but the problem is what to put in its place. Some want a statue of Lord Gyr and his fellow adventurers, including Lord Avid, of course. Others, associated with the Citizens' League, prefer a statue honoring the soldiers who fell in the city's many sieges. And the new nobles want to improve their reputation with the Vault of Abadar by erecting a statue of Abadar.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
+ },
+ "Sirola Manor": {
+  "title": "Sirola Manor",
+  "url": "https://pathfinderwiki.com/wiki/Sirola_Manor",
+  "extract": "<p><b>Sirola Manor</b> is a spacious building in Westgate, but not as ostentatious as some others in the city, being the residence of retired Pathfinder Venla and Urmas Sirola.<span></span>\n</p>",
+  "retrieved": "2026-07-17"
  }
 }

@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "ZmJF9I3iOnMrP8Ad",
+   "_id": "38ajKA4wKHo8q8ri",
    "name": "Kaer Maga",
    "index": 0,
    "background": {
@@ -26,7 +26,7 @@
  ],
  "notes": [
   {
-   "_id": "fbwlDW24xb2Wx9PE",
+   "_id": "LgHrXa6bq8dH0XTD",
    "x": 2329,
    "y": 1758,
    "text": "Heaven's Ladder",
@@ -43,7 +43,7 @@
    }
   },
   {
-   "_id": "rAODq3sMCrmCU85A",
+   "_id": "3Wv8kRco1PObyXjG",
    "x": 2141,
    "y": 1758,
    "text": "Cliffside Millworks",
@@ -60,7 +60,7 @@
    }
   },
   {
-   "_id": "r4SbsP7RtiKtDT0W",
+   "_id": "TST0sGNk6fnqj8L2",
    "x": 2232,
    "y": 1756,
    "text": "Temple of the Endless Step",
@@ -77,7 +77,24 @@
    }
   },
   {
-   "_id": "I3b4veZccnBIWy1y",
+   "_id": "SP5BLWzAQibmF6LC",
+   "x": 2500,
+   "y": 1724,
+   "text": "Street of Little Gods",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Street_of_Little_Gods"
+    }
+   }
+  },
+  {
+   "_id": "lLBHqRqlaLqVZupk",
    "x": 2367,
    "y": 1675,
    "text": "Flickering Tower",
@@ -94,7 +111,7 @@
    }
   },
   {
-   "_id": "bn6dKZnljWJxtLb5",
+   "_id": "D7GjCH3PRhGJrWSU",
    "x": 2285,
    "y": 1661,
    "text": "Therassic Spire",
@@ -111,7 +128,7 @@
    }
   },
   {
-   "_id": "xZVNRVeD200kjpVR",
+   "_id": "b4WbfYZp56KEcBxl",
    "x": 2086,
    "y": 1648,
    "text": "Quarrimac's Curatives",
@@ -128,7 +145,7 @@
    }
   },
   {
-   "_id": "ospiOrL7MqID10ol",
+   "_id": "2BPpxLj2vPA7J7iO",
    "x": 2518,
    "y": 1613,
    "text": "Gadka's Magical Oddities",
@@ -145,7 +162,7 @@
    }
   },
   {
-   "_id": "yVuqin1LWQvuDugd",
+   "_id": "b4GwKceJiPM4aSYS",
    "x": 2406,
    "y": 1596,
    "text": "Canary House",
@@ -162,7 +179,7 @@
    }
   },
   {
-   "_id": "JTY8Xgn1MAzAkRc1",
+   "_id": "dvyS3tXKbXCKPqrR",
    "x": 2199,
    "y": 1591,
    "text": "Augur Temple",
@@ -179,7 +196,7 @@
    }
   },
   {
-   "_id": "vYZeUAAKgaOHw8fh",
+   "_id": "bWRB9Te5hbJVlVr1",
    "x": 2039,
    "y": 1547,
    "text": "Duskwarden Guildhouse",
@@ -196,7 +213,7 @@
    }
   },
   {
-   "_id": "CsJj5y14JlJep8EC",
+   "_id": "pcNBieKeqgmSTWso",
    "x": 2304,
    "y": 1540,
    "text": "Kaer Maga",
@@ -213,7 +230,7 @@
    }
   },
   {
-   "_id": "Iv7kyWT0fGHufdd0",
+   "_id": "DhIMveuMQentLYYy",
    "x": 2242,
    "y": 1462,
    "text": "Furrow & Vine",
@@ -230,7 +247,7 @@
    }
   },
   {
-   "_id": "YCSP8rirvK0BacNb",
+   "_id": "1akJkDp4MX6egtMi",
    "x": 2408,
    "y": 1450,
    "text": "Sorry Excuse",
@@ -247,7 +264,7 @@
    }
   },
   {
-   "_id": "1aJNMuN9WEdUultC",
+   "_id": "FUvTAFTXgsDqDmYy",
    "x": 2538,
    "y": 1437,
    "text": "Last Rites",
@@ -264,7 +281,7 @@
    }
   },
   {
-   "_id": "XK5leUzVvtE6NmX0",
+   "_id": "TYxPYpGyVq34LjGn",
    "x": 2171,
    "y": 1418,
    "text": "Pillars of Dream",
@@ -281,7 +298,7 @@
    }
   },
   {
-   "_id": "3fhQT5xio0yHRQ8j",
+   "_id": "mC12YukXVPcvBFf1",
    "x": 2097,
    "y": 1373,
    "text": "Gap",
@@ -298,7 +315,7 @@
    }
   },
   {
-   "_id": "n5ii5PzD7nPnwIRP",
+   "_id": "doXqlVIuV18oBojA",
    "x": 2458,
    "y": 1363,
    "text": "Reanimations",
@@ -315,7 +332,7 @@
    }
   },
   {
-   "_id": "anabWbPRXMZENmOi",
+   "_id": "eF5Qp3Ro94c3oMyB",
    "x": 2316,
    "y": 1329,
    "text": "Lyceum",
@@ -332,7 +349,7 @@
    }
   },
   {
-   "_id": "80Yun5klwSBxBkRj",
+   "_id": "Ao14u8hCt39rQYhu",
    "x": 2191,
    "y": 1325,
    "text": "Succoring Muse",
@@ -349,8 +366,8 @@
    }
   }
  ],
+ "thumb": "modules/foundryvtt-golarion-maps/assets/thumbs/kaer-maga-city.webp",
  "__key": "kaer-maga-city",
  "__folder": "Cities",
- "_id": "DeMFMX5gqFsjzp92",
- "thumb": "modules/foundryvtt-golarion-maps/assets/thumbs/kaer-maga-city.webp"
+ "_id": "JoaDY5LCUZibYCoj"
 }
