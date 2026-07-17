@@ -1,0 +1,30 @@
+{
+ "name": "Arcadia",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 0,
+  "size": 100,
+  "distance": 132,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "OIy4RdxSU2M0hwfg",
+   "name": "Arcadia",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/arcadia.webp"
+   },
+   "_key": "!scenes.levels!rxhXFY1XU5LdKN8t.OIy4RdxSU2M0hwfg"
+  }
+ ],
+ "_id": "rxhXFY1XU5LdKN8t",
+ "_key": "!scenes!rxhXFY1XU5LdKN8t"
+}

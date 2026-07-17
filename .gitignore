@@ -1,5 +1,6 @@
 node_modules/
 dist/
 map-data/
+packs/
 .cache/
 *.log

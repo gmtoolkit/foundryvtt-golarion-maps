@@ -1,0 +1,28 @@
+<!-- Dev-only isolation harness: bare maplibre map, no Foundry JS, same origin.
+     Open at /modules/foundryvtt-golarion-maps/test/isolate.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="../node_modules/maplibre-gl/dist/maplibre-gl.css" />
+  <style>#map { width: 400px; height: 300px; } body { background: #222; }</style>
+</head>
+<body>
+  <div id="map"></div>
+  <pre id="log"></pre>
+  <script type="module">
+    import { Map } from "../node_modules/maplibre-gl/dist/maplibre-gl.mjs";
+    const log = (m) => (document.getElementById("log").textContent += m + "\n");
+    window.__events = [];
+    const map = new Map({
+      container: "map",
+      style: { version: 8, sources: {}, layers: [{ id: "bg", type: "background", paint: { "background-color": "#3355ff" } }] },
+      attributionControl: false
+    });
+    window.__map = map;
+    ["error", "styledata", "load", "idle"].forEach((t) =>
+      map.on(t, (e) => { const msg = t + (e?.error ? ":" + e.error.message : ""); window.__events.push(msg); log(msg); })
+    );
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+ "name": "Casmaron",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 0,
+  "size": 100,
+  "distance": 124,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "HKIrpcGXo2SenjMG",
+   "name": "Casmaron",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/casmaron.webp"
+   },
+   "_key": "!scenes.levels!pNIYn3X1f6letBTJ.HKIrpcGXo2SenjMG"
+  }
+ ],
+ "_id": "pNIYn3X1f6letBTJ",
+ "_key": "!scenes!pNIYn3X1f6letBTJ"
+}

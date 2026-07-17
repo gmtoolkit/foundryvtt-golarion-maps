@@ -15,6 +15,18 @@
   ],
   "esmodules": ["dist/module.js"],
   "styles": ["dist/style.css"],
+  "packs": [
+    {
+      "name": "golarion-scenes",
+      "label": "Golarion Maps",
+      "path": "packs/golarion-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
   "languages": [
     {
       "lang": "en",

@@ -6,6 +6,15 @@ export const MODULE_ID = "foundryvtt-golarion-maps";
 export const DEFAULT_HOST = "https://map.pathfinderwiki.com";
 
 export function registerSettings(): void {
+  game.settings.register(MODULE_ID, "enablePicker", {
+    name: "GOLARIONMAPS.Settings.EnablePicker.Name",
+    hint: "GOLARIONMAPS.Settings.EnablePicker.Hint",
+    scope: "world",
+    config: true,
+    type: Boolean,
+    default: false,
+    requiresReload: true
+  });
   game.settings.register(MODULE_ID, "tilesHost", {
     name: "GOLARIONMAPS.Settings.TilesHost.Name",
     hint: "GOLARIONMAPS.Settings.TilesHost.Hint",

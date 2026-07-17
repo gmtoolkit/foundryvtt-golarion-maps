@@ -1,0 +1,30 @@
+{
+ "name": "Broken Lands",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 1,
+  "size": 100,
+  "distance": 28.3,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "4DsBfmlDHrgYjxQO",
+   "name": "Broken Lands",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/broken-lands.webp"
+   },
+   "_key": "!scenes.levels!Uqd9fFYPLgoQRVIf.4DsBfmlDHrgYjxQO"
+  }
+ ],
+ "_id": "Uqd9fFYPLgoQRVIf",
+ "_key": "!scenes!Uqd9fFYPLgoQRVIf"
+}

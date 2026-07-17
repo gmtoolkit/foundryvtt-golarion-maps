@@ -1,0 +1,30 @@
+{
+ "name": "Tian Xia",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 0,
+  "size": 100,
+  "distance": 143,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "rCp4WKTvzZ28HDKE",
+   "name": "Tian Xia",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/tian-xia.webp"
+   },
+   "_key": "!scenes.levels!IRn6Fl6FHrbtQZMe.rCp4WKTvzZ28HDKE"
+  }
+ ],
+ "_id": "IRn6Fl6FHrbtQZMe",
+ "_key": "!scenes!IRn6Fl6FHrbtQZMe"
+}

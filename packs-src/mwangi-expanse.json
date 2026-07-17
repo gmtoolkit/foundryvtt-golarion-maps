@@ -1,0 +1,30 @@
+{
+ "name": "Mwangi Expanse",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 1,
+  "size": 100,
+  "distance": 54.8,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "VMkrnUDITgDydIQG",
+   "name": "Mwangi Expanse",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/mwangi-expanse.webp"
+   },
+   "_key": "!scenes.levels!dT8VgR8YR7sSI6gZ.VMkrnUDITgDydIQG"
+  }
+ ],
+ "_id": "dT8VgR8YR7sSI6gZ",
+ "_key": "!scenes!dT8VgR8YR7sSI6gZ"
+}

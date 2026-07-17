@@ -15,6 +15,8 @@
   "GOLARIONMAPS.Status.CreatingScene": "Creating scene…",
   "GOLARIONMAPS.Status.Done": "Done.",
   "GOLARIONMAPS.Status.Failed": "Failed — see console (F12).",
+  "GOLARIONMAPS.Settings.EnablePicker.Name": "Enable live map picker",
+  "GOLARIONMAPS.Settings.EnablePicker.Hint": "Adds a button to the Scenes sidebar that opens the live Golarion map, letting you bake any region into a scene. Requires access to the map data endpoint (see below). The curated scene compendium works without this.",
   "GOLARIONMAPS.Settings.TilesHost.Name": "Map data endpoint",
   "GOLARIONMAPS.Settings.TilesHost.Hint": "Base URL serving golarion.pmtiles, fonts/ and sprites/. Use a CORS-enabled mirror, or a path inside your Foundry data (e.g. modules/foundryvtt-golarion-maps/map-data) for a self-hosted copy."
 }

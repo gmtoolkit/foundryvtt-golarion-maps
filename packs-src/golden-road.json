@@ -1,0 +1,30 @@
+{
+ "name": "Golden Road",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 1,
+  "size": 100,
+  "distance": 45.1,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "hMbQbiaajFx0TKWI",
+   "name": "Golden Road",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/golden-road.webp"
+   },
+   "_key": "!scenes.levels!ja6rz5Fe9rR1mmRl.hMbQbiaajFx0TKWI"
+  }
+ ],
+ "_id": "ja6rz5Fe9rR1mmRl",
+ "_key": "!scenes!ja6rz5Fe9rR1mmRl"
+}

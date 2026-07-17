@@ -1,0 +1,30 @@
+{
+ "name": "Absalom and Starstone Isle",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 1,
+  "size": 100,
+  "distance": 14.1,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "Dxn6WPbpysVX5Mt3",
+   "name": "Absalom and Starstone Isle",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/absalom-starstone-isle.webp"
+   },
+   "_key": "!scenes.levels!8khJGWoIrEyriO6i.Dxn6WPbpysVX5Mt3"
+  }
+ ],
+ "_id": "8khJGWoIrEyriO6i",
+ "_key": "!scenes!8khJGWoIrEyriO6i"
+}

@@ -1,0 +1,30 @@
+{
+ "name": "High Seas",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 1,
+  "size": 100,
+  "distance": 53.4,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "yjJHTqHgtaAOLq86",
+   "name": "High Seas",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/high-seas.webp"
+   },
+   "_key": "!scenes.levels!wSqEsSfSpfOCX0bb.yjJHTqHgtaAOLq86"
+  }
+ ],
+ "_id": "wSqEsSfSpfOCX0bb",
+ "_key": "!scenes!wSqEsSfSpfOCX0bb"
+}

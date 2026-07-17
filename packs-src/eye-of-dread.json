@@ -1,0 +1,30 @@
+{
+ "name": "Eye of Dread",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 1,
+  "size": 100,
+  "distance": 25.8,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "ixJd7ZG0ToUX104w",
+   "name": "Eye of Dread",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/eye-of-dread.webp"
+   },
+   "_key": "!scenes.levels!Dzo9X0oUWXckKhFK.ixJd7ZG0ToUX104w"
+  }
+ ],
+ "_id": "Dzo9X0oUWXckKhFK",
+ "_key": "!scenes!Dzo9X0oUWXckKhFK"
+}

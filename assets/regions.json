@@ -1,0 +1,23 @@
+{
+  "$comment": "Curated region manifest for compendium generation. Centers derive from the map's own region-label anchors (queried from source data 2026-07-17); zooms hand-tuned. width/height are CSS px; output = css * resFactor.",
+  "regions": [
+    { "key": "golarion-world", "name": "Golarion", "center": [20, 10], "zoom": 1.4, "width": 1280, "height": 800, "resFactor": 3, "gridType": "gridless" },
+    { "key": "avistan", "name": "Avistan", "center": [-12, 47], "zoom": 3.6, "resFactor": 4, "gridType": "gridless" },
+    { "key": "garund", "name": "Garund", "center": [-11, 6], "zoom": 3.3, "resFactor": 4, "gridType": "gridless" },
+    { "key": "tian-xia", "name": "Tian Xia", "center": [173, 20], "zoom": 3.0, "resFactor": 4, "gridType": "gridless" },
+    { "key": "casmaron", "name": "Casmaron", "center": [45, 20], "zoom": 3.2, "resFactor": 4, "gridType": "gridless" },
+    { "key": "arcadia", "name": "Arcadia", "center": [-94, -5], "zoom": 3.2, "resFactor": 4, "gridType": "gridless" },
+    { "key": "crown-of-the-world", "name": "Crown of the World", "center": [-9, 76], "zoom": 3.0, "resFactor": 4, "gridType": "gridless" },
+    { "key": "inner-sea-region", "name": "The Inner Sea Region", "center": [-8, 36], "zoom": 4.2, "resFactor": 4, "gridType": "square", "gridSize": 100 },
+    { "key": "absalom-starstone-isle", "name": "Absalom and Starstone Isle", "center": [-0.5, 31.4], "zoom": 6.2, "resFactor": 4, "gridType": "square", "gridSize": 100 },
+    { "key": "broken-lands", "name": "Broken Lands", "center": [0.2, 49.6], "zoom": 4.8, "resFactor": 4, "gridType": "square", "gridSize": 100 },
+    { "key": "eye-of-dread", "name": "Eye of Dread", "center": [-12.7, 47.2], "zoom": 5.0, "resFactor": 4, "gridType": "square", "gridSize": 100 },
+    { "key": "golden-road", "name": "Golden Road", "center": [-3.7, 26], "zoom": 4.6, "resFactor": 4, "gridType": "square", "gridSize": 100 },
+    { "key": "high-seas", "name": "High Seas", "center": [-29.3, 22], "zoom": 4.4, "resFactor": 4, "gridType": "square", "gridSize": 100 },
+    { "key": "impossible-lands", "name": "Impossible Lands", "center": [-5, 18.3], "zoom": 4.8, "resFactor": 4, "gridType": "square", "gridSize": 100 },
+    { "key": "mwangi-expanse", "name": "Mwangi Expanse", "center": [-16.3, 17.8], "zoom": 4.4, "resFactor": 4, "gridType": "square", "gridSize": 100 },
+    { "key": "old-cheliax", "name": "Old Cheliax", "center": [-19.8, 36.3], "zoom": 5.0, "resFactor": 4, "gridType": "square", "gridSize": 100 },
+    { "key": "saga-lands", "name": "Saga Lands", "center": [-24.6, 51.3], "zoom": 4.7, "resFactor": 4, "gridType": "square", "gridSize": 100 },
+    { "key": "shining-kingdoms", "name": "Shining Kingdoms", "center": [1.5, 40], "zoom": 4.7, "resFactor": 4, "gridType": "square", "gridSize": 100 }
+  ]
+}

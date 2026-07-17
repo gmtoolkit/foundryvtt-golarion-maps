@@ -1,0 +1,30 @@
+{
+ "name": "Old Cheliax",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 1,
+  "size": 100,
+  "distance": 30.6,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "soV3ufHCkY0qG8dv",
+   "name": "Old Cheliax",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/old-cheliax.webp"
+   },
+   "_key": "!scenes.levels!OPpxLPQFwCL515Pq.soV3ufHCkY0qG8dv"
+  }
+ ],
+ "_id": "OPpxLPQFwCL515Pq",
+ "_key": "!scenes!OPpxLPQFwCL515Pq"
+}

@@ -1,7 +1,9 @@
 import "maplibre-gl/dist/maplibre-gl.css";
 import "../styles/module.css";
 
+import { bakeRegion, generateScenes } from "./api";
 import { buildPickerClass } from "./apps/picker";
+import { buildSceneData } from "./scene-data";
 import { registerSettings } from "./settings";
 
 let PickerClass: any = null;
@@ -14,12 +16,18 @@ Hooks.once("init", () => {
 Hooks.once("ready", () => {
   // Built lazily so foundry.applications.api exists before we subclass it.
   PickerClass = buildPickerClass();
+  // Programmatic API: used by the compendium generation tooling and available
+  // to macros/other modules.
+  const mod = game.modules.get("foundryvtt-golarion-maps");
+  if (mod) mod.api = { bakeRegion, generateScenes, buildSceneData };
 });
 
 Hooks.on("renderSceneDirectory", (_app: any, html: any) => {
   const el: HTMLElement = html instanceof HTMLElement ? html : html[0];
   if (!el || el.querySelector(".golarion-maps-open")) return;
   if (!game.user?.isGM) return;
+  // Compendium-first: the live picker is a power feature, off by default.
+  if (!game.settings.get("foundryvtt-golarion-maps", "enablePicker")) return;
   const footer = el.querySelector(".directory-footer") ?? el;
   const btn = document.createElement("button");
   btn.type = "button";

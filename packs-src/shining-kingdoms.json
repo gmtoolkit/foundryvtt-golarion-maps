@@ -1,0 +1,30 @@
+{
+ "name": "Shining Kingdoms",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 1,
+  "size": 100,
+  "distance": 35.8,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "LiynGu6Mj32Mnans",
+   "name": "Shining Kingdoms",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/shining-kingdoms.webp"
+   },
+   "_key": "!scenes.levels!ZHzz1ueZlfYt7NnY.LiynGu6Mj32Mnans"
+  }
+ ],
+ "_id": "ZHzz1ueZlfYt7NnY",
+ "_key": "!scenes!ZHzz1ueZlfYt7NnY"
+}

@@ -1,6 +1,7 @@
 import { Map as MLMap, NavigationControl, ScaleControl } from "maplibre-gl";
 import { bakeViewport } from "../bake";
 import { computeScale } from "../scale";
+import { buildSceneData } from "../scene-data";
 import { MODULE_ID } from "../settings";
 import { loadStyle } from "../style";
 
@@ -50,6 +51,10 @@ export function buildPickerClass(): any {
             attributionControl: false,
             canvasContextAttributes: { preserveDrawingBuffer: false }
           });
+          (globalThis as any).__golarionMapsDebug = { app: this, map: this.#map };
+          this.#map.on("error", (e: any) =>
+            console.warn(`${MODULE_ID} | map error:`, e?.error?.message ?? e)
+          );
           this.#map.dragRotate.disable();
           this.#map.touchZoomRotate.disableRotation();
           this.#map.addControl(new NavigationControl({ showCompass: false }));
@@ -164,30 +169,21 @@ export function buildPickerClass(): any {
         setStatus("GOLARIONMAPS.Status.CreatingScene");
         const width = Math.round(container.clientWidth * resFactor);
         const height = Math.round(container.clientHeight * resFactor);
-        const grid =
+        const gridDistanceMiles =
           gridType === "square"
-            ? {
-                type: CONST.GRID_TYPES.SQUARE,
-                size: gridSize,
-                distance: Number(scale!.gridDistanceMiles.toPrecision(3)),
-                units: "mi"
-              }
-            : {
-                type: CONST.GRID_TYPES.GRIDLESS,
-                size: 100,
-                distance: Number(((100 * scale!.metersPerImagePixel) / 1609.344).toPrecision(3)),
-                units: "mi"
-              };
-        const scene = await Scene.create({
-          name: sceneName,
-          width,
-          height,
-          padding: 0,
-          background: { src: uploaded.path },
-          grid,
-          tokenVision: false,
-          fog: { exploration: false }
-        });
+            ? scale!.gridDistanceMiles
+            : (100 * scale!.metersPerImagePixel) / 1609.344;
+        const scene = await Scene.create(
+          buildSceneData({
+            name: sceneName,
+            width,
+            height,
+            imagePath: uploaded.path,
+            gridType: gridType as "gridless" | "square",
+            gridSize,
+            gridDistanceMiles
+          })
+        );
 
         setStatus("GOLARIONMAPS.Status.Done");
         ui.notifications.info(

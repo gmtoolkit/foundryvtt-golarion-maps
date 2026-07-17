@@ -1,0 +1,30 @@
+{
+ "name": "Saga Lands",
+ "width": 4608,
+ "height": 3072,
+ "padding": 0,
+ "grid": {
+  "type": 1,
+  "size": 100,
+  "distance": 29.2,
+  "units": "mi"
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "navigation": true,
+ "levels": [
+  {
+   "_id": "lvbiLtbWVcIj5z1F",
+   "name": "Saga Lands",
+   "index": 0,
+   "background": {
+    "src": "modules/foundryvtt-golarion-maps/assets/scenes/saga-lands.webp"
+   },
+   "_key": "!scenes.levels!HSFVDtKskow3dEhn.lvbiLtbWVcIj5z1F"
+  }
+ ],
+ "_id": "HSFVDtKskow3dEhn",
+ "_key": "!scenes!HSFVDtKskow3dEhn"
+}
