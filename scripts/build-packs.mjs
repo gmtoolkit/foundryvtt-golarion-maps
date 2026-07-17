@@ -11,7 +11,7 @@
 // folder names); folder documents are `!folders!<id>` entries.
 import { ClassicLevel } from "classic-level";
 import { createHash } from "node:crypto";
-import { mkdirSync, readdirSync, readFileSync, rmSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -31,6 +31,36 @@ const folderId = (name) => did(`folder:${name}`);
 
 const manifest = JSON.parse(readFileSync(join(root, "assets", "regions.json"), "utf8"));
 const folderByKey = new Map(manifest.regions.map((r) => [r.key, r.folder ?? null]));
+
+// Optional wiki content cache (scripts/fetch-wiki-extracts.mjs). Pages for
+// labels present here embed the article lead with CC BY-NC-SA attribution.
+const extractsPath = join(root, "data", "wiki-extracts.json");
+const extracts = existsSync(extractsPath) ? JSON.parse(readFileSync(extractsPath, "utf8")) : {};
+
+// Wiki hatnotes/banners (spoiler warnings etc.) come through TextExtracts as
+// leading paragraphs; drop them, keeping the actual article lead.
+function cleanExtract(html) {
+  return html
+    .replace(/<p>(?:(?!<\/p>).)*?(?:contains spoilers|You can disable)(?:(?!<\/p>).)*?<\/p>/gs, "")
+    .trim();
+}
+
+function pageContent(label, sceneName, wiki) {
+  const e = extracts[label];
+  if (e && !e.missing) {
+    return (
+      cleanExtract(e.extract) +
+      `<hr /><p style="font-size:0.85em"><em>Text from ` +
+      `<a href="${e.url}">PathfinderWiki: ${e.title}</a>, licensed ` +
+      `<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>, ` +
+      `retrieved ${e.retrieved}.</em></p>`
+    );
+  }
+  return (
+    `<p><em>A location on the ${sceneName} map.</em></p>` +
+    (wiki ? `<p><a href="${wiki}">View on PathfinderWiki</a></p>` : "")
+  );
+}
 
 rmSync(packDir, { recursive: true, force: true });
 mkdirSync(packDir, { recursive: true });
@@ -92,9 +122,7 @@ for (const file of readdirSync(srcDir).filter((f) => f.endsWith(".json"))) {
         title: { show: true, level: 1 },
         text: {
           format: 1,
-          content:
-            `<p><em>A location on the ${doc.name} map.</em></p>` +
-            (wiki ? `<p><a href="${wiki}">View on PathfinderWiki</a></p>` : "")
+          content: pageContent(n.text, doc.name, wiki)
         },
         sort: (sort += 100),
         _stats: { coreVersion: PACK_CORE_VERSION }

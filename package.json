@@ -9,6 +9,7 @@
     "style": "node scripts/generate-style.mjs",
     "mirror": "node scripts/mirror-map-data.mjs",
     "packs": "node scripts/build-packs.mjs",
+    "wiki": "node scripts/fetch-wiki-extracts.mjs",
     "deploy": "npm run build && npm run packs && node scripts/deploy-local.mjs"
   },
   "dependencies": {

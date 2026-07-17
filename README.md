@@ -45,9 +45,24 @@ npm run build    # bundle to dist/
 
 Symlink or junction the repo folder into `FoundryVTT/Data/modules/foundryvtt-golarion-maps`.
 
+## Gazetteer content
+
+`npm run wiki` pulls lead-section extracts for every pinned location from the
+PathfinderWiki MediaWiki API (throttled, no scraping) into
+`data/wiki-extracts.json`, which is checked in. Run it whenever you want
+fresher article text, review the diff, commit; the pack build embeds the
+extracts into the gazetteer journal pages with per-page attribution. Pages
+without a matching article fall back to a name + wiki-link stub.
+
 ## Licensing and attribution
 
 Module code is MIT licensed.
+
+Gazetteer journal text is from [PathfinderWiki](https://pathfinderwiki.com),
+licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+(Paizo IP therein under the Community Use Policy); each journal page carries
+its source article link and retrieval date. That content remains under
+CC BY-NC-SA in your world.
 
 This module uses trademarks and/or copyrights owned by Paizo Inc., used under
 [Paizo's Community Use Policy](https://paizo.com/licenses/communityuse). We are
