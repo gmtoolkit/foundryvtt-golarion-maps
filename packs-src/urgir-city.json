@@ -6,7 +6,7 @@
  "grid": {
   "type": 1,
   "size": 100,
-  "distance": 0.284,
+  "distance": 0.1,
   "units": "mi"
  },
  "tokenVision": false,
@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "U74Lx0xYUZsbl4xw",
+   "_id": "XyXQyb904MpnsOd8",
    "name": "Urgir",
    "index": 0,
    "background": {
@@ -26,9 +26,9 @@
  ],
  "notes": [
   {
-   "_id": "JZP6wIieuXMxkcTA",
-   "x": 2201,
-   "y": 1538,
+   "_id": "rbfS7kQICruhJ6Ie",
+   "x": 2013,
+   "y": 1541,
    "text": "Market District",
    "fontSize": 24,
    "iconSize": 32,
@@ -43,9 +43,9 @@
    }
   },
   {
-   "_id": "8WtRl3wx85Luf1Po",
-   "x": 2329,
-   "y": 1595,
+   "_id": "UBkfgZynxljcu1r4",
+   "x": 2375,
+   "y": 1705,
    "text": "Sharpened Axe",
    "fontSize": 24,
    "iconSize": 32,
@@ -60,9 +60,9 @@
    }
   },
   {
-   "_id": "nAROjJxVuh0IZIkd",
-   "x": 2309,
-   "y": 1538,
+   "_id": "j0nq5J96j5pxeNvk",
+   "x": 2317,
+   "y": 1541,
    "text": "Urgir",
    "fontSize": 24,
    "iconSize": 32,
@@ -77,9 +77,9 @@
    }
   },
   {
-   "_id": "SkXuRJaok2yrDj3a",
-   "x": 2409,
-   "y": 1537,
+   "_id": "Vh2dgKyG8vJq38Vw",
+   "x": 2600,
+   "y": 1540,
    "text": "Great Palace",
    "fontSize": 24,
    "iconSize": 32,
@@ -94,9 +94,9 @@
    }
   },
   {
-   "_id": "Uq1GFPfVE6UtEH98",
-   "x": 2355,
-   "y": 1488,
+   "_id": "acojCA8nLwiKtctV",
+   "x": 2448,
+   "y": 1400,
    "text": "Halls of the Closed Fist",
    "fontSize": 24,
    "iconSize": 32,
@@ -113,5 +113,5 @@
  ],
  "__key": "urgir-city",
  "__folder": "Cities",
- "_id": "yMhujyAeKDQZpxAl"
+ "_id": "MSVxrFH3k9sHtbW5"
 }

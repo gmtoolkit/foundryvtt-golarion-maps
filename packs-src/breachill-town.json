@@ -6,7 +6,7 @@
  "grid": {
   "type": 1,
   "size": 100,
-  "distance": 0.328,
+  "distance": 0.116,
   "units": "mi"
  },
  "tokenVision": false,
@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "DA4E1VcQmB5fk4MQ",
+   "_id": "EFlT4zSYqfdvZFbQ",
    "name": "Breachill",
    "index": 0,
    "background": {
@@ -26,9 +26,26 @@
  ],
  "notes": [
   {
-   "_id": "bDphEIqmuGEj0pyk",
-   "x": 2298,
-   "y": 1532,
+   "_id": "BCph2prfLY32qNEF",
+   "x": 2344,
+   "y": 1618,
+   "text": "Wizard's Grace",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Wizard's_Grace"
+    }
+   }
+  },
+  {
+   "_id": "YUxbGTIGgOdO4L35",
+   "x": 2287,
+   "y": 1524,
    "text": "Breachill",
    "fontSize": 24,
    "iconSize": 32,
@@ -43,9 +60,60 @@
    }
   },
   {
-   "_id": "okGMvAd9WyVqSeks",
-   "x": 2533,
-   "y": 1281,
+   "_id": "ZYv1Er9wK5neWxJu",
+   "x": 2411,
+   "y": 1496,
+   "text": "Morta's Mortuary",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Morta's_Mortuary"
+    }
+   }
+  },
+  {
+   "_id": "gZ8cc8SeUOVrQfvc",
+   "x": 2213,
+   "y": 1463,
+   "text": "Reliant Book Company",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Reliant_Book_Company"
+    }
+   }
+  },
+  {
+   "_id": "Z7av4b9nY6qHgadx",
+   "x": 2304,
+   "y": 1404,
+   "text": "Pickled Ear",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Pickled_Ear"
+    }
+   }
+  },
+  {
+   "_id": "3uowLjGapw5OJb0F",
+   "x": 2952,
+   "y": 816,
    "text": "Citadel Altaerein",
    "fontSize": 24,
    "iconSize": 32,
@@ -58,26 +126,9 @@
      "wikiUrl": "https://pathfinderwiki.com/wiki/Citadel_Altaerein"
     }
    }
-  },
-  {
-   "_id": "yGh2fjrqRUCJjaeZ",
-   "x": 4261,
-   "y": 396,
-   "text": "Mount Sinatuk",
-   "fontSize": 24,
-   "iconSize": 32,
-   "texture": {
-    "src": "icons/svg/village.svg"
-   },
-   "global": true,
-   "flags": {
-    "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Mount_Sinatuk"
-    }
-   }
   }
  ],
  "__key": "breachill-town",
  "__folder": "Cities",
- "_id": "vNf4MHugLAIyked2"
+ "_id": "wMsWHKMmA6qInnuW"
 }

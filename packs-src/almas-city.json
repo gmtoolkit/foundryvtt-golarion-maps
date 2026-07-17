@@ -6,7 +6,7 @@
  "grid": {
   "type": 1,
   "size": 100,
-  "distance": 0.349,
+  "distance": 0.123,
   "units": "mi"
  },
  "tokenVision": false,
@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "m9JERKSJqJEkcBBr",
+   "_id": "241eFfMH9il353jS",
    "name": "Almas",
    "index": 0,
    "background": {
@@ -26,10 +26,10 @@
  ],
  "notes": [
   {
-   "_id": "YEEoXNgCUqvxD0eF",
-   "x": 2516,
-   "y": 1749,
-   "text": "Benedict's Hope",
+   "_id": "VI01EN7fT41MPQ9z",
+   "x": 3316,
+   "y": 1609,
+   "text": "Avenue of the Gods",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -38,82 +38,14 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Benedict's_Hope"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Avenue_of_the_Gods"
     }
    }
   },
   {
-   "_id": "NrjOd64q9silZcq7",
-   "x": 2266,
-   "y": 1676,
-   "text": "Balmore's Canal",
-   "fontSize": 24,
-   "iconSize": 32,
-   "texture": {
-    "src": "icons/svg/village.svg"
-   },
-   "global": true,
-   "flags": {
-    "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Balmore's_Canal"
-    }
-   }
-  },
-  {
-   "_id": "XJmFz5b9aG6wBLYh",
-   "x": 2127,
-   "y": 1636,
-   "text": "Iron and Hoof Gate",
-   "fontSize": 24,
-   "iconSize": 32,
-   "texture": {
-    "src": "icons/svg/village.svg"
-   },
-   "global": true,
-   "flags": {
-    "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Iron_and_Hoof_Gate"
-    }
-   }
-  },
-  {
-   "_id": "DzXAEe3HODsVqZ8v",
-   "x": 2639,
-   "y": 1624,
-   "text": "Well of Gorum",
-   "fontSize": 24,
-   "iconSize": 32,
-   "texture": {
-    "src": "icons/svg/village.svg"
-   },
-   "global": true,
-   "flags": {
-    "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Well_of_Gorum"
-    }
-   }
-  },
-  {
-   "_id": "Ipl8Y30rjLMUHwLG",
-   "x": 2725,
-   "y": 1601,
-   "text": "Grand Exchange",
-   "fontSize": 24,
-   "iconSize": 32,
-   "texture": {
-    "src": "icons/svg/village.svg"
-   },
-   "global": true,
-   "flags": {
-    "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Grand_Exchange"
-    }
-   }
-  },
-  {
-   "_id": "gC9aUe6tz7CPxVRf",
-   "x": 2769,
-   "y": 1537,
+   "_id": "GuswyWzmX2p07HHF",
+   "x": 3619,
+   "y": 1538,
    "text": "Godsgate",
    "fontSize": 24,
    "iconSize": 32,
@@ -128,9 +60,9 @@
    }
   },
   {
-   "_id": "ojh5GO0uSMsrsAT5",
-   "x": 2687,
-   "y": 1533,
+   "_id": "576GJsBvCFUmieia",
+   "x": 3387,
+   "y": 1527,
    "text": "Almas University",
    "fontSize": 24,
    "iconSize": 32,
@@ -145,9 +77,9 @@
    }
   },
   {
-   "_id": "5qkn6mwHzCQmCR4b",
-   "x": 2438,
-   "y": 1517,
+   "_id": "nW8kTfuN6cso7Zyk",
+   "x": 2683,
+   "y": 1483,
    "text": "Almas",
    "fontSize": 24,
    "iconSize": 32,
@@ -162,9 +94,9 @@
    }
   },
   {
-   "_id": "xw3fcOkdHuh2I5aU",
-   "x": 2581,
-   "y": 1504,
+   "_id": "nVBCTk91XxZf0atO",
+   "x": 3087,
+   "y": 1447,
    "text": "Golden Aerie",
    "fontSize": 24,
    "iconSize": 32,
@@ -177,9 +109,128 @@
      "wikiUrl": "https://pathfinderwiki.com/wiki/Golden_Aerie"
     }
    }
+  },
+  {
+   "_id": "CwMeL6151rTWB5rH",
+   "x": 3515,
+   "y": 1441,
+   "text": "Golden Cathedral",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Golden_Cathedral"
+    }
+   }
+  },
+  {
+   "_id": "unShxQGFpHxu8ZNq",
+   "x": 2799,
+   "y": 1410,
+   "text": "Citadel of the Supreme Elect",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Citadel_of_the_Supreme_Elect"
+    }
+   }
+  },
+  {
+   "_id": "w54u7QRR9DpaAoMX",
+   "x": 1804,
+   "y": 1818,
+   "text": "Iron and Hoof Gate",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Iron_and_Hoof_Gate"
+    }
+   }
+  },
+  {
+   "_id": "zCJ38XnG384QuDMT",
+   "x": 2904,
+   "y": 2140,
+   "text": "Benedict's Hope",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Benedict's_Hope"
+    }
+   }
+  },
+  {
+   "_id": "iUiLZMuDPGDT40Js",
+   "x": 2197,
+   "y": 1931,
+   "text": "Balmore's Canal",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Balmore's_Canal"
+    }
+   }
+  },
+  {
+   "_id": "yTgWCl5RQxNxFWL7",
+   "x": 3252,
+   "y": 1784,
+   "text": "Well of Gorum",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Well_of_Gorum"
+    }
+   }
+  },
+  {
+   "_id": "k4ZexCq9PJe1slKa",
+   "x": 3495,
+   "y": 1720,
+   "text": "Grand Exchange",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Grand_Exchange"
+    }
+   }
   }
  ],
  "__key": "almas-city",
  "__folder": "Cities",
- "_id": "UHn4FXBxZYkDXzld"
+ "_id": "7rDLJ5HScgwGsSmf"
 }

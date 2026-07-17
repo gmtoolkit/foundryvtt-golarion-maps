@@ -6,7 +6,7 @@
  "grid": {
   "type": 1,
   "size": 100,
-  "distance": 0.293,
+  "distance": 0.103,
   "units": "mi"
  },
  "tokenVision": false,
@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "1P692N8UfRA67NQ7",
+   "_id": "ZmJF9I3iOnMrP8Ad",
    "name": "Kaer Maga",
    "index": 0,
    "background": {
@@ -26,9 +26,43 @@
  ],
  "notes": [
   {
-   "_id": "70BZAtJVhWojipv3",
-   "x": 2279,
-   "y": 1614,
+   "_id": "fbwlDW24xb2Wx9PE",
+   "x": 2329,
+   "y": 1758,
+   "text": "Heaven's Ladder",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Heaven's_Ladder"
+    }
+   }
+  },
+  {
+   "_id": "rAODq3sMCrmCU85A",
+   "x": 2141,
+   "y": 1758,
+   "text": "Cliffside Millworks",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Cliffside_Millworks"
+    }
+   }
+  },
+  {
+   "_id": "r4SbsP7RtiKtDT0W",
+   "x": 2232,
+   "y": 1756,
    "text": "Temple of the Endless Step",
    "fontSize": 24,
    "iconSize": 32,
@@ -43,9 +77,111 @@
    }
   },
   {
-   "_id": "M44FDu2k8oGEMZcz",
-   "x": 2210,
-   "y": 1540,
+   "_id": "I3b4veZccnBIWy1y",
+   "x": 2367,
+   "y": 1675,
+   "text": "Flickering Tower",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Flickering_Tower"
+    }
+   }
+  },
+  {
+   "_id": "bn6dKZnljWJxtLb5",
+   "x": 2285,
+   "y": 1661,
+   "text": "Therassic Spire",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Therassic_Spire"
+    }
+   }
+  },
+  {
+   "_id": "xZVNRVeD200kjpVR",
+   "x": 2086,
+   "y": 1648,
+   "text": "Quarrimac's Curatives",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Quarrimac's_Curatives"
+    }
+   }
+  },
+  {
+   "_id": "ospiOrL7MqID10ol",
+   "x": 2518,
+   "y": 1613,
+   "text": "Gadka's Magical Oddities",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Gadka's_Magical_Oddities"
+    }
+   }
+  },
+  {
+   "_id": "yVuqin1LWQvuDugd",
+   "x": 2406,
+   "y": 1596,
+   "text": "Canary House",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Canary_House"
+    }
+   }
+  },
+  {
+   "_id": "JTY8Xgn1MAzAkRc1",
+   "x": 2199,
+   "y": 1591,
+   "text": "Augur Temple",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Augur_Temple"
+    }
+   }
+  },
+  {
+   "_id": "vYZeUAAKgaOHw8fh",
+   "x": 2039,
+   "y": 1547,
    "text": "Duskwarden Guildhouse",
    "fontSize": 24,
    "iconSize": 32,
@@ -60,9 +196,9 @@
    }
   },
   {
-   "_id": "x3woc62Jyshn9WvD",
-   "x": 2303,
-   "y": 1537,
+   "_id": "CsJj5y14JlJep8EC",
+   "x": 2304,
+   "y": 1540,
    "text": "Kaer Maga",
    "fontSize": 24,
    "iconSize": 32,
@@ -77,9 +213,43 @@
    }
   },
   {
-   "_id": "qOa2MKvtQHCHJFJA",
-   "x": 2386,
-   "y": 1501,
+   "_id": "Iv7kyWT0fGHufdd0",
+   "x": 2242,
+   "y": 1462,
+   "text": "Furrow & Vine",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Furrow_%26_Vine"
+    }
+   }
+  },
+  {
+   "_id": "YCSP8rirvK0BacNb",
+   "x": 2408,
+   "y": 1450,
+   "text": "Sorry Excuse",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Sorry_Excuse"
+    }
+   }
+  },
+  {
+   "_id": "1aJNMuN9WEdUultC",
+   "x": 2538,
+   "y": 1437,
    "text": "Last Rites",
    "fontSize": 24,
    "iconSize": 32,
@@ -94,10 +264,10 @@
    }
   },
   {
-   "_id": "bYTvIs6RLJM1yjPK",
-   "x": 2244,
-   "y": 1471,
-   "text": "Halfway Houses",
+   "_id": "XK5leUzVvtE6NmX0",
+   "x": 2171,
+   "y": 1418,
+   "text": "Pillars of Dream",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -106,14 +276,48 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Halfway_Houses"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Pillars_of_Dream"
     }
    }
   },
   {
-   "_id": "UEPauj924atYIjsT",
-   "x": 2308,
-   "y": 1463,
+   "_id": "3fhQT5xio0yHRQ8j",
+   "x": 2097,
+   "y": 1373,
+   "text": "Gap",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Gap"
+    }
+   }
+  },
+  {
+   "_id": "n5ii5PzD7nPnwIRP",
+   "x": 2458,
+   "y": 1363,
+   "text": "Reanimations",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Reanimations"
+    }
+   }
+  },
+  {
+   "_id": "anabWbPRXMZENmOi",
+   "x": 2316,
+   "y": 1329,
    "text": "Lyceum",
    "fontSize": 24,
    "iconSize": 32,
@@ -126,9 +330,26 @@
      "wikiUrl": "https://pathfinderwiki.com/wiki/Lyceum"
     }
    }
+  },
+  {
+   "_id": "80Yun5klwSBxBkRj",
+   "x": 2191,
+   "y": 1325,
+   "text": "Succoring Muse",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Succoring_Muse"
+    }
+   }
   }
  ],
  "__key": "kaer-maga-city",
  "__folder": "Cities",
- "_id": "EDIURll5VDw68Viv"
+ "_id": "DeMFMX5gqFsjzp92"
 }

@@ -6,7 +6,7 @@
  "grid": {
   "type": 1,
   "size": 100,
-  "distance": 0.36,
+  "distance": 0.339,
   "units": "mi"
  },
  "tokenVision": false,
@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "O9GoBSP1YUriezeH",
+   "_id": "FOeCVsq6GDFuDDEs",
    "name": "Absalom",
    "index": 0,
    "background": {
@@ -26,9 +26,9 @@
  ],
  "notes": [
   {
-   "_id": "j6DB0g5wRyvB1IeD",
-   "x": 1463,
-   "y": 714,
+   "_id": "YYdJCxZvISdUe7s0",
+   "x": 1410,
+   "y": 661,
    "text": "Westerhold",
    "fontSize": 24,
    "iconSize": 32,
@@ -43,9 +43,9 @@
    }
   },
   {
-   "_id": "31hvaS0ODcxcQUGO",
-   "x": 3095,
-   "y": 550,
+   "_id": "ZoO8o0EfkTk1YgyT",
+   "x": 3146,
+   "y": 488,
    "text": "Copperwood",
    "fontSize": 24,
    "iconSize": 32,
@@ -60,9 +60,9 @@
    }
   },
   {
-   "_id": "pWr0fBCOWoNp0HJW",
-   "x": 3192,
-   "y": 2523,
+   "_id": "QqKv1lBf6De6yorm",
+   "x": 3248,
+   "y": 2586,
    "text": "Dawnfoot",
    "fontSize": 24,
    "iconSize": 32,
@@ -77,9 +77,9 @@
    }
   },
   {
-   "_id": "XOh4bONc4Ozc32QZ",
-   "x": 1397,
-   "y": 1382,
+   "_id": "8gMjO5sP3YvyszI9",
+   "x": 1339,
+   "y": 1372,
    "text": "Shoreline",
    "fontSize": 24,
    "iconSize": 32,
@@ -94,9 +94,9 @@
    }
   },
   {
-   "_id": "9CmhYHNUiRY285Lp",
-   "x": 2404,
-   "y": 1090,
+   "_id": "leEfKhDPgXFXr76l",
+   "x": 2410,
+   "y": 1061,
    "text": "Absalom",
    "fontSize": 24,
    "iconSize": 32,
@@ -113,5 +113,5 @@
  ],
  "__key": "absalom-city",
  "__folder": "Cities",
- "_id": "ZIEjyEXW97YShSQL"
+ "_id": "4NUedZafvx8CLaEw"
 }

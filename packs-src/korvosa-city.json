@@ -6,7 +6,7 @@
  "grid": {
   "type": 1,
   "size": 100,
-  "distance": 0.305,
+  "distance": 0.108,
   "units": "mi"
  },
  "tokenVision": false,
@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "l6ZH6gmbYrsDGkTN",
+   "_id": "bc0xPERn9pqWURwu",
    "name": "Korvosa",
    "index": 0,
    "background": {
@@ -26,9 +26,26 @@
  ],
  "notes": [
   {
-   "_id": "yj2XBmMpGsSx9YJ8",
-   "x": 2207,
-   "y": 1732,
+   "_id": "ci0T9gneaxlxjSHK",
+   "x": 1909,
+   "y": 2141,
+   "text": "Green Market",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Green_Market"
+    }
+   }
+  },
+  {
+   "_id": "YrYAT7P695OEwQNl",
+   "x": 2032,
+   "y": 2091,
    "text": "Pantheon of Many",
    "fontSize": 24,
    "iconSize": 32,
@@ -43,9 +60,60 @@
    }
   },
   {
-   "_id": "mZdUhqQMBVrKzK9P",
-   "x": 2151,
-   "y": 1705,
+   "_id": "rxm9UhaBHfMp3i7K",
+   "x": 2189,
+   "y": 2052,
+   "text": "Great Tomb of Leadership",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Great_Tomb_of_Leadership"
+    }
+   }
+  },
+  {
+   "_id": "Wc8a25rWD9ZskvH4",
+   "x": 1737,
+   "y": 2051,
+   "text": "Palin's Lighthouse",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Palin's_Lighthouse"
+    }
+   }
+  },
+  {
+   "_id": "rdivfqI5zTCQkogk",
+   "x": 1968,
+   "y": 2035,
+   "text": "Bard's End",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Bard's_End"
+    }
+   }
+  },
+  {
+   "_id": "moytGkej9BMGGUxY",
+   "x": 1872,
+   "y": 2013,
    "text": "Orkatto's Feathers and Fur",
    "fontSize": 24,
    "iconSize": 32,
@@ -60,9 +128,26 @@
    }
   },
   {
-   "_id": "1TB3Iqn37YYTjlxH",
-   "x": 2255,
-   "y": 1670,
+   "_id": "nErB7BIwH33Wwh20",
+   "x": 1959,
+   "y": 1919,
+   "text": "Kendall Amphitheater",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Kendall_Amphitheater"
+    }
+   }
+  },
+  {
+   "_id": "UIiEwZenKxkjPwTQ",
+   "x": 2165,
+   "y": 1916,
    "text": "Pestico's Dolls and Figurines",
    "fontSize": 24,
    "iconSize": 32,
@@ -77,10 +162,10 @@
    }
   },
   {
-   "_id": "TNT9HOIDCaURwXxu",
-   "x": 2329,
-   "y": 1658,
-   "text": "Eodred's Square",
+   "_id": "9XfVnvId8moWWKRZ",
+   "x": 1801,
+   "y": 1878,
+   "text": "Gatefoot",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -89,14 +174,31 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Eodred's_Square"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Gatefoot"
     }
    }
   },
   {
-   "_id": "iSUi8ZJcZDSwJFnf",
-   "x": 2164,
-   "y": 1636,
+   "_id": "ac9VFjZGT7KNrWNS",
+   "x": 2513,
+   "y": 1878,
+   "text": "High Bridge",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/High_Bridge"
+    }
+   }
+  },
+  {
+   "_id": "aTarD8hdku4bfAk0",
+   "x": 1909,
+   "y": 1819,
    "text": "Temple of Sarenrae",
    "fontSize": 24,
    "iconSize": 32,
@@ -111,9 +213,9 @@
    }
   },
   {
-   "_id": "8pU5SOJQGuFDK0E4",
-   "x": 2406,
-   "y": 1634,
+   "_id": "wzVD9wqlaY9vNCxE",
+   "x": 2593,
+   "y": 1814,
    "text": "Shoreline Drinkhall",
    "fontSize": 24,
    "iconSize": 32,
@@ -128,9 +230,60 @@
    }
   },
   {
-   "_id": "mZj5HAecXhulwsYG",
-   "x": 2458,
-   "y": 1595,
+   "_id": "H91ZFUnHEtnmDx1G",
+   "x": 2387,
+   "y": 1806,
+   "text": "Creaky Hammock",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Creaky_Hammock"
+    }
+   }
+  },
+  {
+   "_id": "DVdqVjRG0Iyv7zxD",
+   "x": 2237,
+   "y": 1789,
+   "text": "Gold Market",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Gold_Market"
+    }
+   }
+  },
+  {
+   "_id": "Bx2DNkKT4aNUHli8",
+   "x": 2034,
+   "y": 1773,
+   "text": "Marbledome",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Marbledome"
+    }
+   }
+  },
+  {
+   "_id": "mGlnTGLWFjz4fdjr",
+   "x": 2741,
+   "y": 1702,
    "text": "Horse Shop",
    "fontSize": 24,
    "iconSize": 32,
@@ -145,9 +298,9 @@
    }
   },
   {
-   "_id": "DkYqJbpecfx6Xn6h",
-   "x": 2315,
-   "y": 1581,
+   "_id": "aGwJq3JdDE2QIzCH",
+   "x": 2336,
+   "y": 1663,
    "text": "Bailer's Retreat",
    "fontSize": 24,
    "iconSize": 32,
@@ -162,9 +315,9 @@
    }
   },
   {
-   "_id": "C175Vw9JLrUswTKf",
-   "x": 2212,
-   "y": 1570,
+   "_id": "N1UkcGQaK1XHjSAw",
+   "x": 2045,
+   "y": 1632,
    "text": "Castle Korvosa",
    "fontSize": 24,
    "iconSize": 32,
@@ -179,9 +332,43 @@
    }
   },
   {
-   "_id": "OKTQ1eMAJVCBJ7jv",
-   "x": 2474,
-   "y": 1537,
+   "_id": "yPXW9S3OTRUUx1vi",
+   "x": 2758,
+   "y": 1619,
+   "text": "Leftover's",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Leftover's"
+    }
+   }
+  },
+  {
+   "_id": "bwbwO3FczgiO6t09",
+   "x": 2179,
+   "y": 1568,
+   "text": "Tenna's",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Tenna's"
+    }
+   }
+  },
+  {
+   "_id": "MExyDJ0mF7ybtUkO",
+   "x": 2784,
+   "y": 1539,
    "text": "Theumanexus College",
    "fontSize": 24,
    "iconSize": 32,
@@ -196,9 +383,9 @@
    }
   },
   {
-   "_id": "Eaq71fhbvKcwPzAx",
-   "x": 2286,
-   "y": 1520,
+   "_id": "NR7aQAXuPhhrqsQX",
+   "x": 2252,
+   "y": 1492,
    "text": "Korvosa",
    "fontSize": 24,
    "iconSize": 32,
@@ -213,9 +400,111 @@
    }
   },
   {
-   "_id": "RLlWkJweMsxLwqfj",
-   "x": 2340,
-   "y": 1436,
+   "_id": "voGaTEuToliZ3Cdt",
+   "x": 1991,
+   "y": 1480,
+   "text": "Gilded Orrery",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Gilded_Orrery"
+    }
+   }
+  },
+  {
+   "_id": "JsQgAgXUnsgqqAVE",
+   "x": 2350,
+   "y": 1442,
+   "text": "Bookmaker",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Bookmaker"
+    }
+   }
+  },
+  {
+   "_id": "1I1mNEpxNT7LhNCR",
+   "x": 1907,
+   "y": 1373,
+   "text": "Upslope House",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Upslope_House"
+    }
+   }
+  },
+  {
+   "_id": "WIpsaotaGLBSt3WK",
+   "x": 2036,
+   "y": 1340,
+   "text": "Acadamae",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Acadamae"
+    }
+   }
+  },
+  {
+   "_id": "WWApXwc7mFJTmLhk",
+   "x": 2302,
+   "y": 1332,
+   "text": "Jeggare Museum",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Jeggare_Museum"
+    }
+   }
+  },
+  {
+   "_id": "CEjstXUNoDkZjiku",
+   "x": 2509,
+   "y": 1271,
+   "text": "Three Rings Tavern",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Three_Rings_Tavern"
+    }
+   }
+  },
+  {
+   "_id": "w0cJ3Q4eEVx46oa2",
+   "x": 2404,
+   "y": 1252,
    "text": "Sanctuary of Shelyn",
    "fontSize": 24,
    "iconSize": 32,
@@ -230,9 +519,9 @@
    }
   },
   {
-   "_id": "OEyzuxsUNNPxFuJZ",
-   "x": 2188,
-   "y": 1427,
+   "_id": "0R4f26SAJcSvz9id",
+   "x": 1977,
+   "y": 1227,
    "text": "Great Tower",
    "fontSize": 24,
    "iconSize": 32,
@@ -247,9 +536,26 @@
    }
   },
   {
-   "_id": "VPxujf7b6yUkflxA",
-   "x": 2445,
-   "y": 1407,
+   "_id": "2inUI3Do4LRxc4XQ",
+   "x": 2458,
+   "y": 1176,
+   "text": "City Hall",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/City_Hall"
+    }
+   }
+  },
+  {
+   "_id": "LfCZrHglzB46GX5T",
+   "x": 2703,
+   "y": 1171,
    "text": "North Bridge",
    "fontSize": 24,
    "iconSize": 32,
@@ -264,9 +570,43 @@
    }
   },
   {
-   "_id": "DygmZNATG6xRHjxk",
-   "x": 2264,
-   "y": 1347,
+   "_id": "1ZEij3H8k3ijX70j",
+   "x": 2380,
+   "y": 1142,
+   "text": "Dock Trade",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Dock_Trade"
+    }
+   }
+  },
+  {
+   "_id": "aBNnkUVQWQI1FR4Y",
+   "x": 2010,
+   "y": 1069,
+   "text": "Ironworks",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Ironworks"
+    }
+   }
+  },
+  {
+   "_id": "3tlvHTaLvzLsJPY7",
+   "x": 2192,
+   "y": 1001,
    "text": "Hessim, Newby, and Sage Paint Manufactory",
    "fontSize": 24,
    "iconSize": 32,
@@ -281,9 +621,9 @@
    }
   },
   {
-   "_id": "zSZvMlfRiCvXcp1K",
-   "x": 2182,
-   "y": 1341,
+   "_id": "ssFDT0YM3E3ShNeV",
+   "x": 1960,
+   "y": 986,
    "text": "Arkona Palace",
    "fontSize": 24,
    "iconSize": 32,
@@ -298,9 +638,26 @@
    }
   },
   {
-   "_id": "KajdBUZFLHtIH7S7",
-   "x": 2332,
-   "y": 1331,
+   "_id": "8ttWBMeu0KBOuwaA",
+   "x": 2080,
+   "y": 976,
+   "text": "Orisini Academy",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Orisini_Academy"
+    }
+   }
+  },
+  {
+   "_id": "MxSYJJmwkNp9JZaG",
+   "x": 2383,
+   "y": 956,
    "text": "Exemplary Execrables",
    "fontSize": 24,
    "iconSize": 32,
@@ -313,9 +670,43 @@
      "wikiUrl": "https://pathfinderwiki.com/wiki/Exemplary_Execrables"
     }
    }
+  },
+  {
+   "_id": "CzRNCl6OtZbow6Vy",
+   "x": 2235,
+   "y": 929,
+   "text": "Reefclaw Run Market",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Reefclaw_Run_Market"
+    }
+   }
+  },
+  {
+   "_id": "avUxN9XJGIz89hPV",
+   "x": 1822,
+   "y": 903,
+   "text": "Jeggare Light",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Jeggare_Light"
+    }
+   }
   }
  ],
  "__key": "korvosa-city",
  "__folder": "Cities",
- "_id": "3iztx3SvA6J34PaI"
+ "_id": "G9Liox51pmLr0SAU"
 }

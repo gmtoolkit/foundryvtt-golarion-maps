@@ -6,7 +6,7 @@
  "grid": {
   "type": 1,
   "size": 100,
-  "distance": 0.326,
+  "distance": 0.115,
   "units": "mi"
  },
  "tokenVision": false,
@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "lO9LNYJJNYyI3E5X",
+   "_id": "e2QlCaUO45mQiGYh",
    "name": "Kintargo",
    "index": 0,
    "background": {
@@ -26,10 +26,10 @@
  ],
  "notes": [
   {
-   "_id": "GyfAfU91J7T8PTg1",
-   "x": 2172,
-   "y": 1730,
-   "text": "Shrine of Saint Senex",
+   "_id": "t295I0QUpX8zBl2o",
+   "x": 2135,
+   "y": 1549,
+   "text": "Citadel Vaull",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -38,15 +38,15 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Shrine_of_Saint_Senex"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Citadel_Vaull"
     }
    }
   },
   {
-   "_id": "Fy1WWnQ8tUJmNaLi",
-   "x": 2265,
-   "y": 1673,
-   "text": "Iudeimus Tenement",
+   "_id": "qRe4YUQHQbarUk9L",
+   "x": 2562,
+   "y": 1525,
+   "text": "Silver Span",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -55,15 +55,15 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Iudeimus_Tenement"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Silver_Span"
     }
    }
   },
   {
-   "_id": "W1JcFOj9csk8yDoP",
-   "x": 2415,
-   "y": 1659,
-   "text": "Fair Fortune Livery",
+   "_id": "Kce1sHuUQkE9DWiu",
+   "x": 2429,
+   "y": 1467,
+   "text": "Thrashing Badger",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -72,99 +72,14 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Fair_Fortune_Livery"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Thrashing_Badger"
     }
    }
   },
   {
-   "_id": "ayMXc14cJ79doIat",
-   "x": 2194,
-   "y": 1647,
-   "text": "Lucky Bones",
-   "fontSize": 24,
-   "iconSize": 32,
-   "texture": {
-    "src": "icons/svg/village.svg"
-   },
-   "global": true,
-   "flags": {
-    "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Lucky_Bones"
-    }
-   }
-  },
-  {
-   "_id": "lMpsPJrzkOWAyPRQ",
-   "x": 2326,
-   "y": 1610,
-   "text": "Administrative and Civic Center of Ravounel",
-   "fontSize": 24,
-   "iconSize": 32,
-   "texture": {
-    "src": "icons/svg/village.svg"
-   },
-   "global": true,
-   "flags": {
-    "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Administrative_and_Civic_Center_of_Ravounel"
-    }
-   }
-  },
-  {
-   "_id": "s7eGkYXxsBCT4z33",
-   "x": 2260,
-   "y": 1605,
-   "text": "Kintargo Opera House",
-   "fontSize": 24,
-   "iconSize": 32,
-   "texture": {
-    "src": "icons/svg/village.svg"
-   },
-   "global": true,
-   "flags": {
-    "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Kintargo_Opera_House"
-    }
-   }
-  },
-  {
-   "_id": "PKP8fLOW1yT0o9TH",
-   "x": 2406,
-   "y": 1585,
-   "text": "Hocum's Fantasmagorium",
-   "fontSize": 24,
-   "iconSize": 32,
-   "texture": {
-    "src": "icons/svg/village.svg"
-   },
-   "global": true,
-   "flags": {
-    "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Hocum's_Fantasmagorium"
-    }
-   }
-  },
-  {
-   "_id": "5IH2l30FghcoRpvA",
-   "x": 2385,
-   "y": 1520,
-   "text": "Clenchjaw's",
-   "fontSize": 24,
-   "iconSize": 32,
-   "texture": {
-    "src": "icons/svg/village.svg"
-   },
-   "global": true,
-   "flags": {
-    "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Clenchjaw's"
-    }
-   }
-  },
-  {
-   "_id": "Gq2eOPBGz1viXs8y",
-   "x": 2215,
-   "y": 1502,
+   "_id": "gUc1CJSSzN80ObH4",
+   "x": 2050,
+   "y": 1439,
    "text": "Kintargo Keep",
    "fontSize": 24,
    "iconSize": 32,
@@ -179,9 +94,9 @@
    }
   },
   {
-   "_id": "14ALZuF5jhDXcxzw",
-   "x": 2294,
-   "y": 1490,
+   "_id": "zE6W80DgY3yDz6og",
+   "x": 2274,
+   "y": 1408,
    "text": "Sunset Imports",
    "fontSize": 24,
    "iconSize": 32,
@@ -196,9 +111,60 @@
    }
   },
   {
-   "_id": "M3ZaAVEQBOAmPKF5",
-   "x": 2430,
-   "y": 1461,
+   "_id": "SLBQb5MAwjKitqPN",
+   "x": 2609,
+   "y": 1391,
+   "text": "Sarini Estate",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Sarini_Estate"
+    }
+   }
+  },
+  {
+   "_id": "Z4zFZ5fuonCSR1pS",
+   "x": 2421,
+   "y": 1385,
+   "text": "Vashnarstill Shipyard",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Vashnarstill_Shipyard"
+    }
+   }
+  },
+  {
+   "_id": "3kAJyNXl5LDBBoWK",
+   "x": 2497,
+   "y": 1338,
+   "text": "Aulorian Estate",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Aulorian_Estate"
+    }
+   }
+  },
+  {
+   "_id": "CCCHxl2uZQiUFXjZ",
+   "x": 2659,
+   "y": 1324,
    "text": "Aeldervenk Manor",
    "fontSize": 24,
    "iconSize": 32,
@@ -213,9 +179,9 @@
    }
   },
   {
-   "_id": "1V5f3bStHEtcl3Ai",
-   "x": 2335,
-   "y": 1430,
+   "_id": "8tRCtkPUUxeD5XTh",
+   "x": 2391,
+   "y": 1238,
    "text": "Kintargo",
    "fontSize": 24,
    "iconSize": 32,
@@ -230,10 +196,10 @@
    }
   },
   {
-   "_id": "VMlVxcBr4cSNleuZ",
-   "x": 2389,
-   "y": 1409,
-   "text": "Jarvis Estate",
+   "_id": "MkvNsaBqGLz2JEny",
+   "x": 2480,
+   "y": 1228,
+   "text": "Delronge Estate",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -242,15 +208,15 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Jarvis_Estate"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Delronge_Estate"
     }
    }
   },
   {
-   "_id": "l0hcOyCa69XP6rdm",
-   "x": 2277,
-   "y": 1400,
-   "text": "Long Roads Coffeehouse",
+   "_id": "i8McRAu6A9tUKXpL",
+   "x": 2578,
+   "y": 1214,
+   "text": "Aulamaxa Estate",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -259,12 +225,386 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Long_Roads_Coffeehouse"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Aulamaxa_Estate"
+    }
+   }
+  },
+  {
+   "_id": "t11vbHy1sPMjcTuK",
+   "x": 2279,
+   "y": 1178,
+   "text": "Cebarinne Estate",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Cebarinne_Estate"
+    }
+   }
+  },
+  {
+   "_id": "5xHZ9grRklhMcF8S",
+   "x": 2171,
+   "y": 1175,
+   "text": "Lady Docur's School for Girls",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Lady_Docur's_School_for_Girls"
+    }
+   }
+  },
+  {
+   "_id": "IF2okMLmZ0LdKfTL",
+   "x": 2450,
+   "y": 1111,
+   "text": "Tanessen Estate",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Tanessen_Estate"
+    }
+   }
+  },
+  {
+   "_id": "xZNS3gmwjShcfskT",
+   "x": 1928,
+   "y": 2084,
+   "text": "Shrine of Saint Senex",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Shrine_of_Saint_Senex"
+    }
+   }
+  },
+  {
+   "_id": "eu4JytsYT1xhvpHa",
+   "x": 2286,
+   "y": 1969,
+   "text": "Rust Gate",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Rust_Gate"
+    }
+   }
+  },
+  {
+   "_id": "GDkNMYb1YJzBQK9Y",
+   "x": 2620,
+   "y": 1885,
+   "text": "Fair Fortune Livery",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Fair_Fortune_Livery"
+    }
+   }
+  },
+  {
+   "_id": "YGzLkGvGdjJN6suG",
+   "x": 2252,
+   "y": 1872,
+   "text": "Vespam Artisans",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Vespam_Artisans"
+    }
+   }
+  },
+  {
+   "_id": "cQBF1eLFFMm7QvUu",
+   "x": 2384,
+   "y": 1868,
+   "text": "Cloven Hoof Society",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Cloven_Hoof_Society"
+    }
+   }
+  },
+  {
+   "_id": "cA2RUpluahzxzRoY",
+   "x": 2508,
+   "y": 1860,
+   "text": "Devil's Nursery",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Devil's_Nursery"
+    }
+   }
+  },
+  {
+   "_id": "hEIIyvEwMq3SqH0r",
+   "x": 1993,
+   "y": 1851,
+   "text": "Lucky Bones",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Lucky_Bones"
+    }
+   }
+  },
+  {
+   "_id": "Bvtb7ZErFJSzjQvo",
+   "x": 2118,
+   "y": 1851,
+   "text": "Holding House",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Holding_House"
+    }
+   }
+  },
+  {
+   "_id": "jCadAr4uJaXs9pgF",
+   "x": 2240,
+   "y": 1789,
+   "text": "Little Miss Drurie's",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Little_Miss_Drurie's"
+    }
+   }
+  },
+  {
+   "_id": "VISfk68uLlIeXVy7",
+   "x": 2441,
+   "y": 1786,
+   "text": "Humbright House",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Humbright_House"
+    }
+   }
+  },
+  {
+   "_id": "dJu8vudxLt3EMKU7",
+   "x": 2083,
+   "y": 1770,
+   "text": "Ruba's Shop",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Ruba's_Shop"
+    }
+   }
+  },
+  {
+   "_id": "JRb9qb8gyJAof2Jm",
+   "x": 2640,
+   "y": 1758,
+   "text": "Silver Spindle",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Silver_Spindle"
+    }
+   }
+  },
+  {
+   "_id": "J5JXPBFDPL41Plff",
+   "x": 2367,
+   "y": 1744,
+   "text": "Administrative and Civic Center of Ravounel",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Administrative_and_Civic_Center_of_Ravounel"
+    }
+   }
+  },
+  {
+   "_id": "26TXUGuA31q9E4mn",
+   "x": 2179,
+   "y": 1732,
+   "text": "Kintargo Opera House",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Kintargo_Opera_House"
+    }
+   }
+  },
+  {
+   "_id": "ZncuO8i0QFqBwiDu",
+   "x": 1960,
+   "y": 1722,
+   "text": "Sallix Salt Works",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Sallix_Salt_Works"
+    }
+   }
+  },
+  {
+   "_id": "PujuIe93EpXEde4m",
+   "x": 2434,
+   "y": 1684,
+   "text": "House of Golden Veils",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/House_of_Golden_Veils"
+    }
+   }
+  },
+  {
+   "_id": "xMv2OyJOb2cg10AG",
+   "x": 2593,
+   "y": 1675,
+   "text": "Hocum's Fantasmagorium",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Hocum's_Fantasmagorium"
+    }
+   }
+  },
+  {
+   "_id": "x7Evo9Ncg4yaZiJu",
+   "x": 2081,
+   "y": 1623,
+   "text": "Andos Hall",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Andos_Hall"
+    }
+   }
+  },
+  {
+   "_id": "WdTs0F1L0McZ2Uo3",
+   "x": 2246,
+   "y": 1614,
+   "text": "Silver Star",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Silver_Star"
     }
    }
   }
  ],
  "__key": "kintargo-city",
  "__folder": "Cities",
- "_id": "RIPPSPYIZ9dD5Yjh"
+ "_id": "VtExwRiqtDaqCp3A"
 }

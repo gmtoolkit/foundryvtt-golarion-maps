@@ -6,7 +6,7 @@
  "grid": {
   "type": 1,
   "size": 100,
-  "distance": 0.317,
+  "distance": 0.112,
   "units": "mi"
  },
  "tokenVision": false,
@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "ZjzGPybjAAY4Sg44",
+   "_id": "zXR28qb3CjfJvkMb",
    "name": "Kerse",
    "index": 0,
    "background": {
@@ -26,10 +26,10 @@
  ],
  "notes": [
   {
-   "_id": "MluQQ3y6UIH0FtKs",
-   "x": 2256,
-   "y": 1562,
-   "text": "Cerulean Docks",
+   "_id": "E6KfISADhr8K6FZo",
+   "x": 2322,
+   "y": 1722,
+   "text": "Ophidian Estate",
    "fontSize": 24,
    "iconSize": 32,
    "texture": {
@@ -38,14 +38,48 @@
    "global": true,
    "flags": {
     "foundryvtt-golarion-maps": {
-     "wikiUrl": "https://pathfinderwiki.com/wiki/Cerulean_Docks"
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Ophidian_Estate"
     }
    }
   },
   {
-   "_id": "5nn8gmagzgXEhBvZ",
-   "x": 2322,
-   "y": 1549,
+   "_id": "rGAzEi72HDT3SlaZ",
+   "x": 2480,
+   "y": 1658,
+   "text": "Barbarous Arena",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Barbarous_Arena"
+    }
+   }
+  },
+  {
+   "_id": "gmazpfLrTf95f4xo",
+   "x": 2200,
+   "y": 1616,
+   "text": "Sublime Square",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Sublime_Square"
+    }
+   }
+  },
+  {
+   "_id": "Acw8G2CjGUDubcse",
+   "x": 2355,
+   "y": 1573,
    "text": "Kerse",
    "fontSize": 24,
    "iconSize": 32,
@@ -60,9 +94,60 @@
    }
   },
   {
-   "_id": "kSacn0LJ3KB40xIn",
-   "x": 2225,
-   "y": 1481,
+   "_id": "K74UCYg5spn6RMyX",
+   "x": 2224,
+   "y": 1522,
+   "text": "Mercenary League Headquarters",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Mercenary_League_Headquarters"
+    }
+   }
+  },
+  {
+   "_id": "XWRIwSIBOLuixN8O",
+   "x": 2384,
+   "y": 1490,
+   "text": "Planepierce Spire",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Planepierce_Spire"
+    }
+   }
+  },
+  {
+   "_id": "f3wgL5okVPQVGnAF",
+   "x": 2151,
+   "y": 1446,
+   "text": "Immaculate Path",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Immaculate_Path"
+    }
+   }
+  },
+  {
+   "_id": "r03DPZcykuNV3dFD",
+   "x": 2080,
+   "y": 1379,
    "text": "Gems of Kalistrade",
    "fontSize": 24,
    "iconSize": 32,
@@ -79,5 +164,5 @@
  ],
  "__key": "kerse-city",
  "__folder": "Cities",
- "_id": "O7ZeQrwiKzW4AcTZ"
+ "_id": "yRPfadN49kxvEkn5"
 }

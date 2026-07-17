@@ -566,7 +566,7 @@
      30.89
     ],
     "radiusDeg": 0.35,
-    "maxZoom": 11.5
+    "maxZoom": 13
    },
    "gridType": "square",
    "gridSize": 100,
@@ -582,7 +582,7 @@
      43.93
     ],
     "radiusDeg": 0.35,
-    "maxZoom": 11.5
+    "maxZoom": 13
    },
    "gridType": "square",
    "gridSize": 100,
@@ -598,7 +598,7 @@
      43.37
     ],
     "radiusDeg": 0.35,
-    "maxZoom": 11.5
+    "maxZoom": 13
    },
    "gridType": "square",
    "gridSize": 100,
@@ -614,7 +614,7 @@
      45.79
     ],
     "radiusDeg": 0.35,
-    "maxZoom": 11.5
+    "maxZoom": 13
    },
    "gridType": "square",
    "gridSize": 100,
@@ -630,7 +630,7 @@
      39.06
     ],
     "radiusDeg": 0.35,
-    "maxZoom": 11.5
+    "maxZoom": 13
    },
    "gridType": "square",
    "gridSize": 100,
@@ -646,7 +646,7 @@
      39.82
     ],
     "radiusDeg": 0.35,
-    "maxZoom": 11.5
+    "maxZoom": 13
    },
    "gridType": "square",
    "gridSize": 100,
@@ -662,7 +662,7 @@
      22.48
     ],
     "radiusDeg": 0.35,
-    "maxZoom": 11.5
+    "maxZoom": 13
    },
    "gridType": "square",
    "gridSize": 100,
@@ -678,7 +678,7 @@
      33.76
     ],
     "radiusDeg": 0.35,
-    "maxZoom": 11.5
+    "maxZoom": 13
    },
    "gridType": "square",
    "gridSize": 100,
@@ -694,7 +694,7 @@
      17.83
     ],
     "radiusDeg": 0.35,
-    "maxZoom": 11.5
+    "maxZoom": 13
    },
    "gridType": "square",
    "gridSize": 100,
@@ -710,7 +710,7 @@
      24.28
     ],
     "radiusDeg": 0.35,
-    "maxZoom": 11.5
+    "maxZoom": 13
    },
    "gridType": "square",
    "gridSize": 100,
@@ -726,7 +726,7 @@
      41.03
     ],
     "radiusDeg": 0.35,
-    "maxZoom": 11.5
+    "maxZoom": 13
    },
    "gridType": "square",
    "gridSize": 100,
@@ -742,7 +742,7 @@
      51.23
     ],
     "radiusDeg": 0.35,
-    "maxZoom": 11.5
+    "maxZoom": 13
    },
    "gridType": "square",
    "gridSize": 100,
@@ -758,7 +758,7 @@
      47.4
     ],
     "radiusDeg": 0.35,
-    "maxZoom": 11.5
+    "maxZoom": 13
    },
    "gridType": "square",
    "gridSize": 100,
@@ -774,7 +774,7 @@
      38.73
     ],
     "radiusDeg": 0.12,
-    "maxZoom": 11.5
+    "maxZoom": 13
    },
    "gridType": "square",
    "gridSize": 100,

@@ -6,7 +6,7 @@
  "grid": {
   "type": 1,
   "size": 100,
-  "distance": 0.4,
+  "distance": 0.141,
   "units": "mi"
  },
  "tokenVision": false,
@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "fS2kErhI0HytK7l8",
+   "_id": "BMJZGP7TUDBgpo3f",
    "name": "Port Peril",
    "index": 0,
    "background": {
@@ -26,9 +26,9 @@
  ],
  "notes": [
   {
-   "_id": "AH8pze5E8UDZQS1l",
-   "x": 2294,
-   "y": 1480,
+   "_id": "8K9yHo55Z6tjo58I",
+   "x": 2277,
+   "y": 1379,
    "text": "Port Peril",
    "fontSize": 24,
    "iconSize": 32,
@@ -43,9 +43,9 @@
    }
   },
   {
-   "_id": "vvHBckvPO2kQ0ZVJ",
-   "x": 2435,
-   "y": 1455,
+   "_id": "n9UtLK0RHLcei3OK",
+   "x": 2672,
+   "y": 1305,
    "text": "Sea Wrack Chapel",
    "fontSize": 24,
    "iconSize": 32,
@@ -60,9 +60,9 @@
    }
   },
   {
-   "_id": "4ErpCvc2e6PVBeS1",
-   "x": 2183,
-   "y": 1441,
+   "_id": "wxZj8WQWpOiEUx9c",
+   "x": 1962,
+   "y": 1268,
    "text": "Mystic's Redoubt",
    "fontSize": 24,
    "iconSize": 32,
@@ -77,9 +77,9 @@
    }
   },
   {
-   "_id": "H65S7X2qFFbnIW4J",
-   "x": 2212,
-   "y": 1385,
+   "_id": "R3KFGkjOhgR0RIGP",
+   "x": 2044,
+   "y": 1107,
    "text": "Harborhorn",
    "fontSize": 24,
    "iconSize": 32,
@@ -94,9 +94,9 @@
    }
   },
   {
-   "_id": "CPyNh03b7jcDGeS3",
-   "x": 2390,
-   "y": 1383,
+   "_id": "J279rNYC1GCdotFj",
+   "x": 2548,
+   "y": 1105,
    "text": "Latchmin's Folly",
    "fontSize": 24,
    "iconSize": 32,
@@ -111,9 +111,26 @@
    }
   },
   {
-   "_id": "0EagKXLotnjiKRpR",
-   "x": 2338,
-   "y": 1296,
+   "_id": "Tc2Iuqb0uq9F22xs",
+   "x": 1948,
+   "y": 975,
+   "text": "Mermaid's Bucket",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Mermaid's_Bucket"
+    }
+   }
+  },
+  {
+   "_id": "BpW4rqcvLI5on10W",
+   "x": 2401,
+   "y": 858,
    "text": "Fort Hazard",
    "fontSize": 24,
    "iconSize": 32,
@@ -130,5 +147,5 @@
  ],
  "__key": "port-peril-city",
  "__folder": "Cities",
- "_id": "HmCmT9tv0FQkbrKK"
+ "_id": "Tlr0o6mnBVd9Wh3w"
 }

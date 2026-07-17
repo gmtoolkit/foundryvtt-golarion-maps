@@ -6,7 +6,7 @@
  "grid": {
   "type": 1,
   "size": 100,
-  "distance": 0.383,
+  "distance": 0.135,
   "units": "mi"
  },
  "tokenVision": false,
@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "KDgHCe8UCOvSJ892",
+   "_id": "jA22nZgxH8lLgpB4",
    "name": "Ilizmagorti",
    "index": 0,
    "background": {
@@ -26,9 +26,26 @@
  ],
  "notes": [
   {
-   "_id": "j5EKzF465ezRtH2e",
-   "x": 2265,
-   "y": 1579,
+   "_id": "C9tMSzLFWVdWUHBk",
+   "x": 2253,
+   "y": 1769,
+   "text": "Hospice of Serenity",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Hospice_of_Serenity"
+    }
+   }
+  },
+  {
+   "_id": "FAFTtjggtAizX3x2",
+   "x": 2193,
+   "y": 1656,
    "text": "Pagoda of the Mantis",
    "fontSize": 24,
    "iconSize": 32,
@@ -43,9 +60,26 @@
    }
   },
   {
-   "_id": "9xmS1iiKPdGA3PQ8",
-   "x": 2201,
-   "y": 1541,
+   "_id": "fu1kKb3YSKJD0LUa",
+   "x": 2323,
+   "y": 1651,
+   "text": "Bargecrew's Guild Headquarters",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Bargecrew's_Guild_Headquarters"
+    }
+   }
+  },
+  {
+   "_id": "CBCB72rKU79FLhDc",
+   "x": 2014,
+   "y": 1548,
    "text": "Mantis Stone",
    "fontSize": 24,
    "iconSize": 32,
@@ -60,9 +94,9 @@
    }
   },
   {
-   "_id": "Q9So2Cmq0RzMskOl",
-   "x": 2360,
-   "y": 1530,
+   "_id": "OAXmc2V8pglhb6Pm",
+   "x": 2463,
+   "y": 1520,
    "text": "Besmara's House",
    "fontSize": 24,
    "iconSize": 32,
@@ -77,9 +111,9 @@
    }
   },
   {
-   "_id": "g7toXxRFZAWyw3hY",
-   "x": 2275,
-   "y": 1519,
+   "_id": "xcgsRV8Hq9n7vyhb",
+   "x": 2223,
+   "y": 1490,
    "text": "Ilizmagorti",
    "fontSize": 24,
    "iconSize": 32,
@@ -94,9 +128,26 @@
    }
   },
   {
-   "_id": "lOYpmQ0u6QaRhTB6",
-   "x": 2367,
-   "y": 1468,
+   "_id": "UX4P7Xx79n2EeCyv",
+   "x": 2416,
+   "y": 1401,
+   "text": "Seaside Betty's",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Seaside_Betty's"
+    }
+   }
+  },
+  {
+   "_id": "BLhBXO6lIrLPhSuM",
+   "x": 2481,
+   "y": 1344,
    "text": "Obari Imports",
    "fontSize": 24,
    "iconSize": 32,
@@ -111,9 +162,26 @@
    }
   },
   {
-   "_id": "s2EcA4OiPnptwcBJ",
-   "x": 2249,
-   "y": 1459,
+   "_id": "SjtIp7NRtuChkeEB",
+   "x": 2287,
+   "y": 1337,
+   "text": "Murdered Manticore",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Murdered_Manticore"
+    }
+   }
+  },
+  {
+   "_id": "1G4KVnRUa3kh1qsy",
+   "x": 2150,
+   "y": 1318,
    "text": "Jungle Runners",
    "fontSize": 24,
    "iconSize": 32,
@@ -130,5 +198,5 @@
  ],
  "__key": "ilizmagorti-city",
  "__folder": "Cities",
- "_id": "BW0YeQAlHTDouXxv"
+ "_id": "jaabeHXIT0z3QQM1"
 }

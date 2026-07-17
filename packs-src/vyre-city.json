@@ -6,7 +6,7 @@
  "grid": {
   "type": 1,
   "size": 100,
-  "distance": 0.322,
+  "distance": 0.114,
   "units": "mi"
  },
  "tokenVision": false,
@@ -16,7 +16,7 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "Iyr3ZQ5CpikpdLN4",
+   "_id": "52OVihxnb3pDO3Yy",
    "name": "Vyre",
    "index": 0,
    "background": {
@@ -26,9 +26,9 @@
  ],
  "notes": [
   {
-   "_id": "YXKS8HouSkEy1o2w",
-   "x": 2410,
-   "y": 1525,
+   "_id": "mLBPebwsW7BQ6RBx",
+   "x": 2603,
+   "y": 1505,
    "text": "Vyre",
    "fontSize": 24,
    "iconSize": 32,
@@ -45,5 +45,5 @@
  ],
  "__key": "vyre-city",
  "__folder": "Cities",
- "_id": "FDlCU9byjSE8011g"
+ "_id": "24TIWP81ZGIQ9e9v"
 }
