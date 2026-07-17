@@ -10,6 +10,9 @@ export interface BakeOptions {
   /** Output resolution multiplier (canvas pixels per CSS pixel). */
   pixelRatio: number;
   timeoutMs?: number;
+  /** Called after the map goes idle, before capture/teardown — e.g. to query
+   * rendered features for note placement. */
+  onIdle?: (map: any) => void | Promise<void>;
 }
 
 /**
@@ -47,6 +50,8 @@ export async function bakeViewport(opts: BakeOptions): Promise<Blob> {
         resolve();
       });
     });
+
+    if (opts.onIdle) await opts.onIdle(map);
 
     const canvas: HTMLCanvasElement = map.getCanvas();
     return await new Promise<Blob>((resolve, reject) =>

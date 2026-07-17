@@ -16,15 +16,51 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "tbfGBVcSmqAYjRfU",
+   "_id": "kjTtq8xOEjO2c1SB",
    "name": "Crown of the World",
    "index": 0,
    "background": {
     "src": "modules/foundryvtt-golarion-maps/assets/scenes/crown-of-the-world.webp"
-   },
-   "_key": "!scenes.levels!KFzAzGRdYfFfxkys.tbfGBVcSmqAYjRfU"
+   }
   }
  ],
- "_id": "KFzAzGRdYfFfxkys",
- "_key": "!scenes!KFzAzGRdYfFfxkys"
+ "notes": [
+  {
+   "_id": "3ir66ch0UXI7g79w",
+   "x": 2730,
+   "y": 2610,
+   "text": "Visheksrad",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Visheksrad"
+    }
+   }
+  },
+  {
+   "_id": "MSA8zy3IknJIq7tk",
+   "x": 2666,
+   "y": 2916,
+   "text": "Bovodport",
+   "fontSize": 24,
+   "iconSize": 32,
+   "texture": {
+    "src": "icons/svg/village.svg"
+   },
+   "global": true,
+   "flags": {
+    "foundryvtt-golarion-maps": {
+     "wikiUrl": "https://pathfinderwiki.com/wiki/Bovodport"
+    }
+   }
+  }
+ ],
+ "__key": "crown-of-the-world",
+ "__folder": "World & Continents",
+ "_id": "BE8LB02b1JvT8wMl"
 }

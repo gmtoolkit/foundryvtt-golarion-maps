@@ -16,15 +16,15 @@
  "navigation": true,
  "levels": [
   {
-   "_id": "yxhODI5IH0cxlvEH",
+   "_id": "bQw5rOmtuvTtXIlX",
    "name": "Golarion",
    "index": 0,
    "background": {
     "src": "modules/foundryvtt-golarion-maps/assets/scenes/golarion-world.webp"
-   },
-   "_key": "!scenes.levels!BvXlSAySVJuqvMIR.yxhODI5IH0cxlvEH"
+   }
   }
  ],
- "_id": "BvXlSAySVJuqvMIR",
- "_key": "!scenes!BvXlSAySVJuqvMIR"
+ "__key": "golarion-world",
+ "__folder": "World & Continents",
+ "_id": "IA7oz70L9uALR5iy"
 }

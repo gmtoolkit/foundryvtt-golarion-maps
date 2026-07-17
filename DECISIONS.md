@@ -1,5 +1,28 @@
 # Decision log — foundryvtt-golarion-maps
 
+## 2026-07-17 — 46-scene pack: nations + city environs tiers, folders, wiki-linked pins
+
+**Decision:** Expanded from 18 to 46 scenes in four compendium folders (World
+& Continents / Inner Sea Regions / Nations ×18 / City Environs ×10). New
+regions are framed from the upstream gazetteer (search.json bboxes; point
+features get a radiusMi) instead of hand-tuned zooms. Every scene (except the
+world map) gets Note pins: rendered location icons matched to gazetteer names
+by proximity (tiles carry only feature ids), projected to image pixels, capped
+at 150 per scene by settlement prominence (capitals > large cities > … >
+villages; generic POI dots dropped on dense views, kept on sparse city-environs
+views). Pins carry a PathfinderWiki URL flag; an `activateNote` hook opens the
+article on click (verified the hook exists and respects `false` in v14 core).
+**Why:** Cliff asked for regional depth and clickable named points. True
+street-level city maps do NOT exist upstream (maxZoomWithData = 8, ~250 m/px);
+city "environs" at the data limit are the honest maximum. In-Foundry gazetteer
+journals were deferred: compendium import regenerates ids, which breaks
+note→journal references unless we repackage as an Adventure document — that is
+the planned Phase B.
+**Consequences:** 46 webp (22 MB) + 3,125 notes; folder ids are deterministic
+(sha1 of name) so pack rebuilds don't churn. search.json is now part of the
+mirror. Nation bbox fits can be generous (Cheliax sweeps in neighbors) —
+per-region overrides in regions.json are the tuning knob for the QA pass.
+
 ## 2026-07-17 — Compendium-first restructure (Cliff confirmed the pivot)
 
 **Decision:** v0.1 ships a curated 18-scene compendium (world, 6 continents,

@@ -51,5 +51,6 @@ for (const f of ["sprites.json", "sprites.png", "sprites@2x.json", "sprites@2x.p
   await download(`/sprites/${f}`, join(outDir, "sprites", f), { optional: true });
 }
 
+await download("/search.json", join(outDir, "search.json"), { optional: true });
 await download("/golarion.pmtiles", join(outDir, "golarion.pmtiles"));
 console.log("mirror complete:", outDir);

@@ -22,6 +22,14 @@ Hooks.once("ready", () => {
   if (mod) mod.api = { bakeRegion, generateScenes, buildSceneData };
 });
 
+// Note pins carry a PathfinderWiki URL flag; clicking one opens the article.
+Hooks.on("activateNote", (note: any) => {
+  const url = note?.document?.getFlag?.("foundryvtt-golarion-maps", "wikiUrl");
+  if (!url || !/^https:\/\/pathfinderwiki\.com\//.test(url)) return true;
+  window.open(url, "_blank", "noopener");
+  return false;
+});
+
 Hooks.on("renderSceneDirectory", (_app: any, html: any) => {
   const el: HTMLElement = html instanceof HTMLElement ? html : html[0];
   if (!el || el.querySelector(".golarion-maps-open")) return;
