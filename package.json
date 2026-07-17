@@ -1,0 +1,21 @@
+{
+  "name": "foundryvtt-golarion-maps",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "style": "node scripts/generate-style.mjs",
+    "mirror": "node scripts/mirror-map-data.mjs"
+  },
+  "dependencies": {
+    "maplibre-gl": "^6.0.0-20",
+    "pmtiles": "^4.4.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.0.0"
+  }
+}

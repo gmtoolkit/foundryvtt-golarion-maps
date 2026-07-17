@@ -1,0 +1,31 @@
+{
+  "id": "foundryvtt-golarion-maps",
+  "title": "Golarion Maps",
+  "description": "Create Foundry scenes from the PathfinderWiki interactive map of Golarion (pf-wikis/mapping). Pan and zoom the vector map, then bake the current view into a scene background at the resolution and grid scale you choose. This module uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy. It is not published, endorsed, or specifically approved by Paizo.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "gmtoolkit",
+      "url": "https://github.com/gmtoolkit"
+    }
+  ],
+  "esmodules": ["dist/module.js"],
+  "styles": ["dist/style.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "https://github.com/gmtoolkit/foundryvtt-golarion-maps",
+  "manifest": "https://github.com/gmtoolkit/foundryvtt-golarion-maps/releases/latest/download/module.json",
+  "download": "https://github.com/gmtoolkit/foundryvtt-golarion-maps/releases/latest/download/module.zip",
+  "readme": "https://github.com/gmtoolkit/foundryvtt-golarion-maps#readme",
+  "bugs": "https://github.com/gmtoolkit/foundryvtt-golarion-maps/issues",
+  "license": "LICENSE"
+}

@@ -1,0 +1,20 @@
+{
+  "GOLARIONMAPS.OpenPicker": "Golarion Map",
+  "GOLARIONMAPS.PickerTitle": "Golarion Maps — Create Scene",
+  "GOLARIONMAPS.SceneName": "Scene Name",
+  "GOLARIONMAPS.Resolution": "Resolution",
+  "GOLARIONMAPS.Grid": "Grid",
+  "GOLARIONMAPS.Gridless": "Gridless",
+  "GOLARIONMAPS.Square": "Square",
+  "GOLARIONMAPS.GridSizeHint": "Grid square size in image pixels",
+  "GOLARIONMAPS.CreateScene": "Create Scene",
+  "GOLARIONMAPS.Readout": "Output {width}×{height} px · scene covers {sceneMiles} mi · one grid square ≈ {gridMiles} mi",
+  "GOLARIONMAPS.SceneCreated": "Scene \"{name}\" created from the Golarion map.",
+  "GOLARIONMAPS.Status.Rendering": "Rendering map…",
+  "GOLARIONMAPS.Status.Uploading": "Uploading image…",
+  "GOLARIONMAPS.Status.CreatingScene": "Creating scene…",
+  "GOLARIONMAPS.Status.Done": "Done.",
+  "GOLARIONMAPS.Status.Failed": "Failed — see console (F12).",
+  "GOLARIONMAPS.Settings.TilesHost.Name": "Map data endpoint",
+  "GOLARIONMAPS.Settings.TilesHost.Hint": "Base URL serving golarion.pmtiles, fonts/ and sprites/. Use a CORS-enabled mirror, or a path inside your Foundry data (e.g. modules/foundryvtt-golarion-maps/map-data) for a self-hosted copy."
+}
