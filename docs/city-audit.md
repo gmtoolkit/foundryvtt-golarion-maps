@@ -52,3 +52,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Danjing | ❌ | "Vast Lingshen metropolis (Tian Xia, ~100k people)" | Small euro-medieval castle town — culture and scale wrong | [image](../painted/assets/scenes/danjing-town.webp) |
 | Delenah | ❌ | "Massive Qadiran trading city, arid Plains of Paresh" | Modest green town — scale + aridity missing | [image](../painted/assets/scenes/delenah-town.webp) |
 | Demirah | ❌ | "Massive Qadiran trading city, arid Plains of Paresh" | Modest green town — scale + aridity missing | [image](../painted/assets/scenes/demirah-town.webp) |
+| Detmer | ✅ | "Druma's naval shipyard city on a rocky outcrop in the Gulf of Accord" | Coastal walled town — biome right; outcrop/shipyard scale understated | [image](../painted/assets/scenes/detmer-town.webp) |
+| Drenchport | ❌ | "Shackles port on Tempest Cay, constantly lashed by Abendego storms" | Sunny pleasant archipelago town — storm-wracked pirate grit missing | [image](../painted/assets/scenes/drenchport-town.webp) |
+| Duwwor | ✅ | "Thuvian city-state at the edge of the Barrier Wall (desert)" | Sandy arid terrain around town — aridity present, matches | [image](../painted/assets/scenes/duwwor-town.webp) |
+| Dyinglight | ❌ | "Ruined Sarkoris city amid marshes and sulfurous hotsprings of Frostmire Fen" | Cheerful farmland town — fen, ruin, and dread missing | [image](../painted/assets/scenes/dyinglight-town.webp) |
+| Ecanus | ❌ | "Fortress-city of southern Nex, hub of Nex's war machine" | Pleasant river town — fortress character and Nexian strangeness missing | [image](../painted/assets/scenes/ecanus-town.webp) |
+| Edme | ✅ | "Galtan city north of the Boarwood, center of learning" | Temperate walled town — plausible | [image](../painted/assets/scenes/edme-town.webp) |
+| Egede | ✅ | "Mendev's second city on the Lake of Mists and Veils" | Temperate lakeside town — plausible | [image](../painted/assets/scenes/egede-town.webp) |
+| Ehur | ❌ | "Genie city in the center of the KETZ DESERT with elemental embassies" | Green-field river town — desert and genie character absent | [image](../painted/assets/scenes/ehur-town.webp) |
+| El-Shelad | ❌ | "Small city on Osirion's Scorpion Coast (desert)" | Some sandy shore but green fields dominate — desert too weak (borderline) | [image](../painted/assets/scenes/el-shelad-town.webp) |
+| Erages | ❌ | "SMALL half-elven fishing community on Lake Encarthan" | Large round city — scale and character wrong | [image](../painted/assets/scenes/erages-town.webp) |
+| Eranmas | ✅ | "Molthune's second city, home of its Lake Encarthan navy" | Fortified lakeside city with docks — matches | [image](../painted/assets/scenes/eranmas-town.webp) |
+| Escadar | ✅ | "Military outpost city on the Isle of Erran near Absalom" | Dense fortified harbor city — plausible | [image](../painted/assets/scenes/escadar-town.webp) |
