@@ -136,3 +136,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Merev | ✅ | "City on Yanimere Island off Qadira, near the Ketz Desert" | Island coastal town with dry-toned fields — acceptable | [image](../painted/assets/scenes/merev-town.webp) |
 | Mirivenn | ❌ | "Settlement of aquatic elves (partly in the water)" | Ordinary land city; model also painted a decorative map FRAME | [image](../painted/assets/scenes/mirivenn-town.webp) |
 | Mivon | ✅ | "Aldori swordlords' city in the River Kingdoms" | Temperate river town — plausible | [image](../painted/assets/scenes/mivon-town.webp) |
+| Morozny | ❌ | "Regional capital of the Irriseni province of Wintercrux (eternal winter)" | Green temperate river town — no snow or ice anywhere | [image](../painted/assets/scenes/morozny-town.webp) |
+| Mut | ✅ PIN-LEAK | "Small Taldan city on the peninsula at the mouth of the Porthmos" | Coastal peninsula town fits, but 3 giant red map-pin glyphs painted at outlying farms | [image](../painted/assets/scenes/mut-town.webp) |
+| Mzali | ❌ | "Largest Garundi city south of Katapesh; sun-baked Mwangi city of god-emperor Walkena" | Temperate European walled town with green fields — no jungle, no Mwangi character | [image](../painted/assets/scenes/mzali-town.webp) |
+| Naamat | ❌ | "Luxurious TENT city in Qadira's Northern Zho Mountains on the River Ladan" | Ordinary stone walled town — no tents, no mountains | [image](../painted/assets/scenes/naamat-town.webp) |
+| Nagaiyamatsu | ❌ | "Port city of the tengu kingdom of Kwanlai (Tian Xia)" | Temperate European port town — no Tian architecture | [image](../painted/assets/scenes/nagaiyamatsu-town.webp) |
+| Nerosyan | ✅ | "Mendev capital built as a diamond-shaped defensive fortification" | Diamond-shaped walled city with corner bastions on the rivers — matches canon | [image](../painted/assets/scenes/nerosyan-city.webp) |
+| Neruma | ❌ | "Inland Shackles city on the Terwa River (tropical jungle uplands)" | Temperate river town with autumn orchards — no jungle | [image](../painted/assets/scenes/neruma-town.webp) |
+| Nesya | ✅ | "Capital of Thieron on the northern Kardaji Bay coast" | Dry-toned coastal town on a sandy bay — plausible | [image](../painted/assets/scenes/nesya-town.webp) |
+| New Stetven | ✅ | "Brevoy capital on the southern banks of Lake Reykal" | Large walled lakeside capital — plausible (canon favors wooden buildings, minor) | [image](../painted/assets/scenes/new-stetven-city.webp) |
+| Ngōn Hoa | ❌ | "Ornate, soaring capital of Xa Hoi; one of Tian Xia's largest cities" | Small European walled river town — wrong size and no Tian architecture | [image](../painted/assets/scenes/ng-n-hoa-town.webp) |
+| Nirfan | ✅ | "Qadiran city in fertile Maharev on the Meraz River" | Fertile green river town — fits the fertile-region call-out | [image](../painted/assets/scenes/nirfan-town.webp) |
+| Nisroch | ❌ | "Largest city of shadow-ruled Nidal; a closely watched port" | Warm sunny river town — none of Nidal's gothic gloom | [image](../painted/assets/scenes/nisroch-town.webp) |
