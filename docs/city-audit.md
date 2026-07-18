@@ -76,3 +76,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Grand Pass | ❌ | "Small city at the mountain pass linking Xopatl and Innazpa" | Flat farmland town — mountains and pass missing | [image](../painted/assets/scenes/grand-pass-town.webp) |
 | Graydirge | ❌ | "Somber OSSUARY-CITY in undead Geb, foothills of the Shattered Range" | Cheerful colorful coastal port — utterly wrong mood, biome, and geography | [image](../painted/assets/scenes/graydirge-town.webp) |
 | Grayhaven | ❌ | "House Garess settlement in the Golushkin MOUNTAINS (Brevoy)" | River town without mountains (borderline) | [image](../painted/assets/scenes/grayhaven-town.webp) |
+| Greengold | ✅ | "Elven port city on Lake Encarthan open to non-elves" | Lakeside port town — biome right; elven flavor mild | [image](../painted/assets/scenes/greengold-town.webp) |
+| Gujaraldi | ❌ | "Capital of Xopatl (Arcadia)" | Generic euro-medieval town — Arcadian character missing | [image](../painted/assets/scenes/gujaraldi-town.webp) |
+| Gurat | ❌ | "Citadel-city clinging to a mountain spire HIGH in the Zho Mountains" | Painted as a beachfront town — completely wrong terrain | [image](../painted/assets/scenes/gurat-town.webp) |
+| Hajoth Hakados | ✅ | "Small Numerian trade city on the Seven Tears River" | River trade town — plausible | [image](../painted/assets/scenes/hajoth-hakados-town.webp) |
+| Halgrim | ❌ | "Second city of the Linnorm Kings on Battlewall (Ulfen north)" | Temperate harbor town — Norse/cold character missing | [image](../painted/assets/scenes/halgrim-town.webp) |
+| Haseong | ❌ | "Cosmopolitan capital of Hwanggot (Tian Xia)" | Euro-medieval city — Tian architecture missing | [image](../painted/assets/scenes/haseong-town.webp) |
+| Hawah | ✅ | "City in the Ketz Desert of Qadira" | Sandy arid terrain — desert present, matches | [image](../painted/assets/scenes/hawah-town.webp) |
+| Heger | ✅ | "Qadiran city in the Meraz Desert" | Dry tan palette around bay — acceptable aridity | [image](../painted/assets/scenes/heger-town.webp) |
+| Hell Harbor | ✅ | "Largest Shackles settlement on Devil's Arches (pirate isle)" | Archipelago harbor town — plausible | [image](../painted/assets/scenes/hell-harbor-town.webp) |
+| Hillcross | ❌ | "A vast TENT CITY meeting ground of Mammoth Lords nomads (subarctic steppe)" | Solid stone city in green fields — tents and tundra both missing | [image](../painted/assets/scenes/hillcross-town.webp) |
+| Hinji | ✅ | "Chelaxian port city on the Inner Sea (Longmarch)" | Coastal port town — matches | [image](../painted/assets/scenes/hinji-town.webp) |
+| Hisuikarasu | ❌ | "Capital of the TENGU nation Kwanlai (Tian Xia)" | Euro castle town — Tian/tengu character missing | [image](../painted/assets/scenes/hisuikarasu-town.webp) |
