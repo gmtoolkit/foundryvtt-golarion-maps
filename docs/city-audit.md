@@ -280,3 +280,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | The Shackles (region) | ❌ | (region map — rain-soaked tropical pirate isles) | Islands pass, but the mainland Terwa Uplands are painted as arid desert — they are jungle hills under the Eye's rains | [image](../painted/assets/scenes/the-shackles.webp) |
 | Isger (nation) | ✅ | (nation map) | Chitterwood and green valley with Five Kings snowcaps NE — fits | [image](../painted/assets/scenes/isger.webp) |
 | Ravounel (nation) | ❌ | (nation map — temperate coastal breakaway nation) | Mostly pale dry steppe; only Ravounel Forest is green — Kintargo's hinterland should be temperate | [image](../painted/assets/scenes/ravounel.webp) |
+| Gravelands (region) | ❌ | (region map — undead-blighted husk of Lastwall) | Pleasant green Fangwood and farmland — no blight, no grey waste | [image](../painted/assets/scenes/gravelands.webp) |
+| Sarkoris Scar (region) | ✅ | (region map) | Dark radial blast-scar painted at Sarkoris — great Worldwound aftermath | [image](../painted/assets/scenes/sarkoris-scar.webp) |
+| Molthune (nation) | ✅ | (nation map) | Encarthan shore, Backar Forest, southern plains — fits | [image](../painted/assets/scenes/molthune.webp) |
+| Nirmathas (nation) | ✅ | (nation map) | Fangwood-dominated green with autumn patches — fits | [image](../painted/assets/scenes/nirmathas.webp) |
+| Rahadoum (nation) | ✅ | (nation map) | Desert interior with a fertile coastal strip — fits | [image](../painted/assets/scenes/rahadoum.webp) |
+| Thuvia (nation) | ✅ | (nation map) | Central desert behind the Barrier Wall, green Mwangi fringe SW — fits | [image](../painted/assets/scenes/thuvia.webp) |
+| Jalmeray (nation) | ✅ | (nation map) | Island group with Rajni Fields and jungle north — passable (could be more tropical) | [image](../painted/assets/scenes/jalmeray.webp) |
+| Druma (nation) | ❌ | (nation map — temperate mercantile nation on Lake Encarthan) | The entire northern half (into Kyonin's Fierani Forest) is buried under bogus snow | [image](../painted/assets/scenes/druma.webp) |
+| Razmiran (nation) | ❌ | (nation map — temperate Encarthan east shore) | Core is fine but the southeast quarter is sand-dune desert that doesn't belong, plus stray snow at top | [image](../painted/assets/scenes/razmiran.webp) |
+| Highhelm Region | ✅ | (region map) | Rugged Five Kings peaks around Highhelm — fits | [image](../painted/assets/scenes/highhelm-region.webp) |
+| Otari Region | ✅ | (region map) | Immenwood, snowy Kortos Mounts and the Tyrant's Grasp crater — fits | [image](../painted/assets/scenes/otari-region.webp) |
+| Whitethrone Region | ❌ | (city-region map — IRRISEN, eternal winter) | Green forests, open blue water and even sand desert — zero winter in the witch-queens' frozen heartland | [image](../painted/assets/scenes/whitethrone-region.webp) |
