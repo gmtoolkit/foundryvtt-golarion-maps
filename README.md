@@ -58,12 +58,14 @@ in place — document ids are stable across releases.
 You can also browse the **Golarion Maps** scene compendium and import
 individual scenes instead.
 
-## Just want the map images?
+## Not using Foundry? Just want the map images?
 
-Every release also carries **`maps_stand_alone.zip`** — all 297 painted maps
-as label-free images (no text, pins, or grids baked in), for GMs on other
-VTTs or anyone who wants the raw art without the module. See the README
-inside the archive for terms (same Community Use Policy as the module).
+Download
+**[maps_stand_alone.zip](https://github.com/gmtoolkit/foundryvtt-golarion-maps/releases/latest/download/maps_stand_alone.zip)**
+(always the latest release) — all 297 painted maps as label-free images (no
+text, pins, or grids baked in), ready for any VTT, image viewer, or printer.
+See the README inside the archive for terms (same Community Use Policy as
+the module).
 
 ## Licensing
 
