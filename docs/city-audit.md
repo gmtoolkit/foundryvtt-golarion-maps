@@ -1,6 +1,15 @@
 # Painted City Audit
 
-Every city/town scene: my visual verdict of the painted image vs the PathfinderWiki description. Mismatches get biome-aware re-rolls (batch).
+Every painted scene (all 303: towns, cities, world/continent, meta-region, nation, and city-region maps): my visual verdict of the painted image vs the PathfinderWiki description. Mismatches get biome-aware re-rolls (batch).
+
+## Summary (audit complete, 303/303)
+
+- **✅ pass: 130** — **❌ mismatch: 171** — **❓ verify: 2**
+- **PIN-LEAK (9):** Tar-Kazmukh, Braganza, Chesed, Clear Waters, Gazbilah, Martel, Mut, Sukri, Yin-Sichasi, Zurakan — giant map-pin glyphs painted into the art; fix by recomposite or re-roll. (Thulsadus also has minor ring-icon leaks.)
+- **REMOVE (6):** Alabaster Academy, Fancy Reefclaw, Gold Goblin (building POIs, not settlements) + Gholinom, Irim, Pobashabla (underwater cities) — delete the scenes.
+- **❓ VERIFY (2):** Pinnacle, Sawtooth Marketplace — no wiki article; confirm they are real settlements before keeping.
+- **Dominant town defect classes:** wrong biome/culture (Tian Xia, Arcadia/Xopatl, Mwangi jungle, desert, frozen north/Irrisen, gothic Nidal/Geb/Ustalav, Shackles tropical, underground dwarven cities painted open-air); under-scaled famous metropolises (Quantium, Ngōn Hoa, Xin-Shalast); over-scaled small towns (Otari).
+- **Region-map defect pattern:** Gemini turned pale grassland into sand-dune desert on many 10mi city-region maps (Korvosa, Almas, Egorian, Daggermark, Pitax, Elidir, Tamran, Caliphas, Nantambu, Thronestep, Sandpoint, Ravounel, Galt, Razmiran) and painted bogus snowfields (Druma, Katapesh-north, Ustalav center); Irrisen/Whitethrone lack their canonical eternal winter; Crown of the World's High Ice reads as sand desert; Cheliax nation map is mis-framed (fit/center bug, not art).
 
 | City | Match | Description (wiki) | Image |
 |---|---|---|---|
@@ -304,3 +313,6 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Tamran Region | ❌ | (city-region map — forested Nirmathas on Lake Encarthan) | Lake and forests fine but a large dune desert fills the south — no deserts in Nirmathas | [image](../painted/assets/scenes/tamran-region.webp) |
 | Azir Region | ✅ | (city-region map) | Desert coast with green river margins — fits Rahadoum | [image](../painted/assets/scenes/azir-region.webp) |
 | Merab Region | ✅ | (city-region map) | Thuvian desert coast under snow-capped Barrier Wall peaks — fits (odd white islet offshore, minor) | [image](../painted/assets/scenes/merab-region.webp) |
+| Niswan Region | ✅ | (city-region map) | Bagla Bay, Rajni Fields, forested isles — fits Jalmeray | [image](../painted/assets/scenes/niswan-region.webp) |
+| Thronestep Region | ❌ | (city-region map — temperate Razmiran on Lake Encarthan) | Coast and Exalted Wood fine, but a dune field fills the center — no desert in Razmiran | [image](../painted/assets/scenes/thronestep-region.webp) |
+| Alkenstar Region | ✅ | (city-region map — the Mana Wastes) | Blasted barren wasteland with the Gunworks river gorge — excellent fit | [image](../painted/assets/scenes/alkenstar-region.webp) |
