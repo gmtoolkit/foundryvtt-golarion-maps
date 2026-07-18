@@ -292,3 +292,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Highhelm Region | ✅ | (region map) | Rugged Five Kings peaks around Highhelm — fits | [image](../painted/assets/scenes/highhelm-region.webp) |
 | Otari Region | ✅ | (region map) | Immenwood, snowy Kortos Mounts and the Tyrant's Grasp crater — fits | [image](../painted/assets/scenes/otari-region.webp) |
 | Whitethrone Region | ❌ | (city-region map — IRRISEN, eternal winter) | Green forests, open blue water and even sand desert — zero winter in the witch-queens' frozen heartland | [image](../painted/assets/scenes/whitethrone-region.webp) |
+| Caliphas Region | ❌ | (city-region map — misty gothic Ustalav on Avalon Bay) | Bay and mountains fine, but the eastern side is sand-dune desert that doesn't exist in Ustalav | [image](../painted/assets/scenes/caliphas-region.webp) |
+| Nantambu Region | ❌ | (city-region map — Mwangi jungle riverlands) | Green riverlands north, but a large sand desert sits right under the 'Mwangi Jungle' label | [image](../painted/assets/scenes/nantambu-region.webp) |
+| Egorian Region | ❌ | (city-region map — temperate Chelish heartland on Lake Sorrow) | Southern half is sand-dune desert — Cheliax's capital sits in temperate farmland | [image](../painted/assets/scenes/egorian-region.webp) |
+| Daggermark Region | ❌ | (city-region map — green River Kingdoms) | Almost entirely dry tan steppe/desert with one forest — should be lush riverlands | [image](../painted/assets/scenes/daggermark-region.webp) |
+| Pitax Region | ❌ | (city-region map — River Kingdoms lakelands) | Mostly desert dunes — should be green riverlands and hills | [image](../painted/assets/scenes/pitax-region.webp) |
+| Elidir Region | ❌ | (city-region map — temperate Isger valley) | Big dune field through the center — Isger is temperate | [image](../painted/assets/scenes/elidir-region.webp) |
+| Vigil Region | ❌ | (city-region map — sacked crusader city in the Gravelands) | Semi-arid tan with a dune patch — should be grey undead-blighted temperate land | [image](../painted/assets/scenes/vigil-region.webp) |
+| Kenabres Region | ✅ | (city-region map — Sarkoris Scar wasteland) | Barren pale waste with jagged ranges — passes for the Scar, though it reads sandy rather than demon-blasted | [image](../painted/assets/scenes/kenabres-region.webp) |
+| Canorate Region | ✅ | (city-region map) | Dry grassland with Shrikewood and river valleys — acceptable for Molthune's plains | [image](../painted/assets/scenes/canorate-region.webp) |
+| Tamran Region | ❌ | (city-region map — forested Nirmathas on Lake Encarthan) | Lake and forests fine but a large dune desert fills the south — no deserts in Nirmathas | [image](../painted/assets/scenes/tamran-region.webp) |
+| Azir Region | ✅ | (city-region map) | Desert coast with green river margins — fits Rahadoum | [image](../painted/assets/scenes/azir-region.webp) |
+| Merab Region | ✅ | (city-region map) | Thuvian desert coast under snow-capped Barrier Wall peaks — fits (odd white islet offshore, minor) | [image](../painted/assets/scenes/merab-region.webp) |
