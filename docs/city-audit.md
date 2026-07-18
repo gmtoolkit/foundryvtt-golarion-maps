@@ -100,3 +100,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Ishad | ✅ | "Large city in the FERTILE Qadiran region of Pashman" | Green walled river town — fertile per canon | [image](../painted/assets/scenes/ishad-town.webp) |
 | Izzet | ❌ | "Qadiran city in the barren Meraz Desert" | Green-field bay town — desert missing | [image](../painted/assets/scenes/izzet-town.webp) |
 | Jaha | ❌ | "Great CRUMBLING city in the northern Mwangi JUNGLE" | Tidy temperate river town — ruin and jungle both missing | [image](../painted/assets/scenes/jaha-town.webp) |
+| Janderhoff | ❌ | "Dwarven SKY CITADEL in the Mindspin Mountains" | Ordinary walled town by a lake — citadel and mountains missing | [image](../painted/assets/scenes/janderhoff-town.webp) |
+| Jawafeeq | ❌ | "City on Qadira's arid Alavah Peninsula" | Green fields dominate; some dry cliffs (borderline) | [image](../painted/assets/scenes/jawafeeq-town.webp) |
+| Jol | ❌ | "Capital of Southmoor, Lands of the Linnorm Kings (Ulfen north)" | Temperate town — Norse/cold character missing | [image](../painted/assets/scenes/jol-town.webp) |
+| Jolizpan | ❌ | "NW Xopatl city near Tumbaja Mountain (Arcadia)" | Euro castle town — Arcadian character and mountain missing | [image](../painted/assets/scenes/jolizpan-town.webp) |
+| Kaer Maga (city) | ❌ | "Cliff-top hexagonal fortress-city atop the Storval Rise" | Hexagonal walls preserved (good!) but placed in sea-level marsh — the cliff/plateau is missing | [image](../painted/assets/scenes/kaer-maga-city.webp) |
+| Kalios | ❌ | "Midean capital on Kardaji Bay (Iblydos, Hellenic)" | Coastal towns — Hellenic character missing (borderline) | [image](../painted/assets/scenes/kalios-town.webp) |
+| Kalsgard | ❌ | "Capital of the Linnorm Kings on the Rimeflow (cold Ulfen Thanelands)" | Warm southern-looking city — Norse/cold character missing | [image](../painted/assets/scenes/kalsgard-city.webp) |
+| Karcau | ✅ | "Ustalav's 'shining light of civilization' on Lake Prophyria" | Bright lakeside city — defensible for this specific city | [image](../painted/assets/scenes/karcau-town.webp) |
+| Katapesh (city) | ✅ | "Great bazaar trade metropolis on the arid coast" | Dense trade city, tan fields, coast — acceptable | [image](../painted/assets/scenes/katapesh-city.webp) |
+| Katheer | ✅ | "Glorious Golden Katheer, capital of Qadira" | Golden-tan metropolis on the river — palette and scale fit | [image](../painted/assets/scenes/katheer-city.webp) |
+| Kavapesta | ❌ | "Grim religious center of Ustalav's Amaans on its lake" | Warm cheerful lake town — Ustalav gothic missing (borderline) | [image](../painted/assets/scenes/kavapesta-town.webp) |
+| Kazuhn City | ❌ | "Taldan prefecture capital, three-quarters EMPTY and half-abandoned" | Fully alive bustling town — the defining decay absent | [image](../painted/assets/scenes/kazuhn-city-town.webp) |
