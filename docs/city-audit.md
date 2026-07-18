@@ -88,3 +88,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Hillcross | ❌ | "A vast TENT CITY meeting ground of Mammoth Lords nomads (subarctic steppe)" | Solid stone city in green fields — tents and tundra both missing | [image](../painted/assets/scenes/hillcross-town.webp) |
 | Hinji | ✅ | "Chelaxian port city on the Inner Sea (Longmarch)" | Coastal port town — matches | [image](../painted/assets/scenes/hinji-town.webp) |
 | Hisuikarasu | ❌ | "Capital of the TENGU nation Kwanlai (Tian Xia)" | Euro castle town — Tian/tengu character missing | [image](../painted/assets/scenes/hisuikarasu-town.webp) |
+| Hoarwood | ❌ | "Irrisen city carved from the trunk of a petrified tree in Hoarwood Forest" | Ordinary temperate town — no winter, no tree-city | [image](../painted/assets/scenes/hoarwood-town.webp) |
+| Hunthul | ❌ | "Capital of the HOBGOBLIN nation Oprak; gateway to the Onyx Citadel" | Pleasant human river city — hobgoblin fortress character absent | [image](../painted/assets/scenes/hunthul-town.webp) |
+| Husanah | ❌ | "Qadiran city in the barren Meraz Desert" | Coastal town with orchards; aridity too weak (borderline) | [image](../painted/assets/scenes/husanah-town.webp) |
+| Iadara | ❌ | "Illusion-shrouded, beautiful ELVEN capital of Kyonin" | Massive human-medieval stone city — elven wonder missing | [image](../painted/assets/scenes/iadara-city.webp) |
+| Ihalar | ❌ | "UNDERGROUND Khattibi-style city between the Obari and the Meraz" | Open-air coastal castle town | [image](../painted/assets/scenes/ihalar-town.webp) |
+| Ilizmagorti | ✅ | "Mediogalti's pirate port (tropical island, Red Mantis)" | Big harbor city with mangrove wetlands — plausible | [image](../painted/assets/scenes/ilizmagorti-city.webp) |
+| Ipeq | ❌ | "Third-largest city of southern Osirion (desert), on the Crook River" | Green river town — desert missing | [image](../painted/assets/scenes/ipeq-town.webp) |
+| Irim | ❌ REMOVE | "City of AQUATIC elves hidden underwater off Ravounel" | Underwater location painted as a surface town — scene concept invalid | [image](../painted/assets/scenes/irim-town.webp) |
+| Isarn | ❌ | "Capital of Galt (inland, on the Sellen)" | Painted with an invented turquoise seacoast — geography wrong | [image](../painted/assets/scenes/isarn-city.webp) |
+| Ishad | ✅ | "Large city in the FERTILE Qadiran region of Pashman" | Green walled river town — fertile per canon | [image](../painted/assets/scenes/ishad-town.webp) |
+| Izzet | ❌ | "Qadiran city in the barren Meraz Desert" | Green-field bay town — desert missing | [image](../painted/assets/scenes/izzet-town.webp) |
+| Jaha | ❌ | "Great CRUMBLING city in the northern Mwangi JUNGLE" | Tidy temperate river town — ruin and jungle both missing | [image](../painted/assets/scenes/jaha-town.webp) |
