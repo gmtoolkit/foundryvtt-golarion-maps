@@ -208,3 +208,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Urgir | ❌ | "Orc capital of Belkzen, built in Thassilonian ruins amid landlocked badlands" | Perfect concentric circular city on a SEA COAST with piers — Belkzen has no coast; nothing orcish or ruined | [image](../painted/assets/scenes/urgir-city.webp) |
 | Urglin | ❌ | "Orc city in the ash-blasted Cinderlands of the Storval Plateau" | Green temperate town by water — no cinder wastes | [image](../painted/assets/scenes/urglin-town.webp) |
 | Usaro | ❌ | "Charau-ka city of the Gorilla King on Lake Ocota (deep Mwangi jungle)" | Temperate European port town — no jungle, no simian ruin-city character | [image](../painted/assets/scenes/usaro-town.webp) |
+| Ushumgal | ✅ | "Wealthy city on Qadira's Alavah Peninsula (coastal)" | Prosperous coastal walled town — fits | [image](../painted/assets/scenes/ushumgal-town.webp) |
+| Vannisaria | ✅ | "City of Linvarre (formerly the Taldan colony of Amanandar)" | European river-bridge town — canon-consistent for a Taldan colony | [image](../painted/assets/scenes/vannisaria-town.webp) |
+| Vellumis | ❌ | "Lastwall's largest city, now a Knights' bastion in the undead GRAVELANDS" | Idyllic green lakeside town — no blight, no fortress-bastion character | [image](../painted/assets/scenes/vellumis-town.webp) |
+| Vyre | ✅ | "The City of Masks on Vyre Island in Nisroch Bay" | Labeled island city with harbor and marsh — fits | [image](../painted/assets/scenes/vyre-city.webp) |
+| Winterbreak | ✅ | "House Lodovka's city on Acuben Isle, Lake of Mists and Veils (Brevoy)" | Walled lakeside town — fits | [image](../painted/assets/scenes/winterbreak-town.webp) |
+| Wispil | ✅ | "Gnomish timber city in the depths of the Verduran Forest" | River town ringed by woods — broadly fits (forest could read deeper) | [image](../painted/assets/scenes/wispil-town.webp) |
+| Woodsedge | ✅ | "Galtan home of dissident thought and the Red Revolution's authors" | Temperate walled town at wood's edge — fits | [image](../painted/assets/scenes/woodsedge-town.webp) |
+| Wyvernsting | ❌ | "Belkzen orc settlement in a Kodar Mountains spur, ringed by a wooden stockade" | Stone-walled European farm town — no mountains, no stockade, nothing orcish | [image](../painted/assets/scenes/wyvernsting-town.webp) |
+| Xer | ✅ | "Razmiri port on Lake Encarthan and the Glass River" | Temperate river-port town — fits (lake itself out of frame) | [image](../painted/assets/scenes/xer-town.webp) |
+| Xin-Edasseril | ❌ | "Returned capital of the Thassilonian realm of envy (New Thassilon)" | Small ordinary coastal town — no ancient-metropolis grandeur | [image](../painted/assets/scenes/xin-edasseril-town.webp) |
+| Xin-Shalast | ❌ | "Fabled gold city of greed high in the Kodar Mountains (Mhar Massif)" | Ordinary coastal farm town at sea level — mountains and gilded ruins entirely absent | [image](../painted/assets/scenes/xin-shalast-town.webp) |
+| Yan Tlomíl | ❌ | "Xopatl's largest agricultural centre (Arcadia)" | European river town amid farms — farms fit but zero Arcadian character | [image](../painted/assets/scenes/yan-tlom-l-town.webp) |
