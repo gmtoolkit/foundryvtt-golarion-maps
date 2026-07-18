@@ -172,3 +172,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Quent | ❌ | "Second-largest Shackles settlement, north coast of Motaku Isle (tropical)" | Temperate port town on a pretty bay — no tropical character | [image](../painted/assets/scenes/quent-town.webp) |
 | Raliscrad | ❌ | "City of Sarkoris in the Riftshadow (formerly the Worldwound) — demon-scarred land" | Pleasant sunny bay city with orchards — no Worldwound scarring at all | [image](../painted/assets/scenes/raliscrad-town.webp) |
 | Rashiz | ✅ | "Qadiran city at the heart of lush, fertile Maharev on the Meraz River" | Fertile green river town — fits | [image](../painted/assets/scenes/rashiz-town.webp) |
+| Remesiana | ✅ | "Chelish city at the mouth of the Iseld on the Bay of Solva" | Temperate river-mouth port town — fits | [image](../painted/assets/scenes/remesiana-town.webp) |
+| Ridonport | ✅ | "Small Taldan coastal city south of Cassomir" | Temperate coastal town — fits | [image](../painted/assets/scenes/ridonport-town.webp) |
+| Ridwan | ❌ | "Zon-Kuthon's religious center on a HOSTILE VOLCANIC PLAIN in Nidal" | Green temperate river town — no volcanic plain, no gothic dread | [image](../painted/assets/scenes/ridwan-town.webp) |
+| Sadiyeh | ✅ | "City on Qadira's Alavah Peninsula (coastal)" | Coastal walled town with orchards — plausible for the Inner Sea coast | [image](../painted/assets/scenes/sadiyeh-town.webp) |
+| Salav | ❌ | "Qadiran city in the Zho Mountain foothills at the Ladan headwaters" | Flat farmland town with an odd blank pale band across the top — no mountains or foothills | [image](../painted/assets/scenes/salav-town.webp) |
+| Sanmeshul | ✅ | "Second city of fertile Maharev on the Meraz River" | Fertile walled river town with beach docks — fits | [image](../painted/assets/scenes/sanmeshul-town.webp) |
+| Sawtooth Marketplace | ❓ VERIFY | (no wiki article) | Busy coastal market town; name suggests a marketplace POI, not a settlement — confirm it belongs in the pack | [image](../painted/assets/scenes/sawtooth-marketplace-town.webp) |
+| Sedeq | ✅ | "Qadiran slave-trade city on the Alavah Peninsula: warm breezes, lush gardens" | Green coastal town — the 'lush gardens' call-out makes this fit | [image](../painted/assets/scenes/sedeq-town.webp) |
+| Seidoyaji | ❌ | "City of the tengu kingdom of Kwanlai (Tian Xia)" | European coastal town — no Tian architecture | [image](../painted/assets/scenes/seidoyaji-town.webp) |
+| Senara | ✅ | "Chelish town deep in the devil-infested Whisperwood" | River town hemmed in by dense forest — setting fits (infernal taint not visual) | [image](../painted/assets/scenes/senara-town.webp) |
+| Senghor | ❌ | "Port city-state on the Fever Sea at the jungle Kaava Lands (Garund west coast)" | European port with wheat fields — no jungle coast | [image](../painted/assets/scenes/senghor-town.webp) |
+| Sevenarches | ✅ | "River Kingdoms town built around seven stone arches sacred to elves" | Temperate river town fits the biome (the arches themselves aren't visible — minor) | [image](../painted/assets/scenes/sevenarches-town.webp) |
