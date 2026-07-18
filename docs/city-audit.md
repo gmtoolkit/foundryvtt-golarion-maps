@@ -34,3 +34,21 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Ayesh | ❌ | "City on the Alavah Peninsula in Qadira (dry Casmaron coast)" | Lush green coast — Qadiran aridity missing | [image](../painted/assets/scenes/ayesh-town.webp) |
 | Azurestone | ❌ | "Galtan town named for a massive blue menhir towering 100 ft above it" | No menhir anywhere in the image — signature landmark missing | [image](../painted/assets/scenes/azurestone-town.webp) |
 | Bailax | ❌ | "Capital of a city-state of Iblydos (mythic Hellenic island civilization)" | Generic euro-medieval town — Iblydan character missing | [image](../painted/assets/scenes/bailax-town.webp) |
+| Bildt | ❌ | "Large city of the Linnorm Kings on Aegos isle, Steaming Sea (Norse north)" | Temperate green fields — Ulfen/cold character missing | [image](../painted/assets/scenes/bildt-town.webp) |
+| Blisterwell | ❌ | "Orc-held former dwarven quarry/strip-mine (Belkzen)" | Tidy walled shore town — should be a scarred quarry-pit orc hold | [image](../painted/assets/scenes/blisterwell-town.webp) |
+| Bloodcove | ❌ | "Crime haven where the Vanji meets the Fever Sea, edge of Mwangi jungle" | Temperate coast; mangrove islets hinted but jungle missing | [image](../painted/assets/scenes/bloodcove-town.webp) |
+| Botosani | ❌ | "Rahadoumi coastal city (arid Kingdom of Man)" | Green temperate coast — aridity missing | [image](../painted/assets/scenes/botosani-town.webp) |
+| Braganza | ❌ PIN-LEAK | "Molthune plains city, Abadar worship center" | Env fine, but multiple literal map-pin glyphs painted at outskirt hamlets | [image](../painted/assets/scenes/braganza-town.webp) |
+| Breachill | ❌ | "SMALL town in eastern Isger foothills (inland)" | Painted as a large coastal city on turquoise sea — scale and geography wrong | [image](../painted/assets/scenes/breachill-town.webp) |
+| Butraf | ✅ | "Large prosperous city in the FERTILE Qadiran region of Pashman" | Green walled river town — fertile per canon, plausible | [image](../painted/assets/scenes/butraf-town.webp) |
+| Carpenden | ✅ | "Andoren city in wine country (Carpenden Hill)" | Farmland/orchard town — matches | [image](../painted/assets/scenes/carpenden-town.webp) |
+| Carrion Hill | ❌ | "Ustalav city built atop a strange mound (gothic horror)" | Flat cheerful river town — no hill, no gothic character | [image](../painted/assets/scenes/carrion-hill-town.webp) |
+| Cassomir | ✅ | "Taldor's second city, imperial port at the Sellen mouth" | Temperate river-mouth town — biome right, scale understated | [image](../painted/assets/scenes/cassomir-town.webp) |
+| Cettigne | ✅ | "Molthune-annexed former city-state" | Temperate walled town — plausible | [image](../painted/assets/scenes/cettigne-town.webp) |
+| Chesed | ❌ PIN-LEAK | "HUGE Numerian port city, last stop on the River Road" | Modest town + several white map-pin glyphs painted at hamlets | [image](../painted/assets/scenes/chesed-town.webp) |
+| Chillblight | ❌ | "Capital of Irrisen's Feyfrost province, built by cold fey on the Frozen Road" | Green temperate town; the Frozen ROAD painted as a river; zero winter | [image](../painted/assets/scenes/chillblight-town.webp) |
+| Clear Waters | ❌ PIN-LEAK | "City that FLOATS atop Lake Clear Waters (Xopatl)" | Ordinary shoreline town, not floating; pin glyph at center | [image](../painted/assets/scenes/clear-waters-town.webp) |
+| Corentyn | ✅ | "Chelaxian port capital of Longmarch on the Hesperoth Strait" | Strait-side port town — geography right, plausible | [image](../painted/assets/scenes/corentyn-town.webp) |
+| Danjing | ❌ | "Vast Lingshen metropolis (Tian Xia, ~100k people)" | Small euro-medieval castle town — culture and scale wrong | [image](../painted/assets/scenes/danjing-town.webp) |
+| Delenah | ❌ | "Massive Qadiran trading city, arid Plains of Paresh" | Modest green town — scale + aridity missing | [image](../painted/assets/scenes/delenah-town.webp) |
+| Demirah | ❌ | "Massive Qadiran trading city, arid Plains of Paresh" | Modest green town — scale + aridity missing | [image](../painted/assets/scenes/demirah-town.webp) |
