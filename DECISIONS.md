@@ -1,5 +1,18 @@
 # Decision log — foundryvtt-golarion-maps
 
+## 2026-07-17 — Pin-leak root cause: visual markers beat prompt text
+
+**Decision:** For town bases that carry settlement marker icons (keepIcons), a prompt-only
+'never paint the markers' rule is insufficient — 8 of 142 re-rolls still painted the literal
+teardrop glyphs. The reliable fix is removing icons from the base image entirely and stating
+'the input has NO markers; place the main settlement at the exact CENTER of the frame'
+(fix batch: 10/10 clean).
+**Why:** the image-editing model weights salient visual features in the input over negative
+text instructions; the marker glyph survives as 'part of the map'.
+**Consequences:** future town generations should use icon-free bases + center-placement
+language from the start; keepIcons remains useful only if the marker is restyled to something
+the model reads as terrain. Old art preserved in .cache/gemini/v1-backup/.
+
 
 ## 2026-07-17 — Biome-aware re-roll round (audit follow-up)
 
