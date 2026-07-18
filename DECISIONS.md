@@ -1,5 +1,20 @@
 # Decision log — foundryvtt-golarion-maps
 
+## 2026-07-18 — Standalone label-free map pack (maps_stand_alone.zip)
+
+**Decision:** Check in maps/ — all 297 painted maps as LABEL-FREE webp images (the raw
+art-generation masters, no text/pins/grids), converted from the .cache JPEG masters via
+cwebp q85 (998 MB jpg -> 261 MB webp). maps/ sits outside the module payload (not in
+module.zip or deploy); CI packages it as a third release asset, maps_stand_alone.zip,
+for GMs who want just the images without Foundry or the module.
+**Why:** Cliff — the source maps are a great standalone asset for GMs on other VTTs.
+**Alternatives:** shipping the labeled composites (rejected: labels baked in defeats reuse);
+not checking the images in and converting in CI (impossible — CI cannot regenerate art).
+**Consequences:** the archive is CUP content, NOT MIT — the images depict Golarion, so the
+Community Use Policy travels with them (maps/README.md ships inside the zip stating terms);
+MIT remains code-only. Repo grows ~261 MB. Refreshing any map means re-converting its
+master into maps/ as part of the art pipeline.
+
 ## 2026-07-18 — Painted-only module; CC BY-NC-SA removed; release CI
 
 **Decision:** Collapsed the two-module split: `foundryvtt-golarion-maps` now ships the
