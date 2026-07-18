@@ -184,3 +184,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Senara | ✅ | "Chelish town deep in the devil-infested Whisperwood" | River town hemmed in by dense forest — setting fits (infernal taint not visual) | [image](../painted/assets/scenes/senara-town.webp) |
 | Senghor | ❌ | "Port city-state on the Fever Sea at the jungle Kaava Lands (Garund west coast)" | European port with wheat fields — no jungle coast | [image](../painted/assets/scenes/senghor-town.webp) |
 | Sevenarches | ✅ | "River Kingdoms town built around seven stone arches sacred to elves" | Temperate river town fits the biome (the arches themselves aren't visible — minor) | [image](../painted/assets/scenes/sevenarches-town.webp) |
+| Shamara | ✅ | "Large prosperous city in fertile Pashman, Qadira" | Green river town — fits | [image](../painted/assets/scenes/shamara-town.webp) |
+| Shileh | ✅ | "Large prosperous city in fertile Pashman, Qadira" | Fertile walled river town — fits (the 'Kelal Desert' label sits on green land, minor) | [image](../painted/assets/scenes/shileh-town.webp) |
+| Shiman-Sekh | ✅ | "Osirian city on the western edge of the Golden Oasis, deep in the desert" | Oasis town: green ring around a lake surrounded by sand — excellent match | [image](../painted/assets/scenes/shiman-sekh-town.webp) |
+| Skathen | ✅ | "Taldan trade city on the Brokenbridge River" | Temperate river trade town — fits | [image](../painted/assets/scenes/skathen-town.webp) |
+| Skelt | ✅ | "Strategically vital Nirmathi city on the Shining River" | Temperate walled river town — fits forested Nirmathas | [image](../painted/assets/scenes/skelt-town.webp) |
+| Skywatch | ❌ | "ABANDONED city around a massive observatory high in the frozen Icerime Peaks" | Thriving green farmland town — no mountains, no snow, no observatory, not abandoned | [image](../painted/assets/scenes/skywatch-town.webp) |
+| Starfall | ❌ | "Capital of Numeria, hard by the Silver Mount wreck (bleak tech-barbarian plains)" | Pleasant Mediterranean-looking coastal metropolis on a teal bay — wrong terrain, no Silver Mount | [image](../painted/assets/scenes/starfall-city.webp) |
+| Sukri | ✅ PIN-LEAK | "City on Qadira's Alavah Peninsula (coastal)" | Coastal town fits, but 3 red map-pin glyphs painted at outlying hamlets | [image](../painted/assets/scenes/sukri-town.webp) |
+| Surat Prakan | ❌ | "Capital of Tang Mai (Tian Xia), seat of the Cinnamon Throne, the nation's largest city" | European walled town — no Tian architecture, under-scaled | [image](../painted/assets/scenes/surat-prakan-town.webp) |
+| Taggun Hold | ❌ | "Chelish settlement in the Menador Mountains near Nidal" | Rolling green coastal town — no mountains at all | [image](../painted/assets/scenes/taggun-hold-town.webp) |
+| Talípas | ❌ | "Brewing city on the west coast of Xopatl (Arcadia)" | Lively archipelago fishing town, but zero Arcadian character — generic European | [image](../painted/assets/scenes/tal-pas-town.webp) |
+| Tekeh | ❌ | "City in the Ketz Desert of Qadira" | Coastal town with wheat fields, hedgerows and green woods — not a desert | [image](../painted/assets/scenes/tekeh-town.webp) |
