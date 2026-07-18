@@ -30,6 +30,17 @@ community's canonical map of Golarion. This module would be nothing without
 their work, which builds on GIS data by John Mechalas and interactive map work
 by Oznogon.
 
+## Examples
+
+| | | |
+|:---:|:---:|:---:|
+| [<img src="assets/thumbs/inner-sea-region.webp" width="260">](assets/scenes/inner-sea-region.webp) | [<img src="assets/thumbs/high-seas.webp" width="260">](assets/scenes/high-seas.webp) | [<img src="assets/thumbs/absalom-city.webp" width="260">](assets/scenes/absalom-city.webp) |
+| The Inner Sea Region | High Seas — the Eye of Abendego | Absalom city map |
+| [<img src="assets/thumbs/danjing-town.webp" width="260">](assets/scenes/danjing-town.webp) | [<img src="assets/thumbs/mechitar-town.webp" width="260">](assets/scenes/mechitar-town.webp) | [<img src="assets/thumbs/kraggodan-town.webp" width="260">](assets/scenes/kraggodan-town.webp) |
+| Danjing (Lingshen, Tian Xia) | Mechitar (undead Geb) | Kraggodan (dwarven Sky Citadel) |
+| [<img src="assets/thumbs/shiman-sekh-town.webp" width="260">](assets/scenes/shiman-sekh-town.webp) | [<img src="assets/thumbs/chillblight-town.webp" width="260">](assets/scenes/chillblight-town.webp) | [<img src="assets/thumbs/kaer-maga-city.webp" width="260">](assets/scenes/kaer-maga-city.webp) |
+| Shiman-Sekh (Golden Oasis, Osirion) | Chillblight (cold fey, Irrisen) | Kaer Maga atop the Storval Rise |
+
 ## Installation
 
 In Foundry: **Install Module** and paste the manifest URL:
