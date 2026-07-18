@@ -268,3 +268,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Absalom Region (environs) | ✅ | (city-region map) | Kortos Mounts, Immenwood, Cairnlands scrub — fits | [image](../painted/assets/scenes/absalom-environs.webp) |
 | Magnimar Region (environs) | ✅ | (city-region map) | Varisian coast, islands and river lowlands — fits | [image](../painted/assets/scenes/magnimar-environs.webp) |
 | Korvosa Region (environs) | ❌ | (city-region map — temperate coast below the ash-waste Storval Plateau) | Almost the entire frame is Sahara-style golden sand dunes — Korvosa's environs are temperate; the Cinderlands are grey ash, not dunes | [image](../painted/assets/scenes/korvosa-environs.webp) |
+| Sandpoint Region (environs) | ❌ | (city-region map — the temperate, misty Lost Coast) | Terrain reads semi-desert scrub with scattered woods — the Lost Coast should be green temperate coastline | [image](../painted/assets/scenes/sandpoint-environs.webp) |
+| Riddleport Region (environs) | ✅ | (city-region map) | North-Varisian coast, Churlwood autumn forest, snowy Kodars — fits | [image](../painted/assets/scenes/riddleport-environs.webp) |
+| Kaer Maga Region (environs) | ✅ | (city-region map) | Arid Storval Plateau above, green Yondabakari lowlands below — good match for the cliff-city's setting | [image](../painted/assets/scenes/kaer-maga-environs.webp) |
+| Westcrown Region (environs) | ✅ | (city-region map) | Temperate Chelish coast on its bay — fits | [image](../painted/assets/scenes/westcrown-environs.webp) |
+| Sothis Region (environs) | ✅ | (city-region map) | Sphinx delta cutting through desert to the Swells of Gozreh — fits | [image](../painted/assets/scenes/sothis-environs.webp) |
+| Oppara Region (environs) | ✅ | (city-region map) | Taldan coast with the World's Edge Mountains behind — fits | [image](../painted/assets/scenes/oppara-environs.webp) |
+| Almas Region (environs) | ❌ | (city-region map — Andoran's green heartland at the Andoshen mouth) | Almost entirely sand desert and badlands — Andoran is temperate farmland | [image](../painted/assets/scenes/almas-environs.webp) |
+| Five Kings Mountains (region) | ✅ | (region map) | Forested mountain range with snowcaps — fits (small dry patch SW, minor) | [image](../painted/assets/scenes/five-kings-mountains.webp) |
+| River Kingdoms (region) | ✅ | (region map) | Green riverlands with all the petty-kingdom labels — fits | [image](../painted/assets/scenes/river-kingdoms.webp) |
+| The Shackles (region) | ❌ | (region map — rain-soaked tropical pirate isles) | Islands pass, but the mainland Terwa Uplands are painted as arid desert — they are jungle hills under the Eye's rains | [image](../painted/assets/scenes/the-shackles.webp) |
+| Isger (nation) | ✅ | (nation map) | Chitterwood and green valley with Five Kings snowcaps NE — fits | [image](../painted/assets/scenes/isger.webp) |
+| Ravounel (nation) | ❌ | (nation map — temperate coastal breakaway nation) | Mostly pale dry steppe; only Ravounel Forest is green — Kintargo's hinterland should be temperate | [image](../painted/assets/scenes/ravounel.webp) |
