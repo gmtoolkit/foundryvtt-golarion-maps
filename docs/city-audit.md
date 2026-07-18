@@ -196,3 +196,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Taggun Hold | ❌ | "Chelish settlement in the Menador Mountains near Nidal" | Rolling green coastal town — no mountains at all | [image](../painted/assets/scenes/taggun-hold-town.webp) |
 | Talípas | ❌ | "Brewing city on the west coast of Xopatl (Arcadia)" | Lively archipelago fishing town, but zero Arcadian character — generic European | [image](../painted/assets/scenes/tal-pas-town.webp) |
 | Tekeh | ❌ | "City in the Ketz Desert of Qadira" | Coastal town with wheat fields, hedgerows and green woods — not a desert | [image](../painted/assets/scenes/tekeh-town.webp) |
+| Thap Samut | ❌ | "Northernmost city and largest port of sorcerous Tang Mai (Tian Xia)" | European port town — no Tian architecture | [image](../painted/assets/scenes/thap-samut-town.webp) |
+| Thulsadus | ❌ | "City of the naga empire of Nagajor (tropical Tian Xia jungle)" | Half-timbered European market town in temperate farmland — no jungle, no naga character (also small ring-icon leaks at the hamlets) | [image](../painted/assets/scenes/thulsadus-town.webp) |
+| Todorokaze | ❌ | "Only city in Kwanlai's Kimu Mountains (tengu kingdom, Tian Xia)" | Town beside a large blank parchment void where the mountains should be — no mountains, no Tian character | [image](../painted/assets/scenes/todorokaze-town.webp) |
+| Totra | ❌ | "Largest Osirian port outside Sothis (desert Osirion)" | Green temperate fields around a European walled town — no desert | [image](../painted/assets/scenes/totra-town.webp) |
+| Tripolne | ✅ | "Seat of Molthune's Backar territory" | Large temperate walled river town — fits | [image](../painted/assets/scenes/tripolne-town.webp) |
+| Trollheim | ❌ | "Linnorm Kingdoms city on the Rimeflow, hard against the Irrisen border" | Warm temperate river town — no northern/Ulfen cold | [image](../painted/assets/scenes/trollheim-town.webp) |
+| Tulaupan | ❌ | "One of Xopatl's three Follower's Rests cities (Arcadia)" | European river town — no Arcadian character | [image](../painted/assets/scenes/tulaupan-town.webp) |
+| Ullerskad | ❌ | "Ulfen trade hub on the Rimeflow in the Thanelands (Linnorm Kings)" | Warm temperate river town — no northern/Ulfen cold | [image](../painted/assets/scenes/ullerskad-town.webp) |
+| Umnyango | ❌ | "Vidrian's largest settlement: a crumbling pre-colonial Mwangi city" | Tidy European stone town — no Mwangi architecture or decay | [image](../painted/assets/scenes/umnyango-town.webp) |
+| Urgir | ❌ | "Orc capital of Belkzen, built in Thassilonian ruins amid landlocked badlands" | Perfect concentric circular city on a SEA COAST with piers — Belkzen has no coast; nothing orcish or ruined | [image](../painted/assets/scenes/urgir-city.webp) |
+| Urglin | ❌ | "Orc city in the ash-blasted Cinderlands of the Storval Plateau" | Green temperate town by water — no cinder wastes | [image](../painted/assets/scenes/urglin-town.webp) |
+| Usaro | ❌ | "Charau-ka city of the Gorilla King on Lake Ocota (deep Mwangi jungle)" | Temperate European port town — no jungle, no simian ruin-city character | [image](../painted/assets/scenes/usaro-town.webp) |
