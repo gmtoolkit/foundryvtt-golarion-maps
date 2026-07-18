@@ -165,6 +165,29 @@ async function buildNotes(
 }
 
 /**
+ * Render ONLY the symbol/label layers on a transparent background — the
+ * overlay composited over painted art so names and pins stay crisp vectors.
+ * pixelRatio defaults to the painted-art width (2528 / css 1152); the
+ * composite step stretches per-axis to absorb the model's ~0.6% v-stretch.
+ */
+export async function bakeLabels(spec: RegionSpec, { pixelRatio = 2528 / 1152 } = {}) {
+  const width = spec.width ?? DEFAULTS.width;
+  const height = spec.height ?? DEFAULTS.height;
+  const view = await resolveView(spec, width, height);
+  const style = await loadStyle();
+  style.layers = style.layers.filter((l: any) => l.type === "symbol");
+  const blob = await bakeViewport({
+    style,
+    center: view.center,
+    zoom: view.zoom,
+    width,
+    height,
+    pixelRatio
+  });
+  return { blob, view };
+}
+
+/**
  * Render a region WITHOUT any symbol/label/icon layers — the clean geometry
  * base used as input for AI stylization. resFactor is fixed low: the model
  * consumes ~1-2K inputs; full bake resolution would be wasted.
