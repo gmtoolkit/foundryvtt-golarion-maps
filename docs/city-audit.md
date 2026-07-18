@@ -112,3 +112,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Katheer | ✅ | "Glorious Golden Katheer, capital of Qadira" | Golden-tan metropolis on the river — palette and scale fit | [image](../painted/assets/scenes/katheer-city.webp) |
 | Kavapesta | ❌ | "Grim religious center of Ustalav's Amaans on its lake" | Warm cheerful lake town — Ustalav gothic missing (borderline) | [image](../painted/assets/scenes/kavapesta-town.webp) |
 | Kazuhn City | ❌ | "Taldan prefecture capital, three-quarters EMPTY and half-abandoned" | Fully alive bustling town — the defining decay absent | [image](../painted/assets/scenes/kazuhn-city-town.webp) |
+| Kerim | ✅ | "Large city in FERTILE Pashman, Qadira" | Walled river town in farmland — matches | [image](../painted/assets/scenes/kerim-town.webp) |
+| Kerse (city) | ✅ | "Capital of the Kalistocracy of Druma on Lake Encarthan" | Crescent lakeside metropolis — plausible | [image](../painted/assets/scenes/kerse-city.webp) |
+| Kharif | ❌ | "Qadiran city in the Zho Mountain foothills" | Green river town — foothills/mountains missing | [image](../painted/assets/scenes/kharif-town.webp) |
+| Khundurai | ✅ | "Carpet-weaving city in the Ketz Desert" | Tan/yellow arid surroundings — aridity present | [image](../painted/assets/scenes/khundurai-town.webp) |
+| Kintargo (city) | ✅ | "Ravounel's Silver City, harbor at the Yolubilis mouth" | Grand crescent harbor city — matches | [image](../painted/assets/scenes/kintargo-city.webp) |
+| Korholm | ✅ | "Molthune's gateway at the Nosam river mouth" | River-mouth town with civic buildings — plausible | [image](../painted/assets/scenes/korholm-town.webp) |
+| Korvosa (city) | ✅ | "Varisia's largest city, Chelaxian colonial port" | Grand walled port metropolis — matches | [image](../painted/assets/scenes/korvosa-city.webp) |
+| Kraggodan | ❌ | "DWARVEN Sky Citadel city-state in the Mindspin Mountains" | Temperate river town — citadel and mountains missing | [image](../painted/assets/scenes/kraggodan-town.webp) |
+| Kragnaroth | ❌ | "FIRE GIANT kingdom in the Mindspin Mountains" | Cozy human walled town — should be a volcanic giant hold | [image](../painted/assets/scenes/kragnaroth-town.webp) |
+| Laekastel | ✅ | "Chelaxian city where the Brastle meets the Bay of Deng" | Coastal river-mouth town — matches | [image](../painted/assets/scenes/laekastel-town.webp) |
+| Lamasara | ❌ | "Thuvian (desert) city-state on the Junira" | Lush green orchard sprawl — desert missing | [image](../painted/assets/scenes/lamasara-town.webp) |
+| Lasinavel | ❌ | "Elven city of feasts on the Kyonin River" | Human medieval town — elven character missing (borderline) | [image](../painted/assets/scenes/lasinavel-town.webp) |
