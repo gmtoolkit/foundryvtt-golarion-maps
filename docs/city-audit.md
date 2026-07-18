@@ -220,3 +220,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Xin-Edasseril | ❌ | "Returned capital of the Thassilonian realm of envy (New Thassilon)" | Small ordinary coastal town — no ancient-metropolis grandeur | [image](../painted/assets/scenes/xin-edasseril-town.webp) |
 | Xin-Shalast | ❌ | "Fabled gold city of greed high in the Kodar Mountains (Mhar Massif)" | Ordinary coastal farm town at sea level — mountains and gilded ruins entirely absent | [image](../painted/assets/scenes/xin-shalast-town.webp) |
 | Yan Tlomíl | ❌ | "Xopatl's largest agricultural centre (Arcadia)" | European river town amid farms — farms fit but zero Arcadian character | [image](../painted/assets/scenes/yan-tlom-l-town.webp) |
+| Yanmass | ✅ | "Taldan city on the desert trade routes into Casmaron" | Temperate walled trade town — fits Taldor's plains | [image](../painted/assets/scenes/yanmass-town.webp) |
+| Yanti Iñulde | ❌ | "Religious centre of Xopatl, home of its last hero-god (Arcadia)" | European river town — no Arcadian character | [image](../painted/assets/scenes/yanti-i-ulde-town.webp) |
+| Yin-Sichasi | ❌ PIN-LEAK | "UNDERGROUND city beneath the Gossamer Mountains (Shenmen, Tian Xia)" | Open-air walled town with 4 giant cream map-pin glyphs painted in (town centre + 3 farms) | [image](../painted/assets/scenes/yin-sichasi-town.webp) |
+| Yled | ❌ | "Largest city of Geb, garrison of its undead armies" | Cheerful medieval coastal market town — none of Geb's necromantic gloom | [image](../painted/assets/scenes/yled-town.webp) |
+| Zetang | ❌ | "Empyrean-ruled capital of Tianjing (Tian Xia), port on Point Aykishe" | European port town — no Tian or celestial character | [image](../painted/assets/scenes/zetang-town.webp) |
+| Zilpatzi | ❌ | "Xopatl logging city by the dangerous Manzinago Forest (Arcadia)" | European river town — no Arcadian character | [image](../painted/assets/scenes/zilpatzi-town.webp) |
+| Zimar | ✅ | "Taldan military stronghold guarding the southern border with Qadira" | Fortified river town with citadel — fits | [image](../painted/assets/scenes/zimar-town.webp) |
+| Ziplatna | ❌ | "Northernmost of Xopatl's Follower's Rests trade cities (Arcadia)" | European walled river town — no Arcadian character | [image](../painted/assets/scenes/ziplatna-town.webp) |
+| Zurakan | ❌ PIN-LEAK | "Walled capital of Hukaris at the foot of Mount Jabel" | Flat coastal city, no mountain; 4+ giant cream map-pin glyphs painted in | [image](../painted/assets/scenes/zurakan-town.webp) |
+| Golarion (world) | ✅ | (world map) | Handsome painted relief world map, ocean labels clean | [image](../painted/assets/scenes/golarion-world.webp) |
+| Avistan | ✅ | (continent map) | Relief map with Kodar range and Crown of the World glacier — fits | [image](../painted/assets/scenes/avistan.webp) |
+| Garund | ✅ | (continent map) | Deserts north, Mwangi jungle interior — fits | [image](../painted/assets/scenes/garund.webp) |
