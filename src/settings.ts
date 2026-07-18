@@ -14,11 +14,7 @@ export const DEFAULT_HOST = "https://map.pathfinderwiki.com";
 function buildImportMenuClass(): any {
   return class GolarionImportMenu extends foundry.applications.api.ApplicationV2 {
     async render(): Promise<any> {
-      // Prefer the painted module's adventure when it's active.
-      const packId = game.modules.get(`${MODULE_ID}-painted`)?.active
-        ? `${MODULE_ID}-painted.golarion-adventure`
-        : `${MODULE_ID}.golarion-adventure`;
-      const pack = game.packs.get(packId);
+      const pack = game.packs.get(`${MODULE_ID}.golarion-adventure`);
       const docs = pack ? await pack.getDocuments() : [];
       if (!docs.length) {
         ui.notifications.error("Golarion Maps: adventure pack not found.");

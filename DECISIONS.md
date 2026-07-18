@@ -1,5 +1,32 @@
 # Decision log — foundryvtt-golarion-maps
 
+## 2026-07-18 — Painted-only module; CC BY-NC-SA removed; release CI
+
+**Decision:** Collapsed the two-module split: `foundryvtt-golarion-maps` now ships the
+painted art directly (297 painted webps moved from painted/assets/ into assets/; every scene
+background points at this module's own paths). The vector-render scene backgrounds and the
+`foundryvtt-golarion-maps-painted` companion module are deleted. Gazetteer journal pages no longer embed
+PathfinderWiki article text — only a blurb + outbound wiki link — which removes CC BY-NC-SA
+from the module entirely (the text was the only CC-licensed content; the wiki-extract fetch
+script and cache are deleted). Licensing: code MIT; map content stays under Paizo CUP
+(verified pf-wikis/mapping itself operates under CUP — our images depict Golarion and cannot
+be MIT'd). README rewritten around the painted collection; the live-bake/picker pitch is gone
+(the bake pipeline remains as dev tooling, picker still gated off by default).
+Added .github/workflows/release.yml: every push to main builds dist + packs, bumps semver
+(patch default; #minor/#major in commit message; [skip release] to skip), stamps
+module.json manifest/download URLs, and publishes a GitHub release with module.json +
+module.zip (the standard Foundry install payload, per the League module template).
+**Why:** Cliff's call — one module, generated art only, cleanest possible licensing, automated
+releases.
+**Alternatives:** keeping the -painted id as the survivor (rejected: the main id is the repo
+name and install URL); keeping wiki text under CC (rejected: license simplification wins).
+**Consequences:** data/gazetteer-search.json is now checked in (build-packs needs it; map-data/
+is gitignored and absent in CI — refresh it after npm run mirror). packs/ and dist/ stay
+gitignored; CI builds them. Worlds that imported the old -painted module upgrade in place on
+next import (same deterministic ids); the painted module dir was removed from local Foundry
+data. Release URLs only work once the repo goes public. Pending cleanups: settings-menu hint
+still says 'all 60 scenes'; CLAUDE.md header still describes the live-bake pitch.
+
 ## 2026-07-17 — Pin-leak root cause: visual markers beat prompt text
 
 **Decision:** For town bases that carry settlement marker icons (keepIcons), a prompt-only

@@ -1,0 +1,81 @@
+# Automated releases: every push to main builds the module, bumps semver
+# (patch by default; put "#minor" or "#major" in the commit message to bump
+# those; "[skip release]" skips entirely), and publishes a GitHub release
+# carrying module.json + module.zip — the standard Foundry install payload:
+# Foundry installs from the manifest URL, which points at the release's
+# module.json, whose "download" points at that version's module.zip.
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[skip release]')"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history so all tags are available for versioning
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build module bundle
+        run: npm run build
+
+      - name: Build compendium packs
+        run: node scripts/build-packs.mjs
+
+      - name: Compute next version
+        id: ver
+        env:
+          MSG: ${{ github.event.head_commit.message }}
+        run: |
+          latest=$(git tag --list 'v*' --sort=-v:refname | head -n1)
+          latest=${latest:-v0.0.0}
+          IFS=. read -r MA MI PA <<< "${latest#v}"
+          if echo "$MSG" | grep -q '#major'; then MA=$((MA+1)); MI=0; PA=0
+          elif echo "$MSG" | grep -q '#minor'; then MI=$((MI+1)); PA=0
+          else PA=$((PA+1)); fi
+          echo "version=$MA.$MI.$PA" >> "$GITHUB_OUTPUT"
+          echo "next release: v$MA.$MI.$PA (from $latest)"
+
+      - name: Stamp module.json
+        env:
+          VERSION: ${{ steps.ver.outputs.version }}
+          REPO: ${{ github.repository }}
+        run: |
+          node -e '
+            const fs = require("fs");
+            const m = JSON.parse(fs.readFileSync("module.json", "utf8"));
+            m.version = process.env.VERSION;
+            m.manifest = `https://github.com/${process.env.REPO}/releases/latest/download/module.json`;
+            m.download = `https://github.com/${process.env.REPO}/releases/download/v${process.env.VERSION}/module.zip`;
+            fs.writeFileSync("module.json", JSON.stringify(m, null, 2) + "\n");
+          '
+          cat module.json
+
+      - name: Package module.zip
+        run: zip -r -q module.zip module.json LICENSE README.md dist assets lang templates packs
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION: ${{ steps.ver.outputs.version }}
+        run: |
+          gh release create "v$VERSION" module.json module.zip \
+            --title "v$VERSION" \
+            --generate-notes

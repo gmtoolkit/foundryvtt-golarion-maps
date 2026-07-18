@@ -11,23 +11,21 @@
 // folder names); folder documents are `!folders!<id>` entries.
 import { ClassicLevel } from "classic-level";
 import { createHash } from "node:crypto";
-import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync } from "node:fs";
+import { mkdirSync, readdirSync, readFileSync, rmSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const srcDir = join(root, "packs-src");
 
-// PAINTED=1 builds the enhanced companion module (foundryvtt-golarion-maps-
-// painted): same documents and deterministic ids, but backgrounds point at
-// the painted art, dimensions/notes/grids scale to the painted image size,
-// and output goes under painted/. Same ids mean importing the painted
-// Adventure upgrades a lean install's scenes in place.
-const PAINTED = process.env.PAINTED === "1";
-const PAINTED_ID = "foundryvtt-golarion-maps-painted";
+// The module ships ONLY the painted art set (2026-07-18 restructure): every
+// scene document is scaled to the painted image size and its background points
+// at this module's own assets. The packs-src documents still carry the vector
+// bake's dimensions/notes; paintify() rescales them at build time.
+const MODULE_ID = "foundryvtt-golarion-maps";
 const PAINTED_W = 2528;
 const PAINTED_H = 1696;
-const outRoot = PAINTED ? join(root, "painted") : root;
+const outRoot = root;
 const packDir = join(outRoot, "packs", "golarion-scenes");
 
 // Web-mercator miles-per-image-pixel (world map needs a fresh computation:
@@ -58,9 +56,9 @@ function paintify(doc, key) {
     }
   }
   for (const lv of doc.levels ?? []) {
-    lv.background = { ...lv.background, src: `modules/${PAINTED_ID}/assets/scenes/${key}.webp` };
+    lv.background = { ...lv.background, src: `modules/${MODULE_ID}/assets/scenes/${key}.webp` };
   }
-  doc.thumb = `modules/${PAINTED_ID}/assets/thumbs/${key}.webp`;
+  doc.thumb = `modules/${MODULE_ID}/assets/thumbs/${key}.webp`;
 }
 
 // Documents without _stats.coreVersion are treated as pre-v14 and migrated.
@@ -81,7 +79,10 @@ const folderByKey = new Map(manifest.regions.map((r) => [r.key, r.folder ?? null
 // "Regions", holding the region map + its city-region maps + its city maps.
 // Cities are assigned by point-in-bbox containment (smallest containing
 // nation/subregion from the gazetteer). Journals mirror under "Gazetteers".
-const gazAll = JSON.parse(readFileSync(join(root, "map-data", "search.json"), "utf8"));
+// Checked-in copy of the map's gazetteer index (map-data/ itself is
+// gitignored and absent in CI; refresh with `cp map-data/search.json
+// data/gazetteer-search.json` after `npm run mirror`).
+const gazAll = JSON.parse(readFileSync(join(root, "data", "gazetteer-search.json"), "utf8"));
 const containers = [];
 for (const cat of ["nations", "subregions"]) {
   for (const e of gazAll.find((c) => c.category === cat)?.entries ?? []) {
@@ -212,33 +213,13 @@ function applyGridPolicy(doc, folder) {
   }
 }
 
-// Optional wiki content cache (scripts/fetch-wiki-extracts.mjs). Pages for
-// labels present here embed the article lead with CC BY-NC-SA attribution.
-const extractsPath = join(root, "data", "wiki-extracts.json");
-const extracts = existsSync(extractsPath) ? JSON.parse(readFileSync(extractsPath, "utf8")) : {};
-
-// Wiki hatnotes/banners (spoiler warnings etc.) come through TextExtracts as
-// leading paragraphs; drop them, keeping the actual article lead.
-function cleanExtract(html) {
-  return html
-    .replace(/<p>(?:(?!<\/p>).)*?(?:contains spoilers|You can disable)(?:(?!<\/p>).)*?<\/p>/gs, "")
-    .trim();
-}
-
+// Gazetteer pages carry only a blurb + an outbound PathfinderWiki link. We
+// deliberately do NOT embed wiki article text: that text is CC BY-NC-SA and
+// embedding it would pull that license into the module (DECISIONS 2026-07-18).
 function pageContent(label, sceneName, wiki) {
-  const e = extracts[label];
-  if (e && !e.missing) {
-    return (
-      cleanExtract(e.extract) +
-      `<hr /><p style="font-size:0.85em"><em>Text from ` +
-      `<a href="${e.url}">PathfinderWiki: ${e.title}</a>, licensed ` +
-      `<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>, ` +
-      `retrieved ${e.retrieved}.</em></p>`
-    );
-  }
   return (
     `<p><em>A location on the ${sceneName} map.</em></p>` +
-    (wiki ? `<p><a href="${wiki}">View on PathfinderWiki</a></p>` : "")
+    (wiki ? `<p><a href="${wiki}">Read about ${label} on PathfinderWiki</a></p>` : "")
   );
 }
 
@@ -267,7 +248,7 @@ for (const file of readdirSync(srcDir).filter((f) => f.endsWith(".json"))) {
   doc._id = did(`scene:${key}`);
   for (const lv of doc.levels ?? []) lv._id = did(`level:${key}`);
   for (const n of doc.notes ?? []) n._id = did(`note:${key}:${n.text}`);
-  if (PAINTED) paintify(doc, key);
+  paintify(doc, key);
   applyGridPolicy(doc, folderByKey.get(key) ?? null);
   delete doc.__folder;
   const place = sceneFolderFor(key);
@@ -350,14 +331,12 @@ const advDb = new ClassicLevel(advDir, { keyEncoding: "utf8", valueEncoding: "js
 await advDb.open();
 const advFolders = [...PARENT_FOLDERS, ...sceneFolders.values(), ...journalFolders.values()];
 const adventure = {
-  _id: did(PAINTED ? "adventure-painted" : "adventure"),
-  name: PAINTED ? "Golarion Maps (Painted)" : "Golarion Maps",
-  img: PAINTED
-    ? `modules/${PAINTED_ID}/assets/thumbs/golarion-world.webp`
-    : "modules/foundryvtt-golarion-maps/assets/thumbs/golarion-world.webp",
-  caption: "The PathfinderWiki interactive map of Golarion as Foundry scenes.",
+  _id: did("adventure-painted"),
+  name: "Golarion Maps",
+  img: `modules/${MODULE_ID}/assets/thumbs/golarion-world.webp`,
+  caption: "Painted map scenes of Golarion, from the world map down to individual towns.",
   description:
-    "<p>Sixty scenes of Golarion — the world, continents, the Inner Sea meta-regions, eighteen nations, city regions, and fourteen full city maps — generated from the <a href=\"https://github.com/pf-wikis/mapping\">PathfinderWiki mapping project</a>, with location pins linked to gazetteer journals and PathfinderWiki articles.</p><p>This module uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy. It is not published, endorsed, or specifically approved by Paizo.</p>",
+    `<p>${sceneDocs.length} painted map scenes of Golarion — the world, continents, the Inner Sea meta-regions, nations, city regions, full city maps, and over two hundred individual towns — each with hexploration-ready grids and location pins linked to gazetteer journals and PathfinderWiki articles. Geography follows the <a href="https://github.com/pf-wikis/mapping">PathfinderWiki mapping project</a>.</p><p>This module uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This module is not published, endorsed, or specifically approved by Paizo.</p>`,
   scenes: sceneDocs,
   journal: journalDocs,
   folders: advFolders,

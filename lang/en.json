@@ -17,7 +17,7 @@
   "GOLARIONMAPS.Status.Failed": "Failed — see console (F12).",
   "GOLARIONMAPS.Settings.ImportAll.Name": "Install Golarion Maps",
   "GOLARIONMAPS.Settings.ImportAll.Label": "Import All Scenes & Journals",
-  "GOLARIONMAPS.Settings.ImportAll.Hint": "Opens the installer: imports all 60 scenes, their gazetteer journals, and folders in one click. Map pins link to journal pages; each page links to its PathfinderWiki article.",
+  "GOLARIONMAPS.Settings.ImportAll.Hint": "Opens the installer: imports all 297 painted scenes, their gazetteer journals, and folders in one pass (about a minute). Map pins link to journal pages; each page links to its PathfinderWiki article. Re-running after an update upgrades scenes in place.",
   "GOLARIONMAPS.Settings.EnablePicker.Name": "Enable live map picker",
   "GOLARIONMAPS.Settings.EnablePicker.Hint": "Adds a button to the Scenes sidebar that opens the live Golarion map, letting you bake any region into a scene. Requires access to the map data endpoint (see below). The curated scene compendium works without this.",
   "GOLARIONMAPS.Settings.TilesHost.Name": "Map data endpoint",

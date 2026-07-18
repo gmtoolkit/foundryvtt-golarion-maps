@@ -1,7 +1,7 @@
 {
   "id": "foundryvtt-golarion-maps",
   "title": "Golarion Maps",
-  "description": "Create Foundry scenes from the PathfinderWiki interactive map of Golarion (pf-wikis/mapping). Pan and zoom the vector map, then bake the current view into a scene background at the resolution and grid scale you choose. This module uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy. It is not published, endorsed, or specifically approved by Paizo.",
+  "description": "297 painted map scenes of Golarion for Pathfinder — the world, continents, Inner Sea meta-regions, nations, city regions, full city maps, and 200+ individual towns — with hexploration grids, correctly scaled mile distances, and location pins linked to gazetteer journals and PathfinderWiki. This module uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This module is not published, endorsed, or specifically approved by Paizo.",
   "version": "0.1.0",
   "compatibility": {
     "minimum": "13",
@@ -13,8 +13,12 @@
       "url": "https://github.com/cliffcolvin"
     }
   ],
-  "esmodules": ["dist/module.js"],
-  "styles": ["dist/style.css"],
+  "esmodules": [
+    "dist/module.js"
+  ],
+  "styles": [
+    "dist/style.css"
+  ],
   "packs": [
     {
       "name": "golarion-scenes",
