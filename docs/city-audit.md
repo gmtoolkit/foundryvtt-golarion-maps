@@ -256,3 +256,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Ustalav (nation) | ❌ | (nation map — gothic, damp, mist-shrouded temperate land) | Central Ustalav painted as a white ice/snow smear with arid tan surroundings — should be dark forests and moors | [image](../painted/assets/scenes/ustalav.webp) |
 | Numeria (nation) | ✅ | (nation map) | Plains/badlands mix fits (odd white streak near Silver Mount worth a look) | [image](../painted/assets/scenes/numeria.webp) |
 | Irrisen (nation) | ❌ | (nation map — ETERNAL WINTER) | Painted as unfrozen green/tan steppe with ice only at the northern edge — the whole nation should be snowbound | [image](../painted/assets/scenes/irrisen.webp) |
+| Nidal (nation) | ✅ | (nation map) | Dark Uskwood, Menador range, Conqueror's Bay — fits | [image](../painted/assets/scenes/nidal.webp) |
+| Katapesh (nation) | ❌ | (nation map) | Katapesh itself fits, but the whole northern (Osirion) band is painted as blue-white ICE over desert labels like 'Parched Dunes' — reads glacial, not sand | [image](../painted/assets/scenes/katapesh.webp) |
+| Galt (nation) | ❌ | (nation map — fully temperate farmland nation) | Left half is right, but the eastern half is a sprawling sand desert that does not exist anywhere near Galt | [image](../painted/assets/scenes/galt.webp) |
+| Kyonin (nation) | ✅ | (nation map) | Fierani Forest dominates with the Sellen branches — fits | [image](../painted/assets/scenes/kyonin.webp) |
+| Brevoy (nation) | ✅ | (nation map) | Lake of Mists and Veils, Gronzi Forest, wintry eastern highlands — fits | [image](../painted/assets/scenes/brevoy.webp) |
+| Belkzen (nation) | ✅ | (nation map) | Tan badlands ringed by Kodar spurs; northern ice edge plausible for the Mammoth Lords border | [image](../painted/assets/scenes/belkzen.webp) |
+| Mendev (nation) | ✅ | (nation map) | Estrovian Forest, crusader plains, Lake of Mists and Veils — fits | [image](../painted/assets/scenes/mendev.webp) |
+| Lands of the Linnorm Kings (nation) | ✅ | (nation map) | Fjords, Ironbound Archipelago, Stormspear range — fits | [image](../painted/assets/scenes/lands-of-the-linnorm-kings.webp) |
+| Realm of the Mammoth Lords (nation) | ✅ | (nation map) | Steppe and tundra under the Tusk Mountains with northern ice — fits | [image](../painted/assets/scenes/realm-of-the-mammoth-lords.webp) |
+| Absalom Region (environs) | ✅ | (city-region map) | Kortos Mounts, Immenwood, Cairnlands scrub — fits | [image](../painted/assets/scenes/absalom-environs.webp) |
+| Magnimar Region (environs) | ✅ | (city-region map) | Varisian coast, islands and river lowlands — fits | [image](../painted/assets/scenes/magnimar-environs.webp) |
+| Korvosa Region (environs) | ❌ | (city-region map — temperate coast below the ash-waste Storval Plateau) | Almost the entire frame is Sahara-style golden sand dunes — Korvosa's environs are temperate; the Cinderlands are grey ash, not dunes | [image](../painted/assets/scenes/korvosa-environs.webp) |
