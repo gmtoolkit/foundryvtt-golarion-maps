@@ -35,7 +35,7 @@ by Oznogon.
 In Foundry: **Install Module** and paste the manifest URL:
 
 ```
-https://github.com/cliffcolvin/foundryvtt-golarion-maps/releases/latest/download/module.json
+https://github.com/gmtoolkit/foundryvtt-golarion-maps/releases/latest/download/module.json
 ```
 
 Then, in a world with the module enabled, open

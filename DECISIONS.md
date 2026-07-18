@@ -1,5 +1,16 @@
 # Decision log — foundryvtt-golarion-maps
 
+## 2026-07-18 — Repo transferred to the gmtoolkit org
+
+**Decision:** Ownership moved from cliffcolvin to gmtoolkit (reverses the 2026-07-17 call
+to keep it personal — Cliff wants it under the org umbrella now that the module is a real
+product). All in-repo URLs updated; the CI stamp step now also rewrites url/readme/bugs from
+github.repository so repo moves can never leave stale URLs in a release again.
+**Consequences:** old cliffcolvin URLs redirect (GitHub transfer redirect) as long as the old
+name is never reused — do not create a repo named foundryvtt-golarion-maps under cliffcolvin.
+Org Actions must allow contents:write for the release workflow; verified by the first
+post-transfer release. Local remotes updated.
+
 ## 2026-07-18 — Standalone label-free map pack (maps_stand_alone.zip)
 
 **Decision:** Check in maps/ — all 297 painted maps as LABEL-FREE webp images (the raw

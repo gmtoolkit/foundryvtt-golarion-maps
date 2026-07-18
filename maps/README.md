@@ -7,7 +7,7 @@ any VTT or print for your table. File names are the region/settlement keys
 (e.g. `danjing-town.webp`, `varisia.webp`, `inner-sea-region.webp`).
 
 These are the same images the
-[Golarion Maps Foundry module](https://github.com/cliffcolvin/foundryvtt-golarion-maps)
+[Golarion Maps Foundry module](https://github.com/gmtoolkit/foundryvtt-golarion-maps)
 ships, minus the module's label/pin overlay, grids, and journals. If you use
 Foundry, the module gives you all of that wired up; this pack is for everyone
 else.

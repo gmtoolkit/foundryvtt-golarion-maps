@@ -4,7 +4,7 @@ Foundry VTT module shipping 297 painted map scenes of Golarion (world →
 continents → nations → city regions → cities → towns) with hexploration
 grids, location pins, and gazetteer journals. Geography follows
 pf-wikis/mapping (answers upstream issue pf-wikis/mapping#299). Owned by
-github.com/cliffcolvin/foundryvtt-golarion-maps; MIT code, map content under
+github.com/gmtoolkit/foundryvtt-golarion-maps; MIT code, map content under
 Paizo Community Use Policy, NO CC-licensed content (wiki text deliberately
 not embedded — see DECISIONS 2026-07-18).
 
