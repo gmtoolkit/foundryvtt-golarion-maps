@@ -333,3 +333,18 @@ context exhaustion → "timed out waiting for map render").
 **Consequences:** Highhelm and other interior/underground cities can only get
 surface "Region" maps (no district data; their canonical maps are interiors).
 Tian Xia nations deferred to a dedicated round.
+
+## 2026-07-17 — Geographic folder tree (Regions/<name>/... + mirrored Gazetteers)
+
+**Decision:** Scenes and journals restructured into a geographic hierarchy:
+top folders World & Continents, Inner Sea Regions, and Regions/<region name>
+containing that region's map + city-region maps + city/town maps; journal
+folders mirror under Gazetteers/<region name>. Assignment is automatic:
+point-in-bbox containment against gazetteer nations+subregions, preferring the
+smallest container that has a region map (folds micro-nations like Daggermark
+and the Shoanti quahs into River Kingdoms / Varisia). Absalom nation maps to
+the "Absalom & Starstone Isle" folder. Folder ids namespaced sfolder:/jfolder:
+(old flat-tier folders orphan on re-import; delete empty folders after).
+**Gotcha:** gazetteer bboxes overlap at borders — Isarn landed in River
+Kingdoms; per-key "regionFolder" manifest override wins over containment.
+QA browse should verify placements and add overrides where wrong.

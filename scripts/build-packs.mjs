@@ -74,7 +74,118 @@ const did = (seed) =>
 const folderId = (name) => did(`folder:${name}`);
 
 const manifest = JSON.parse(readFileSync(join(root, "assets", "regions.json"), "utf8"));
+// Tier (grid policy + prompt selection) still comes from the manifest folder.
 const folderByKey = new Map(manifest.regions.map((r) => [r.key, r.folder ?? null]));
+
+// --- Geographic folder tree (Cliff 2026-07-17): one folder per region under
+// "Regions", holding the region map + its city-region maps + its city maps.
+// Cities are assigned by point-in-bbox containment (smallest containing
+// nation/subregion from the gazetteer). Journals mirror under "Gazetteers".
+const gazAll = JSON.parse(readFileSync(join(root, "map-data", "search.json"), "utf8"));
+const containers = [];
+for (const cat of ["nations", "subregions"]) {
+  for (const e of gazAll.find((c) => c.category === cat)?.entries ?? []) {
+    const b = e.timed?.[0]?.bbox;
+    if (b && b.length === 4) containers.push({ name: e.label, b, area: (b[2] - b[0]) * (b[3] - b[1]) });
+  }
+}
+const locPoint = new Map();
+for (const e of gazAll.find((c) => c.category === "locations").entries) {
+  const b = e.timed?.[0]?.bbox;
+  if (b) locPoint.set(e.label, b.length === 2 ? [b[0], b[1]] : [(b[0] + b[2]) / 2, (b[1] + b[3]) / 2]);
+}
+const specByKey = new Map(manifest.regions.map((r) => [r.key, r]));
+function anchor(key) {
+  const r = specByKey.get(key);
+  if (!r) return null;
+  if (r.center) return r.center;
+  const f = r.fit;
+  if (!f) return null;
+  if (f.near) return f.near;
+  if (f.category === "locations") return locPoint.get(f.label) ?? null;
+  const e = (gazAll.find((c) => c.category === f.category)?.entries ?? []).find((x) => x.label === f.label);
+  const b = e?.timed?.[0]?.bbox;
+  return b ? (b.length === 2 ? [b[0], b[1]] : [(b[0] + b[2]) / 2, (b[1] + b[3]) / 2]) : null;
+}
+function containerName(pt) {
+  let best = null;
+  for (const c of containers) {
+    if (pt[0] >= c.b[0] && pt[0] <= c.b[2] && pt[1] >= c.b[1] && pt[1] <= c.b[3]) {
+      if (!best || c.area < best.area) best = c;
+    }
+  }
+  return best?.name ?? null;
+}
+// Region-folder placement for a scene key: {top} = a top-level folder of its
+// own, {name} = child folder under "Regions".
+function regionPlace(key) {
+  const tier = folderByKey.get(key);
+  const r = specByKey.get(key);
+  // Manifest override for bbox-overlap misplacements (e.g. Isarn sits inside
+  // the River Kingdoms bbox but belongs to Galt): "regionFolder": "Galt".
+  if (r?.regionFolder) return { name: r.regionFolder };
+  if (tier === "World & Continents") return { top: "World & Continents" };
+  if (key === "absalom-starstone-isle") return { name: "Absalom & Starstone Isle" };
+  if (tier === "Inner Sea Regions") return { top: "Inner Sea Regions" };
+  if (tier === "Nations") return { name: r.name };
+  // Prefer the smallest container that has a region map of its own (so
+  // micro-nations like Daggermark or the Shoanti quahs fold up into River
+  // Kingdoms / Varisia instead of spawning singleton folders).
+  const nationNames = new Set(
+    manifest.regions.filter((x) => folderByKey.get(x.key) === "Nations").map((x) => x.name)
+  );
+  const pt = anchor(key);
+  if (!pt) return { name: "Other" };
+  const hits = containers
+    .filter((c) => pt[0] >= c.b[0] && pt[0] <= c.b[2] && pt[1] >= c.b[1] && pt[1] <= c.b[3])
+    .sort((a, b) => a.area - b.area);
+  let cn = hits.find((c) => c.name === "Absalom" || nationNames.has(c.name))?.name ?? hits[0]?.name ?? "Other";
+  if (cn === "Absalom") cn = "Absalom & Starstone Isle";
+  return { name: cn };
+}
+const sFolderId = (name) => did(`sfolder:${name}`);
+const jFolderId = (name) => did(`jfolder:${name}`);
+const sceneFolders = new Map(); // name -> doc (children of Regions or top-level)
+const journalFolders = new Map();
+function sceneFolderFor(key) {
+  const p = regionPlace(key);
+  const name = p.top ?? p.name;
+  const isTop = !!p.top;
+  if (!sceneFolders.has(name)) {
+    sceneFolders.set(name, {
+      _id: sFolderId(name),
+      name,
+      type: "Scene",
+      folder: isTop ? null : sFolderId("Regions"),
+      sorting: "a",
+      sort: 0,
+      color: null,
+      flags: {},
+      _stats: { coreVersion: PACK_CORE_VERSION }
+    });
+  }
+  return { id: sFolderId(name), name };
+}
+function journalFolderFor(name) {
+  if (!journalFolders.has(name)) {
+    journalFolders.set(name, {
+      _id: jFolderId(name),
+      name,
+      type: "JournalEntry",
+      folder: jFolderId("Gazetteers"),
+      sorting: "a",
+      sort: 0,
+      color: null,
+      flags: {},
+      _stats: { coreVersion: PACK_CORE_VERSION }
+    });
+  }
+  return jFolderId(name);
+}
+const PARENT_FOLDERS = [
+  { _id: sFolderId("Regions"), name: "Regions", type: "Scene", folder: null, sorting: "a", sort: 0, color: null, flags: {}, _stats: { coreVersion: PACK_CORE_VERSION } },
+  { _id: jFolderId("Gazetteers"), name: "Gazetteers", type: "JournalEntry", folder: null, sorting: "a", sort: 0, color: null, flags: {}, _stats: { coreVersion: PACK_CORE_VERSION } }
+];
 
 // Grid policy (PF2e hexploration-friendly), applied at build time so both the
 // lean and painted packs agree:
@@ -138,29 +249,12 @@ const db = new ClassicLevel(packDir, { keyEncoding: "utf8", valueEncoding: "json
 await db.open();
 const batch = db.batch();
 
-let sort = 0;
-for (const name of manifest.folders ?? []) {
-  batch.put(`!folders!${folderId(name)}`, {
-    _id: folderId(name),
-    name,
-    type: "Scene",
-    folder: null,
-    sorting: "a",
-    sort: (sort += 100),
-    color: null,
-    flags: {},
-    _stats: { coreVersion: PACK_CORE_VERSION }
-  });
-  console.log(`folder ${name}`);
-}
-
 // Load all scene docs, build a gazetteer journal per scene from its note
 // pins, and wire note.entryId/pageId to it. Journals ship inside the
 // Adventure pack; on scenes imported individually (no journal present) the
 // module's activateNote hook falls back to opening the PathfinderWiki URL.
 const sceneDocs = [];
 const journalDocs = [];
-const JOURNAL_FOLDER = "Golarion Gazetteers";
 
 for (const file of readdirSync(srcDir).filter((f) => f.endsWith(".json"))) {
   const doc = JSON.parse(readFileSync(join(srcDir, file), "utf8"));
@@ -175,9 +269,10 @@ for (const file of readdirSync(srcDir).filter((f) => f.endsWith(".json"))) {
   for (const n of doc.notes ?? []) n._id = did(`note:${key}:${n.text}`);
   if (PAINTED) paintify(doc, key);
   applyGridPolicy(doc, folderByKey.get(key) ?? null);
-  const folderName = doc.__folder ?? folderByKey.get(key) ?? null;
   delete doc.__folder;
-  doc.folder = folderName ? folderId(folderName) : null;
+  const place = sceneFolderFor(key);
+  doc.folder = place.id;
+  doc.__regionName = place.name;
   doc._stats = { coreVersion: PACK_CORE_VERSION, ...doc._stats };
 
   const notes = Array.isArray(doc.notes) ? doc.notes : [];
@@ -207,7 +302,7 @@ for (const file of readdirSync(srcDir).filter((f) => f.endsWith(".json"))) {
     journalDocs.push({
       _id: entryId,
       name: `${doc.name} Gazetteer`,
-      folder: folderId(JOURNAL_FOLDER),
+      folder: journalFolderFor(doc.__regionName),
       pages,
       ownership: { default: 2 },
       _stats: { coreVersion: PACK_CORE_VERSION }
@@ -221,8 +316,12 @@ for (const file of readdirSync(srcDir).filter((f) => f.endsWith(".json"))) {
 }
 
 // --- Scene compendium (browse / cherry-pick) ---
+const allSceneFolders = [PARENT_FOLDERS[0], ...sceneFolders.values()];
+for (const f of allSceneFolders) batch.put(`!folders!${f._id}`, f);
+console.log(`folders: ${allSceneFolders.length} scene, ${journalFolders.size + 1} journal`);
 let count = 0;
 for (const doc of sceneDocs) {
+  delete doc.__regionName;
   const copy = structuredClone(doc);
   let embeddedTotal = 0;
   for (const collection of EMBEDDED) {
@@ -249,28 +348,7 @@ rmSync(advDir, { recursive: true, force: true });
 mkdirSync(advDir, { recursive: true });
 const advDb = new ClassicLevel(advDir, { keyEncoding: "utf8", valueEncoding: "json" });
 await advDb.open();
-const advFolders = (manifest.folders ?? []).map((name, i) => ({
-  _id: folderId(name),
-  name,
-  type: "Scene",
-  folder: null,
-  sorting: "a",
-  sort: (i + 1) * 100,
-  color: null,
-  flags: {},
-  _stats: { coreVersion: PACK_CORE_VERSION }
-}));
-advFolders.push({
-  _id: folderId(JOURNAL_FOLDER),
-  name: JOURNAL_FOLDER,
-  type: "JournalEntry",
-  folder: null,
-  sorting: "a",
-  sort: 100,
-  color: null,
-  flags: {},
-  _stats: { coreVersion: PACK_CORE_VERSION }
-});
+const advFolders = [...PARENT_FOLDERS, ...sceneFolders.values(), ...journalFolders.values()];
 const adventure = {
   _id: did(PAINTED ? "adventure-painted" : "adventure"),
   name: PAINTED ? "Golarion Maps (Painted)" : "Golarion Maps",

@@ -1218,7 +1218,8 @@
    "gridType": "square",
    "gridSize": 100,
    "folder": "Cities",
-   "keepIcons": true
+   "keepIcons": true,
+   "regionFolder": "Galt"
   },
   {
    "key": "iadara-city",
