@@ -232,3 +232,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Golarion (world) | ✅ | (world map) | Handsome painted relief world map, ocean labels clean | [image](../painted/assets/scenes/golarion-world.webp) |
 | Avistan | ✅ | (continent map) | Relief map with Kodar range and Crown of the World glacier — fits | [image](../painted/assets/scenes/avistan.webp) |
 | Garund | ✅ | (continent map) | Deserts north, Mwangi jungle interior — fits | [image](../painted/assets/scenes/garund.webp) |
+| Tian Xia (region) | ✅ | (continent map) | Wall of Heaven, southern jungles, interior deserts — fits | [image](../painted/assets/scenes/tian-xia.webp) |
+| Casmaron (region) | ✅ | (continent map) | Central deserts, steppes and the Castrovin Sea — fits | [image](../painted/assets/scenes/casmaron.webp) |
+| Arcadia (region) | ✅ | (continent map) | Mountain spine with arid south — fits | [image](../painted/assets/scenes/arcadia.webp) |
+| Crown of the World | ❌ | (polar region map) | The High Ice interior is painted as SAND DUNES with a desert oasis — should be ice cap/tundra, not desert | [image](../painted/assets/scenes/crown-of-the-world.webp) |
+| The Inner Sea Region | ✅ | (region overview) | Green Avistan, Garundi deserts, northern ice — fits | [image](../painted/assets/scenes/inner-sea-region.webp) |
+| Absalom and Starstone Isle | ✅ | (region map) | Isle of Kortos centered in the Inner Sea — fits | [image](../painted/assets/scenes/absalom-starstone-isle.webp) |
+| Broken Lands (meta-region) | ✅ | (meta-region map) | Sarkoris scar, Numeria, Brevoy, River Kingdoms — fits | [image](../painted/assets/scenes/broken-lands.webp) |
+| Eye of Dread (meta-region) | ✅ | (meta-region map) | Belkzen, Ustalav, Lake Encarthan all read well (snowfield in the NE corner is a bit generous) | [image](../painted/assets/scenes/eye-of-dread.webp) |
+| Golden Road (meta-region) | ✅ | (meta-region map) | North-Garund deserts and the Inner Sea — fits | [image](../painted/assets/scenes/golden-road.webp) |
+| High Seas (meta-region) | ✅ | (meta-region map) | The Eye of Abendego hurricane is actually painted in — excellent | [image](../painted/assets/scenes/high-seas.webp) |
+| Impossible Lands (meta-region) | ✅ | (meta-region map) | Nex/Geb deserts, Mana Wastes, Jalmeray — fits | [image](../painted/assets/scenes/impossible-lands.webp) |
+| Mwangi Expanse (meta-region) | ✅ | (meta-region map) | Jungle interior with the Eye of Abendego offshore — fits | [image](../painted/assets/scenes/mwangi-expanse.webp) |
