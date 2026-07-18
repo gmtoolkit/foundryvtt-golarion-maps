@@ -124,3 +124,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Laekastel | ✅ | "Chelaxian city where the Brastle meets the Bay of Deng" | Coastal river-mouth town — matches | [image](../painted/assets/scenes/laekastel-town.webp) |
 | Lamasara | ❌ | "Thuvian (desert) city-state on the Junira" | Lush green orchard sprawl — desert missing | [image](../painted/assets/scenes/lamasara-town.webp) |
 | Lasinavel | ❌ | "Elven city of feasts on the Kyonin River" | Human medieval town — elven character missing (borderline) | [image](../painted/assets/scenes/lasinavel-town.webp) |
+| Lepidstadt | ❌ | "Ustalav's university city of Vieland (gothic)" | Warm cheerful river town — gothic missing | [image](../painted/assets/scenes/lepidstadt-town.webp) |
+| Lopul | ❌ | "Large caravan city in Qadira's southern DESERT" | Green-field river town — desert missing | [image](../painted/assets/scenes/lopul-town.webp) |
+| Macini | ✅ | "Chelaxian Inner Sea port in Longmarch" | Coastal port town — matches | [image](../painted/assets/scenes/macini-town.webp) |
+| Maecho | ❌ | "Slow-paced hot-spring city of Hwanggot (Tian Xia)" | Euro coastal town — Tian character missing | [image](../painted/assets/scenes/maecho-town.webp) |
+| Magnimar (city) | ✅ | "Varisia's City of Monuments beside the Mushfens" | Coastal district city with marsh — matches (Irespan understated) | [image](../painted/assets/scenes/magnimar-city.webp) |
+| Maheto | ❌ | "Fortified Taldan city in the World's Edge foothills, dwarven smiths" | Modest river town — fortification and foothills missing | [image](../painted/assets/scenes/maheto-town.webp) |
+| Manaket | ❌ | "Rahadoum port whose gardens DRIED UP as the desert took them" | Green coastal town — encroaching desert missing | [image](../painted/assets/scenes/manaket-town.webp) |
+| Martel | ❌ PIN-LEAK | "Alkenstar duchy town in the Mana Wastes on the Ustradi" | Green castle town with painted RED POI DOTS; wasteland missing (mountains present) | [image](../painted/assets/scenes/martel-town.webp) |
+| Mechitar | ❌ | "Capital of undead GEB: black basalt, Osirion-style pyramids" | Warm ordinary river port — utterly wrong | [image](../painted/assets/scenes/mechitar-town.webp) |
+| Merev | ✅ | "City on Yanimere Island off Qadira, near the Ketz Desert" | Island coastal town with dry-toned fields — acceptable | [image](../painted/assets/scenes/merev-town.webp) |
+| Mirivenn | ❌ | "Settlement of aquatic elves (partly in the water)" | Ordinary land city; model also painted a decorative map FRAME | [image](../painted/assets/scenes/mirivenn-town.webp) |
+| Mivon | ✅ | "Aldori swordlords' city in the River Kingdoms" | Temperate river town — plausible | [image](../painted/assets/scenes/mivon-town.webp) |
