@@ -244,3 +244,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | High Seas (meta-region) | ✅ | (meta-region map) | The Eye of Abendego hurricane is actually painted in — excellent | [image](../painted/assets/scenes/high-seas.webp) |
 | Impossible Lands (meta-region) | ✅ | (meta-region map) | Nex/Geb deserts, Mana Wastes, Jalmeray — fits | [image](../painted/assets/scenes/impossible-lands.webp) |
 | Mwangi Expanse (meta-region) | ✅ | (meta-region map) | Jungle interior with the Eye of Abendego offshore — fits | [image](../painted/assets/scenes/mwangi-expanse.webp) |
+| Old Cheliax (meta-region) | ✅ | (meta-region map) | Cheliax, Nidal, Ravounel, Hermea with proper forests — fits | [image](../painted/assets/scenes/old-cheliax.webp) |
+| Saga Lands (meta-region) | ❌ | (meta-region map — Irrisen is a land of eternal winter) | Terrain broadly fits, but Irrisen is painted as green/brown steppe with no snow — its defining eternal winter is missing | [image](../painted/assets/scenes/saga-lands.webp) |
+| Shining Kingdoms (meta-region) | ✅ | (meta-region map) | Taldor, Andoran, Kyonin, Verduran Forest — fits | [image](../painted/assets/scenes/shining-kingdoms.webp) |
+| Varisia (region) | ✅ | (region map) | Quah territories, Storval Plateau, Kodar range — fits | [image](../painted/assets/scenes/varisia.webp) |
+| Cheliax (nation) | ❌ FIT | (nation map) | Frame is centered on Lake Encarthan/Druma with Cheliax shoved off the left edge — the fit/center for this key looks wrong, not an art problem | [image](../painted/assets/scenes/cheliax.webp) |
+| Andoran (nation) | ✅ | (nation map) | Andoran centered with Arthfell, Carpenden Plains, Five Kings to the north — fits | [image](../painted/assets/scenes/andoran.webp) |
+| Taldor (nation) | ✅ | (nation map) | Verduran Forest, Tandak/Whistling Plains gradient — fits | [image](../painted/assets/scenes/taldor.webp) |
+| Osirion (nation) | ✅ | (nation map) | Full desert with the Sphinx river corridor and named wastes — fits | [image](../painted/assets/scenes/osirion.webp) |
+| Qadira (nation) | ✅ | (nation map) | Desert coast rising to the Zho Mountains — fits | [image](../painted/assets/scenes/qadira.webp) |
+| Ustalav (nation) | ❌ | (nation map — gothic, damp, mist-shrouded temperate land) | Central Ustalav painted as a white ice/snow smear with arid tan surroundings — should be dark forests and moors | [image](../painted/assets/scenes/ustalav.webp) |
+| Numeria (nation) | ✅ | (nation map) | Plains/badlands mix fits (odd white streak near Silver Mount worth a look) | [image](../painted/assets/scenes/numeria.webp) |
+| Irrisen (nation) | ❌ | (nation map — ETERNAL WINTER) | Painted as unfrozen green/tan steppe with ice only at the northern edge — the whole nation should be snowbound | [image](../painted/assets/scenes/irrisen.webp) |
