@@ -1,5 +1,26 @@
 # Decision log — foundryvtt-golarion-maps
 
+
+## 2026-07-17 — Biome-aware re-roll round (audit follow-up)
+
+**Decision:** Regenerate the 167 audit-flagged painted maps (142 towns, 25 region maps) via a
+second Gemini Batch job with PER-KEY style prompts authored in `data/reroll-prompts.json`
+(Tian = East-Asian architecture, dwarven holds = surface gates/forges/mines, Qadira = Keleshite
+arid, Irrisen = eternal winter, Arcadia = Mesoamerican, Geb/Nidal = gothic-necrotic, etc.).
+Templates live in `.cache/gemini/gemini_batch_v3.py`: TOWN/CITY templates inject a SETTING
+clause that "must dominate the image", plus a MARKER RULE (fixes the pin-leak class); the
+REGION template replaces v1's "pale terrain = desert/ice" inference (root cause of the bogus
+sand-dune/snowfield hallucinations) with an explicit per-map TERRAIN TRUTH clause.
+**Why:** manual audit (docs/city-audit.md) found 171/303 mismatches; the generic temperate
+prompt erased culture and biome, and the region prompt's pale→desert inference corrupted
+otherwise-good maps.
+**Alternatives:** prompt-free re-roll (rejected — same failure mode); inpainting/edit passes
+(rejected — batch edit not supported for this model, cost similar to full re-roll).
+**Consequences:** old jpgs preserved in `.cache/gemini/v1-backup/`. `cheliax` switched from
+gazetteer-label fit (matched a bbox spanning the whole Inner Sea) to manual `center:[-21.3,35.8],
+zoom:5.1` — its LEAN scene must be re-baked at next pack build too. The 6 REMOVE scenes
+(alabaster-academy/fancy-reefclaw/gold-goblin/irim/gholinom/pobashabla) are dropped from
+assets/regions.json; already-imported copies in test worlds need manual deletion.
 ## 2026-07-17 — Town-detail tier (Otari + 7 capitals); keepIcons bases; label-dedup recomposite
 
 **Decision:** Added 8 town-detail scenes (Otari, Katheer, Starfall, Pangolais,
