@@ -64,3 +64,15 @@ Every city/town scene: my visual verdict of the painted image vs the PathfinderW
 | Erages | ❌ | "SMALL half-elven fishing community on Lake Encarthan" | Large round city — scale and character wrong | [image](../painted/assets/scenes/erages-town.webp) |
 | Eranmas | ✅ | "Molthune's second city, home of its Lake Encarthan navy" | Fortified lakeside city with docks — matches | [image](../painted/assets/scenes/eranmas-town.webp) |
 | Escadar | ✅ | "Military outpost city on the Isle of Erran near Absalom" | Dense fortified harbor city — plausible | [image](../painted/assets/scenes/escadar-town.webp) |
+| Eto | ❌ | "Largest city of central Osirion, desert trade crossroads by the Pillars of the Sun" | Green forest/lake town — desert absent | [image](../painted/assets/scenes/eto-town.webp) |
+| Fancy Reefclaw | ❌ REMOVE | "A brewery in Magnimar's Lowcleft district" — not a settlement | Census mislabel (building POI became a town scene) | [image](../painted/assets/scenes/fancy-reefclaw-town.webp) |
+| Free Station | ❌ | "Town at the Vanji confluence, Mwangi Expanse (jungle)" | Temperate farmland town — jungle missing | [image](../painted/assets/scenes/free-station-town.webp) |
+| Garizés City | ❌ | "City in Arcadian Xopatl, famous musical style" | Generic euro-medieval town — Arcadian character missing | [image](../painted/assets/scenes/gariz-s-city-town.webp) |
+| Gazbilah | ❌ PIN-LEAK | "Qadiran city in the Zho Mountain foothills" | Painted as a waterside town with multiple pin glyphs; mountains missing | [image](../painted/assets/scenes/gazbilah-town.webp) |
+| Gholinom | ❌ REMOVE | "Secret alghollthu factory-city hidden in an OCEANIC TRENCH" | Underwater alien city painted as lakeside farm town — scene concept invalid | [image](../painted/assets/scenes/gholinom-town.webp) |
+| Glimmerhold | ❌ | "Small independent DWARVEN city (mountain hold) in Nirmathas" | Open river town — dwarven hold character absent | [image](../painted/assets/scenes/glimmerhold-town.webp) |
+| Gold Goblin | ❌ REMOVE | "A casino in Riddleport's Wharf District" — not a settlement | Census mislabel (building POI became a town scene) | [image](../painted/assets/scenes/gold-goblin-town.webp) |
+| Gralton | ✅ | "River Kingdom of Galtan exiles" | Dense walled river town — plausible | [image](../painted/assets/scenes/gralton-town.webp) |
+| Grand Pass | ❌ | "Small city at the mountain pass linking Xopatl and Innazpa" | Flat farmland town — mountains and pass missing | [image](../painted/assets/scenes/grand-pass-town.webp) |
+| Graydirge | ❌ | "Somber OSSUARY-CITY in undead Geb, foothills of the Shattered Range" | Cheerful colorful coastal port — utterly wrong mood, biome, and geography | [image](../painted/assets/scenes/graydirge-town.webp) |
+| Grayhaven | ❌ | "House Garess settlement in the Golushkin MOUNTAINS (Brevoy)" | River town without mountains (borderline) | [image](../painted/assets/scenes/grayhaven-town.webp) |
