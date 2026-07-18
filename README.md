@@ -69,6 +69,10 @@ the module).
 
 ## Licensing
 
+See also our [Community Promise](COMMUNITY-PROMISE.md): your feedback is
+never used to train AI models, nothing from this repo becomes closed or
+paid, and everything here stays free forever.
+
 - **Code** is licensed under the [MIT License](LICENSE).
 - **Map content** uses trademarks and/or copyrights owned by Paizo Inc., used
   under [Paizo's Community Use Policy](https://paizo.com/licenses/communityuse).
