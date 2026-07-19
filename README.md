@@ -9,7 +9,6 @@ painterly style.
 ## V0.x Alpha
 I have received quite a bit of feedback around image quality and accuracy. I'll be working through these things one by one, and it will take some time. By the time we get to v1.x I do hope to have many of these kinks worked out. The goal of any open source project is to get feedback rapidly, that part has been accomplished. The AI artifacts have heated debate, and I will 100% continue using AI to build these assets, the message has been heard loud and clear to drastically steup up the quality. Keep on the look out for more!
 
-Every scene ships ready to play:
 
 - **Hexploration-ready grids** — 50-mile hexes on meta-region maps, 10-mile
   hexes on nation and city-region maps, gridless city and town maps; ruler
