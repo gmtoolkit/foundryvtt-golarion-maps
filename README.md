@@ -1,10 +1,13 @@
 # Golarion Maps for Foundry VTT
 
-A complete set of **297 painted map scenes of Golarion** for Foundry Virtual
+A set of **297 painted map scenes of Golarion** for Foundry Virtual
 Tabletop — the world map, continents, the Inner Sea meta-regions, nations,
 city regions, full city maps, and more than two hundred individual towns and
 settlements, each rendered as illustrated fantasy-atlas art in a consistent
 painterly style.
+
+## V0.x Alpha
+I have received quite a bit of feedback around image quality and accuracy. I'll be working through these things one by one, and it will take some time. By the time we get to v1.x I do hope to have many of these kinks worked out. The goal of any open source project is to get feedback rapidly, that part has been accomplished. The AI artifacts have heated debate, and I will 100% continue using AI to build these assets, the message has been heard loud and clear to drastically steup up the quality. Keep on the look out for more!
 
 Every scene ships ready to play:
 
